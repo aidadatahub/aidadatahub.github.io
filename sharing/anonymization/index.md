@@ -4,7 +4,7 @@ title: "Anonymization examples"
 description: "Examples of what AIDA considers correct anonymization in medical imaging."
 ---
 
-<span style="font-size: smaller;">[The AIDA Dataset Register](/) &nbsp;&raquo;&nbsp; [AIDA Data Sharing Policy](/sharing/)</span>
+<span style="font-size: smaller;">[AIDA Data Hub](/) &nbsp;&raquo;&nbsp; [AIDA Data Sharing Policy](/sharing/)</span>
 
 This section contains examples of what AIDA considers correct anonymization along with rationale, to support researchers trying to choose appropriate anonymization methods for their own datasets. The intention is for this document to evolve in open discussions over time, with the purpose of establishing a national common view on anonymization in medical imaging, which has the potential to greatly facilitate medical imaging research in Sweden and beyond.
 
@@ -19,7 +19,7 @@ What then is appropriate anonymization in medical imaging?
 
 While we have concluded several times already (cf for example [here](../context/#appropriate-technical-and-organizational-protective-measures)) that this question must in each case be finally answered by the researchers themselves, we can provide a few examples of what AIDA considers correct anonymization, to support researchers trying to make thoughtful decisions regarding their own datasets.
 
-Each case below has been deemed appropriately anonymous for [AIDA data hub sharing](../policy/#aida-data-hub-sharing), with select images published openly as examples on the [AIDA dataset register](https://datasets.aida.medtech4health.se/).
+Each case below has been deemed appropriately anonymous for [AIDA data hub sharing](../policy/#aida-data-hub-sharing), with select images published openly as examples on the [AIDA dataset register](https://datahub.aida.scilifelab.se/datasets).
 
 ## General guidelines
 
@@ -58,7 +58,7 @@ You may also need to modify:
 
 ## Computed Tomography Pulmonary Angiography (CTPA) data
 
-Dataset: [https://doi.org/10.23698/aida/ctpa](https://datasets.aida.medtech4health.se/10.23698/aida/ctpa)
+Dataset: [https://doi.org/10.23698/aida/ctpa](https://datahub.aida.scilifelab.se/10.23698/aida/ctpa)
 
 Example images:
 
@@ -83,7 +83,7 @@ It is reasonable to expect that every combination of caregiver and instrument ma
 
 ## Skeletal data from the Visual Sweden project DROID
 
-Dataset: [https://doi.org/10.23698/aida/drske](https://datasets.aida.medtech4health.se/10.23698/aida/drske)
+Dataset: [https://doi.org/10.23698/aida/drske](https://datahub.aida.scilifelab.se/10.23698/aida/drske)
 
 Example images:
 
@@ -99,7 +99,7 @@ Example images:
 
 ## Axillary lymph nodes in breast cancer cases
 
-Dataset: [https://doi.org/10.23698/aida/brln](https://datasets.aida.medtech4health.se/10.23698/aida/brln)
+Dataset: [https://doi.org/10.23698/aida/brln](https://datahub.aida.scilifelab.se/10.23698/aida/brln)
 
 Example images:
 

@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 .page-header {
   background-color: #003f72;
-  background-image: url(https://medtech4health.se/wp-content/uploads/2018/01/AIDA-banner-smal.jpg);
+  background-image: url(/assets/images/aida-banner-smal.jpg);
   background-size: 200%;
   background-position-y: center;
   filter: hue-rotate(190deg);
@@ -55,6 +55,11 @@
 
 .small {
   font-size: small;
+}
+
+.right {
+  float: right;
+  margin: 1ex;
 }
 
 // - Frontpage ----------------------------------------------------------------

@@ -6,7 +6,7 @@ datacite:
   "@id": "https://doi.org/10.23698/aida/mbtst-dm"
   name: "Mammograms from cancer screening"
   about: "Radiology"
-  url: "https://datasets.aida.medtech4health.se/10.23698/aida/mbtst-dm"
+  url: "https://datahub.aida.scilifelab.se/10.23698/aida/mbtst-dm"
   author:
   - name: "Victor Dahlblom"
     "@id": "https://orcid.org/0000-0002-4330-5387"
@@ -39,7 +39,7 @@ datacite:
     "@type": "Person"
   - name: "AIDA Data Hub"
     email: "aida@nbis.se"
-    "@id": "https://datasets.aida.medtech4health.se"
+    "@id": "https://datahub.aida.scilifelab.se"
     "@type": "Organization"
   dateCreated: "2019-09-12"
   datePublished: "2019-09-12"
@@ -60,12 +60,12 @@ datacite:
     welcome proposals for new impactful research collaborations.
   license:
   - name: "Controlled access"
-    id: "https://datasets.aida.medtech4health.se/10.23698/aida/mbtst-dm#controlled-access"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/mbtst-dm#controlled-access"
     "@type": "CreativeWork"
     abstract: |
       Free for use in legal and ethical medical diagnostics research.
   - name: "AIDA BY license"
-    id: "https://datasets.aida.medtech4health.se/10.23698/aida/mbtst-dm#aida-by-license"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/mbtst-dm#aida-by-license"
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution."
   citation:

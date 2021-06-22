@@ -3,7 +3,7 @@ image: "https://medtech4health.se/wp-content/uploads/2018/01/AIDA-banner-smal.jp
 title: "AIDA Data Sharing Overview"
 description: "A quick guide to how AIDA can help with data sharing."
 ---
-<span style="font-size: smaller;">[The AIDA Dataset Register](/) &nbsp;&raquo;&nbsp; [AIDA Data Sharing Policy](/sharing/)</span>
+<span style="font-size: smaller;">[AIDA Data Hub](/) &nbsp;&raquo;&nbsp; [AIDA Data Sharing Policy](/sharing/)</span>
 
 ## Overview of AIDA data sharing
 
@@ -22,7 +22,7 @@ AIDA can offer some support to non-members in steps 2-5 below <span class="aida-
     AIDA can cover costs for data hub sharing of <a href="../policy/#scope-and-priorities">prioritized data</a>.
 </td></tr>
 <tr class="nonmember"><td></td><td id="get-research-data"><b>Get research data</b><br/>  
-    Use your ethical approval to get data from caregivers and other data sources. Before disclosing data, these will assess if disclosure will lead to harm ("menprövning"). <a href="../context/#appropriate-technical-and-organizational-protective-measures">Pseudonymize and protect your data</a>. AIDA offers <a href="../policy/#tools-for-large-scale-data-exports">support, tools</a> and <a href="https://datasets.aida.medtech4health.se/">data</a>.
+    Use your ethical approval to get data from caregivers and other data sources. Before disclosing data, these will assess if disclosure will lead to harm ("menprövning"). <a href="../context/#appropriate-technical-and-organizational-protective-measures">Pseudonymize and protect your data</a>. AIDA offers <a href="../policy/#tools-for-large-scale-data-exports">support, tools</a> and <a href="https://datahub.aida.scilifelab.se/datasets">data</a>.
 </td></tr>
 <tr class="nonmember"><td></td><td id="anonymize-data"><b>Anonymize data?</b><br/>  
     Presently, AIDA only accepts <a href="../policy/#personal-data-and-legal-basis">anonymous data</a>. AIDA offers <a href="../anonymization/">examples</a>, <a href="../policy/#tools-for-large-scale-data-exports">support and tools</a>.

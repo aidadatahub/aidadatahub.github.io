@@ -1,11 +1,19 @@
 ---
-image: "https://medtech4health.se/wp-content/uploads/2018/01/AIDA-banner-smal.jpg"
 title: "About This Site"
+description: " "
 ---
 This site facilitates [AIDA data sharing](../sharing/) by providing information
 on datasets shared on the [AIDA data hub](https://medtech4health.se/aida/datahub/)
 through search engine optimized DOI landing pages, and also in machine-readable
-form through an [API](api/).
+form through an [API](api/). This site also descripes our services and policies.
+
+You may also want to learn about:
+* [Analytic Imaging Diagnostics Arena (AIDA)](aida)
+* [AIDA Data Sharing Policy](/sharing/)
+* [What are DOIs and dataset registers?](#what-are-dois-and-dataset-registers) (cf below)
+* [AIDA Data sharing metrics](/metrics) and [FAIR](/metrics#fair)
+* [AIDA Dataset API](/api)
+
 
 ## Feedback
 Please report any errors on this website to our GitHub Pages
@@ -15,9 +23,9 @@ or submit a [pull request](https://github.com/aidadatahub/aidadatahub.github.io/
 For questions regarding data or the AIDA data hub please contact the
 [AIDA data director](mailto:aida-data-director@medtech4health.se).
 
-For all other inquiries about please contact [AIDA](mailto:aida-director@medtech4health.se).
+For all other inquiries please contact [AIDA](mailto:aida@nbis.se).
 
-## What are DOIs and dataset registers?
+## What are DOIs and dataset registers? <span id="doi"/>
 The AIDA data hub facilitates sharing datasets for machine learning in medical
 image diagnostics. AIDA uses
 Digital Object Identifiers ([DOI](https://www.doi.org/)) to increase exposure
@@ -48,11 +56,6 @@ data sources relevant to your research if you
 * [Radiology and Nuclear Medicine](https://www.re3data.org/search?query=&subjects%5B%5D=20530%20Radiology%20and%20Nuclear%20Medicine)
 * [Pathology and Forensic Medicine](https://www.re3data.org/search?query=&subjects%5B%5D=20506%20Pathology%20and%20Forensic%20Medicine)
 * [Artificial Intelligence, Image and Language Processing](https://www.re3data.org/search?subjects[]=40904%20Artificial%20Intelligence,%20Image%20and%20Language%20Processing).
-
-## Access and privacy
-AIDA is a collaboration arena for academia, industry and healthcare and supports OpenScience and [FAIR data](https://www.go-fair.org/fair-principles/). AIDA can facilitate large scale data exports for research from clinical production systems, and can host research data for sharing. AIDA uses data mainly from medical imaging, and therefore has an obligation to adequately safeguard the privacy of the individuals concerned. Therefore AIDA only shares data that is ethically approved for sharing, and when a contractual agreement is in place that includes non-disclosure of data, such AIDA partner contracts for [innovation projects](https://medtech4health.se/aida/ansok-om-innovationsprojekt/), [clinical-](https://medtech4health.se/aida/ansok-klinisk-fellow/) or [technical fellowships](https://medtech4health.se/aida/ansok-om-teknisk-fellow/), [on-site development projects](https://medtech4health.se/aida/ansok-om-pa-plats-utveckling/), or [network partnerships](https://medtech4health.se/aida/partnerskap/). AIDA also facilitates contacts with data controllers for datasets shared on AIDA for data sharing options outside of AIDA.
-
-Please see the [AIDA data sharing policy](../sharing/) for more details.
 
 ## Acknowledgements
 This site uses the following free and open services and technologies:

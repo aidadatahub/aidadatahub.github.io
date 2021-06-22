@@ -3,7 +3,7 @@ image: "https://medtech4health.se/wp-content/uploads/2018/01/AIDA-banner-smal.jp
 title: "AIDA Data Sharing Context"
 description: "Law, ethics, and protections in sharing clinical imaging data for research in Sweden."
 ---
-<span style="font-size: smaller;">[The AIDA Dataset Register](/) &nbsp;&raquo;&nbsp; [AIDA Data Sharing Policy](/sharing/)</span>
+<span style="font-size: smaller;">[AIDA Data Hub](/) &nbsp;&raquo;&nbsp; [AIDA Data Sharing Policy](/sharing/)</span>
 
 This section provides an overview and general considerations on law, ethics, and protections in sharing clinical imaging data for research in Sweden.
 
@@ -57,7 +57,7 @@ It is very easy to protect data that no longer exists. These measures concern id
 
 Pseudonymization entails processing data so that it no longer can be attributed to a natural person, without the use of additional information (eg: a key) which is to be kept secret and separate. Anonymization entails deleting that key. It is nontrivial to assess the quality of pseudonymization/anonymization.
 
-The [AIDA definition of anonymous data](https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit#heading=h.i639kmr8va6o) is described in AIDA GDPR policy 1.0. The section on [Anonymization examples](../anonymization/) describes what AIDA considers correct anonymization in medical imaging using examples from the [AIDA dataset register](https://datasets.aida.medtech4health.se/) along with rationale to support researchers trying to choose appropriate anonymization methods for their own datasets.
+The [AIDA definition of anonymous data](https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit#heading=h.i639kmr8va6o) is described in AIDA GDPR policy 1.0. The section on [Anonymization examples](../anonymization/) describes what AIDA considers correct anonymization in medical imaging using examples from the [AIDA dataset register](https://datahub.aida.scilifelab.se/datasets) along with rationale to support researchers trying to choose appropriate anonymization methods for their own datasets.
 
 Even in cases where an image is inarguably anonymous, it may still be potentially sensitive information and identifiable through its associated data, like diagnosis, lab analysis data, time stamps, patient age and sex and so on. This problem is not unique to the medical field, and alot of work has already been done to clarify how such data can be anonymized effectively. The Finnish social science data archive have produced a very good guide on [anonymization and personal data](https://www.fsd.uta.fi/aineistonhallinta/en/anonymisation-and-identifiers.html) in research, including [anonymization techniques](https://www.fsd.uta.fi/aineistonhallinta/en/anonymisation-and-identifiers.html#bases-of-anonymisation) (please search in-page).
 
@@ -114,6 +114,6 @@ If it turns out that potentially valuable research activities (such as data shar
 
 The key lesson is to identify what are risks, and what are not risks, choose protective measures to counteract the risks, specify them, and motivate the choices. Another important take-home message is that it can sometimes be more ethical to aim higher.
 
-The [AIDA definition of anonymous data](https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit#heading=h.i639kmr8va6o) is described in AIDA GDPR policy 1.0. The section on [Anonymization examples](../anonymization/) describes what AIDA considers correct anonymization in medical imaging using examples from the [AIDA dataset register](https://datasets.aida.medtech4health.se/) along with rationale to support researchers trying to choose appropriate anonymization methods for their own datasets.
+The [AIDA definition of anonymous data](https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit#heading=h.i639kmr8va6o) is described in AIDA GDPR policy 1.0. The section on [Anonymization examples](../anonymization/) describes what AIDA considers correct anonymization in medical imaging using examples from the [AIDA dataset register](https://datahub.aida.scilifelab.se/datasets) along with rationale to support researchers trying to choose appropriate anonymization methods for their own datasets.
 
 The section on [Ethical data sharing](../ethics/) holds examples of language in ethical review applications to support data sharing in research.

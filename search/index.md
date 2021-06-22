@@ -1,6 +1,6 @@
 ---
 title: "Search"
-description: "Find datasets of interest on the AIDA data hub."
+description: "Find datasets of interest on the <a href='/'>AIDA Data Hub</a>."
 ---
 <div style="display:table; width:100%;">
     <label for="search" style="display:table-cell; width:1px">Search:&nbsp;</label>

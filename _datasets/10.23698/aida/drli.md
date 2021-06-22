@@ -5,7 +5,7 @@ datacite:
   "@id": "https://doi.org/10.23698/aida/drli"
   name: "Liver data from the Visual Sweden project DROID"
   about: "Radiology"
-  url: "https://datasets.aida.medtech4health.se/10.23698/aida/drli"
+  url: "https://datahub.aida.scilifelab.se/10.23698/aida/drli"
   author:
   - name: "Mischa Woisetschläger"
     "@id": "https://orcid.org/0000-0003-0066-4985"
@@ -44,7 +44,7 @@ datacite:
     "@type": "Person"
   - name: "AIDA Data Hub"
     email: "aida@nbis.se"
-    "@id": "https://datasets.aida.medtech4health.se"
+    "@id": "https://datahub.aida.scilifelab.se"
     "@type": "Organization"
   dateCreated: "2019-01-09"
   datePublished: "2019-01-09"
@@ -61,12 +61,12 @@ datacite:
     lesions were annotated.
   license:
   - name: "Controlled access"
-    id: "https://datasets.aida.medtech4health.se/10.23698/aida/drli#controlled-access"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/drli#controlled-access"
     "@type": "CreativeWork"
     abstract: |
       Free for use in legal and ethical medical diagnostics research.
   - name: "AIDA BY license"
-    id: "https://datasets.aida.medtech4health.se/10.23698/aida/drli#aida-by-license"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/drli#aida-by-license"
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution."
   citation:

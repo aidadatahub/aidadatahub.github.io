@@ -5,7 +5,7 @@ datacite:
   "@id": "https://doi.org/10.23698/aida/ctpa"
   name: "Computed Tomography Pulmonary Angiography (CTPA) data"
   about: "Radiology"
-  url: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpa"
+  url: "https://datahub.aida.scilifelab.se/10.23698/aida/ctpa"
   author:
   - name: "Tobias Sjöblom"
     "@id": "https://orcid.org/0000-0001-6668-4140"
@@ -42,7 +42,7 @@ datacite:
   provider:
   - name: "AIDA Data Hub"
     email: "aida@nbis.se"
-    "@id": "https://datasets.aida.medtech4health.se"
+    "@id": "https://datahub.aida.scilifelab.se"
     "@type": "Organization"
   - name: "Tomas Fröding"
     email: "tomaskjfroding@gmail.com"
@@ -60,12 +60,12 @@ datacite:
     the emboli carefully delineated by an experienced radiologist.
   license:
   - name: "Controlled access"
-    id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpa#controlled-access"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/ctpa#controlled-access"
     "@type": "CreativeWork"
     abstract: |
       Free for use in legal and ethical medical diagnostics research.
   - name: "AIDA BY CA license"
-    id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpa#aida-by-ca-license"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/ctpa#aida-by-ca-license"
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution and co-authorship."
   citation:

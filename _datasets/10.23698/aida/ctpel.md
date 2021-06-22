@@ -6,7 +6,7 @@ datacite:
   "@id": "https://doi.org/10.23698/aida/ctpel"
   name: "Segmented CT pelvis scans with annotated anatomical landmarks"
   about: "Radiology"
-  url: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpel"
+  url: "https://datahub.aida.scilifelab.se/10.23698/aida/ctpel"
   author:
   - name: "Bryan Connolly"
     #"@id": "" # FIXME: missing info
@@ -28,7 +28,7 @@ datacite:
   provider:
   - name: "AIDA Data Hub"
     email: "aida@nbis.se"
-    "@id": "https://datasets.aida.medtech4health.se"
+    "@id": "https://datahub.aida.scilifelab.se"
     "@type": "Organization"
   - name: "Chunliang Wang"
     email: "chunwan@kth.se"
@@ -48,12 +48,12 @@ datacite:
     [The Cancer Imaging Archive](https://www.cancerimagingarchive.net/) (TCIA).
   license:
   - name: "Controlled access"
-    id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#controlled-access"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/ctpel#controlled-access"
     "@type": "CreativeWork"
     abstract: |
       Free for use in research or education.
   - name: "AIDA license"
-    id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#aida-license"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/ctpel#aida-license"
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA."
   citation:
@@ -77,6 +77,7 @@ other:
     trained radiologist.
   countries-shared:
   - "BE"
+  - "CH"
   - "CN"
   - "DE"
   - "ES"

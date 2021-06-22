@@ -1,6 +1,6 @@
 ---
 title: "Metrics"
-description: "AIDA Data Hub sharing in numbers."
+description: "<a href='/'>AIDA Data Hub</a> sharing in numbers."
 ---
 {% capture ignored %}
   {% assign totn = 0 %}

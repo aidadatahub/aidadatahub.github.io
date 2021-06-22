@@ -3,7 +3,7 @@ image: "https://medtech4health.se/wp-content/uploads/2018/01/AIDA-banner-smal.jp
 title: "Ethical Data Sharing"
 description: "Examples of language in ethical review applications to support data sharing."
 ---
-<span style="font-size: smaller;">[The AIDA Dataset Register](/) &nbsp;&raquo;&nbsp; [AIDA Data Sharing Policy](/sharing/)</span>
+<span style="font-size: smaller;">[AIDA Data Hub](/) &nbsp;&raquo;&nbsp; [AIDA Data Sharing Policy](/sharing/)</span>
 
 This section holds suggestions on language that can be used in ethical review applications to support data sharing in medical imaging diagnostics.
 

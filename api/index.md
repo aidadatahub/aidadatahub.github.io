@@ -1,9 +1,9 @@
 ---
 title: "API"
-description: "Programmatic access to information on datasets shared on the AIDA data hub."
+description: "Programmatic access to information on datasets shared on the <a href'/'>AIDA Data Hub</a>."
 ---
-Application Programming Interfaces (API) provide an easy way for
-computer programs to interact. These APIs make it easier for programmers
+Application Programming Interfaces (API) provide standardized ways for
+computer programs to interact. We use APIs to make it easier for programmers
 to access information about the datasets that are shared on the AIDA data hub.
 
 ### v1.0

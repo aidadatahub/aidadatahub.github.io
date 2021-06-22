@@ -6,7 +6,7 @@ datacite:
   "@id": "https://doi.org/10.23698/aida/brln"
   name: "Axillary lymph nodes in breast cancer cases"
   about: "Pathology"
-  url: "https://datasets.aida.medtech4health.se/10.23698/aida/brln"
+  url: "https://datahub.aida.scilifelab.se/10.23698/aida/brln"
   author:
   - name: "Sofia Jarkman"
     #"@id": # FIXME: missing info
@@ -52,7 +52,7 @@ datacite:
     "@type": "Person"
   - name: "AIDA Data Hub"
     email: "aida@nbis.se"
-    "@id": "https://datasets.aida.medtech4health.se"
+    "@id": "https://datahub.aida.scilifelab.se"
     "@type": "Organization"
   dateCreated: "2019-11-19"
   datePublished: "2019-11-19"
@@ -73,12 +73,12 @@ datacite:
     Included are both positive and negative cases.
   license:
   - name: "Controlled access"
-    id: "https://datasets.aida.medtech4health.se/10.23698/aida/brln#controlled-access"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/brln#controlled-access"
     "@type": "CreativeWork"
     abstract: |
       Free for use in legal and ethical medical diagnostics research.
   - name: "AIDA BY CA license"
-    id: "https://datasets.aida.medtech4health.se/10.23698/aida/brln#aida-by-ca-license"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/brln#aida-by-ca-license"
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution and co-authorship."
   citation:

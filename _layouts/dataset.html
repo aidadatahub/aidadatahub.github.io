@@ -32,8 +32,8 @@
   <body>
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.datacite.name }}</h1>
-      <h2 class="project-tagline">doi:{{ doi }}</h2>
-      <p><a href="/">{{ site.title }}</a> providing information on datasets shared on the <a href="https://medtech4health.se/aida/datahub/">AIDA data hub</a>.</p>
+      <h2 class="project-tagline no-anchor">doi:{{ doi }}</h2>
+      <p><a href="/">{{ site.title }}</a> facilitating FAIR data sharing for medical imaging diagnostics AI.</p>
     </header>
 
     <main id="content" class="main-content" role="main">
@@ -196,7 +196,7 @@
     </main>
     <script src="/assets/js/anchor.min.js"></script>
     <script>
-      anchors.add('h2, h3, h4, h5, h6, th');
+      anchors.add('h2:not(.no-anchor), h3, h4, h5, h6, th');
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.2/viewer.min.js"></script>
     <script>

@@ -6,7 +6,7 @@ datacite:
   "@id": "https://doi.org/10.23698/aida/affai"
   name: "X-ray examinations of atypical femoral fractures"
   about: "Radiology"
-  url: "https://datasets.aida.medtech4health.se/10.23698/aida/affai"
+  url: "https://datahub.aida.scilifelab.se/10.23698/aida/affai"
   author:
   - name: "Jörg Schilcher"
     "@id": "https://orcid.org/0000-0003-0677-9265"
@@ -42,7 +42,7 @@ datacite:
     "@type": "Person"
   - name: "AIDA Data Hub"
     email: "aida@nbis.se"
-    "@id": "https://datasets.aida.medtech4health.se"
+    "@id": "https://datahub.aida.scilifelab.se"
     "@type": "Organization"
   dateCreated: "2021-03-04"
   datePublished: "2021-03-23"
@@ -57,12 +57,12 @@ datacite:
     to reduce the risk of confounding by indication.
   license:
   - name: "Controlled access"
-    id: "https://datasets.aida.medtech4health.se/10.23698/aida/affai#controlled-access"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/affai#controlled-access"
     "@type": "CreativeWork"
     abstract: |
       Free for use in legal and ethical medical diagnostics research.
   - name: "AIDA BY license"
-    id: "https://datasets.aida.medtech4health.se/10.23698/aida/affai#aida-license"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/affai#aida-license"
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution."
   citation:

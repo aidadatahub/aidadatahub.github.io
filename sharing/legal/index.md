@@ -3,7 +3,7 @@ image: "https://medtech4health.se/wp-content/uploads/2018/01/AIDA-banner-smal.jp
 title: "Legal Discussion"
 description: "Discussion on law, ethics and the common practice in the use of clinical imaging data for research in Sweden."
 ---
-<span style="font-size: smaller;">[The AIDA Dataset Register](/) &nbsp;&raquo;&nbsp; [AIDA Data Sharing Policy](/sharing/)</span>
+<span style="font-size: smaller;">[AIDA Data Hub](/) &nbsp;&raquo;&nbsp; [AIDA Data Sharing Policy](/sharing/)</span>
 
 This section is a discussion on the ethical/legal framework around the common practice in the use of clinical imaging data for research in Sweden, with reference to official sources which may be useful as starting points for someone looking to understand the framework, that they may become better equipped to evaluate their own engagements.
 

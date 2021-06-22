@@ -5,7 +5,7 @@ datacite:
   "@id": "https://doi.org/10.23698/aida/lnco2"
   name: "Regional lymph node metastasis in colon adenocarcinoma, second collection series"
   about: "Pathology"
-  url: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco2"
+  url: "https://datahub.aida.scilifelab.se/10.23698/aida/lnco2"
   author:
   - name: "Gordan Maras"
     "@id": "https://orcid.org/0000-0002-0566-6739"
@@ -38,7 +38,7 @@ datacite:
     "@type": "Person"        
   - name: "AIDA Data Hub"
     email: "aida@nbis.se"
-    "@id": "https://datasets.aida.medtech4health.se"
+    "@id": "https://datahub.aida.scilifelab.se"
     "@type": "Organization"
   dateCreated: "2020-01-09"
   datePublished: "2020-01-09"
@@ -58,12 +58,12 @@ datacite:
     parameters.
   license:
   - name: "Controlled access"
-    id: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco2#controlled-access"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/lnco2#controlled-access"
     "@type": "CreativeWork"
     abstract: |
       Free for use in legal and ethical medical diagnostics research.
   - name: "AIDA BY license"
-    id: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco2#aida-by-license"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/lnco2#aida-by-license"
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution."
   citation:

@@ -12,7 +12,7 @@ We are aware that publications resulting from the use of this data must include 
 {% endif %}
 Dataset: {{ include.dataset_url }}
 
-Example agreement template: {{ include.agreement_template_url | default:"https://datasets.aida.medtech4health.se/sharing/templates/" }}
+Example agreement template: {{ include.agreement_template_url | default:"https://datahub.aida.scilifelab.se/sharing/templates/" }}
 
 Template placeholders:
 
@@ -30,8 +30,8 @@ Also, I would like to ALTERNATIVELY_WOULD_NOT_LIKE_TO be included in the public 
 
 https://docs.google.com/spreadsheets/d/1fl2BwZJ4rivOKzOCy5pAnxU8N1CyoF86BTCnH-rBV04
 
-which AIDA uses to demonstrate its utility to the global research community.
+which is used to facilitate scientific disussion, and to show what good AIDA has been to the global research community.
 
-(If "not", then only the institution/department information will be included.)
+(If "not", then only institution/department information will be included.)
 
 /MY_NAME

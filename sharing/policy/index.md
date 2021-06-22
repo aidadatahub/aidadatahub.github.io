@@ -4,7 +4,7 @@ title: "AIDA Data Sharing"
 description: "Policies and guidelines for AIDA activities in data sharing."
 ---
 
-<span style="font-size: smaller;">[The AIDA Dataset Register](/) &nbsp;&raquo;&nbsp; [AIDA Data Sharing Policy](/sharing/)</span>
+<span style="font-size: smaller;">[AIDA Data Hub](/) &nbsp;&raquo;&nbsp; [AIDA Data Sharing Policy](/sharing/)</span>
 
 AIDA supports data sharing in the following ways:
 
@@ -88,9 +88,9 @@ Please see the following sections for details:
 
 ### AIDA dataset register
 
-The AIDA dataset register shows public information on the datasets that have been shared on the AIDA data hub, and is available here:
+The AIDA Data Hub website holds a register that shows public information on the datasets that have been shared on the AIDA data hub, and is available here:
 
-[https://datasets.aida.medtech4health.se/](https://datasets.aida.medtech4health.se/)
+[https://datahub.aida.scilifelab.se/datasets](https://datahub.aida.scilifelab.se/datasets)
 
 The AIDA dataset register is used to advertise shared datasets, and to make shared datasets citable in academic research papers using Digital Object Identifiers (DOI). See [Visibility, citability, and digital object identifiers](#visibility-citability-and-digital-object-identifiers) below for more details.
 
@@ -104,11 +104,11 @@ Data shared on the AIDA data hub is by default available either in full or in pa
 
 AIDA can cover costs for sharing, extraction and enrichment of prioritized data on the AIDA data hub.
 
-[AIDA data priorities](https://datasets.aida.medtech4health.se/prio) are continuously set by the [AIDA data hub clinical council](https://medtech4health.se/aida/organisation/), to enable development of those AI tools that will best meet the needs of current and future clinical practice. The data priorities are being continuously updated based on current data hub composition and identified clinical needs. Please [contact the AIDA data director](mailto:aida-data-director@medtech4health.se) for proposals for data extraction or to suggest further data acquisition topics.
+[AIDA data priorities](https://datahub.aida.scilifelab.se/prio) are continuously set by the [AIDA data hub clinical council](https://medtech4health.se/aida/organisation/), to enable development of those AI tools that will best meet the needs of current and future clinical practice. The data priorities are being continuously updated based on current data hub composition and identified clinical needs. Please [contact the AIDA data director](mailto:aida-data-director@medtech4health.se) for proposals for data extraction or to suggest further data acquisition topics.
 
 ### Visibility, citability, and digital object identifiers
 
-The [AIDA dataset register](https://datasets.aida.medtech4health.se/) is used to advertise and provide information on datasets that have been shared on the data hub, and to make them citable in academic research papers using Digital Object Identifiers ([DOI](https://www.doi.org/)). This helps promote OpenScience, and helps make shared datasets more Findable, Accessible, Interoperable and Reusable ([FAIR](https://www.go-fair.org/))
+The [AIDA dataset register](https://datahub.aida.scilifelab.se/datasets) is used to advertise and provide information on datasets that have been shared on the data hub, and to make them citable in academic research papers using Digital Object Identifiers ([DOI](https://www.doi.org/)). This helps promote OpenScience, and helps make shared datasets more Findable, Accessible, Interoperable and Reusable ([FAIR](https://www.go-fair.org/))
 
 AIDA acknowledges that data collection and preparation is an important part of any data science endeavor, and that recognizing it as such will stimulate further sharing, which will lead to more impactful research and improved patient benefit.
 

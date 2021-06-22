@@ -3,7 +3,7 @@ title: "Templates"
 description: "Template documents to facilitate legal data sharing."
 ---
 
-<span style="font-size: smaller;">[The AIDA Dataset Register](/) &nbsp;&raquo;&nbsp; [AIDA Data Sharing Policy](/sharing/)</span>
+<span style="font-size: smaller;">[AIDA Data Hub](/) &nbsp;&raquo;&nbsp; [AIDA Data Sharing Policy](/sharing/)</span>
 
 AIDA supports OpenScience and FAIR data sharing, and can help organizations
 share data outside of AIDA.

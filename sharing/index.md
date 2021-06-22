@@ -4,7 +4,7 @@ title: "AIDA Data Sharing Policy"
 description: "Guidelines and best practices in sharing clinical imaging data for research."
 ---
 
-<span style="font-size: smaller;">[The AIDA Dataset Register](/)</span>
+<span style="font-size: smaller;">[AIDA Data Hub](/)</span>
 
 ## AIDA data sharing policy
 Author: Analytical Imaging Diagnostics Arena (AIDA).  

@@ -18,7 +18,7 @@ of research data for machine learning in medical imaging diagnostics.
 
 Links:
 
-* Website: [https://datasets.aida.medtech4health.se/](https://datasets.aida.medtech4health.se/).
+* Website: [https://datahub.aida.scilifelab.se/](https://datahub.aida.scilifelab.se/).
 * Source code: [https://github.com/aida-dataset-register/aida-dataset-register.github.io](https://github.com/aida-dataset-register/aida-dataset-register.github.io).
 
 ## Adding dataset descriptions

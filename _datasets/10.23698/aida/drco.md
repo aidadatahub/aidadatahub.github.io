@@ -5,7 +5,7 @@ datacite:
   "@id": "https://doi.org/10.23698/aida/drco"
   name: "Colon data from the Visual Sweden project DROID"
   about: "Pathology"
-  url: "https://datasets.aida.medtech4health.se/10.23698/aida/drco"
+  url: "https://datahub.aida.scilifelab.se/10.23698/aida/drco"
   author:
   - name: "Karin Lindman"
     "@id": "https://orcid.org/0000-0003-1298-517X"
@@ -48,7 +48,7 @@ datacite:
     "@type": "Person"
   - name: "AIDA Data Hub"
     email: "aida@nbis.se"
-    "@id": "https://datasets.aida.medtech4health.se"
+    "@id": "https://datahub.aida.scilifelab.se"
     "@type": "Organization"
   dateCreated: "2019-01-09"
   datePublished: "2019-01-09"
@@ -68,12 +68,12 @@ datacite:
     information.
   license:
   - name: "Controlled access"
-    id: "https://datasets.aida.medtech4health.se/10.23698/aida/drco#controlled-access"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/drco#controlled-access"
     "@type": "CreativeWork"
     abstract: |
       Free for use in legal and ethical medical diagnostics research.
   - name: "AIDA BY license"
-    id: "https://datasets.aida.medtech4health.se/10.23698/aida/drco#aida-by-license"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/drco#aida-by-license"
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution."
   citation:
