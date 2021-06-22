@@ -1,0 +1,209 @@
+---
+---
+// - All pages ----------------------------------------------------------------
+@import "{{ site.theme }}";
+.page-header {
+  background-color: #003f72;
+  background-image: url(https://medtech4health.se/wp-content/uploads/2018/01/AIDA-banner-smal.jpg);
+  background-size: 200%;
+  background-position-y: center;
+  filter: hue-rotate(190deg);
+}
+.project-tagline {
+    opacity: 0.9;
+}
+.page-header a {
+  color: inherit;
+  font-weight: bold;
+}
+
+.anchorjs-link {
+  color: #157878;
+}
+.anchorjs-link:hover {
+  text-decoration: none;
+}
+
+// Columns
+.columns {
+  display: flex;
+}
+.columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+// Text alignment
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+.revealable {
+  max-height: 1000px;
+  transition: all 0.5s ease-in;
+  overflow: hidden;
+
+}
+.hidden {
+  max-height: 0 !important;
+  transition: all 0.2s ease-out;
+}
+
+.small {
+  font-size: small;
+}
+
+// - Frontpage ----------------------------------------------------------------
+.dataset-table table td,
+.dataset-table table th {
+  border: none;
+  vertical-align: top;
+}
+.dataset-table td:first-child {
+  text-align: center;
+}
+.dataset-table img {
+  max-height: 6em;
+}
+.dataset-table .keywords {
+  font-size: 1rem;
+}
+.dataset-table a.doi {
+  font-size: 1rem;
+  color: #606c71;
+}
+
+// - Search page -------------------------------------------------------------
+#dataset-table {
+  font-size: small;
+}
+
+#dataset-table tbody tr {
+  vertical-align: top;
+}
+
+.dataTables_wrapper .dataTables_info {
+  padding-bottom: 0.755em;
+}
+
+span.clearicon {
+    position: relative;
+}
+span.clearicon span {
+    position: absolute;
+    display: block;
+    top: 5px;
+    right: 0px;
+    width: 16px;
+    height: 16px;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/0/0f/Clear_Icon.svg');
+    cursor: pointer;
+}
+span.clearicon input {
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+
+// - Dataset page -------------------------------------------------------------
+.dataset-example-images {
+  padding-left: 0;
+}
+.dataset-example-images:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+.dataset-example-images > li {
+    border: 1px solid transparent;
+    float: left;
+    height: calc(100% / 5);
+    margin: 0 -1px -1px 0;
+    overflow: hidden;
+    width: calc(100% / 5);
+}
+.dataset-example-images > li > img {
+  cursor: zoom-in;
+}
+.viewer-title {
+  padding-bottom: 5px; // FIXME: This is a workaround for viewerjs cropping the bottoms of letters sticking down.
+  color: white; // Readability
+  text-shadow: 0px 0px 3px black; // Readability
+  font-size: 15px;
+  opacity: 1;
+  font-weight: bold;
+}
+
+.info-box th {
+  white-space: nowrap;
+  text-align: left;
+  vertical-align: top;
+}
+.info-box td {
+  vertical-align: top;
+}
+.info-box ol.references {
+    counter-reset: list;
+    padding-left: 0;
+}
+.info-box ol.references > li {
+    list-style: none;
+}
+.info-box ol.references > li:before {
+    content: "[" counter(list) "] ";
+    counter-increment: list;
+}
+
+// - AIDA data sharing overview page -------------------------------------------------------------
+
+.aida-data-sharing-overview-member {
+  background: #d9ead3;
+}
+table.aida-data-sharing-overview td {
+  background: #d9ead3;
+}
+table.aida-data-sharing-overview tr.nonmember td {
+  background: #c9daf8;
+}
+.aida-data-sharing-overview-nonmember {
+  background: #c9daf8;
+}
+table.aida-data-sharing-overview td {
+  border: 0px;
+  vertical-align: top;
+}
+table.aida-data-sharing-overview td:nth-child(1) {
+  text-align: right;
+  font-weight: bold;
+}
+table.aida-data-sharing-overview td:nth-child(2) {
+  padding-left: 0px;
+}
+table.aida-data-sharing-overview {
+  counter-reset: myOrderedListItemsCounter;
+}
+table.aida-data-sharing-overview td:first-child::before {
+  counter-increment: myOrderedListItemsCounter;
+  content: counter(myOrderedListItemsCounter)".";
+}
+
+// - Metrics page -------------------------------------------------------------
+
+// Making mouseover hover styles for member countries on the map, eg:
+//#country-CN,#country-ES,#country-SE,#country-GB {
+//#country-CN:hover,#country-ES:hover,#country-SE:hover,#country-GB:hover {
+{% assign country-codes = '' | split: '' %}
+{% for d in site.datasets %}{% assign country-codes = country-codes | concat: d.other.countries-shared %}{% endfor %}
+{% assign country-codes = country-codes | uniq %}
+// {{ country-codes }}
+{% for c in country-codes %}#country-{{ c }}{% unless forloop.last %},{% endunless %}{% endfor %} {
+  fill: #045eb6 !important;
+}
+{% for c in country-codes %}#country-{{ c }}:hover{% unless forloop.last %},{% endunless %}{% endfor %} {
+  fill: #0c72d5 !important;
+}

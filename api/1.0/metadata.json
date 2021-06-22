@@ -1,0 +1,11 @@
+---
+---
+[
+{% for d in site.datasets %}
+  {
+    "datacite": {{ d.datacite | jsonify }},
+    "other": {{ d.other | jsonify }},
+    "additional": {{ d.content | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

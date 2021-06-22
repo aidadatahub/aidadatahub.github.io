@@ -1,0 +1,11 @@
+{% assign d = site.datasets | where: "id", include.dataset | first %}
+<div>
+  <ul class="dataset-example-images" id="{{ include.viewer }}">
+    {% for i in d.other.exampleImage %}
+      <li><img src="{{ i.thumbnail-url | default: i.url }}" data-original="{{ i.url }}" alt="Figure {{ forloop.index }}. {{ i.title }}"></li>
+    {% endfor %}
+  </ul>
+</div>
+<script>
+  new Viewer(document.getElementById('{{ include.viewer }}'), { url: "data-original" });
+</script>

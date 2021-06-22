@@ -1,0 +1,1 @@
+{% assign b = include.bytes %}{% if b > 1000000000000 %}{{ b | divided_by: 1000000000000.0 | round: 2 }}TB{% elsif b > 1000000000 %}{{ b | divided_by: 1000000000.0 | round: 2 }}GB{% elsif b > 1000000 %}{{ b | divided_by: 1000000.0 | round: 2 }}MB{% elsif b > 1000 %}{{ b | divided_by: 1000.0 | round: 2 }}kB{% elsif b %}{{ b | round: 2 }}B{% endif %}

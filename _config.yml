@@ -1,0 +1,18 @@
+title: "AIDA Data Hub"
+description: "Data and services for medical imaging diagnostics AI research."
+
+theme: "jekyll-theme-cayman"
+url: "https://datahub.aida.scilifelab.se"
+
+collections:
+  datasets:
+    output: true
+    layout: "dataset.html"
+    permalink: ":path"
+
+defaults:
+  - scope:
+      path: ""
+      type: "datasets"
+    values:
+      layout: "dataset"

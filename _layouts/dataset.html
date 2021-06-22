@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+{% assign doi = page.datacite["@id"] | remove: "https://doi.org/" %}
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+
+    <!-- SEO -->
+    <title> {% if page.hidden %} Preview: {% endif %} {{ page.datacite.name }} | doi:{{ doi }} | AIDA dataset register</title>
+    <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
+    <meta property="og:title" content="doi:{{ doi }}" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="{{ page.datacite.name }}" />
+    <meta property="og:description" content="{{ page.datacite.name }}" />
+    <link rel="canonical" href="{{ page.url | absolute_url }}" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:image" content="{{ d.other.image | default: d.other.exampleImage[0].thumbnail-url | default: d.other.exampleImage[0].url | absolute_url }}" />
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="{{ page.datacite.datePublished }}" />
+    <script type="application/ld+json">
+      {{ page.datacite | jsonify }}
+    </script>
+    <!-- End SEO -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.2/viewer.min.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="shortcut icon" href="/assets/icons/aida.ico">
+  </head>
+  <body>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.datacite.name }}</h1>
+      <h2 class="project-tagline">doi:{{ doi }}</h2>
+      <p><a href="/">{{ site.title }}</a> providing information on datasets shared on the <a href="https://medtech4health.se/aida/datahub/">AIDA data hub</a>.</p>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {% if page.hidden %}
+        <p><b>
+          This page describes a dataset that has not yet been shared on the data
+          hub. Do not rely on information on this page to be accurate.
+        </b></p>
+      {% endif %}
+      {{ page.datacite.description | markdownify }}
+      <p>Keywords: {{ page.datacite.keywords }}.</p>
+
+      <h2>Sample images</h2>
+      <p>Sample images with reduced image quality. Please click to preview.</p>
+
+      <div>
+        <ul class="dataset-example-images" id="dataset-example-images">
+          {% for i in page.other.exampleImage %}
+            <li><img src="{{ i.thumbnail-url | default: i.url }}" data-original="{{ i.url }}" alt="Figure {{ forloop.index }}. {{ i.title }}"></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <h2>Dataset information</h2>
+      <div class="info-box">
+        <table>
+          <tr>
+            <th>Short name</th>
+            <td>{{ page.other.shortName }}</td>
+          </tr>
+          <tr>
+            <th>Cite as</th>
+            <td>
+              {{ page.datacite.author | map: "name" | array_to_sentence_string }}
+              ({{ page.datacite.datePublished | date: "%Y" }})
+              {{ page.datacite.name}}
+              <a href="{{ page.datacite["@id"] }}">doi:{{ doi }}</a>
+            </td>
+          </tr>
+          <tr>
+            <th>Field</th>
+            <td>{{ page.datacite.about }}</td>
+            <tr>
+          </tr>
+          <tr>
+            <th>Organ</th>
+            <td>
+              {% for organ in page.other.organ %}
+                <a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1={{ organ.sctid }}">{{ organ.name }}</a><br/>
+              {% endfor %}
+            </td>
+          </tr>
+          <tr>
+            <th>Age span</th>
+            <td>{{ page.other.age-span }}</td>
+          </tr>
+          <tr>
+            <th>Title</th>
+            <td>{{ page.datacite.name }}</td>
+          </tr>
+          <tr>
+            <th>Author</th>
+            <td>
+              {% for a in page.datacite.author %}{% assign url=a["@id"] %}
+                {% include link_if_url.html text=a.name url=url %}<br/>
+              {% endfor %}
+            </td>
+          </tr>
+          <tr>
+            <th>Year</th>
+            <td>{{ page.datacite.datePublished | date: "%Y" }}</td>
+          </tr>
+          <tr>
+            <th>DOI</th>
+            <td><a href='{{ page.datacite["@id"] }}'>doi:{{ doi }}</a></td>
+          </tr>
+          <tr>
+            <th>Status</th>
+            <td>{{ page.other.status }}</td>
+          </tr>
+          <tr>
+            <th>Version</th>
+            <td>{{ page.datacite.version }}</td>
+          </tr>
+          <tr>
+            <th>Scans</th>
+            <td>{{ page.other.numberOfScans }}</td>
+          </tr>
+          <tr>
+            <th>Annotations</th>
+            <td>{{ page.other.numberOfAnnotations }}</td>
+          </tr>
+          <tr>
+            <th>Size</th>
+            <td>{% include human_friendly_filesize bytes=page.other.bytes %}</td>
+          </tr>
+          <tr>
+            <th>Resolution</th>
+            <td>{{ page.other.resolution }}</td>
+          </tr>
+          <tr>
+            <th>Modality</th>
+            <td>
+              {% for m in page.other.modality %}
+                {% include modality-title.html modality=m %}<br/>
+              {% endfor %}
+            </td>
+          </tr>
+          <tr>
+            <th>Scanner</th>
+            <td>
+              {{ page.other.scanner | join: "<br/>" }}<br/>
+            </td>
+          </tr>
+          <tr>
+            <th>Stain</th>
+            <td>{{ page.other.stain }}</td>
+          </tr>
+          <tr>
+            <th>Phase</th>
+            <td>{{ page.other.phase }}</td>
+          </tr>
+          <tr>
+            <th>References</th>
+            <td>
+              <ol class="references">
+              {% for r in page.datacite.citation %}
+                <li><a href="{{ r['@id'] }}">{{ r.name }}</a></li>
+              {% endfor %}
+            </ol>
+            </td>
+          </tr>
+          <tr>
+            <th>Copyright</th>
+            <td>
+              Copyright {{ page.datacite.copyrightYear }} {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}
+            </td>
+          </tr>
+          <tr>
+            <th>Access</th>
+            <td>
+              <p>Available under the following licenses, described in the <a href="#license">License</a> section below.</p>
+              {% for rights in page.datacite.license %}
+                <p>
+                  <a href="{{ rights.id }}">{{ rights.name }}</a>
+                  {% if rights.abstract %}<br/>{{ rights.abstract }}{% endif %}
+                </p>
+              {% endfor %}
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <h2 id="annotation">Annotation</h2>
+      {{ page.other.annotation | markdownify }}
+
+      {{ content }}
+
+      {% include footer.html %}
+    </main>
+    <script src="/assets/js/anchor.min.js"></script>
+    <script>
+      anchors.add('h2, h3, h4, h5, h6, th');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.2/viewer.min.js"></script>
+    <script>
+      const gallery = new Viewer(document.getElementById('dataset-example-images'), { url: "data-original" });
+    </script>
+    </body>
+</html>
