@@ -12,7 +12,7 @@ of clinically useful tools.
 
 The most important factor for training world-class AI is access to massive
 amounts of high-quality training data.
-The [AIDA data hub](https://medtech4health.se/aida/datahub/) is a place where
+The [AIDA Data Hub](https://datahub.aida.scilifelab.se/) is a place where
 researchers can collaboratively gather, annotate, share and enrich large volumes
 of research data for machine learning in medical imaging diagnostics.
 
