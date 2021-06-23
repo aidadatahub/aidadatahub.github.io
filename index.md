@@ -13,9 +13,10 @@ at [Linköping University](https://liu.se).
 We provide [Datasets](/datasets), [Data Sharing Policy](/sharing), and
 [Services](/services), introduced in overview sections below.
 
-## Datasets
-We help researchers share their data with the world, making high-quality datasets
-more [FAIR](/metrics#fair) and citeable using Digital Object Identifiers
+## AIDA Dataset Register
+Using the [AIDA Dataset register](/datasets) we help researchers share their
+data with the world, making high-quality datasets more [FAIR](/metrics#fair)
+and citeable using Digital Object Identifiers
 ([DOI](/about#what-are-dois-and-dataset-registers)).
 {% assign bytes = 0 -%}
 {% assign scans = 0 -%}
@@ -28,18 +29,16 @@ more [FAIR](/metrics#fair) and citeable using Digital Object Identifiers
   {% assign annotations = d.other.numberOfAnnotations | default: 0 | plus: annotations -%}
   {% assign datasets = datasets | plus: 1 %}
 {% endfor -%}
-So far <b>{% include human_friendly_filesize bytes=bytes %} </b> in
-[{{ datasets }} datasets](/datasets) have been shared
-({{ scans }} scans and {{ annotations }} annotations)
+So far <b>{% include human_friendly_filesize bytes=bytes %} </b> data
+have been shared, in {{ scans }} scans with {{ annotations }} annotations in {{ datasets }} datasets,
 according to clinical [data acquisition priorities](/prio)
-
 
 * [Browse datasets](/datasets)
 * [Search](/search)
 * [Metrics](/metrics)
 * [API](/api)
 
-## Data sharing policy
+## AIDA Data Sharing Policy
 Everything is easier if you do it "the normal way".
 
 The [AIDA data sharing policy](/sharing) is a comprehensive resource that
@@ -50,7 +49,7 @@ Key insights have been published in
 [Nature Scientific Data](https://www.nature.com/articles/s41597-020-00674-0)
 (OpenAccess).
 
-## Services
+## AIDA Services
 We offer leading edge [Services](/services) to researchers in Swedish medical imaging AI.
 Examples include the [AIDA DGX-2 Service](/services#dgx-2) which is the currently
 largest national GPU resource for processing sensitive personal data in Sweden.
@@ -63,4 +62,4 @@ largest national GPU resource for processing sensitive personal data in Sweden.
 * [AIDA Chat](/services#chat) - Support and discussion.
 
 These services are offered to AIDA partners. Any Swedish organization active in
-AI or medical imaging diagnostics can [join AIDA](/about/aida#join-aida).
+AI or medical imaging diagnostics can [join AIDA](/about/aida#join).

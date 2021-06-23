@@ -1,5 +1,5 @@
 ---
-title: "AIDA Datasets"
+title: "AIDA Dataset Register"
 description: "Information on datasets shared on the <a href='/'>AIDA Data Hub</a>."
 ---
 The most important factor for building world-class AI is access to massive
@@ -22,9 +22,8 @@ This website holds a register of datasets that we have helped researchers share
   {% assign annotations = d.other.numberOfAnnotations | default: 0 | plus: annotations -%}
   {% assign datasets = datasets | plus: 1 %}
 {% endfor -%}
-So far <b>{% include human_friendly_filesize bytes=bytes %} </b> in
-[{{ datasets }} datasets](/datasets) have been shared
-({{ scans }} scans and {{ annotations }} annotations)
+So far <b>{% include human_friendly_filesize bytes=bytes %} </b> data
+have been shared, in {{ scans }} scans with {{ annotations }} annotations in {{ datasets }} datasets,
 according to clinical [data acquisition priorities](/prio)
 
 You may also want to [Search](/search), see [Metrics](/metrics), use the [API](/api),

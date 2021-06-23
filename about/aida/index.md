@@ -45,10 +45,9 @@ This can for example take the form of a
 3. [AIDA Fellowship](https://medtech4health.se/apply-for-clinical-fellowship/)
 4. [AIDA Network partnership](https://medtech4health.se/aida-en/network-partner/)
 
-The first three options entail applying for and getting funding through AIDA.
-The fourth option entails paying a very small membersip fee of 10 KSEK/year, or
-contributing to AIDA by other means, for example by sharing data through the
-[AIDA Data Hub](/), thereby demonstrating that a meaningful commitment has been
-made.
+The first three options entail receiving funding through AIDA. The fourth option
+entails paying a very small membersip fee of 10 KSEK/year, or contributing to
+AIDA by other means such as [sharing data through the AIDA Data Hub](/datasets),
+thereby demonstrating that a meaningful commitment has been made.
 
 Please [contact AIDA](mailto:aida@nbis.se) to discuss ways forward!
