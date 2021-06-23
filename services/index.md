@@ -10,8 +10,8 @@ and the [SciLifeLab](https://scilifelab.se) [Bioinformatics Platform](https://nb
 and [Data Center](https://scilifelab.se/data).
 
 One example is the [AIDA DGX-2 Service](#dgx-2) which is currently the
-largest national GPU resource for processing sensitive personal data in Sweden.
-Further exampes are introduced in overview sections below.
+largest national GPU resource for processing sensitive personal data for
+research in Sweden. Further exampes are introduced in overview sections below.
 
 * TOC
 {:toc}
