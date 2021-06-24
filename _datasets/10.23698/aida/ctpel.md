@@ -38,7 +38,8 @@ datacite:
   datePublished: "2019-05-03"
   dateModified: "2019-05-06"
   keywords: "Radiology, Annotated, Pelvis, CT, Computed tomography, Anatomical landmarks, Bone segmentation"
-  version: "1.0"
+  version: "1.1"
+  # v1.1: missing landmark annotations now added.
   description: |
     5 bone segmentation masks and 15 annotations of anatomical landmarks for pelvis bones
     in each of 90 Computed Tomography (CT) cases extracted from the
@@ -113,6 +114,9 @@ other:
 ## File formats
 ### Importing binary masks to numpy
 The dataset contains a DICOM SEG file, which can be converted to an ITK image file (mha, nifti, etc) by using [dcmqi](https://github.com/QIICR/dcmqi) and the command line tool [segimage2itkimage](https://qiicr.gitbook.io/dcmqi-guide/opening/cmd_tools/seg/segimage2itkimage), which is straightforward to read into a numpy array.
+
+### Landmarks
+Landmarks are available in the sr.dcm file and saved using the TID 1500 template.
 
 ## License
 ### Controlled access
