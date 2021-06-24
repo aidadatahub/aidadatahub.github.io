@@ -1,5 +1,4 @@
 ---
-description: "Preview of the upcoming AIDA Data Hub website."
 ---
 We offer [Datasets](/datasets), [Data Sharing Policy](/sharing), and
 [Services](/services) for researchers in Swedish medical imaging AI, and operate
