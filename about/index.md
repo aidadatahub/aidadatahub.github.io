@@ -3,9 +3,9 @@ title: "About This Site"
 description: " "
 ---
 This site facilitates [AIDA data sharing](../sharing/) by providing information
-on datasets shared on the [AIDA data hub](https://medtech4health.se/aida/datahub/)
-through search engine optimized DOI landing pages, and also in machine-readable
-form through an [API](api/). This site also descripes our services and policies.
+on datasets shared on the [AIDA data hub](/) through search engine optimized
+DOI landing pages, and also in machine-readable form through an [API](api/).
+This site also descripes our services and policies.
 
 You may also want to learn about:
 * [Analytic Imaging Diagnostics Arena (AIDA)](aida)
