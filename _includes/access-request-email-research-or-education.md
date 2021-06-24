@@ -10,7 +10,7 @@ BRIEF_DESCRIPTION_OF_PLANNED_ACTIVITIES_HERE
 
 Dataset: {{ include.dataset_url }}
 
-I would like to ALTERNATIVELY_WOULD_NOT_LIKE_TO be included in the public record of data sharing facilitated by AIDA:
+Also, I would like to ALTERNATIVELY_WOULD_NOT_LIKE_TO be included in the public record of data sharing facilitated by AIDA:
 
 https://docs.google.com/spreadsheets/d/1fl2BwZJ4rivOKzOCy5pAnxU8N1CyoF86BTCnH-rBV04
 

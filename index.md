@@ -33,10 +33,8 @@ So far <b>{% include human_friendly_filesize bytes=bytes %} </b> data
 have been shared, in {{ scans }} scans with {{ annotations }} annotations in {{ datasets }} datasets,
 according to clinical [data acquisition priorities](/prio)
 
-* [Browse datasets](/datasets)
-* [Search](/search)
-* [Metrics](/metrics)
-* [API](/api)
+You can [Browse](/datasets) or [Search](/search) for datasets, view
+[Metrics](/metrics), or use our [API](/api).
 
 ## AIDA Data Sharing Policy
 Everything is easier if you do it "the normal way".

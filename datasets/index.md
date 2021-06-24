@@ -7,8 +7,8 @@ amounts of high-quality training data. We help researchers collaboratively
 gather, annotate, share and enrich large volumes of research data for machine
 learning in medical imaging diagnostics.
 
-This website holds a register of datasets that we have helped researchers share
-[with the world](/metrics), to make their high-quality datasets more
+This register shows information on datasets that we have helped researchers
+share [with the world](/metrics), to make their high-quality datasets more
 [FAIR](/metrics#fair) and citeable using Digital Object Identifiers
 ([DOI](/about#what-are-dois-and-dataset-registers)).
 {% assign bytes = 0 -%}
@@ -26,7 +26,7 @@ So far <b>{% include human_friendly_filesize bytes=bytes %} </b> data
 have been shared, in {{ scans }} scans with {{ annotations }} annotations in {{ datasets }} datasets,
 according to clinical [data acquisition priorities](/prio)
 
-You may also want to [Search](/search), see [Metrics](/metrics), use the [API](/api),
+You can also [Search](/search), see [Metrics](/metrics), use the [API](/api),
 or learn more about [FAIR and DOI](/about#what-are-dois-and-dataset-registers).
 
 

@@ -57,7 +57,7 @@ VMs run latest v4.x Nvidia DGX OS, have multiple Nvidia V100 GPUs on PCI
 passthrough, and mount project storage over 10Gbit connection with FSC to local
 NVMe raid.
 
-More information on the [AIDA wiki](#wiki)
+More information on the [AIDA internal wiki](#wiki)
 [DGX-2 page](https://scilifelab.atlassian.net/wiki/spaces/aida/pages/1235189793/AIDA+DGX-2+Service).
 
 ## AIDA Nextcloud {#nextcloud}
@@ -70,7 +70,7 @@ in collaboration with the [SciLifeLab](https://scilifelab.se)
 
 For sharing non-anonymous data, please see the [AIDA DGX-2 Service](#dgx-2) above.
 
-More information on the [AIDA wiki](#wiki)
+More information on the [AIDA internal wiki](#wiki)
 [Nexcloud page](https://scilifelab.atlassian.net/wiki/spaces/aida/pages/1239678997/Nextcloud).
 
 ### Sharing large amounts of data
@@ -120,7 +120,7 @@ size limitations, Some large
 from AIDA coding workshops are made available on [AIDA nextcloud](#nextcloud)
 instead.
 
-More information on the [AIDA wiki](#wiki)
+More information on the [AIDA internal wiki](#wiki)
 [Nexcloud page](https://scilifelab.atlassian.net/wiki/spaces/aida/pages/1239678997/Nextcloud).
 
 ## AIDA Slack {#slack}
@@ -131,3 +131,6 @@ AIDA uses [SciLifeLab](https://scilifelab.se) [Bioinformatics Platform](https://
 * [#aida-dgx2](https://nbisweden.slack.com/archives/C01S39EQ9S9): AIDA DGX-2 chat - Tech support and general discussion on the AIDA DGX-2 service!
 * [#aida-announce](https://nbisweden.slack.com/archives/C01S6HPGYAX): AIDA Announcements - Progress in medical imaging diagnostics AI!
 * [#aida-general](https://nbisweden.slack.com/archives/C01S6HASR5Z): AIDA General chat - Everything AI in medical imaging diagnostics!
+
+More information on the [AIDA internal wiki](#wiki)
+[Chat page](https://scilifelab.atlassian.net/wiki/spaces/aida/pages/1239285826/Chat).
