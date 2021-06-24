@@ -36,7 +36,7 @@ datacite:
     "@type": "Person"
   dateCreated: "2019-05-03"
   datePublished: "2019-05-03"
-  dateModified: "2019-05-06"
+  dateModified: "2021-06-24"
   keywords: "Radiology, Annotated, Pelvis, CT, Computed tomography, Anatomical landmarks, Bone segmentation"
   version: "1.1"
   # v1.1: missing landmark annotations now added.
