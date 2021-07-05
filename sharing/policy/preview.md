@@ -233,12 +233,14 @@ AIDA also provides lightweight [data sharing agreement templates](../templates/#
 
 Copyright holders may also choose to delegate handling of access requests to AIDA, by signing a data transfer agreement with AIDA to specify how sharing is to be carried out. AIDA provides [data transfer agreement (DTA) templates](../templates/#data-transfer-agreements) that can be used for this purpose.
 
-### Decision support for access request evaluation
+### Access request evaluation
 
-Most often, datasets are shared on the AIDA Data Hub for use in ethical and legal medical diagnostics
-research. The copyright holder is responsible for establishing the eligibility
-of access requests, but can delegate this responsibility to AIDA using a
-[data transfer agreement (DTA)](../templates/#data-transfer-agreements).
+Most often, datasets are shared on the AIDA Data Hub for use in ethical and
+legal medical diagnostics research. The copyright holder is responsible for
+establishing the eligibility of access requests, but can delegate this
+responsibility to AIDA using a [data transfer agreement (DTA)](../templates/#data-transfer-agreements).
+
+This section describes the general reasoning behind how AIDA evaluates access requests.  
 
 The goal of the evaluation is usually to establish whether it will be possible
 for the provider to sign a data sharing agreement with the requestor, for
@@ -283,7 +285,7 @@ recipient research institution.
 research qualifications to oversee the research activities, e.g. for lack of a
 Ph d degree, convincing publication track record, or sufficiently closely
 related field of expertise.  
-3. It has not been possible to engage a suitable recipient scientist, 
+3. It has not been possible to engage a suitable recipient scientist,
 at the recipient research institution.
 4. The recipient research institution is neither a university nor convincingly
 active in the field of medical imaging diagnostics research (often in
