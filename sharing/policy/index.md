@@ -228,4 +228,63 @@ AIDA can facilitate data transfers from AIDA systems to recipients based on inst
 
 AIDA also provides lightweight [data sharing agreement templates](../templates/#data-sharing-agreements) that can be used as a starting point by copyright holders looking to set up agreements for legal and ethical sharing outside of AIDA.
 
-Copyright holders may also choose to delegate handling of access requests to AIDA, by signing a data transfer agreement with AIDA to specify how sharing is to be carried out. AIDA provides [data transfer agreement templates](../templates/#data-transfer-agreements) that can be used for this purpose.
+Copyright holders may also choose to delegate handling of access requests to AIDA, by signing a data transfer agreement with AIDA to specify how sharing is to be carried out. AIDA provides [data transfer agreement (DTA) templates](../templates/#data-transfer-agreements) that can be used for this purpose.
+
+### Access request evaluation
+
+Most often, datasets are shared on the AIDA Data Hub for use in ethical and
+legal medical diagnostics research. The copyright holder is responsible for
+establishing the eligibility of access requests, but can delegate this
+responsibility to AIDA using a [data transfer agreement (DTA)](../templates/#data-transfer-agreements).
+
+This section describes the general reasoning behind how AIDA evaluates access requests.  
+
+The goal of the evaluation is usually to establish whether it will be possible
+for the provider to sign a data sharing agreement with the requestor, for
+example using an [AIDA data sharing agreement template](../templates). Whether
+the request can be approved most often depends on the exact language used in the
+ethical review approval for the research project that generated the data.
+Requests are thus most commonly evaluated similarly as [EPM](https://etikprovningsmyndigheten.se/)
+would. Key concepts include "research institution" ("forskningshuvudman") and
+"competent researcher" ("ansvarig forskare"). For context and links to further
+reading, please cf the [Legal discussion](../legal/), specifically [this
+paragraph](../legal/#research-institution).
+
+In short: The recipient should have proven capability to carry out medical
+diagnostics research.
+
+For this, two questions should initially be answered satisfactorily:
+
+1. **What research institution in what country is making the request?**  
+This research
+institution will be responsible for safeguarding the data, according to its own
+policies and (inter-)national data protection regulations. Typically, this
+should be a university. AIDA's view is that research can also be carried out at
+companies, however companies may need to motivate in more detail how their
+planned activities can be considered research.
+
+2. **What researcher will be responsible for overseeing the research activities?**  
+This
+researcher should have necessary qualifications and competence to ensure the
+research activities are carried out according to policies and regulations at 1)
+above. Typically, this person should be affiliated with 1) above, and have a Ph
+d degree (or better academic qualifications) in a relevant field.
+
+#### Examples of where data sharing has not been possible
+
+AIDA has encountered some cases where it has not been possible to approve an
+access request or to sign a data sharing agreement.
+
+This can for example involve cases where:
+
+1. It has not been possible to engage an authorized signatory on behalf of the
+recipient research institution.
+2. It has not been possible to engage a recipient scientist holding sufficient
+research qualifications to oversee the research activities, e.g. for lack of a
+Ph d degree, convincing publication track record, or sufficiently closely
+related field of expertise.  
+3. It has not been possible to engage a suitable recipient scientist,
+at the recipient research institution.
+4. The recipient research institution is neither a university nor convincingly
+active in the field of medical imaging diagnostics research (often in
+combination with one or more of the above factors).

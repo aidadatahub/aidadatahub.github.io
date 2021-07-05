@@ -9,8 +9,8 @@ description: "Guidelines and best practices in sharing clinical imaging data for
 ## AIDA data sharing policy
 Author: Analytical Imaging Diagnostics Arena (AIDA).  
 Editor: [Joel Hedlund, Data director AIDA](mailto:joel.hedlund@liu.se).  
-Version: [1.2.3](#version-history)  
-Printable version: [AIDA data sharing policy v1.2.3](https://docs.google.com/document/d/17MZJkNnopiRoEx4eYsi_rn-YPZH1AJbz0IxRRvcbWBk/edit#) ([PDF](AIDA-data-sharing-policy-v1.2.3.pdf))  
+Version: [1.2.4](#version-history)  
+Printable version: [AIDA data sharing policy v1.2.4](https://docs.google.com/document/d/17MZJkNnopiRoEx4eYsi_rn-YPZH1AJbz0IxRRvcbWBk/edit#) ([PDF](AIDA-data-sharing-policy-v1.2.4.pdf))  
 Scientific publication: [Nature Scientific Data comment article](https://www.nature.com/articles/s41597-020-00674-0) (OpenAccess)  
 > Hedlund, J., Eklund, A. & Lundström, C. Key insights in the AIDA community policy on sharing of clinical imaging data for research in Sweden. Sci Data **7,** 331 (2020). https://doi.org/10.1038/s41597-020-00674-0
 
@@ -27,7 +27,7 @@ This document does not constitute legal advice.
 
 ## Contents
 
-Printable version: [AIDA data sharing policy v1.2.3](https://docs.google.com/document/d/17MZJkNnopiRoEx4eYsi_rn-YPZH1AJbz0IxRRvcbWBk/edit#) ([PDF](AIDA-data-sharing-policy-v1.2.3.pdf))
+Printable version: [AIDA data sharing policy v1.2.4](https://docs.google.com/document/d/17MZJkNnopiRoEx4eYsi_rn-YPZH1AJbz0IxRRvcbWBk/edit#) ([PDF](AIDA-data-sharing-policy-v1.2.4.pdf))
 
 **[Context](context/)**  
 Law, ethics, and protections in the common practice of sharing clinical imaging data for research in Sweden and similar countries.
@@ -48,6 +48,9 @@ Examples of what AIDA considers correct anonymization in medical imaging.
 Template documents to facilitate setting up legal and ethical data sharing outside of AIDA.
 
 ## Version history
+
+* 1.2.4 2021-07-05 [.pdf](AIDA-data-sharing-policy-v1.2.4.pdf)
+  * Add [Access request evaluation](policy/#access-request-evaluation) decision support.
 
 * 1.2.3 2021-06-18 [.pdf](AIDA-data-sharing-policy-v1.2.3.pdf)
   * Add [data transfer agreement template](templates/).
