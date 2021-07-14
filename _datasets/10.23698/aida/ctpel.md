@@ -82,6 +82,7 @@ other:
   - "CN"
   - "DE"
   - "ES"
+  - "FR"
   - "GB"
   - "IN"
   - "KR"
