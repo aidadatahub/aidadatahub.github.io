@@ -89,7 +89,6 @@ other:
   - "NL"
   - "RO"
   - "SE"
-  - "UK"
   - "US"
   organ:
   - name: "Pelvis"
