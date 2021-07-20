@@ -77,11 +77,15 @@ More information on the [AIDA internal wiki](#wiki)
 We recommend using the nextcloud client, or [rclone.org](https://rclone.org) with the WebDAV interface.
 Always use the latest version. Both nextcloud and rclone develop fast.
 
-WebDAV urls are on the form:
+AIDA users can access their data through their WebDAV url, on the form:
 
 `https://nextcloud.aida.scilifelab.se/remote.php/dav/files/USERNAME/`
 
-For share links, you can get the `USERNAME` from the last part of the link, i.e:
+For share links, use the url:
+
+`https://nextcloud.aida.scilifelab.se/public.php/webdav`
+
+The `USERNAME` is then the last part of the link, i.e:
 
 `https://nextcloud.aida.scilifelab.se/s/USERNAME`
 
