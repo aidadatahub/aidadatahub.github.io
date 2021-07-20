@@ -108,6 +108,7 @@ other:
     and transverse colon.
   countries-shared:
     - "CH"
+    - "FI"
     - "NO"
     - "SE"
   organ:

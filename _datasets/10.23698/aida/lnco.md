@@ -80,6 +80,7 @@ other:
 
     See details below.
   countries-shared:
+  - "FI"
   - "IE"
   - "NO"
   - "SE"

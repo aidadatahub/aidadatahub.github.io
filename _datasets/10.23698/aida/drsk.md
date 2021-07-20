@@ -101,6 +101,7 @@ other:
     of cartilage of auditory canal, subcutaneous fatty tissue, subcutaneous
     tissue and surgical margins.
   countries-shared:
+  - "FI"
   - "NL"
   - "NO"
   - "SE"
