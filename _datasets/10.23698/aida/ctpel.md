@@ -81,6 +81,7 @@ other:
   - "CH"
   - "CN"
   - "DE"
+  - "DK"
   - "ES"
   - "FR"
   - "GB"
