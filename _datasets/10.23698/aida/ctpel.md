@@ -78,6 +78,7 @@ other:
     trained radiologist.
   countries-shared:
   - "BE"
+  - "BR"
   - "CH"
   - "CN"
   - "DE"
