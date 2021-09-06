@@ -80,6 +80,7 @@ other:
     an image by image process (in axial view 1 or 0,625mm images) using MITK
     Workbench. 1 283 annotations were made, in a total of 38 emboli.
   countries-shared:
+    - "BE"
     - "SE"
     - "IN"
     - "JO"
