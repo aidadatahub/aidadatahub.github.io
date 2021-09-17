@@ -3,11 +3,11 @@ title: "AIDA Data Hub Services"
 description: "Services provided by the <a href='/'>AIDA Data Hub</a>."
 ---
 We offer leading edge services to researchers in Swedish medical imaging AI, in
-collaboration with the [Analytic Imaging Diagnostics Arena](/about/aida) (AIDA),
-the
-[Center for Medical Image Science and Visualization](https://liu.se/cmiv) (CMIV),
-and the [SciLifeLab](https://scilifelab.se) [Bioinformatics Platform](https://nbis.se)
-and [Data Center](https://scilifelab.se/data).
+collaboration with the Analytic Imaging Diagnostics Arena ([AIDA](/about/aida)),
+the Center for Medical Image Science and Visualization
+([CMIV](https://liu.se/cmiv)), and the [SciLifeLab](https://scilifelab.se)
+Bioinformatics Platform ([NBIS](https://nbis.se)) and
+[Data Center](https://scilifelab.se/data).
 
 One example is the [AIDA DGX-2 Service](#dgx-2) which is currently the
 largest national GPU resource for processing sensitive personal data for

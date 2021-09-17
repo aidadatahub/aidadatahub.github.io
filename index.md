@@ -1,18 +1,17 @@
 ---
 ---
-We offer [Datasets](/datasets), [Data Sharing Policy](/sharing), and
+We offer [Data Sharing](/datasets), [Policy Support](/sharing), and
 [Services](/services) for researchers in Swedish medical imaging AI, and operate
 the currently largest national AI research system for sensitive personal data in
 Sweden.
 
-AIDA Data Hub is part of the [Analytic Imaging Diagnostics Arena](/about/aida) (AIDA),
-and of the [SciLifeLab](https://scilifelab.se) [Bioinformatics Platform](https://nbis.se)
-and its
-[BioImage Informatics facility](https://www.scilifelab.se/facilities/bioimage-informatics/).
+AIDA Data Hub is part of the Analytic Imaging Diagnostics Arena ([AIDA](/about/aida)),
+and of the [SciLifeLab](https://scilifelab.se) Bioinformatics Platform ([NBIS](https://nbis.se))
+and its BioImage Informatics facility
+([BIIF](https://www.scilifelab.se/facilities/bioimage-informatics/)).
 AIDA Data Hub also leads [BIGPICTURE](https://bigpicture.eu) infrastructure development.
-AIDA is coordinated by the
-[Center for Medical Image Science and Visualization](https://liu.se/cmiv) (CMIV)
-at [Linköping University](https://liu.se).
+AIDA is coordinated by the Center for Medical Image Science and Visualization
+([CMIV](https://liu.se/cmiv)) at [Linköping University](https://liu.se).
 
 ## AIDA Dataset Register
 Using the [AIDA Dataset register](/datasets) we help researchers share their
