@@ -109,6 +109,10 @@ other:
     url: "/assets/images/10.23698/aida/drli/slice.jpeg"
     thumbnail-url: "/assets/images/10.23698/aida/drli/slice-thumbnail.jpeg"
 ---
+## File formats
+DICOM. Please see our help pages for some examples of
+[working with DICOM](/about/help/#working-with-dicom).
+
 ## License
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research.
