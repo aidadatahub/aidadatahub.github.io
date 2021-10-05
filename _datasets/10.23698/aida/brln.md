@@ -51,7 +51,7 @@ datacite:
     "@id": "https://orcid.org/0000-0001-6443-3604"
     "@type": "Person"
   - name: "AIDA Data Hub"
-    email: "aida@nbis.se"
+    email: "aida-data@nbis.se"
     "@id": "https://datahub.aida.scilifelab.se"
     "@type": "Organization"
   dateCreated: "2019-11-19"

@@ -96,7 +96,7 @@ AIDA offers access to a cloud-based production grade
 [Picture Archive and Communication System](https://aida.medtech4health.se/ids7/) (PACS)
 with both a desktop client (Windows) and a web client for viewing and interacting
 with image data. The AIDA PACS can be used by AIDA Partners to explore different
-integrationopportunities, annotate data and perform reader studies. Please reach
+integration opportunities, annotate data and perform reader studies. Please reach
 out to [AIDA](mailto:aida@nbis.se) for access and further information.
 Provided by AIDA.
 
