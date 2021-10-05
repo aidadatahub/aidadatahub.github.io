@@ -27,7 +27,7 @@ For questions regarding data or the AIDA data hub please contact the
 
 For all other inquiries please contact [AIDA](mailto:aida@nbis.se).
 
-## What are DOIs and dataset registers? <span id="doi"/>
+## What are DOIs and dataset registers?<span id="doi"/>
 The AIDA data hub facilitates sharing datasets for machine learning in medical
 image diagnostics. AIDA uses
 Digital Object Identifiers ([DOI](https://www.doi.org/)) to increase exposure
