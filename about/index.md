@@ -8,7 +8,8 @@ optimized [DOI landing pages](#doi), and also in machine-readable form through
 an [API](api/). This site also describes our [services](/services) and
 [policies](/sharing).
 
-You may also want to learn about:
+Links:
+* [Help](help)
 * [Analytic Imaging Diagnostics Arena (AIDA)](aida)
 * [AIDA Data Sharing Policy](/sharing/)
 * [What are DOIs and dataset registers?](#what-are-dois-and-dataset-registers) (cf below)
@@ -26,7 +27,7 @@ For questions regarding data or the AIDA data hub please contact the
 
 For all other inquiries please contact [AIDA](mailto:aida@nbis.se).
 
-## What are DOIs and dataset registers? <span id="doi"/>
+## What are DOIs and dataset registers?<span id="doi"/>
 The AIDA data hub facilitates sharing datasets for machine learning in medical
 image diagnostics. AIDA uses
 Digital Object Identifiers ([DOI](https://www.doi.org/)) to increase exposure
