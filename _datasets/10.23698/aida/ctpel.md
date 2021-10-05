@@ -27,7 +27,7 @@ datacite:
     "@type": "Person"
   provider:
   - name: "AIDA Data Hub"
-    email: "aida@nbis.se"
+    email: "aida-data@nbis.se"
     "@id": "https://datahub.aida.scilifelab.se"
     "@type": "Organization"
   - name: "Chunliang Wang"
