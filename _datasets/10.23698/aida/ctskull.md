@@ -1,5 +1,5 @@
 ---
-hidden: yes
+hidden: no
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
@@ -38,7 +38,7 @@ datacite:
   datePublished: "2021-09-14"
   dateModified: "2021-09-14"
   keywords: "Radiology, Skull, CT, Computed tomography, Face blur, Male, Female"
-  version: "0.1"
+  version: "1.0.0"
   description: |
     The data contains 300 skulls. The data is divided into three groups with 100
     scans in three categories Females, Males, and Mix. The purpose of the
@@ -81,7 +81,7 @@ other:
   phase:
   image:
   exampleImage:
-  - title: "Sample image."
+  - title: "3D visualisation of typical coverage that goes down to the maxilla and covers the entire skull and including the mastoids."
     url: "/assets/images/10.23698/aida/ctskull/sample-image.png"
     thumbnail-url: "/assets/images/10.23698/aida/ctskull/sample-image-thumbnail.png"
 ---
