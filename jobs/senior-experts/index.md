@@ -112,6 +112,4 @@ similar to those outlined for the AIDA Data Hub and BIGPICTURE.
 
 ### Contact
 
-Qualified candidates are warmly welcome to contact
-[aida@nbis.se](mailto:aida@nbis.se?subject=Senior%20experts%20at%20at%20science%20excellence%20center%20in%20medical%20imaging%3f)
-to discuss ways forward!
+Qualified candidates are warmly welcome to contact AIDA Data director [Joel Hedlund](mailto:joel.hedlund@liu.se) or AIDA Director [Claes Lundström](mailto:claes.lundstrom@liu.se) to discuss ways forward.
