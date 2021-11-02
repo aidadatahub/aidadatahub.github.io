@@ -15,6 +15,7 @@ Links:
 * [What are DOIs and dataset registers?](#what-are-dois-and-dataset-registers) (cf below)
 * [AIDA Data sharing metrics](/metrics) and [FAIR](/metrics#fair)
 * [AIDA Dataset API](/api)
+* [Jobs](/jobs)
 
 
 ## Feedback
