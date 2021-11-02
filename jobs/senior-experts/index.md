@@ -1,6 +1,6 @@
 ---
 title: "Call for candidates: Senior experts at data science excellence center in medical imaging"
-description: "Job opportunities at the <a href'/'>AIDA Data Hub</a>."
+description: "Job opportunities at the <a href='/'>AIDA Data Hub</a>."
 ---
 
 <span style="font-size: smaller;">[AIDA Data Hub](/) &nbsp;&raquo;&nbsp; [Jobs](/jobs/)</span>
