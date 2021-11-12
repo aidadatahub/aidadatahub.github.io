@@ -66,9 +66,9 @@ datacite:
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution."
   citation:
-#  - "@type": "" # In review.
-#    "@id": ""
-#    name: ""
+  - "@type": "CreativeWork"
+    "@id": "https://doi.org/10.1080/17453674.2021.1891512"
+    name: "Georg Zdolsek, Yupei Chen, Hans-Peter Bögl, Chunliang Wang, Mischa Woisetschläger & Jörg Schilcher (2021) Deep neural networks with promising diagnostic accuracy for the classification of atypical femoral fractures, Acta Orthopaedica, 92:4, 394-400, DOI: 10.1080/17453674.2021.1891512"
 other:
   shortName: "AFFAI"
   status: "Completed"
@@ -126,8 +126,10 @@ publications resulting from the use of this data cite the following works:
 ({{ page.datacite.datePublished | date: "%Y" }})
 {{ page.datacite.name }}
 [doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
+{% for c in page.datacite.citation %}
+  [{{ c.name }}]({{c["@id"]}})
 
-Paper 1 (in review).
+{% endfor %}
 
 THE DATA IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD
 TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN
