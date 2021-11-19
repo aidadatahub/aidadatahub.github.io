@@ -107,8 +107,8 @@ and is run in tight conncetion with LiU initiatives towards hosting large-scale
 computing for sensitive personal data, both locally and nationally.
 
 The senior experts to be recruited will have key roles in designing, developing
-and operating the this next generation of data services, employing skill sets
-similar to those outlined for the AIDA Data Hub and BIGPICTURE.
+and operating the next generation of data services, employing skill sets similar
+to those outlined for the AIDA Data Hub and BIGPICTURE.
 
 ### Contact
 
