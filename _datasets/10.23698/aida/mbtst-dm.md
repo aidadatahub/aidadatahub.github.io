@@ -91,6 +91,7 @@ other:
     were verified with biopsy.
   countries-shared:
   - "SE"
+  - "BR"
   - "EG"
   - "AR"
   organ:
