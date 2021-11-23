@@ -18,6 +18,10 @@ Using the [AIDA Dataset register](/datasets) we help researchers share their
 data with the world, making high-quality datasets more [FAIR](/metrics#fair)
 and citeable using Digital Object Identifiers
 ([DOI](/about#what-are-dois-and-dataset-registers)).
+
+We can also fund work with extracting [prioritized data](/prio) for sharing on
+the AIDA Data Hub.
+
 {% assign bytes = 0 -%}
 {% assign scans = 0 -%}
 {% assign annotations = 0 -%}
@@ -30,8 +34,8 @@ and citeable using Digital Object Identifiers
   {% assign datasets = datasets | plus: 1 %}
 {% endfor -%}
 So far <b>{% include human_friendly_filesize bytes=bytes %} </b> data
-have been shared, in {{ scans }} scans with {{ annotations }} annotations in {{ datasets }} datasets,
-according to clinical [data acquisition priorities](/prio)
+have been shared, in {{ scans }} scans with {{ annotations }} annotations in {{ datasets }} datasets.
+
 
 You can [Browse](/datasets) or [Search](/search) for datasets, view
 [Metrics](/metrics), or use our [API](/api).
