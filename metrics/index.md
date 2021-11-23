@@ -63,7 +63,6 @@ description: "<a href='/'>AIDA Data Hub</a> sharing in numbers."
   {% for c in country-codes %}{% assign countries = countries | push: site.data.countrynames[c] %}{% endfor %}
   {% assign countries = countries | uniq | sort %}
 {% endcapture %}
-*<center>"AIDA Data Hub is among the <a href="#fair">12% highest scoring</a> repositories in the sample" &mdash;<a href="https://www.eosc-nordic.eu/">EOSC-Nordic</a></center>*
 ## Countries
 {% include world-map.svg %}
 
@@ -104,7 +103,7 @@ AIDA Data Hub has facilitated [legal and ethical data sharing](../sharing/overvi
 </table>
 
 ## Modalities
-Modalities: {{ modalities | size }}.
+Modalities: {{ modalities | size }}
 
 Please click the names below to do a simple text search for matching datasets:
 
@@ -115,7 +114,7 @@ Please click the names below to do a simple text search for matching datasets:
 </ul>
 
 ## Organs
-Organs: {{ organs | size }} (unique names).
+Organs: {{ organs | size }} (unique names)
 
 Please click the names below to do a simple text search for matching datasets:
 
