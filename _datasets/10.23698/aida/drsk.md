@@ -105,6 +105,7 @@ other:
   - "NL"
   - "NO"
   - "SE"
+  - "AT"
   organ:
   - name: "Skin"
     sctid: 39937001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
