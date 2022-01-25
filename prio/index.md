@@ -30,3 +30,4 @@ Approved: 2021-03-19
 7. PD-L1 pathology data in non-small-cell lung cancer (NSCLC).
 8. Radiography data for AI classification of atypical femoral fractures.
 9. Head CT.
+10. MRI data, for real-time adaptive radiotherapy (RT-ART)
