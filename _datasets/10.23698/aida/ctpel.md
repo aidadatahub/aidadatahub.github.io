@@ -92,6 +92,7 @@ other:
   - "RO"
   - "SE"
   - "US"
+  - "IL"
   organ:
   - name: "Pelvis"
     sctid: 12921003 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
