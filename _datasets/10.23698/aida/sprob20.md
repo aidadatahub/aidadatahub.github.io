@@ -57,21 +57,8 @@ datacite:
     id: "https://datahub.aida.scilifelab.se/10.23698/aida/megre#aida-by-license"
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution."
+  
   citation:
-  - "@type": "Article"
-    "@id": "https://doi.org/10.1088/1361-6560/abb0f9"
-    name: |
-      Jamtheim Gustafsson et al (2020), Development and evaluation of a deep
-      learning based artificial intelligence for automatic identification of
-      gold fiducial markers in an MRI-only prostate radiotherapy workflow.
-      Phys. Med. Biol. doi:10.1088/1361-6560/abb0f9
-  - "@type": "Article"
-    "@id": "https://doi.org/10.1002/mp.12516"
-    name: |
-      Gustafsson, C., Korhonen, J., Persson, E., Gunnlaugsson, A., Nyholm, T.
-      and Olsson, L.E. (2017), Registration free automatic identification of
-      gold fiducial markers in MRI target delineation images for prostate
-      radiotherapy. Med. Phys., 44: 5563-5574. doi:10.1002/mp.12516
 other:
   shortName: "SPROB20"
   status: "Completed"
@@ -101,22 +88,22 @@ other:
   phase:
   exampleImage:
   - title: "Biopsies from the dataset"
-    url: "/assets/images/10.23698/aida/sprob20/image_1_cropped.jpg"
-    thumbnail-url: "/assets/images/10.23698/aida/sprob20/image_1_cropped.jpg"
+    url: "/assets/images/10.23698/aida/sprob20/image_1_full.jpg"
+    thumbnail-url: "/assets/images/10.23698/aida/sprob20/image_1.jpg"
   - title: "Biopsies from the dataset"
-    url: "/assets/images/10.23698/aida/sprob20/image_2.jpg"
+    url: "/assets/images/10.23698/aida/sprob20/image_2_full.jpg"
     thumbnail-url: "/assets/images/10.23698/aida/sprob20/image_2.jpg"
   - title: "Biopsies from the dataset"
-    url: "/assets/images/10.23698/aida/sprob20/image_3.png"
+    url: "/assets/images/10.23698/aida/sprob20/image_3_full.jpg"
     thumbnail-url: "/assets/images/10.23698/aida/sprob20/image_3.png"
   - title: "Full resolution patch from one of the biopsies."
-    url: "/assets/images/10.23698/aida/sprob20/image_4.png"
+    url: "/assets/images/10.23698/aida/sprob20/image_4_full.png"
     thumbnail-url: "/assets/images/10.23698/aida/sprob20/image_4.png"
 ---
 ## Kernels
-See github repository for pre-processing and method source code
+Example jupyter notebook, SPROB20_sample.ipynb, for loading data from the dataset is available at
 
-[https://github.com/jamtheim/MEGRE-Net](https://github.com/jamtheim/MEGRE-Net)
+[https://github.com/spearpoint-analytics/sprob20](https://github.com/spearpoint-analytics/sprob20)
 
 ## File formats
 
