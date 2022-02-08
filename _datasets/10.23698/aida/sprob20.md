@@ -1,5 +1,5 @@
 ---
-hidden: no
+hidden: yes
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
@@ -53,6 +53,11 @@ datacite:
     2611 scanned prostate biopsies from 460 patient cases sampled between 2015 and 2018. Clinical data and treatment decisions made in connection with biopsy sampling exist on case level. According to metadata, roughly ¼ of the biopsies contain cancer.
 
   license:
+  - name: "Controlled access"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/brln#controlled-access"
+    "@type": "CreativeWork"
+    abstract: |
+      Free for use in legal and ethical medical diagnostics research.
   - name: "AIDA BY license"
     id: "https://datahub.aida.scilifelab.se/10.23698/aida/megre#aida-by-license"
     "@type": "CreativeWork"
