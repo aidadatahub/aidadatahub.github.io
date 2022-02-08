@@ -101,8 +101,8 @@ other:
   phase:
   exampleImage:
   - title: "Biopsies from the dataset"
-    url: "/assets/images/10.23698/aida/sprob20/image_1.jpg"
-    thumbnail-url: "/assets/images/10.23698/aida/sprob20/image_1.jpg"
+    url: "/assets/images/10.23698/aida/sprob20/image_1_cropped.jpg"
+    thumbnail-url: "/assets/images/10.23698/aida/sprob20/image_1_cropped.jpg"
   - title: "Biopsies from the dataset"
     url: "/assets/images/10.23698/aida/sprob20/image_2.jpg"
     thumbnail-url: "/assets/images/10.23698/aida/sprob20/image_2.jpg"
