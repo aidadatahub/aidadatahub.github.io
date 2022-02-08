@@ -6,22 +6,22 @@ datacite:
   "@id": "https://doi.org/10.23698/aida/sprob20"
   name: "Spear Prostate Biopsy Dataset (SPROB20)"
   about: "Pathology"
-  url: "https://datahub.aida.scilifelab.se/10.23698/aida/megre"
+  url: "https://datahub.aida.scilifelab.se/10.23698/aida/sprob20"
   author:
   - name: "Peter Walhagen"
-    "@id": "https://orcid.org/0000-0003-2931-5615"
+    "@id": ""
     "@type": "Person"
   - name: "Pontus Röbeck"
-    "@id": "https://orcid.org/0000-0003-2931-5615"
+    "@id": ""
     "@type": "Person"
   - name: "Ewert Bengtsson"
-    "@id": "https://orcid.org/0000-0003-2931-5615"
+    "@id": ""
     "@type": "Person"
   - name: "Christer Busch"
-    "@id": "https://orcid.org/0000-0003-2931-5615"
+    "@id": ""
     "@type": "Person"
   - name: "Michael Häggman"
-    "@id": "https://orcid.org/0000-0003-2931-5615"
+    "@id": ""
     "@type": "Person"
   publisher:
     "@type": "Organization"
@@ -50,7 +50,7 @@ datacite:
   version: "1.0.0"
   # 1.2.0: Paper now published. References & license wording updated.
   description: |
-    2611 scanned prostate biopsies from 460 patient cases sampled between 2015 and 2018. Clinical data and treatment decisions made in connection with biopsy sampling exist on case level. According to metadata, roughly ¼ of the biopsies contain cancer.
+    2611 scanned prostate biopsies from 460 patient cases sampled between 2015 and 2018. Annotation of clinical metadata and treatment decisions made in connection with biopsy sampling exist on case-level. Roughly 35% of the biopsies contain cancer.
 
   license:
   - name: "Controlled access"
@@ -79,31 +79,31 @@ other:
   - name: "Prostate"
     sctid: 41216001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "39 - 79 years, median 67 years"
-  bytes: 492 # ~160 GB
+  bytes: 49200000000 # ~160 GB
   numberOfScans: 2611 # 326 patients, augmented to a total of 652 subjects (x8 echo times) for train/validation dataset. 40 additional patients for a test dataset (x8 echo times).
-  caseLevelAnnotaions: "Treatment decision, Gleason, PIRADS, PSA, Prostate volume, T-stage, mm tissue total, mm cancer total, N tot biopsies, N pos biopsies, Fxb status"
+  caseLevelAnnotaions: "Treatment decision, Gleason, PIRADS, PSA, Prostate volume, clinical T-stage"
   imageLevelAnnotations: "Connection to use"
-  numberOfAnnotations: 692 # 652 (x8 echo times) + 40 (x8 echo times)
+  numberOfAnnotations: 460 # 652 (x8 echo times) + 40 (x8 echo times)
   resolution: "0.2204 microns per pixel (40x)"
   modality:
-  - "MR"
+  - "SM"
   scanner:
   - "Hamamatsu NanoZoomer S60" # software versions DV25.0R02-1549b and DV26.0R03-1831b
   stain: "H&E"
   phase:
   exampleImage:
-  - title: "Biopsies from the dataset"
-    url: "/assets/images/10.23698/aida/sprob20/image_1_full.jpg"
-    thumbnail-url: "/assets/images/10.23698/aida/sprob20/image_1.jpg"
-  - title: "Biopsies from the dataset"
-    url: "/assets/images/10.23698/aida/sprob20/image_2_full.jpg"
-    thumbnail-url: "/assets/images/10.23698/aida/sprob20/image_2.jpg"
-  - title: "Biopsies from the dataset"
-    url: "/assets/images/10.23698/aida/sprob20/image_3_full.jpg"
-    thumbnail-url: "/assets/images/10.23698/aida/sprob20/image_3.png"
-  - title: "Full resolution patch from one of the biopsies."
-    url: "/assets/images/10.23698/aida/sprob20/image_4_full.png"
-    thumbnail-url: "/assets/images/10.23698/aida/sprob20/image_4.png"
+  - title: "Example biopsy downsampled 8x"
+    url: "/assets/images/10.23698/aida/sprob20/a.jpg"
+    thumbnail-url: "/assets/images/10.23698/aida/sprob20/a_thumb.jpg"
+  - title: "Example biopsy downsampled 8x"
+    url: "/assets/images/10.23698/aida/sprob20/b.jpg"
+    thumbnail-url: "/assets/images/10.23698/aida/sprob20/b_thumb.jpg"
+  - title: "Example patch in full resolution"
+    url: "/assets/images/10.23698/aida/sprob20/pa_fullres.jpg"
+    thumbnail-url: "/assets/images/10.23698/aida/sprob20/pa_fullres_thumb.jpg"
+  - title: "Example patch in full resolution"
+    url: "/assets/images/10.23698/aida/sprob20/pd_fullres.jpg"
+    thumbnail-url: "/assets/images/10.23698/aida/sprob20/pd_fullres_thumb.jpg"
 ---
 ## Kernels
 Example jupyter notebook, SPROB20_sample.ipynb, for loading data from the dataset is available at
