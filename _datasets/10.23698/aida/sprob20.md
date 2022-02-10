@@ -4,14 +4,14 @@ datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
   "@id": "https://doi.org/10.23698/aida/sprob20"
-  name: "Spear Prostate Biopsy Dataset (SPROB20)"
+  name: "Spear Prostate Biopsy 2020 (SPROB20)"
   about: "Pathology"
   url: "https://datahub.aida.scilifelab.se/10.23698/aida/sprob20"
   author:
   - name: "Peter Walhagen"
-    "@id": ""
+    "@id": "https://orcid.org/0000-0002-3164-818X"
     "@type": "Person"
-  - name: "Pontus Röbeck"
+  - name: "Pontus R&ouml;beck"
     "@id": ""
     "@type": "Person"
   - name: "Ewert Bengtsson"
@@ -20,24 +20,28 @@ datacite:
   - name: "Christer Busch"
     "@id": ""
     "@type": "Person"
-  - name: "Michael Häggman"
+  - name: "Michael H&auml;ggman"
     "@id": ""
     "@type": "Person"
   publisher:
     "@type": "Organization"
     name: "AIDA"
-  copyrightYear: 2021
+  copyrightYear: 2022
   copyrightHolder:
-  - name: "Michael Häggman"
-    "@id": "https://orcid.org/0000-0003-2931-5615"
+  - name: "Michael H&auml;ggman"
+    "@id": ""
     "@type": "Person"
   - name: "Uppsala University Hospital"
-    url: "https://vard.skane.se/skanes-universitetssjukhus-sus/"
+    url: "https://www.akademiska.se/en/"
     "@type": "Organization"
   provider:
-  - name: "Christian Jamtheim Gustafsson"
-    email: "Christian.JamtheimGustafsson@skane.se"
-    "@id": "https://orcid.org/0000-0003-2931-5615"
+  - name: "Peter Walhagen"
+    email: "peter.walhagen@spearpoint.se"
+    "@id": "https://orcid.org/0000-0002-3164-818X"
+    "@type": "Person"
+  - name: "Michael H&auml;ggman"
+    email: " michael.haggman@akademiska.se"
+    "@id": ""
     "@type": "Person"
   - name: "AIDA Data Hub"
     email: "aida-data@nbis.se"
@@ -54,12 +58,12 @@ datacite:
 
   license:
   - name: "Controlled access"
-    id: "https://datahub.aida.scilifelab.se/10.23698/aida/brln#controlled-access"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/sprob20#controlled-access"
     "@type": "CreativeWork"
     abstract: |
       Free for use in legal and ethical medical diagnostics research.
   - name: "AIDA BY license"
-    id: "https://datahub.aida.scilifelab.se/10.23698/aida/megre#aida-by-license"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/sprob20#aida-by-license"
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution."
   
@@ -68,22 +72,18 @@ other:
   shortName: "SPROB20"
   status: "Completed"
   annotation: |
-    The cases are annotated with clinical data relevant for the treatment decision and the following treatment decision made in conjunction with the biopsy sampling.Each image is given an identifier which can be connected to the case by the case mapping file.
-    Clinical data and treatment decisions have been extracted by manual medical records search. The information about treatment is what has been noted in conjunction with the diagnosis and has not been verified further that the treatment actually occurred. 
-    Some cases contain missing data in some of the fields as the data wasn’t available. 
-    The number of biopsies noted on the case data are not always agreeing with the number of biopsies sampled. This as some biopsies may have been resliced or all biopsies might not have been found.
-
+    The cases are annotated with clinical data relevant for the treatment decision and the following treatment decision made in conjunction with the biopsy sampling.Each image is given an identifier which can be connected to the case by the case mapping file. Clinical data and treatment decisions have been extracted by manual medical records search. The information about treatment is what has been noted in conjunction with the diagnosis and has not been verified further that the treatment actually occurred. Some cases contain missing data in some of the fields as the data wasn’t available. The number of biopsies noted on the case data are not always agreeing with the number of biopsies sampled. This as some biopsies may have been resliced or all biopsies might not have been found.
   countries-shared: # Fixme: insert link to paper in annotation text above when published.
   - "SE"
   organ:
   - name: "Prostate"
     sctid: 41216001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "39 - 79 years, median 67 years"
-  bytes: 49200000000 # ~160 GB
+  bytes: 492000000000 # ~160 GB
   numberOfScans: 2611 # 326 patients, augmented to a total of 652 subjects (x8 echo times) for train/validation dataset. 40 additional patients for a test dataset (x8 echo times).
   caseLevelAnnotaions: "Treatment decision, Gleason, PIRADS, PSA, Prostate volume, clinical T-stage"
   imageLevelAnnotations: "Connection to use"
-  numberOfAnnotations: 460 # 652 (x8 echo times) + 40 (x8 echo times)
+  numberOfAnnotations:  # 652 (x8 echo times) + 40 (x8 echo times)
   resolution: "0.2204 microns per pixel (40x)"
   modality:
   - "SM"
