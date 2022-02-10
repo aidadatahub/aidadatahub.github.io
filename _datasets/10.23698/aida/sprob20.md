@@ -11,7 +11,7 @@ datacite:
   - name: "Peter Walhagen"
     "@id": "https://orcid.org/0000-0002-3164-818X"
     "@type": "Person"
-  - name: "Pontus R\u00f6beck"
+  - name: "Pontus Röbeck"
     "@id": ""
     "@type": "Person"
   - name: "Ewert Bengtsson"
@@ -20,7 +20,7 @@ datacite:
   - name: "Christer Busch"
     "@id": ""
     "@type": "Person"
-  - name: "Michael H\u00e4ggman"
+  - name: "Michael Häggman"
     "@id": ""
     "@type": "Person"
   publisher:
@@ -28,7 +28,7 @@ datacite:
     name: "AIDA"
   copyrightYear: 2022
   copyrightHolder:
-  - name: "Michael H\u00e4ggman"
+  - name: "Michael Häggman"
     "@id": ""
     "@type": "Person"
   - name: "Uppsala University Hospital"
@@ -39,7 +39,7 @@ datacite:
     email: "peter.walhagen@spearpoint.se"
     "@id": "https://orcid.org/0000-0002-3164-818X"
     "@type": "Person"
-  - name: "Michael H\u00e4ggman"
+  - name: "Michael Häggman"
     email: " michael.haggman@akademiska.se"
     "@id": ""
     "@type": "Person"
