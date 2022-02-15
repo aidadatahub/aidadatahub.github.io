@@ -63,7 +63,7 @@ datacite:
     abstract: |
       Free for use in legal and ethical medical diagnostics research.
   - name: "AIDA BY license"
-    id: "https://datahub.aida.scilifelab.se/10.23698/aida/sprob20#aida-by-license"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/sprob20#aida-by-ca-license"
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution."
   
@@ -72,14 +72,18 @@ other:
   shortName: "SPROB20"
   status: "Completed"
   annotation: |
-    The cases are annotated with clinical data relevant for the treatment decision and the following treatment decision made in conjunction with the biopsy sampling.Each image is given an identifier which can be connected to the case by the case mapping file. Clinical data and treatment decisions have been extracted by manual medical records search. The information about treatment is what has been noted in conjunction with the diagnosis and has not been verified further that the treatment actually occurred. Some cases contain missing data in some of the fields as the data wasn’t available. The number of biopsies noted on the case data are not always agreeing with the number of biopsies sampled. This as some biopsies may have been resliced or all biopsies might not have been found.
+    The cases are annotated with clinical data relevant for the treatment decision and the following treatment decision made in conjunction with the biopsy sampling.
+    Each image is given an identifier which can be connected to the case by the case mapping file.
+    Clinical data and treatment decisions have been extracted by manual medical records search. The information about treatment is what has been noted in conjunction with the diagnosis. 
+    Some cases contain missing data in some of the fields as the data wasn’t available. Some of the biopsies are resliced versions of another biopsy belonging to the same case. 
+    Together with the images macro-images of the biopsies exist with localized annotation of gleason grade and cancer detection as provided in the clinical workflow.
   countries-shared: # Fixme: insert link to paper in annotation text above when published.
   - "SE"
   organ:
   - name: "Prostate"
     sctid: 41216001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "39 - 79 years, median 67 years"
-  bytes: 492000000000 # ~160 GB
+  bytes: 492600000000 # ~160 GB
   numberOfScans: 2611 # 326 patients, augmented to a total of 652 subjects (x8 echo times) for train/validation dataset. 40 additional patients for a test dataset (x8 echo times).
   caseLevelAnnotaions: "Treatment decision, Gleason, PIRADS, PSA, Prostate volume, clinical T-stage"
   imageLevelAnnotations: "Connection to use"
@@ -102,8 +106,8 @@ other:
     url: "/assets/images/10.23698/aida/sprob20/pa_fullres.jpg"
     thumbnail-url: "/assets/images/10.23698/aida/sprob20/pa_fullres_thumb.jpg"
   - title: "Example patch in full resolution"
-    url: "/assets/images/10.23698/aida/sprob20/pd_fullres.jpg"
-    thumbnail-url: "/assets/images/10.23698/aida/sprob20/pd_fullres_thumb.jpg"
+    url: "/assets/images/10.23698/aida/sprob20/macro_a.jpg"
+    thumbnail-url: "/assets/images/10.23698/aida/sprob20/macro_a_thumb.jpg"
 ---
 ## Kernels
 Example jupyter notebook, SPROB20_sample.ipynb, for loading data from the dataset is available at
@@ -112,7 +116,7 @@ Example jupyter notebook, SPROB20_sample.ipynb, for loading data from the datase
 
 ## File formats
 
-Images: Pyramidal.tif
+Images: Pyramidal .tif
 
 Metadata: .csv
 
