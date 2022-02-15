@@ -26,7 +26,7 @@ datacite:
   publisher:
     "@type": "Organization"
     name: "AIDA"
-  copyrightYear: 2022
+  copyrightYear: 2020
   copyrightHolder:
   - name: "Michael Häggman"
     "@id": ""
@@ -55,6 +55,7 @@ datacite:
   # 1.2.0: Paper now published. References & license wording updated.
   description: |
     2611 scanned prostate biopsies from 460 patient cases sampled between 2015 and 2018. Annotation of clinical metadata and treatment decisions made in connection with biopsy sampling exist on case-level. Roughly 35% of the biopsies contain cancer.
+    In-image annotations exists in macro images the form of ink markings from the clinical workflow.
 
   license:
   - name: "Controlled access"
@@ -105,7 +106,7 @@ other:
   - title: "Example patch in full resolution"
     url: "/assets/images/10.23698/aida/sprob20/pa_fullres.jpg"
     thumbnail-url: "/assets/images/10.23698/aida/sprob20/pa_fullres_thumb.jpg"
-  - title: "Example patch in full resolution"
+  - title: "Macro image with annotation"
     url: "/assets/images/10.23698/aida/sprob20/macro_a.jpg"
     thumbnail-url: "/assets/images/10.23698/aida/sprob20/macro_a_thumb.jpg"
 ---
