@@ -1,5 +1,5 @@
 ---
-hidden: yes
+hidden: no
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
@@ -12,7 +12,7 @@ datacite:
     "@id": "https://orcid.org/0000-0002-3164-818X"
     "@type": "Person"
   - name: "Pontus Röbeck"
-    "@id": ""
+    "@id": "https://orcid.org/0000-0001-5556-117X"
     "@type": "Person"
   - name: "Ewert Bengtsson"
     "@id": ""
