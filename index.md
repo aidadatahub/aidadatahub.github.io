@@ -1,9 +1,7 @@
 ---
 ---
 We offer [Data Sharing](/datasets), [Policy Support](/sharing), and
-[Services](/services) for researchers in Swedish medical imaging AI, and operate
-the currently largest national AI research system for sensitive personal data in
-Sweden.
+[Services](/services) for researchers in Swedish medical imaging AI.
 
 AIDA Data Hub is part of the Analytic Imaging Diagnostics Arena ([AIDA](/about/aida)),
 and of the [SciLifeLab](https://scilifelab.se) Bioinformatics Platform ([NBIS](https://nbis.se))
@@ -53,10 +51,8 @@ original sources in official law text. Key insights have been published in
 
 ## AIDA Services
 We offer leading edge [Services](/services) to researchers in Swedish medical imaging AI.
-Examples include the [AIDA DGX-2 Service](/services#dgx-2) which is the currently
-largest national GPU resource for processing sensitive personal data in Sweden.
 
-* [AIDA DGX-2 Service](/services#dgx-2) - AI compute system for sensitive data.
+* [AIDA DGX-2 Service](/services#dgx-2) - Compute system for AI training on sensitive personal data.
 * [AIDA Nextcloud](/services#nextcloud) - Research data sharing.
 * [AIDA PACS](/services#pacs) - Production grade clinical picture archive and communication system.
 * [AIDA Wiki](/services#wiki) - Documentation.

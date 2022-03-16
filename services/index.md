@@ -7,11 +7,7 @@ collaboration with the Analytic Imaging Diagnostics Arena ([AIDA](/about/aida)),
 the Center for Medical Image Science and Visualization
 ([CMIV](https://liu.se/cmiv)), and the [SciLifeLab](https://scilifelab.se)
 Bioinformatics Platform ([NBIS](https://nbis.se)) and
-[Data Center](https://scilifelab.se/data).
-
-One example is the [AIDA DGX-2 Service](#dgx-2) which is currently the
-largest national GPU resource for processing sensitive personal data for
-research in Sweden. Further exampes are introduced in overview sections below.
+[Data Center](https://scilifelab.se/data):
 
 * TOC
 {:toc}
@@ -20,6 +16,8 @@ These services are offered to AIDA partners. All Swedish organizations active in
 medical imaging diagnostics or AI are invited to [become a member of AIDA](/about/aida#join).
 
 ## AIDA DGX-2 Service {#dgx-2}
+Compute resource for AI and training on sensitive personal data for research.
+
 AIDA Data Hub is collaborating with [Nvidia](https://nvidia.com) to operate a
 [DGX-2 machine learning system](https://www.nvidia.com/en-us/data-center/dgx-2/)
 at [CMIV](https://liu.se/cmiv), as a service for leading edge AI researchers in
