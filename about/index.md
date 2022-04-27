@@ -3,7 +3,7 @@ title: "About This Site"
 description: " "
 ---
 This site facilitates [data sharing](../sharing/) by providing information
-on [datasets](/datasets) shared on the [AIDA data hub](/) through search engine
+on [datasets](/datasets) shared on the [AIDA Data Hub](/) through search engine
 optimized [DOI landing pages](#doi), and also in machine-readable form through
 an [API](api/). This site also describes our [services](/services) and
 [policies](/sharing).
@@ -23,13 +23,13 @@ Please report any errors on this website to our GitHub Pages
 [issue tracker](https://github.com/aidadatahub/aidadatahub.github.io/issues),
 or submit a [pull request](https://github.com/aidadatahub/aidadatahub.github.io/pulls).
 
-For questions regarding data or the AIDA data hub please contact the
+For questions regarding data or the AIDA Data Hub please contact the
 [AIDA data director](mailto:aida-data-director@medtech4health.se).
 
 For all other inquiries please contact [AIDA](mailto:aida@nbis.se).
 
 ## What are DOIs and dataset registers?<span id="doi"/>
-The AIDA data hub facilitates sharing datasets for machine learning in medical
+The AIDA Data Hub facilitates sharing datasets for machine learning in medical
 image diagnostics. AIDA uses
 Digital Object Identifiers ([DOI](https://www.doi.org/)) to increase exposure
 and impact of the shared datasets. These DOIs help make the datasets more findable,
@@ -45,7 +45,7 @@ information on that dataset.
 AIDA has its own [DOI prefix](https://search.datacite.org/works?query=snd.aida)
 provided by [DataCite](https://datacite.org) through the
 Swedish National Data Service ([SND](https://snd.gu.se/en)).
-The AIDA data hub and its datasets are discoverable through the global
+The AIDA Data Hub and its datasets are discoverable through the global
 [re3data.org](https://www.re3data.org) registry of research data repositories:
 
 <a id="badge" href="https://www.re3data.org/repository/r3d100013031">

@@ -19,7 +19,7 @@ What then is appropriate anonymization in medical imaging?
 
 While we have concluded several times already (cf for example [here](../context/#appropriate-technical-and-organizational-protective-measures)) that this question must in each case be finally answered by the researchers themselves, we can provide a few examples of what AIDA considers correct anonymization, to support researchers trying to make thoughtful decisions regarding their own datasets.
 
-Each case below has been deemed appropriately anonymous for [AIDA data hub sharing](../policy/#aida-data-hub-sharing), with select images published openly as examples on the [AIDA dataset register](https://datahub.aida.scilifelab.se/datasets).
+Each case below has been deemed appropriately anonymous for [AIDA Data Hub sharing](../policy/#aida-data-hub-sharing), with select images published openly as examples on the [AIDA dataset register](https://datahub.aida.scilifelab.se/datasets).
 
 ## General guidelines
 

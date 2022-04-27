@@ -8,7 +8,7 @@ description: "Policies and guidelines for AIDA activities in data sharing."
 
 AIDA supports data sharing in the following ways:
 
-1.  [AIDA data hub sharing](#aida-data-hub-sharing), which is the primary mode of data sharing in AIDA.
+1.  [AIDA Data Hub sharing](#aida-data-hub-sharing), which is the primary mode of data sharing in AIDA.
 2.  [Large-scale data exports](#large-scale-data-exports) from clinical production systems.
 3.  [Selective sharing](#selective-sharing) only with specified research groups.
 4.  [Support to ethical review applications](#support-to-ethical-review-applications-in-research) that include data sharing aspects.
@@ -71,11 +71,11 @@ The AIDA Nextcloud service can presently be used only with anonymous data.
 
 AIDA supports and can share tools for large-scale data exports from clinical production systems in medical imaging. Please see [large-scale data exports](#large-scale-data-exports) below.
 
-## AIDA data hub sharing
+## AIDA Data Hub sharing
 
-The AIDA data hub is the primary means of data sharing in AIDA. It is used for legal and ethically approved research data sharing (cf [Personal data and legal basis](#personal-data-and-legal-basis) above). AIDA covers costs for sharing prioritized data on the AIDA data hub.
+The AIDA Data Hub is the primary means of data sharing in AIDA. It is used for legal and ethically approved research data sharing (cf [Personal data and legal basis](#personal-data-and-legal-basis) above). AIDA covers costs for sharing prioritized data on the AIDA Data Hub.
 
-A typical scenario for AIDA data hub sharing is that a research institution as copyright holder for the prioritized research data contacts an [AIDA system administrator](mailto:aida-data-director@medtech4health.se) to share the data on the data hub for use within AIDA under specific licensing terms. Thereby, the data is seen as a resource that is accessible to AIDA partners for use within AIDA.
+A typical scenario for AIDA Data Hub sharing is that a research institution as copyright holder for the prioritized research data contacts an [AIDA system administrator](mailto:aida-data-director@medtech4health.se) to share the data on the data hub for use within AIDA under specific licensing terms. Thereby, the data is seen as a resource that is accessible to AIDA partners for use within AIDA.
 
 This is in line with what we perceive as [common practice in the use of clinical imaging data for research in Sweden](context#common-practice-in-the-use-of-clinical-imaging-data-for-research) (cf above). The ethical and legal context around this common practice is discussed in the [Legal discussion](../legal/) section.
 
@@ -88,7 +88,7 @@ Please see the following sections for details:
 
 ### AIDA dataset register
 
-The AIDA Data Hub website holds a register that shows public information on the datasets that have been shared on the AIDA data hub, and is available here:
+The AIDA Data Hub website holds a register that shows public information on the datasets that have been shared on the AIDA Data Hub, and is available here:
 
 [https://datahub.aida.scilifelab.se/datasets](https://datahub.aida.scilifelab.se/datasets)
 
@@ -98,13 +98,13 @@ The AIDA dataset register is used to advertise shared datasets, and to make shar
 
 AIDA members can visually inspect and interact with the data that they have access to through the [AIDA PACS](#aida-pacs). For use in more advanced analyses within the dataset's sharing license, a working copy can be obtained on request to an [AIDA system administrator](mailto:aida-data-director@medtech4health.se). Copyright holders will be notified of the use, but will be asked to approve the use if they have expressly requested this.
 
-Data shared on the AIDA data hub is by default available either in full or in part, and shall in the interest of OpenScience be made available in full on request to the copyright holder.
+Data shared on the AIDA Data Hub is by default available either in full or in part, and shall in the interest of OpenScience be made available in full on request to the copyright holder.
 
 ### Scope and priorities
 
-AIDA can cover costs for sharing, extraction and enrichment of prioritized data on the AIDA data hub.
+AIDA can cover costs for sharing, extraction and enrichment of prioritized data on the AIDA Data Hub.
 
-[AIDA data priorities](https://datahub.aida.scilifelab.se/prio) are continuously set by the [AIDA data hub clinical council](https://medtech4health.se/aida/organisation/), to enable development of those AI tools that will best meet the needs of current and future clinical practice. The data priorities are being continuously updated based on current data hub composition and identified clinical needs. Please [contact the AIDA data director](mailto:aida-data-director@medtech4health.se) for proposals for data extraction or to suggest further data acquisition topics.
+[AIDA data priorities](https://datahub.aida.scilifelab.se/prio) are continuously set by the [AIDA Data Hub clinical council](https://medtech4health.se/aida/organisation/), to enable development of those AI tools that will best meet the needs of current and future clinical practice. The data priorities are being continuously updated based on current data hub composition and identified clinical needs. Please [contact the AIDA data director](mailto:aida-data-director@medtech4health.se) for proposals for data extraction or to suggest further data acquisition topics.
 
 ### Visibility, citability, and digital object identifiers
 
@@ -116,7 +116,7 @@ DOIs work by means of the global [DOI system](https://doi.org/), such that follo
 
 Example: 10.23698/aida/ctpa → [https://doi.org/10.23698/aida/ctpa](https://doi.org/10.23698/aida/ctpa)
 
-AIDA has its own [DOI prefix](https://search.datacite.org/works?query=snd.aida) provided by [DataCite](https://datacite.org) through the Swedish National Data Service ([SND](https://snd.gu.se/en)), and has made the data hub and its datasets discoverable through the global [re3data.org](https://www.re3data.org) registry of research data repositories, here: [AIDA data hub on re3data](https://www.re3data.org/repository/r3d100013031).
+AIDA has its own [DOI prefix](https://search.datacite.org/works?query=snd.aida) provided by [DataCite](https://datacite.org) through the Swedish National Data Service ([SND](https://snd.gu.se/en)), and has made the data hub and its datasets discoverable through the global [re3data.org](https://www.re3data.org) registry of research data repositories, here: [AIDA Data Hub on re3data](https://www.re3data.org/repository/r3d100013031).
 
 ### AIDA data sharing licenses
 
@@ -204,7 +204,7 @@ Such exports are often problematic for caregivers and research institutions for 
 
 Engaging with AIDA for large scale exports can be a way for caregivers to ensure that a well understood regulatory compliant procedure is used, and that critical operations will not be disrupted.
 
-The recommended process is to transfer the data for [AIDA data hub sharing](#aida-data-hub-sharing) if possible, to enable more research groups to ethically and legally utilize the data in further research, thereby generating more value for research and the clinic for the same effort spent in data extraction.
+The recommended process is to transfer the data for [AIDA Data Hub sharing](#aida-data-hub-sharing) if possible, to enable more research groups to ethically and legally utilize the data in further research, thereby generating more value for research and the clinic for the same effort spent in data extraction.
 
 AIDA can also support exports for [selective sharing](#selective-sharing) if data hub sharing is not possible.
 

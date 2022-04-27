@@ -1,6 +1,6 @@
 # AIDA dataset register
 This site provides information on the datasets that have been shared on the AIDA
-data hub, in the form of machine- and human readable landing pages for Digital
+Data Hub, in the form of machine- and human readable landing pages for Digital
 Object Identifiers ([DOI](https://www.doi.org/)) issued for these datasets,
 suitable for automated DataCite DOI registration.
 
