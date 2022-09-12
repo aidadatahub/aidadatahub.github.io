@@ -10,7 +10,7 @@ description: "Job opportunities at the <a href='/'>AIDA Data Hub</a>."
 {: .tight-table }
 | Position:   | Full time, until further notice. |
 | Apply by:   | 2022-10-03 |
-| Apply here: | [Application form (LiU)](https://liu.se/en/work-at-liu/vacancies?rmpage=job&rmjob=20007&rmlang=UK) |
+| Apply here: | [Application form (LiU)](https://liu.se/en/work-at-liu/vacancies?rmpage=job&rmjob=20008&rmlang=UK) |
 | Starting:   | As soon as possible, by agreement. |
 | Contact:    | [Joel Hedlund, Data director CMIV/AIDA](mailto:joel.hedlund@liu.se), [+46 734 607126](tel:+46734607126). |
 
@@ -120,7 +120,7 @@ applicants](https://liu.se/en/work-at-liu/hjalp%20for%20sokande).
 
 ### Application procedure
 Apply for the position by clicking the “Apply” button at the bottom of [this
-page](https://liu.se/en/work-at-liu/vacancies?rmpage=job&rmjob=20007&rmlang=UK).
+page](https://liu.se/en/work-at-liu/vacancies?rmpage=job&rmjob=20008&rmlang=UK).
 Your application must reach Linköping University no later than October 3, 2022.
 
 Applications and documents received after the date above will not be considered.
