@@ -90,7 +90,7 @@ institution for the advancement of molecular biosciences in Sweden, which
 engages in and promotes interdisciplinary research, for example through its
 infrastructure platforms such as the National Bioinformatics Infrastructure
 Sweden ([NBIS](https://nbis.se)), which also hosts the Swedish node of the
-European life science infrastructure [ELIXIR]((https://elixir-europe.org).  
+European life science infrastructure [ELIXIR](https://elixir-europe.org).  
 Read more at [scilifelab.se](https://scilifelab.se), [nbis.se](https://nbis.se),
 and [elixir-europe.org](https://elixir-europe.org)
 
