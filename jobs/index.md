@@ -10,4 +10,11 @@ to meet the challenges and opportunities in an expanding field. This page
 describes current and future opportunities in activities surrounding the
 AIDA Data Hub.
 
+### Open positions
+
+* 2022-09-12 [Research engineer in Data sharing at the AIDA Data Hub](2209-data-sharing-engineer/)
+* 2022-09-12 [Research engineer in Service development and operations at AIDA Data Hub](2209-devops-engineer/)
+
+### Call for candidates
+
 * [Call for candidates: Senior experts at data science excellence center in medical imaging](senior-experts/)

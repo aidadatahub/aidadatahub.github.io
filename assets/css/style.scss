@@ -67,6 +67,16 @@
    margin-right: auto;
  }
 
+// Tables
+.tight-table tr td {
+  padding: 0px 0px 1px 1ex;
+  border: 0px;
+}
+
+.tight-table tr td:first-child {
+  padding-left: 0px;
+}
+
 // - Frontpage ----------------------------------------------------------------
 .dataset-table table td,
 .dataset-table table th {
