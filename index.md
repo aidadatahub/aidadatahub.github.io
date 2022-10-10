@@ -4,7 +4,7 @@ We offer [Data Sharing](/datasets), [Policy Support](/sharing), and
 [Services](/services) for researchers in Swedish medical imaging AI.
 
 AIDA Data Hub is part of the Analytic Imaging Diagnostics Arena
-([AIDA](/about/aida)), and of the [SciLifeLab](https://scilifelab.se)
+([AIDA](/about/aida)) and of the [SciLifeLab](https://scilifelab.se)
 Bioinformatics Platform ([NBIS](https://nbis.se)).
 AIDA Data Hub also leads [Bigpicture](https://bigpicture.eu) infrastructure
 development. AIDA is coordinated by the Center for Medical Image Science and
