@@ -65,6 +65,7 @@ other:
     skull shape is trivial by use of thresholding. All annotation in the
     project was fully automated.
   countries-shared:
+  - "CA"
   - "SE"
   organ:
   - name: "Skull"
