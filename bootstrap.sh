@@ -1,5 +1,6 @@
 #!/bin/bash
 Green='\033[0;32m'
+echo -e "${Green}Installation starts...."
 export DEBIAN_FRONTEND=noninteractive
 sudo apt install rbenv -y > /dev/null 2>&1
 echo -e "${Green}Installed rbenv"
