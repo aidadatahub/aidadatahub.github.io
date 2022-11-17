@@ -3,7 +3,7 @@
 function ruby_installation() {
     echo -e "${Green}Installation of ruby begins...."
     export DEBIAN_FRONTEND=noninteractive
-    apt install rbenv -y > /dev/null 2>&1
+    sudo apt install rbenv -y > /dev/null 2>&1
     echo -e "${Green}Installed rbenv"
     rbenv init
     echo -e "${Green}rbenv init"
