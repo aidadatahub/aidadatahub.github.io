@@ -12,8 +12,7 @@ AIDA Data Hub.
 
 ### Open positions
 
-* 2022-10-03 [Research engineer in Data sharing at the AIDA Data Hub](2022-10-03-data-sharing-engineer/)
-* 2022-10-03 [Research engineer in Service development and operations at AIDA Data Hub](2022-10-03-devops-engineer/)
+* 2023-01-09 [Application expert in Medical imaging diagnostics AI at the AIDA Data Hub](2023-01-09-application-expert/)
 
 ### Call for candidates
 
