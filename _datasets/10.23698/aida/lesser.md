@@ -94,13 +94,13 @@ other:
   exampleImage:
   - title: "Example transversal images of different resolution levels and delineations."
     url: "/assets/images/10.23698/aida/lesser/LESSER_1_transversal.png"
-    thumbnail-url: "/assets/images/10.23698/aida/lesser/aff-heatmap-thumbnail.png"
+    thumbnail-url: "/assets/images/10.23698/aida/lesser/LESSER_1_transversal-thumbnail.png"
   - title: "Example sagittal images of different resolution levels and delineations."
-    url: "/assets/images/10.23698/aida/lesser/aff-heatmap.png"
-    thumbnail-url: "/assets/images/10.23698/aida/lesser/LESSER_2_sagittal.png"
+    url: "/assets/images/10.23698/aida/lesser/LESSER_2_sagittal.png"
+    thumbnail-url: "/assets/images/10.23698/aida/lesser/LESSER_2_sagittal-thumbnail.png"
   - title: "Example coronal images of different resolution levels and delineations."
     url: "/assets/images/10.23698/aida/lesser/LESSER_3_coronal.png"
-    thumbnail-url: "/assets/images/10.23698/aida/lesser/LESSER_3_coronal.png"
+    thumbnail-url: "/assets/images/10.23698/aida/lesser/LESSER_3_coronal-thumbnail.png"
 ---
 ## License
 ### Controlled access
