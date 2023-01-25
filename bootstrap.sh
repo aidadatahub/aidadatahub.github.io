@@ -21,7 +21,7 @@ function bootstrap() {
     eval "$(rbenv init -)"
     bundle install > /dev/null 2>&1
     echo -e "${Green}installed bundle"
-    bundle exec jekyll serve
+    bundle exec jekyll serve -l -o
 }
 
 if ! command -v rbenv &> /dev/null;then
