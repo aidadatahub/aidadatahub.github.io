@@ -87,6 +87,8 @@ The `USERNAME` is then the last part of the link, i.e:
 
 `https://nextcloud.aida.scilifelab.se/s/USERNAME`
 
+[Example using rclone](/about/help/#example)
+
 ## AIDA PACS {#pacs}
 <img alt="Picture Archive and Communication System" src="/assets/images/pacs.png" width="30%" class="right" style="margin-top: -2ex; transform: scaleX(-1);"/>
 
