@@ -80,7 +80,7 @@ other:
   - name: "Prostate"
     sctid: 71341001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "" # FIXME: missing data
-  bytes: 5690831667 
+  bytes: 5690831667
   numberOfScans: 310
   numberOfAnnotations: 255
   resolution:
