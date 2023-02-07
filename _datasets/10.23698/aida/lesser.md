@@ -62,11 +62,11 @@ datacite:
     abstract: |
       Free for use in legal and ethical medical diagnostics research.
   - name: "AIDA BY license"
-    id: "https://datahub.aida.scilifelab.se/10.23698/aida/lesser#aida-license"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/lesser#aida-by-license"
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution."
   citation:
-  - "@type": "CreativeWork"
+    #"@type": "CreativeWork"
     #"@id": "https://doi.org/10.1080/17453674.2021.1891512"
     #name: "Georg Zdolsek, Yupei Chen, Hans-Peter Bögl, Chunliang Wang, Mischa Woisetschläger & Jörg Schilcher (2021) Deep neural networks with promising diagnostic accuracy for the classification of atypical femoral fractures, Acta Orthopaedica, 92:4, 394-400, DOI: 10.1080/17453674.2021.1891512"
 other:
