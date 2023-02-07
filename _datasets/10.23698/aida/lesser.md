@@ -9,7 +9,7 @@ datacite:
   url: "https://datahub.aida.scilifelab.se/10.23698/aida/lesser"
   author:
   - name: "Samuel Fransson"
-    #"@id": "https://orcid.org/0000-0003-0677-????"
+    "@id": "https://orcid.org/0000-0002-7883-5724"
     "@type": "Person"
   - name: "Robin Strand"
     "@id": "https://orcid.org/0000-0001-7764-1787"
@@ -34,7 +34,7 @@ datacite:
   provider:
   - name: "Samuel Fransson"
     email: "samuel.fransson@akademiska.se"
-    #"@id": "https://orcid.org/0000-0003-0677-9265"
+    "@id": "https://orcid.org/0000-0002-7883-5724"
     "@type": "Person"
   - name: "Robin Strand"
     email: "robin.strand@it.uu.se"
@@ -62,7 +62,7 @@ datacite:
     abstract: |
       Free for use in legal and ethical medical diagnostics research.
   - name: "AIDA BY license"
-    id: "https://datahub.aida.scilifelab.se/10.23698/aida/affai#aida-license"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/lesser#aida-license"
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution."
   citation:
