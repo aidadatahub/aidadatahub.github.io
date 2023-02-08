@@ -19,7 +19,7 @@ acquisition topics.
 
 ## Priorities
 
-Approved: 2021-03-19
+Approved: 2022-12-07
 
 1. CT bulk examinations of brain, thorax, abdomen.
 2. PET-CT bulk examinations of thorax and abdomen with <sup>18</sup>F-FDG tracer.
