@@ -95,7 +95,7 @@ other:
   resolution: "Histology slides 0.5 µm ⤫ 0.5 µm. DTI images: 200 µm x 200 µm x 200 µm."
   modality: "Histology slides: tif and .mat files, DTI images .nii and .mat files"
   scanner: "Bruker 9.4 T BioSpec Avance III MRI scanner. Microscope slide scanner Hamamatsu NanoZoomer S360. The data processed with an in-house DTI pipeline and registration tool available at repositories listed in Kernels."
-  stain: "Hematoxylin and eosin. In sentinel node cases also immunohistochemical stain  for cytokeratin AE1/AE3."
+  stain: "Hematoxylin & Eosin (H&E) and VEGF"
   phase:
   image: "/assets/images/10.23698/aida/micromen/ckae-metastasis-thumbnail.jpeg"
   exampleImage:
