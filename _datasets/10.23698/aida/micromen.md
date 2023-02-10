@@ -112,6 +112,11 @@ other:
     url: "/assets/images/10.23698/aida/micromen/4.jpeg"
     thumbnail-url: "/assets/images/10.23698/aida/micromen/4_thumbnail.jpeg"
 ---
+## Kernels
+The pipeline used to process the raw DTI data and the coregistration tools are available at [https://github.com/jan-brabec/microimaging_histology_DIB](https://github.com/jan-brabec/microimaging_histology_DIB) 
+
+The code related to the our example analysis are available at [https://github.com/jan-brabec/microimaging_vs_histology_in_meningeomas](https://github.com/jan-brabec/microimaging_vs_histology_in_meningeomas).
+
 ## File formats
 ### Pixel position scaling
 Coordinates given are relative to the image *width*. To get the correct pixel
