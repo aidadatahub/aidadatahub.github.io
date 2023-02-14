@@ -54,9 +54,9 @@ datacite:
     "@id": "https://datahub.aida.scilifelab.se"
     "@type": "Organization"
   dateCreated: "2023-02-07"
-  datePublished: "2023-02-10"
-  dateModified: "2023-02-10"
-  keywords: "Microstructural features, mean diffusivity, fractional anisotropy, cell density, cellularity, meningioma, coregistration, hematoxylin & eosin, VEGF"
+  datePublished: "2023-02-14"
+  dateModified: "2023-02-14"
+  keywords: "Radiology, Microstructural features, Mean diffusivity, Fractional anisotropy, cCell density, Cellularity, Meningioma, Coregistration, Hematoxylin & eosin, VEGF"
   version: "1.0.0"
   description: |
     Mean diffusivity (MD) and fractional anisotropy (FA) obtained with diffusion tensor imaging (DTI) have been associated with cell density and tissue anisotropy across tumors, but these associations have been challenged at the microscopic level and several additional histological features have been suggested as contributing to MD and FA.
@@ -84,20 +84,24 @@ other:
   annotation: |
     Histology slides coregistered by landmark-based approach with DTI images of meningioma tumor samples.
   countries-shared:
-  - #"FI"
+  - "SE"
   organ:
   - name: "Brain"
-    sctid: 76752008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
-  age-span: "-"
+    sctid: 12738006 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
+  age-span: " "
   bytes: 390056006423
   numberOfScans: 16
   numberOfAnnotations: 0
   resolution: "Histology slides 0.5 µm ⤫ 0.5 µm. DTI images: 200 µm x 200 µm x 200 µm."
-  modality: "Histology slides: tif and .mat files, DTI images .nii and .mat files"
-  scanner: "Bruker 9.4 T BioSpec Avance III MRI scanner. Microscope slide scanner Hamamatsu NanoZoomer S360. The data processed with an in-house DTI pipeline and registration tool available at repositories listed in Kernels."
+  modality: 
+  - "MR"
+  scanner: 
+  - Bruker 9.4 T BioSpec Avance III MRI scanner
+  - Microscope slide scanner Hamamatsu NanoZoomer S360
+  - The data processed with an in-house DTI pipeline and registration tool available at repositories listed in Kernels
   stain: "Hematoxylin & Eosin (H&E) and VEGF"
   phase:
-  image: "/assets/images/10.23698/aida/micromen/ckae-metastasis-thumbnail.jpeg"
+  image: "/assets/images/10.23698/aida/micromen/1_thumbnail.jpeg"
   exampleImage:
   - title: "Diffusion MRI images were coregistered to histology slides."
     url: "/assets/images/10.23698/aida/micromen/1.jpeg"
@@ -112,6 +116,10 @@ other:
     url: "/assets/images/10.23698/aida/micromen/4.jpeg"
     thumbnail-url: "/assets/images/10.23698/aida/micromen/4_thumbnail.jpeg"
 ---
+## File formats
+Histology slides: .tif and .mat files.
+DTI images: .nii and .mat files.
+
 ## Kernels
 The pipeline used to process the raw DTI data and the coregistration tools are available at [https://github.com/jan-brabec/microimaging_histology_DIB](https://github.com/jan-brabec/microimaging_histology_DIB) 
 
