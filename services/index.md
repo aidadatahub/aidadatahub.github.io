@@ -93,8 +93,7 @@ The `USERNAME` is then the last part of the link, i.e:
 <img alt="Picture Archive and Communication System" src="/assets/images/pacs.png" width="30%" class="right" style="margin-top: -2ex; transform: scaleX(-1);"/>
 
 AIDA offers access to a cloud-based production grade
-[Picture Archive and Communication System](https://aida.medtech4health.se/ids7/) (PACS)
-with both a desktop client (Windows) and a web client for viewing and interacting
+Picture Archive and Communication System (PACS) with both a desktop client (Windows) and a web client for viewing and interacting
 with image data. The AIDA PACS can be used by AIDA Partners to explore different
 integration opportunities, annotate data and perform reader studies. Please reach
 out to [AIDA](mailto:aida@nbis.se) for access and further information.
