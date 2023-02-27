@@ -15,7 +15,7 @@ benefit in the form of clinically useful tools.
 
 AIDA is [organized](https://medtech4health.se/en/aida-en-2/aida-organization/)
 as a collaboration arena, currently engaging
-[~35 partners](https://medtech4health.se/en/aida-arena/organization/),
+[~50 partners](https://medtech4health.se/en/aida-arena/organization/),
 from academia, industry and healthcare. AIDA is coordinated by the
 [Linköping University](https://liu.se)
 [Center for Medical Image Science and Visualization](https://liu.se/cmiv) (CMIV)
@@ -28,7 +28,7 @@ AIDA Activities include:
 * [Data, compute & storage services](/) &larr; This is the [AIDA Data Hub](/)!
 * [AIDA Days](https://medtech4health.se/en/aida-en-2/) ~8 Workshops per year
 * [Training](https://medtech4health.se/en/aida-en-2/)
-* [Network partnerships](https://medtech4health.se/aida-en/network-partner/) ~50 partners
+* [Network partnerships](https://medtech4health.se/aida-en/network-partner/)
 
 AIDA is an initiative within the Strategic innovation program
 [Medtech4Health](https://medtech4health.se), jointly supported by
