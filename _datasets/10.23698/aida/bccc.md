@@ -91,20 +91,20 @@ other:
   - NanoZoomer S360 Hamamatsu
   stain: "H&E (hematoxylin and eosin)"
   phase:
-  image: "/assets/images/10.23698/aida/bccc/ckae-metastasis-thumbnail.jpeg"
+  image: "/assets/images/10.23698/aida/bccc/img1-thumbnail.png"
   exampleImage:
-  - title: "Overview of whole slide imaging with hematoxylin and eosin staining."
-    url: "/assets/images/10.23698/aida/bccc/he-overview.jpeg"
-    thumbnail-url: "/assets/images/10.23698/aida/bccc/he-overview-thumbnail.jpeg"
-  - title: "Overview of whole slide imaging with cytokeratin immunostaining."
-    url: "/assets/images/10.23698/aida/bccc/ckae-overview.jpeg"
-    thumbnail-url: "/assets/images/10.23698/aida/bccc/ckae-overview-thumbnail.jpeg"
-  - title: "Detail view of metastasis with hematoxylin and eosin staining."
-    url: "/assets/images/10.23698/aida/bccc/he-metastasis.jpeg"
-    thumbnail-url: "/assets/images/10.23698/aida/bccc/he-metastasis-thumbnail.jpeg"
-  - title: "Detail view of metastasis with cytokeratin immunostaining."
-    url: "/assets/images/10.23698/aida/bccc/ckae-metastasis.jpeg"
-    thumbnail-url: "/assets/images/10.23698/aida/bccc/ckae-metastasis-thumbnail.jpeg"
+  - title: ""
+    url: "/assets/images/10.23698/aida/bccc/img1.png"
+    thumbnail-url: "/assets/images/10.23698/aida/bccc/img1-thumbnail.png"
+  - title: ""
+    url: "/assets/images/10.23698/aida/bccc/img2.png"
+    thumbnail-url: "/assets/images/10.23698/aida/bccc/img2-thumbnail.png"
+  - title: ""
+    url: "/assets/images/10.23698/aida/bccc/img3.png"
+    thumbnail-url: "/assets/images/10.23698/aida/bccc/img3-thumbnail.png"
+  - title: ""
+    url: "/assets/images/10.23698/aida/bccc/img4.png"
+    thumbnail-url: "/assets/images/10.23698/aida/bccc/img4-thumbnail.png"
 ---
 ## File formats
 The dataset consists of two types of images:
