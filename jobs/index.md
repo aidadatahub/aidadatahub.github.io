@@ -12,7 +12,7 @@ AIDA Data Hub.
 
 ### Open positions
 
-* 2023-01-09 [Application expert in Medical imaging diagnostics AI at the AIDA Data Hub](2023-01-09-application-expert/)
+* No current open positions
 
 ### Call for candidates
 
