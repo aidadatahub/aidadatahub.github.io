@@ -74,7 +74,7 @@ other:
   shortName: "BCCC"
   status: "Completed"
   annotation: |
-    The data is annotated on a slide level into four aggressivity tumour subtypes: low aggressive Ia (nodular) and Ib (superficial) and more aggressive subtypes II (medium aggressive) and III (high aggressive).
+    The data is annotated on a slide level into four aggressivity tumour subtypes: low aggressive Ia (nodular) and Ib (superficial) and more aggressive subtypes II (medium aggressive) and III (high aggressive). Of these, types Ia and Ib represent low risk and II and III high risk tumors according to WHO classilification of skin tumors (4th Edition 2018).
   countries-shared:
   - "SE"
   organ:
@@ -91,20 +91,20 @@ other:
   - NanoZoomer S360 Hamamatsu
   stain: "H&E (hematoxylin and eosin)"
   phase:
-  image: "/assets/images/10.23698/aida/bccc/img1-thumbnail.png"
+  image: "/assets/images/10.23698/aida/bccc/sample1-thumbnail.jpeg"
   exampleImage:
-  - title: ""
-    url: "/assets/images/10.23698/aida/bccc/img1.png"
-    thumbnail-url: "/assets/images/10.23698/aida/bccc/img1-thumbnail.png"
-  - title: ""
-    url: "/assets/images/10.23698/aida/bccc/img2.png"
-    thumbnail-url: "/assets/images/10.23698/aida/bccc/img2-thumbnail.png"
-  - title: ""
-    url: "/assets/images/10.23698/aida/bccc/img3.png"
-    thumbnail-url: "/assets/images/10.23698/aida/bccc/img3-thumbnail.png"
-  - title: ""
-    url: "/assets/images/10.23698/aida/bccc/img4.png"
-    thumbnail-url: "/assets/images/10.23698/aida/bccc/img4-thumbnail.png"
+  - title: "Sample image 1"
+    url: "/assets/images/10.23698/aida/bccc/sample1.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/bccc/sample1-thumbnail.jpeg"
+  - title: "Sample image 2"
+    url: "/assets/images/10.23698/aida/bccc/sample2.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/bccc/sample2-thumbnail.jpeg"
+  - title: "Sample image 3"
+    url: "/assets/images/10.23698/aida/bccc/sample3.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/bccc/sample3-thumbnail.jpeg"
+  - title: "Sample image 4"
+    url: "/assets/images/10.23698/aida/bccc/sample4.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/bccc/sample4-thumbnail.jpeg"
 ---
 ## File formats
 The dataset consists of two types of images:
