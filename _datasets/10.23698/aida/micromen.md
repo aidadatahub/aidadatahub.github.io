@@ -101,20 +101,20 @@ other:
   - The data processed with an in-house DTI pipeline and registration tool available at repositories listed in Kernels
   stain: "Hematoxylin & Eosin (H&E) and VEGF"
   phase:
-  image: "/assets/images/10.23698/aida/micromen/1_thumbnail.jpeg"
+  image: "/assets/images/10.23698/aida/micromen/sample1_thumbnail.jpeg"
   exampleImage:
   - title: "Diffusion MRI images were coregistered to histology slides."
-    url: "/assets/images/10.23698/aida/micromen/1.jpeg"
-    thumbnail-url: "/assets/images/10.23698/aida/micromen/1_thumbnail.jpeg"
+    url: "/assets/images/10.23698/aida/micromen/sample1.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/micromen/sample1_thumbnail.jpeg"
   - title: "Overview of the H&E-stained meningioma histopathology of all sixteen samples."
-    url: "/assets/images/10.23698/aida/micromen/2.jpeg"
-    thumbnail-url: "/assets/images/10.23698/aida/micromen/2_thumbnail.jpeg"
+    url: "/assets/images/10.23698/aida/micromen/sample2.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/micromen/sample2_thumbnail.jpeg"
   - title: "Overview of the VEGF-stained meningioma histopathology of all sixteen samples."
-    url: "/assets/images/10.23698/aida/micromen/3.jpeg"
-    thumbnail-url: "/assets/images/10.23698/aida/micromen/3_thumbnail.jpeg"
+    url: "/assets/images/10.23698/aida/micromen/sample3.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/micromen/sample3_thumbnail.jpeg"
   - title: "Overview of the coregistered data (sample 10)."
-    url: "/assets/images/10.23698/aida/micromen/4.jpeg"
-    thumbnail-url: "/assets/images/10.23698/aida/micromen/4_thumbnail.jpeg"
+    url: "/assets/images/10.23698/aida/micromen/sample4.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/micromen/sample4_thumbnail.jpeg"
 ---
 ## File formats
 Histology slides: .tif and .mat files.
