@@ -19,7 +19,7 @@ acquisition topics.
 
 ## Priorities
 
-Approved: 2022-12-07
+Approved: 2022-03-10
 
 1. CT bulk examinations of brain, thorax, abdomen.
 2. PET-CT bulk examinations of thorax and abdomen with <sup>18</sup>F-FDG tracer.
@@ -32,3 +32,6 @@ Approved: 2022-12-07
 9. Head CT.
 10. MRI data, for real-time adaptive radiotherapy (RT-ART)
 11. MRI and histology of excised meningioma tumor samples
+12. Breast cancer histology data.
+13. Hip femoralis nerve ultrasound data.
+
