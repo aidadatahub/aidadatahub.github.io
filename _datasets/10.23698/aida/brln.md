@@ -89,8 +89,7 @@ other:
   shortName: "BRLN"
   status: "Ongoing"
   annotation: |
-    No in-image annotations available. Additional information at case level
-    available on request.
+    No in-image annotations available.
   countries-shared:
   - "FI"
   - "NO"

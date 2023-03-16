@@ -81,7 +81,7 @@ other:
   - name: "Skin"
     sctid: 39937001 # SNOMED-CT
   age-span: "-"
-  bytes: 5600000000000 #5.6 TB 
+  bytes: 6164507447296 #5.6 TB 
   numberOfScans: 1831
   numberOfAnnotations: 0
   resolution: "x40"
@@ -119,7 +119,6 @@ Please contact the dataset provider for terms of access.
 {% include access-request-blurb.md coauthorship="yes" %}
 
 ### AIDA BY license
-#### Segmentation masks and anatomical landmark annotations
 Copyright
 {{ page.datacite.copyrightYear }}
 {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}
@@ -128,7 +127,12 @@ Permission to use, copy, modify, and/or distribute the data within AIDA
 (Analytic Imaging Diagnostics Arena https://medtech4health.se/aida) for the
 purpose of research or education with or without fee is hereby granted,
 provided that the above copyright notice and this permission notice appear in
-all copies.
+all copies, and that publications resulting from the use of this data cite the following works:
+
+{{ page.datacite.author | map: "name" | array_to_sentence_string }}
+({{ page.datacite.datePublished | date: "%Y" }})
+{{ page.datacite.name }}
+[doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
 
 THE DATA IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD
 TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN
