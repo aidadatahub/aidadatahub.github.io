@@ -1,5 +1,5 @@
 ---
-hidden: yes
+hidden: no
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
@@ -50,8 +50,8 @@ datacite:
     "@id": "https://datahub.aida.scilifelab.se"
     "@type": "Organization"
   dateCreated: "2023-03-02"
-  datePublished: "2023-03-02"
-  dateModified: "2023-03-02"
+  datePublished: "2023-03-17"
+  dateModified: "2023-03-17"
   keywords: "Pathology, Whole slide imaging, Weakly annotated, Basal cell carcinoma, Skin cancer"
   version: "1.0.0"
   description: |
@@ -67,9 +67,9 @@ datacite:
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution and co-authorship."
   citation:
-    #- "@type": "CreativeWork"
+    - "@type": "CreativeWork"
     #  "@id": "https://doi.org/..."
-    #  name: "Title of paper goes here"
+      name: "Paper 1, in press"
 other:
   shortName: "BCCC"
   status: "Completed"
@@ -81,7 +81,7 @@ other:
   - name: "Skin"
     sctid: 39937001 # SNOMED-CT
   age-span: "-"
-  bytes: 6164507447296 #5.6 TB 
+  bytes: 6164507447296 #6.16 TB 
   numberOfScans: 1831
   numberOfAnnotations: 0
   resolution: "x40"
