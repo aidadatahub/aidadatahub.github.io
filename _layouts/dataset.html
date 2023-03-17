@@ -161,8 +161,11 @@
             <td>
               <ol class="references">
               {% for r in page.datacite.citation %}
-                <li><a href="{{ r['@id'] }}">{{ r.name }}</a></li>
-              {% endfor %}
+                {% if r["@id"] %}<li><a href="{{ r['@id'] }}">{{ r.name }}</a></li>
+                {% else %}
+                <li>{{ r.name }}</li>
+                {% endif %}
+                {% endfor %}
             </ol>
             </td>
           </tr>

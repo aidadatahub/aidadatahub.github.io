@@ -132,7 +132,16 @@ all copies, and that publications resulting from the use of this data cite the f
 {{ page.datacite.author | map: "name" | array_to_sentence_string }}
 ({{ page.datacite.datePublished | date: "%Y" }})
 {{ page.datacite.name }}
-[doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
+[doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }})
+
+{% for c in page.datacite.citation %}
+  {% if c["@id"] %}[{{ c.name }}]({{c["@id"]}})
+  {% else %}
+  <p>{{ c.name }}</p>
+  {% endif %}
+{% endfor %}
+
+
 
 THE DATA IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD
 TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN
