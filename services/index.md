@@ -109,7 +109,7 @@ Click the link, or remember to provide name, affiliation and email address
 in your request!
 
 ## AIDA GitHub {#github}
-AIDA uses an [AIDA Team](https://github.com/orgs/NBISweden/teams/aida/) in the
+AIDA uses an [AIDA Team](https://github.com/orgs/NBISweden/teams/cortex/) in the
 [SciLifeLab](https://scilifelab.se) [Bioinformatics Platform](https://nbis.se)
 (NBIS) GitHub account to facilitate code sharing and co-development in AIDA.
 Members can create public or private repos to admin themselves, and easily share
