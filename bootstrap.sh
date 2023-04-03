@@ -1,6 +1,6 @@
 #!/bin/sh
 
-function ruby_installation() {
+ruby_installation() {
     echo -e "${Green}Installation of ruby begins...."
     export DEBIAN_FRONTEND=noninteractive
     sudo apt install rbenv -y > /dev/null 2>&1
@@ -9,7 +9,7 @@ function ruby_installation() {
     echo -e "${Green}rbenv init"
 }
 
-function ruby_build() {
+ruby_build() {
     git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build > /dev/null 2>&1
     echo -e "${Green}installed ruby-build"
     rbenv install 2.7.4 > /dev/null 2>&1
@@ -17,7 +17,7 @@ function ruby_build() {
     rbenv local 2.7.4
 }
 
-function bootstrap() {
+bootstrap() {
     eval "$(rbenv init -)"
     bundle install > /dev/null 2>&1
     echo -e "${Green}installed bundle"
