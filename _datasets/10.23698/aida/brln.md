@@ -61,16 +61,7 @@ datacite:
   version: "1.0.2"
   # v1.0.2 2020-07-05: Update size in bytes.
   description: |
-    Whole slide imaging of 396 full cases of axillary lymph nodes in breast
-    cancer cases. Included are both sentinel node surgery and axillary
-    resections pre, peri or post breast cancer surgery or treatment. Sentinel
-    node cases are cut in three levels (stained with HE) and one additional
-    slide immunohistochemically stained with CKAE1/AE3. The number of sentinel
-    node cases with complete immunohistochemical staining is 321. The axillary
-    resections are cut with one cut level as default. No frozen sections
-    included. The cases are anonymised and exported from the digital archive at
-    the Department of Clinical Pathology in Linköping, Region Östergötland.
-    Included are both positive and negative cases.
+    Whole slide imaging of 396 full cases of axillary lymph nodes in breast cancer cases. Included are both sentinel node surgery and axillary dissections pre, peri or post breast cancer surgery or treatment. Sentinel node cases are cut in three levels (stained with HE) and one additional slide immunohistochemically stained with CKAE1/AE3. The number of sentinel node cases with complete immunohistochemical staining is 321. The axillary dissections are cut with one cut level as default. No frozen sections included. The cases are anonymised and exported from the digital archive at the Department of Clinical Pathology in Linköping, Region Östergötland. Included are both positive and negative cases. Some metadata on case level is available (positive or negative case, number of nodes, primary tumour and if neoadjuvant treatment in axillary dissections was given).
   license:
   - name: "Controlled access"
     id: "https://datahub.aida.scilifelab.se/10.23698/aida/brln#controlled-access"
