@@ -34,8 +34,8 @@ datacite:
     name: "AIDA"
   copyrightYear: 2023
   copyrightHolder:
-  - name: "CC BY 4.0"
-    url: "https://creativecommons.org/licenses/by/4.0/"
+  - name: "Lund University"
+    url: "https://www.lunduniversity.lu.se/"
     "@type": "Organization"
   - name: "Markus Nilsson"
     "@id": "https://orcid.org/0000-0002-3140-8223"
