@@ -36,7 +36,7 @@ NORMAL=$(tput sgr0)
 
 rb="$(rbenv versions | grep '2.7.4')"
 
-if [[ $rb = *"2.7.4"* ]];then
+if [[ $rb == *"2.7.4"* ]];then
     echo "Ruby 2.7.4 is installed"
 else
     echo "Ruby 2.7.4 is not installed"
