@@ -116,18 +116,18 @@ Annotations are provided as .csv files (one for main data set, one for test set)
 Free for use in legal and ethical medical diagnostics research.
 Please contact the dataset provider for terms of access.
 
-{% include access-request-blurb.md coauthorship="yes" %}
+{% include access-request-blurb.md %}
 
 ### AIDA BY license
 Copyright
 {{ page.datacite.copyrightYear }}
 {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}
 
-Permission to use, copy, modify, and/or distribute the data within AIDA
-(Analytic Imaging Diagnostics Arena https://medtech4health.se/aida) for the
-purpose of research or education with or without fee is hereby granted,
-provided that the above copyright notice and this permission notice appear in
-all copies, and that publications resulting from the use of this data cite the following works:
+Permission to use, copy, modify, and/or distribute this data within Analytic
+Imaging Diagnostics Arena ([AIDA](https://medtech4health.se/aida)) for the purpose
+of medical diagnostics research with or without fee is hereby granted, provided that
+the above copyright notice and this permission notice appear in all copies, and that
+publications resulting from the use of this data cite the following works:
 
 {{ page.datacite.author | map: "name" | array_to_sentence_string }}
 ({{ page.datacite.datePublished | date: "%Y" }})
@@ -140,8 +140,6 @@ all copies, and that publications resulting from the use of this data cite the f
   <p>{{ c.name }}</p>
   {% endif %}
 {% endfor %}
-
-
 
 THE DATA IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD
 TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN
