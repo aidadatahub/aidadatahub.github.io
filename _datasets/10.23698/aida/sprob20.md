@@ -126,26 +126,27 @@ Metadata: .csv
 Free for use in legal and ethical medical diagnostics research.
 Please contact the dataset provider for terms of access.
 
-{% include access-request-blurb.md coauthorship="yes" %}
+{% include access-request-blurb.md %}
 
-### AIDA BY CA license
+### AIDA BY license
 Copyright
 {{ page.datacite.copyrightYear }}
 {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}
 
 Permission to use, copy, modify, and/or distribute this data within Analytic
-Imaging Diagnostics Arena ([AIDA](https://medtech4health.se/aida)) for the
-purpose of medical diagnostics research with or without fee is hereby granted,
-provided that the above copyright notice and this permission notice appear in
-all copies, and that publications resulting from the use of this data cite the
-following works:
-
-[{{ page.datacite.citation[0].name }}]({{page.datacite.citation[0]["@id"]}})
+Imaging Diagnostics Arena ([AIDA](https://medtech4health.se/aida)) for the purpose
+of medical diagnostics research with or without fee is hereby granted, provided that
+the above copyright notice and this permission notice appear in all copies, and that
+publications resulting from the use of this data cite the following works:
 
 {{ page.datacite.author | map: "name" | array_to_sentence_string }}
 ({{ page.datacite.datePublished | date: "%Y" }})
 {{ page.datacite.name }}
 [doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
+{% for c in page.datacite.citation %}
+  [{{ c.name }}]({{c["@id"]}})
+
+{% endfor %}
 
 THE DATA IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD
 TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN
