@@ -12,7 +12,12 @@ Visualization ([CMIV](https://liu.se/cmiv)) at [Linköping
 University](https://liu.se). AIDA Data Hub is funded by
 [SciLifeLab](https://scilifelab.se).
 
-<img alt="SciLifeLab logo" src="/assets/images/scilifelab-logo.png" width="40%" class="center"/>
+
+<div class = "scilife_nbis_div  columns">
+<div class = "column text-left" ><a href="https://nbis.se/"><img alt="Nbis_logo" id="nbis_logo" src="/assets/images/nbislogo-green-aqua.svg"/></a></div>
+<div class = "column text-center" >  <img alt="aida_logo" id = "aida_logo" src="/assets/icons/aida-icon.png" /></div>
+<div class = "column text-right" ><img alt="SciLifeLab logo" id="scilife_logo" src="/assets/images/scilifelab-logo.png"  /></div>
+</div>
 
 ## AIDA Dataset Register
 Using the [AIDA Dataset register](/datasets) we help researchers share their
