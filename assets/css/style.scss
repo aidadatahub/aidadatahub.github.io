@@ -243,7 +243,7 @@ table.aida-data-sharing-overview td:first-child::before {
 }
 
 #scilife_logo{
-  height: 4rem;
+  height: 3.4rem;
   min-width: 16rem;
   align-self: end;
   margin-top: 10px;
@@ -255,8 +255,8 @@ table.aida-data-sharing-overview td:first-child::before {
 
 #aida_logo{
 
-  height: 5.3rem;
-  width: 6rem;
+  height: 4.9rem;
+  width: 5.6rem;
   margin-left: 95px;
   @media only screen and (min-width: 600px) and (max-width: 920px){
     margin-left: 45px;
@@ -298,35 +298,37 @@ table.aida-data-sharing-overview td:first-child::before {
 #nbis_logo_footer{
   height: 5rem;
    width: 8rem;
-   @media only screen and (max-width: 700px) {
-    height: 2.8rem;
-    width: 4.8rem;
+   @media only screen and (max-width: 720px) {
+    height: 2.5rem;
+    width: 4.5rem;
+    margin-top: 4px;
    
   } 
  }
 
  #aida_logo_footer{
 
-  height: 5.3rem;
-  width: 6rem;
-  margin-left: 95px;
-  @media only screen and (max-width: 700px) {
+  height: 4.9rem;
+  width: 5.6rem;
+  margin-left: 6rem;
+  @media only screen and (max-width: 720px) {
     height: 3rem;
     width: 3.7rem;
     margin-left: 45px;
     
    
   }
-  
+
 }
 #scilife_logo_footer{
-  height: 3.8rem;
-  width: 16rem;
+  height: 3.4rem;
+  min-width: 16rem;
   align-self: end;
   margin-top: 10px;
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 720px) {
     height: 1.8rem;
-    min-width: 11rem;
+    min-width: 9rem;
+    margin-top: 8px;
   
   } 
   
