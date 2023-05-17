@@ -234,7 +234,6 @@ table.aida-data-sharing-overview td:first-child::before {
   @media only screen and (max-width: 600px) {
     flex-wrap: wrap;
     justify-content:  center;
-    margin-left: 5%;
     padding: 50px;
   } 
   img,svg {
@@ -249,6 +248,7 @@ table.aida-data-sharing-overview td:first-child::before {
   margin-top: 10px;
   @media only screen and (max-width: 600px) {
     align-self: start;
+    margin-right: 35px;
   
   } 
 }
@@ -257,14 +257,12 @@ table.aida-data-sharing-overview td:first-child::before {
 
   height: 4.9rem;
   width: 5.6rem;
-  margin-left: 95px;
   @media only screen and (min-width: 600px) and (max-width: 920px){
     margin-left: 45px;
 
     }
   @media only screen and (max-width: 600px) {
     align-self: start;
-    margin-left: 90px;
     margin-top: 15px;
     margin-bottom: 15px;
   
@@ -275,7 +273,7 @@ table.aida-data-sharing-overview td:first-child::before {
   height: 5rem;
   width: 8rem;
   @media only screen and (max-width: 600px) {
-    margin-left: 65px;
+    margin-left: 90px;
   }
   
 }
@@ -293,8 +291,6 @@ table.aida-data-sharing-overview td:first-child::before {
     }
 
 }
-
-
 #nbis_logo_footer{
   height: 5rem;
    width: 8rem;
@@ -310,12 +306,9 @@ table.aida-data-sharing-overview td:first-child::before {
 
   height: 4.9rem;
   width: 5.6rem;
-  margin-left: 6rem;
   @media only screen and (max-width: 720px) {
     height: 3rem;
-    width: 3.7rem;
-    margin-left: 45px;
-    
+    width: 3.7rem;   
    
   }
 
