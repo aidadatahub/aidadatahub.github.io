@@ -68,8 +68,8 @@ datacite:
     abstract: "Free for use within AIDA with attribution and co-authorship."
   citation:
     - "@type": "CreativeWork"
-    #  "@id": "https://doi.org/..."
-      name: "Paper 1, in press"
+      "@id": "https://doi.org/10.1038/s41598-023-33863-z"
+      name: "Yacob, F., Siarov, J., Villiamsson, K. et al. Weakly supervised detection and classification of basal cell carcinoma using graph-transformer on whole slide images. Sci Rep 13, 7555 (2023). https://doi.org/10.1038/s41598-023-33863-z"
 other:
   shortName: "BCCC"
   status: "Completed"
