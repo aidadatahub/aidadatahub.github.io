@@ -1,10 +1,10 @@
 ---
-hidden: yes
+hidden: no
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
   "@id": "https://doi.org/10.23698/aida/brmbr"
-  name: "Matched preoperative biopsy and surgical section from breast cancer cases"
+  name: "Breast data from preoperative and surgical cases"
   about: "Pathology"
   url: "https://datahub.aida.scilifelab.se/10.23698/aida/brmbr"
   author:
@@ -36,12 +36,12 @@ datacite:
     "@id": "https://datahub.aida.scilifelab.se"
     "@type": "Organization"
   dateCreated: "2023-02-15"
-  datePublished: "2023-02-20"
-  dateModified: "2023-03-02"
+  datePublished: "2023-05-24"
+  dateModified: "2023-05-15"
   keywords: "Breast cancer, Pathology, Whole slide imaging"
-  version: "1.0.0"
+  version: "1.0.1"
   description: |
-    Whole slide imaging of 112 primary diagnosed breast cancers. In this dataset one representative image from the preoperative biopsy have been manually selected and matched with one image representative from the surgically removed invasive tumour. Both biopsy and whole section are presented as one case and contain 2 HE stained slides per case. The section from the surgical resections are cut with one level as default, biopsies may vary from 1-3 per slide. Breastcancer cases were consecutively selected from the laboratory information system based on diagnosis including only Invasive breast cancer (NST) and Invasive lobular carcinoma (ILC). Each slide has been evaluated in clinic by at least one senior consultant in breast pathology and controlled before extraction to this dataset by an additional independent senior breast pathologist. No neoadjuvant cases included. No male breast cancers included. The cases are anonymised and exported from the digital archive at the Department of Clinical Pathology in Linköping, Region Östergötland. 
+    Whole slide imaging of 102 primary diagnosed breast cancers. In this dataset one representative image from the preoperative biopsy have been manually selected and matched with one image representative from the surgically removed invasive tumour. Both biopsy and whole section are presented as one case and contain 2 HE stained slides per case. The section from the surgical resections are cut with one level as default, biopsies may vary from 1-3 per slide. Breastcancer cases were consecutively selected from the laboratory information system based on diagnosis including only Invasive breast cancer (NST) and Invasive lobular carcinoma (ILC). Each slide has been evaluated in clinic by at least one senior consultant in breast pathology and controlled before extraction to this dataset by an additional independent senior breast pathologist. No neoadjuvant cases included. No male breast cancers included. The cases are anonymised and exported from the digital archive at the Department of Clinical Pathology in Linköping, Region Östergötland.   
   license:
   - name: "Controlled access"
     id: "https://datahub.aida.scilifelab.se/10.23698/aida/brmbr#controlled-access"
@@ -53,24 +53,23 @@ datacite:
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution."
   citation:
-  - "@type": "Article"
-    "@id": "https://doi.org/10.1007/s10278-020-00384-4"
-    name: |
-      Stadler, C.B., Lindvall, M., Lundström, C. et al. Proactive Construction
-      of an Annotated Imaging Database for Artificial Intelligence Training.
-      J Digit Imaging (2020). https://doi.org/10.1007/s10278-020-00384-4
+  #- "@type": "Article"
+  #  "@id": "https://doi.org/10.1007/s10278-020-00384-4"
+  #  name: |
 other:
   shortName: "BRMBR"
   status: "Ongoing"
+  annotation: |
+    No in-image annotations available.
   countries-shared:
   - "NL"
   organ:
   - name: "Breast"
     sctid: 76752008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span:
-  bytes: # 501 GB
-  numberOfScans: 112
-  numberOfAnnotations: 
+  bytes: 120259084288 # 501 GB
+  numberOfScans: 102
+  numberOfAnnotations: 0
   resolution: "x40 (one large section x20 is included)"
   modality:
   - "SM"
@@ -81,25 +80,19 @@ other:
   stain: "H&E (hematoxylin and eosin)"
   phase:
   exampleImage:
-  - title: "Overview of whole slide imaging."
-    url: "/assets/images/10.23698/aida/brmbr/"
-    thumbnail-url: "/assets/images/10.23698/aida/brmbr/."
-  - title: "Overview of annotations."
-    url: "/assets/images/10.23698/aida/brmbr/"
-    thumbnail-url: "/assets/images/10.23698/aida/brmbr/"
-  - title: "Detail view of annotations."
-    url: "/assets/images/10.23698/aida/brmbr/"
-    thumbnail-url: "/assets/images/10.23698/aida/brmbr/"
-  - title: "To-scale view of pixel resolution in original whole slide imaging data."
-    url: "/assets/images/10.23698/aida/brmbr/"
-    thumbnail-url: "/assets/images/10.23698/aida/brmbr/"
+  - title: "Example from case 11 in this dataset, here showing the preoperative sample (biopsy) in low resolution, that is paired on case level with an image from the surgical specimen from the aligned breastcancer."
+    url: "/assets/images/10.23698/aida/brmbr/11A.jpg"
+    thumbnail-url: "/assets/images/10.23698/aida/brmbr/11A-thumbnail.jpg"
+  - title: "A close up in high resolution from Figure 1; an example from case 11 in this dataset, here showing an area of interest for atypia and mitosis from the preoperative sample (biopsy)."
+    url: "/assets/images/10.23698/aida/brmbr/11A_high resolution on biopsy.jpg"
+    thumbnail-url: "/assets/images/10.23698/aida/brmbr/11A_high resolution on biopsy-thumbnail.jpg"
+  - title: "Example from case 11 in this dataset, here showing the chosen image from the surgical sample (excision) in low resolution, that is paired on case level with an image of the preoperative biopsy from the same breastcancer"
+    url: "/assets/images/10.23698/aida/brmbr/11B.jpg"
+    thumbnail-url: "/assets/images/10.23698/aida/brmbr/11B-thumbnail.jpg"
+  - title: "A close up in high resolution from Figure 3; an example from case 11 in this dataset, here showing an area of interest for atypia and mitosis from the preoperative sample (biopsy)."
+    url: "/assets/images/10.23698/aida/brmbr/11B_high resolution on resection slide.jpg"
+    thumbnail-url: "/assets/images/10.23698/aida/brmbr/11B_high resolution on resection slide-thumbnail.jpg"
 ---
-## File formats
-### Pixel position scaling
-Coordinates given are relative to the image *width*. To get the correct pixel
-position, X coordinates (and Y coordinates!) should therefore be multiplied with
-the image *width*.
-
 ## License
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research.
