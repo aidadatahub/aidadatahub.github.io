@@ -26,7 +26,7 @@ Approved: 2022-03-10
 3. Lymph nodes. Radiology and pathology.
 4. Basal cell cancer whole-slide imaging, eg for identifying nonradical excisions.
 5. Prostate. MRI and pathology.
-6. Knee and foot fracture CT and CR.
+6. Wrist, shoulder, knee and foot fracture CT and CR.
 7. PD-L1 pathology data in non-small-cell lung cancer (NSCLC).
 8. Radiography data for AI classification of atypical femoral fractures.
 9. Head CT.
