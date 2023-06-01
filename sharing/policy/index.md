@@ -27,7 +27,7 @@ AIDA is a collaboration between partners in healthcare, academia and industry. A
 
 ## Personal data and legal basis
 
-AIDA engages in research and innovation using data mainly from medical imaging, and thus has an obligation under the general data protection regulation (GDPR) to adequately safeguard the privacy of the individuals concerned. For this reason -and to protect against for example mistakes in large scale anonymization- AIDA engages in data sharing for research only when it is ethically approved, and when a contractual agreement is in place that includes non-disclosure of data, such as AIDA partner contracts. More details including the [AIDA definition of anonymous data](https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit#heading=h.i639kmr8va6o) can be found in the [AIDA GDPR policy 1.0](https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit). For research activities where it is not possible to use anonymous data, AIDA also provides secure services for processing sensitive personal data, as specified in data processing agreements.
+AIDA engages in research and innovation using data mainly from medical imaging, and thus has an obligation under the general data protection regulation (GDPR) to adequately safeguard the privacy of the individuals concerned. For this reason -and to protect against for example mistakes in large scale anonymization- AIDA engages in data sharing for research only when it is ethically approved, and when a contractual agreement is in place that includes non-disclosure of data, such as AIDA partner contracts. More details including the AIDA definition of anonymous data can be found in the [AIDA GDPR policy 1.0](https://datahub.aida.scilifelab.se/sharing/AIDA-GDPR-policy-v1.0.pdf). For research activities where it is not possible to use anonymous data, AIDA also provides secure services for processing sensitive personal data, as specified in data processing agreements.
 
 ## Roles
 
@@ -77,7 +77,7 @@ The AIDA Data Hub is the primary means of data sharing in AIDA. It is used for l
 
 A typical scenario for AIDA Data Hub sharing is that a research institution as copyright holder for the prioritized research data contacts an [AIDA system administrator](mailto:aida-data-director@medtech4health.se) to share the data on the data hub for use within AIDA under specific licensing terms. Thereby, the data is seen as a resource that is accessible to AIDA partners for use within AIDA.
 
-This is in line with what we perceive as [common practice in the use of clinical imaging data for research in Sweden](context#common-practice-in-the-use-of-clinical-imaging-data-for-research) (cf above). The ethical and legal context around this common practice is discussed in the [Legal discussion](../legal/) section.
+This is in line with what we perceive as [common practice in the use of clinical imaging data for research in Sweden](https://datahub.aida.scilifelab.se/sharing/context/#common-practice-in-the-use-of-clinical-imaging-data-for-research) (cf above). The ethical and legal context around this common practice is discussed in the [Legal discussion](../legal/) section.
 
 Please see the following sections for details:
 
