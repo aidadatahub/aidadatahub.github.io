@@ -57,6 +57,12 @@ original sources in official law text. Key insights have been published in
 [Nature Scientific Data](https://www.nature.com/articles/s41597-020-00674-0)
 (OpenAccess).
 
+## AIDA Support
+
+We offer advanced user [support](/support) and training to the AIDA community, in medical imaging
+diagnostics AI research and innovation. The goal is to accelerate research within medical imaging diagnostics by supporting researchers from the early phases such as project scoping and modeling to later practical stages such as debugging, optimizing and deploying AI solutions.
+
+
 ## AIDA Services
 We offer leading edge [Services](/services) to researchers in Swedish medical imaging AI.
 
