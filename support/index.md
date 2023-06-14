@@ -19,7 +19,7 @@ Jump to:
 {:toc}
 
 ## Apply for support {#apply}
-Apply for support here: email.address@nbis.se
+Apply for support here: [erik.ylipaa@liu.se](mailto:erik.ylipaa@liu.se??subject=[AIDA%20Data%20hub%20support]%20Request%20for%20support)
 
 The target audience for the AIDA Data Hub Support function is the
 [AIDA](https://medtech4health.se/en/aida-arena) community. AIDA Data Hub will
@@ -40,6 +40,7 @@ how other support functions operate within [SciLifeLab](https://scilifelab.se),
 ## Extent of support
 
 * Ask a question - Always welcome!
+* NBIS [drop-in](https://nbis.se/events/) support - AIDA Data Hub often joins.
 * Consultation - Explorative, a meeting or two.
 * Support project - Longer engagements, one or more weeks.
 
