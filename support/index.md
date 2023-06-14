@@ -67,7 +67,7 @@ Links:
 ## Support offering
 
 ### Research support expertise
-Advanced user support and training to the AIDA community, in medical imaging
+Advanced support and training to the AIDA community, in medical imaging
 diagnostics AI research and innovation.
 
 Focus on projects with clear connection to the broader SciLifeLab aims,
