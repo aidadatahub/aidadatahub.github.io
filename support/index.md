@@ -4,7 +4,7 @@ description: "Current plans for the upcoming support function at the <a href='/'
 ---
 **This is a preview of an upcoming support function at AIDA Data Hub.
 Do not rely on the information on this page to be accurate, just yet.
-<a href='mailto:erik.ylipaa@liu.se'>Input is welcome</a>!**
+<a href='mailto:aida-support@nbis.se'>Input is welcome</a>!**
 
 AIDA Data Hub is currently establishing a new support function aimed at the
 [AIDA](https://medtech4health.se/en/aida-arena) community, intended to integrate
@@ -19,7 +19,7 @@ Jump to:
 {:toc}
 
 ## Apply for support {#apply}
-Apply for support here: [erik.ylipaa@liu.se](mailto:erik.ylipaa@liu.se??subject=[AIDA%20Data%20hub%20support]%20Request%20for%20support)
+Apply for support here: [aida-support@nbis.se](mailto:aida-support@nbis.se??subject=[AIDA%20Data%20hub%20support]%20Request%20for%20support)
 
 The target audience for the AIDA Data Hub Support function is the
 [AIDA](https://medtech4health.se/en/aida-arena) community. AIDA Data Hub will
