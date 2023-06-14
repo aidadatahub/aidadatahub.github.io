@@ -66,22 +66,22 @@ Links:
 
 ## Support offering
 
-### Research support expertise
-Advanced support and training to the AIDA community, in medical imaging
+### Research support expertise {#research-support-expertise}
+Advanced user support and training to the AIDA community, in medical imaging
 diagnostics AI research and innovation.
 
 Focus on projects with clear connection to the broader SciLifeLab aims,
 including precision medicine and multi-omics.
 
 Capabilities:
-* Advanced user support and training in medical imaging diagnostics AI
+* Advanced support and training in medical imaging diagnostics AI
 * Provide a core resource with deep technical expertise
 * Support junior researchers
 * Reduce startup latencies
 * Facilitate knowledge transfer
 * Stretch goal: supervise Master's thesis projects?
 
-### Data sharing and policy support
+### Data sharing and policy {#data-sharing-policy}
 Support in sharing medical imaging data, and policy support in sensitive data
 for research.
 
@@ -90,7 +90,7 @@ Topics:
 * [AIDA DGX-2 Service](/sharing/#dgx-2).
 * [AIDA Nextcloud](/services/#nextcloud).
 
-### System design
+### System design {#system-design}
 Consultation in system design for sensitive data, such as the [AIDA DGX-2 Service](/sharing/#dgx-2).
 
 ### Training
