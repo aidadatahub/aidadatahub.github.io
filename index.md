@@ -1,6 +1,6 @@
 ---
 ---
-We offer [Data Sharing](/datasets), [Policy Support](/sharing), and
+We offer [Data Sharing](/datasets), [Policy](/sharing), [Support](/support) and
 [Services](/services) for researchers in Swedish medical imaging AI.
 
 AIDA Data Hub is part of the Analytic Imaging Diagnostics Arena
@@ -59,8 +59,10 @@ original sources in official law text. Key insights have been published in
 
 ## AIDA Support
 
-We offer advanced user [support](/support) and training to the AIDA community, in medical imaging
-diagnostics AI research and innovation. The goal is to accelerate research within medical imaging diagnostics by supporting researchers from the early phases such as project scoping and modeling to later practical stages such as debugging, optimizing and deploying AI solutions.
+We offer  [Advanced support and training](/support) to the AIDA community, in medical imaging
+diagnostics AI research and innovation. Areas include [Research support expertise](/support#research-support-expertise), [Data sharing and policy](/support#data-sharing-policy), and [System design](/support#system-design) for sensitive data.
+The goal is to accelerate research within medical imaging diagnostics by supporting researchers from the early phases such as project scoping and modeling
+to later practical stages such as debugging, optimizing and deploying AI solutions.
 
 
 ## AIDA Services
