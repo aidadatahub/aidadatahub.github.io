@@ -82,5 +82,4 @@ Consultation in system design for sensitive data, such as the [AIDA DGX-2 Servic
 Training for:
 * AI researchers
 * Medical imaging diagnosticians
-* Computer system engineers
 
