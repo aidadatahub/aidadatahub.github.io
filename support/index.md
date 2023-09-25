@@ -43,7 +43,7 @@ SciLifeLab aims, including precision medicine and multi-omics.
 
 In the event of limited resources, prioritization will be carried out by
 AIDA Data Hub management, advised by AIDA management. Conflicts if any are
-be resolved by the AIDA Steering group.
+resolved by the AIDA Steering group.
 
 Links:
 * [AIDA Data Hub Governance overview](https://docs.google.com/document/d/1ZA71FXSBA5vcAJUj_NH3tPauHKfEPrsqxslsoxG9Afo/edit#heading=h.oqd9fv79cel5)
