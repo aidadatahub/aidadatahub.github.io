@@ -69,6 +69,7 @@ datacite:
       Springer, Cham
 other:
   shortName: "CTPEL"
+  origin: "Clinic"
   status: "Ongoing"
   annotation: |
     Segmentation was done first with an interactive software (Mialab), followed

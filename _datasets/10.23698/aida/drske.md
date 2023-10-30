@@ -74,6 +74,7 @@ datacite:
       J Digit Imaging (2020). https://doi.org/10.1007/s10278-020-00384-4
 other:
   shortName: "DRSKE"
+  origin: "Clinic"
   status: "Completed"
   annotation: |
     The metastases were segmented accurately by a radiologist and the

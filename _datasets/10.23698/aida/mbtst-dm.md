@@ -80,6 +80,7 @@ datacite:
       doi:10.1016/S1470-2045(18)30521-7
 other:
   shortName: "MBTST-DM"
+  origin: "Clinic"
   status: "Ongoing"
   annotation: |
     The mammography cancer screening was carried out as part of the Malmö Breast

@@ -59,6 +59,7 @@ datacite:
   citation:
 other:
   shortName: "ctskull"
+  origin: "Clinic"
   status: "Completed"
   annotation: |
     There are no annotations performed on the data set as segmentation of the

@@ -71,6 +71,7 @@ datacite:
   citation:
 other:
   shortName: "SPROB20"
+  origin: "Clinic"
   status: "Completed"
   annotation: |
     The cases are annotated with clinical data relevant for the treatment decision and the following treatment decision made in conjunction with the biopsy sampling.

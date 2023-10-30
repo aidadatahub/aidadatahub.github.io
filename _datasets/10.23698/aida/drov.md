@@ -83,6 +83,7 @@ datacite:
       J Digit Imaging (2020). https://doi.org/10.1007/s10278-020-00384-4
 other:
   shortName: "DROV"
+  origin: "Clinic"
   status: "Completed"
   annotation: |
     One physician was responsible for the manual annotations controlled by a second

@@ -71,6 +71,7 @@ datacite:
     #name: "Georg Zdolsek, Yupei Chen, Hans-Peter Bögl, Chunliang Wang, Mischa Woisetschläger & Jörg Schilcher (2021) Deep neural networks with promising diagnostic accuracy for the classification of atypical femoral fractures, Acta Orthopaedica, 92:4, 394-400, DOI: 10.1080/17453674.2021.1891512"
 other:
   shortName: "LESSER"
+  origin: "Clinic"
   status: "Completed"
   annotation: |
     All initial T2-weighted scans along with the high resolution images in each paired low and high resolution group are segmented by a single observer in Monaco 5.40.01 and containing delineations of prostate (CTV), bladder and rectum.
