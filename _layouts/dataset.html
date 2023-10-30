@@ -45,7 +45,7 @@
       {% endif %}
       {% if page.synthetic %}
       <p><b>
-        This is a synthetic dataset created by the use of a generative AI model.
+        This dataset contains synthetic data created by a generative AI model.
       </b></p>
     {% endif %}
       {{ page.datacite.description | markdownify }}
@@ -68,6 +68,10 @@
           <tr>
             <th>Short name</th>
             <td>{{ page.other.shortName }}</td>
+          </tr>
+          <tr>
+            <th>Origin</th>
+            <td>{{ page.other.origin }}</td>
           </tr>
           <tr>
             <th>Cite as</th>

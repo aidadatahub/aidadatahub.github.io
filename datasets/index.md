@@ -36,6 +36,7 @@ or learn more about [FAIR and DOI](/about#what-are-dois-and-dataset-registers).
   <table>
     {% for d in site.datasets %}
       {% if d.hidden %}{% continue  %}{% endif %}
+      {% if d.synthetic %}{% continue  %}{% endif %}
       <tr>
         <td><a href="{{ d.url }}"><img src="{{ d.other.image | default: d.other.exampleImage[0].thumbnail-url | default: d.other.exampleImage[0].url }}"></a></td>
         <td>
