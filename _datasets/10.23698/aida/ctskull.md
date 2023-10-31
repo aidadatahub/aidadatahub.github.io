@@ -58,7 +58,7 @@ datacite:
     abstract: "Free for use within AIDA."
   citation:
 other:
-  shortName: "ctskull"
+  shortName: "CTSKULL"
   origin: "Clinic"
   status: "Completed"
   annotation: |

@@ -19,13 +19,30 @@ description: "<a href='/'>AIDA Data Hub</a> sharing in numbers."
   {% assign radb = 0 %}
   {% assign rads = 0 %}
   {% assign rada = 0 %}
+  {% assign stotn = 0 %}
+  {% assign stotb = 0 %}
+  {% assign stots = 0 %}
+  {% assign stota = 0 %}
+  {% assign sannn = 0 %}
+  {% assign sannb = 0 %}
+  {% assign sanns = 0 %}
+  {% assign sanna = 0 %}
+  {% assign spatn = 0 %}
+  {% assign spatb = 0 %}
+  {% assign spats = 0 %}
+  {% assign spata = 0 %}
+  {% assign sradn = 0 %}
+  {% assign sradb = 0 %}
+  {% assign srads = 0 %}
+  {% assign srada = 0 %}
   {% assign country-codes = '' | split: '' %}
   {% assign modalities = '' | split: '' %}
   {% assign organs = '' | split: '' %}
+  
+
   {% for d in site.datasets %}
-    {% if d.hidden %}
-      {% continue %}
-    {% endif %}
+    {% if d.hidden %}{% continue  %}{% endif %}
+
     {% assign kw = d.datacite.keywords | split:", " %}
     {% assign b = d.other.bytes | default: 0 %}
     {% assign s = d.other.numberOfScans | default: 0 %}
@@ -34,6 +51,7 @@ description: "<a href='/'>AIDA Data Hub</a> sharing in numbers."
     {% assign totb = totb | plus: b %}
     {% assign tots = tots | plus: s %}
     {% assign tota = tota | plus: a %}
+    
     {% if kw contains 'Annotated' %}
       {% assign annn = annn | plus: 1 %}
       {% assign annb = annb | plus: b %}
@@ -51,6 +69,24 @@ description: "<a href='/'>AIDA Data Hub</a> sharing in numbers."
       {% assign radb = radb | plus: b %}
       {% assign rads = rads | plus: s %}
       {% assign rada = rada | plus: a %}
+    {% endif %}
+    {% if kw contains 'Synthetic' and kw contains 'Annotated' %}
+      {% assign sannn = sannn | plus: 1 %}
+      {% assign sannb = sannb | plus: b %}
+      {% assign sanns = sanns | plus: s %}
+      {% assign sanna = sanna | plus: a %}
+    {% endif %}
+    {% if kw contains 'Synthetic' and kw contains 'Pathology' %}
+      {% assign sradn = sradn | plus: 1 %}
+      {% assign sradb = sradb | plus: b %}
+      {% assign srads = srads | plus: s %}
+      {% assign srada = srada | plus: a %}
+    {% endif %}
+    {% if kw contains 'Synthetic' and kw contains 'Radiology' %}
+      {% assign sradn = sradn | plus: 1 %}
+      {% assign sradb = sradb | plus: b %}
+      {% assign srads = srads | plus: s %}
+      {% assign srada = srada | plus: a %}
     {% endif %}
     {% assign country-codes = country-codes | concat: d.other.countries-shared %}
     {% assign modalities = modalities | concat: d.other.modality %}
@@ -99,6 +135,42 @@ AIDA Data Hub has facilitated [legal and ethical data sharing](../sharing/overvi
     <td>{{ rads }}</td>
     <td>{{ rada }}</td>
     <td>{% include human_friendly_filesize bytes=radb %}</td>
+  </tr>
+</table>
+
+### Synthetic Datasets
+<p><b>  
+These datasets contain synthetic data created by a generative AI model.
+</b></p>
+<table class="info-box">
+  <tr><th></th><th>Datasets</th><th>Scans</th><th>Annotations</th><th>Size</th></tr>
+  <tr>
+    <th>Total</th>
+    <td>{{ stotn }}</td>
+    <td>{{ stots }}</td>
+    <td>{{ stota }}</td>
+    <td>{% include human_friendly_filesize bytes=stotb %}</td>
+  </tr>
+  <tr>
+    <td><a href="/search/?q=Annotated">Annotated</a></td>
+    <td>{{ sannn }}</td>
+    <td>{{ sanns }}</td>
+    <td>{{ sanna }}</td>
+    <td>{% include human_friendly_filesize bytes=sannb %}</td>
+  </tr>
+  <tr>
+    <td><a href="/search/?q=Subject:Pathology">Pathology</a></td>
+    <td>{{ spatn }}</td>
+    <td>{{ spats }}</td>
+    <td>{{ spata }}</td>
+    <td>{% include human_friendly_filesize bytes=spatb %}</td>
+  </tr>
+  <tr>
+    <td><a href="/search/?q=Subject:Radiology">Radiology</a></td>
+    <td>{{ sradn }}</td>
+    <td>{{ srads }}</td>
+    <td>{{ srada }}</td>
+    <td>{% include human_friendly_filesize bytes=sradb %}</td>
   </tr>
 </table>
 

@@ -30,8 +30,8 @@ datacite:
     url: "https://liu.se/"
     "@type": "Organization"
   - name: "Anders Eklund"
-  "@id": "https://orcid.org/0000-0001-7061-7995"
-  "@type": "Person"
+    "@id": "https://orcid.org/0000-0001-7061-7995"
+    "@type": "Person"
   provider:
   - name: "Muhammad Usman Akbar"
     email: "muhammad.usman@liu.se"
