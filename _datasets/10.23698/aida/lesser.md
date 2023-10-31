@@ -79,7 +79,7 @@ other:
   - "SE"
   organ:
   - name: "Prostate"
-    sctid: 71341001
+    sctid: 41216001
   age-span:
   bytes: 5690831667
   numberOfScans: 310
