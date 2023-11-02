@@ -42,7 +42,7 @@ description: "<a href='/'>AIDA Data Hub</a> sharing in numbers."
 
   {% for d in site.datasets %}
     {% if d.hidden %}{% continue  %}{% endif %}
-    
+    {% if d.synthetic %}{% continue  %}{% endif %}
     {% assign kw = d.datacite.keywords | split:", " %}
     {% assign b = d.other.bytes | default: 0 %}
     {% assign s = d.other.numberOfScans | default: 0 %}
@@ -69,28 +69,47 @@ description: "<a href='/'>AIDA Data Hub</a> sharing in numbers."
       {% assign rads = rads | plus: s %}
       {% assign rada = rada | plus: a %}
     {% endif %}
-    {% if kw contains 'Synthetic' and kw contains 'Annotated' %}
+    {% assign country-codes = country-codes | concat: d.other.countries-shared %}
+    {% assign modalities = modalities | concat: d.other.modality %}
+    {% assign o = d.other.organ | map: "name" %}
+    {% assign organs = organs | concat: o %}
+  {% endfor %}
+  {% for d in site.datasets %}
+    {% if d.hidden %}{% continue  %}{% endif %}
+    {% if d.synthetic %}
+    {% assign skw = d.datacite.keywords | split:", " %}
+    {% assign sb = d.other.bytes | default: 0 %}
+    {% assign ss = d.other.numberOfScans | default: 0 %}
+    {% assign sa = d.other.numberOfAnnotations | default: 0 %}
+    {% assign stotn = stotn | plus: 1 %}
+    {% assign stotb = stotb | plus: sb %}
+    {% assign stots = stots | plus: ss %}
+    {% assign stota = stota | plus: sa %}
+
+
+    {% if skw contains 'Synthetic' and skw contains 'Annotated' %}
       {% assign sannn = sannn | plus: 1 %}
-      {% assign sannb = sannb | plus: b %}
-      {% assign sanns = sanns | plus: s %}
-      {% assign sanna = sanna | plus: a %}
+      {% assign sannb = sannb | plus: sb %}
+      {% assign sanns = sanns | plus: ss %}
+      {% assign sanna = sanna | plus: sa %}
     {% endif %}
-    {% if kw contains 'Synthetic' and kw contains 'Pathology' %}
+    {% if skw contains 'Synthetic' and skw contains 'Pathology' %}
       {% assign sradn = sradn | plus: 1 %}
-      {% assign sradb = sradb | plus: b %}
-      {% assign srads = srads | plus: s %}
-      {% assign srada = srada | plus: a %}
+      {% assign sradb = sradb | plus: sb %}
+      {% assign srads = srads | plus: ss %}
+      {% assign srada = srada | plus: sa %}
     {% endif %}
-    {% if kw contains 'Synthetic' and kw contains 'Radiology' %}
+    {% if skw contains 'Synthetic' and skw contains 'Radiology' %}
       {% assign sradn = sradn | plus: 1 %}
-      {% assign sradb = sradb | plus: b %}
-      {% assign srads = srads | plus: s %}
-      {% assign srada = srada | plus: a %}
+      {% assign sradb = sradb | plus: sb %}
+      {% assign srads = srads | plus: ss %}
+      {% assign srada = srada | plus: sa %}
     {% endif %}
     {% assign country-codes = country-codes | concat: d.other.countries-shared %}
     {% assign modalities = modalities | concat: d.other.modality %}
     {% assign o = d.other.organ | map: "name" %}
     {% assign organs = organs | concat: o %}
+    {% endif %}
   {% endfor %}
   {% assign modalities = modalities | uniq | sort %}
   {% assign organs = organs | uniq | sort %}
