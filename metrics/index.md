@@ -42,7 +42,7 @@ description: "<a href='/'>AIDA Data Hub</a> sharing in numbers."
 
   {% for d in site.datasets %}
     {% if d.hidden %}{% continue  %}{% endif %}
-
+    
     {% assign kw = d.datacite.keywords | split:", " %}
     {% assign b = d.other.bytes | default: 0 %}
     {% assign s = d.other.numberOfScans | default: 0 %}
@@ -51,7 +51,6 @@ description: "<a href='/'>AIDA Data Hub</a> sharing in numbers."
     {% assign totb = totb | plus: b %}
     {% assign tots = tots | plus: s %}
     {% assign tota = tota | plus: a %}
-    
     {% if kw contains 'Annotated' %}
       {% assign annn = annn | plus: 1 %}
       {% assign annb = annb | plus: b %}

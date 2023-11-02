@@ -50,7 +50,7 @@ datacite:
   dateCreated: "2022-12-09"
   datePublished: "2023-11-01"
   dateModified: "2023-11-01"
-  keywords: "Radiology, MR-Linac, Radiotherapy, Prostate, Low-resolution"
+  keywords: "Radiology, Annotated, MR-Linac, Radiotherapy, Prostate, Low-resolution"
   version: "1.0"
   description: |
     MR-images of the prostate region from healthy volunteers acquired at Elekta unity MR-Linac at Uppsala University Hospital. Data from each volunteer consist of an initial T2-weighted scan, followed by a number of groups of paired low and high resolution data approximately 5 minutes apart with a 3D balanced steady state free precession sequence. The initial T2-image and all high resolution images are segmented by a single observer including prostate, bladder and rectum.

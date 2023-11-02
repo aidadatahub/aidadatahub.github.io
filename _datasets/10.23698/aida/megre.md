@@ -34,7 +34,7 @@ datacite:
   dateCreated: "2020-04-27"
   datePublished: "2020-04-30"
   dateModified: "2020-04-30"
-  keywords: "Gold fiducial marker, MRI only, Radiotherapy, MRI radiation therapy, Prostate, Cancer, Radiology"
+  keywords: "Gold fiducial marker, MRI only, Radiotherapy, MRI radiation therapy, Prostate, Cancer, Radiology, Annotated"
   version: "1.2.0"
   # 1.2.0: Paper now published. References & license wording updated.
   description: |
