@@ -34,7 +34,7 @@ datacite:
   dateCreated: "2020-04-27"
   datePublished: "2020-04-30"
   dateModified: "2020-04-30"
-  keywords: "Gold fiducial marker, MRI only, Radiotherapy, MRI radiation therapy, Prostate, Cancer, Radiology"
+  keywords: "Gold fiducial marker, MRI only, Radiotherapy, MRI radiation therapy, Prostate, Cancer, Radiology, Annotated"
   version: "1.2.0"
   # 1.2.0: Paper now published. References & license wording updated.
   description: |
@@ -78,6 +78,7 @@ datacite:
       radiotherapy. Med. Phys., 44: 5563-5574. doi:10.1002/mp.12516
 other:
   shortName: "MEGRE"
+  origin: "Clinical"
   status: "Completed"
   annotation: |
     For 100 out of the 326 patients in the train/validation dataset the MEGRE

@@ -80,6 +80,7 @@ datacite:
     #  name: "Title of paper goes here"
 other:
   shortName: "MICROMEN"
+  origin: "Clinical"
   status: "Completed"
   annotation: |
     Histology slides coregistered by landmark-based approach with DTI images of meningioma tumor samples.

@@ -78,6 +78,7 @@ datacite:
     #  name: "Title of paper goes here"
 other:
   shortName: "BRLN"
+  origin: "Clinical"
   status: "Ongoing"
   annotation: |
     No in-image annotations available.

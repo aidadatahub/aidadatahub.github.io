@@ -72,6 +72,7 @@ datacite:
     #  name: "Title of paper goes here"
 other:
   shortName: "LNCO2"
+  origin: "Clinical"
   status: "Completed"
   annotation: |
     Lymph nodes have been identified by an experienced pathologist and annotated

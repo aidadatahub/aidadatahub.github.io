@@ -9,7 +9,7 @@ description: "Find datasets of interest on the <a href='/'>AIDA Data Hub</a>."
 </div>
 
 <table id="dataset-table">
- <thead><tr><th>Name</th><th>Subject</th><th>Modality</th><th>Date</th><th>Size</th><th>Organ</th><th>Title</th></tr></thead>
+ <thead><tr><th>Name</th><th>Subject</th><th>Origin</th><th>Modality</th><th>Date</th><th>Size</th><th>Organ</th><th>Title</th></tr></thead>
  <tbody>
  {% for d in site.datasets %}
    {% if d.hidden %}{% continue  %}{% endif %}
@@ -18,6 +18,7 @@ description: "Find datasets of interest on the <a href='/'>AIDA Data Hub</a>."
    <tr>
      <td><a href="{{ d.url }}">{{ d.other.shortName }}</a></td>
      <td>{% if kw contains 'Pathology' %}<a href="/search/?q=Subject:Pathology">Pathology</a>{% endif %}{% if kw contains 'Radiology' %}<a href="/search/?q=Subject:Radiology">Radiology</a>{% endif %}</td>
+     <td>{% if kw contains 'Synthetic' %}<a href="/search/?q=Origin:Synthetic">Synthetic</a>{% else %}<a href="/search/?q=Origin:Clinical">Clinical</a>{% endif %}</td>
      <td>
        {% for m in d.other.modality %}
          <a href="/search/?q=Modality:{{ m }}">{% include modality-title.html modality=m %}</a><br/>

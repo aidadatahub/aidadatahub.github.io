@@ -43,6 +43,11 @@
           hub. Do not rely on information on this page to be accurate.
         </b></p>
       {% endif %}
+      {% if page.synthetic %}
+      <p><b>
+        This dataset contains synthetic data created by a generative AI model.
+      </b></p>
+    {% endif %}
       {{ page.datacite.description | markdownify }}
       <p>Keywords: {{ page.datacite.keywords }}.</p>
 
@@ -63,6 +68,10 @@
           <tr>
             <th>Short name</th>
             <td>{{ page.other.shortName }}</td>
+          </tr>
+          <tr>
+            <th>Origin</th>
+            <td>{{ page.other.origin }}</td>
           </tr>
           <tr>
             <th>Cite as</th>

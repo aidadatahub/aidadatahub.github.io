@@ -58,7 +58,8 @@ datacite:
     abstract: "Free for use within AIDA."
   citation:
 other:
-  shortName: "ctskull"
+  shortName: "CTSKULL"
+  origin: "Clinical"
   status: "Completed"
   annotation: |
     There are no annotations performed on the data set as segmentation of the

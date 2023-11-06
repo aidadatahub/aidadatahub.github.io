@@ -19,13 +19,30 @@ description: "<a href='/'>AIDA Data Hub</a> sharing in numbers."
   {% assign radb = 0 %}
   {% assign rads = 0 %}
   {% assign rada = 0 %}
+  {% assign stotn = 0 %}
+  {% assign stotb = 0 %}
+  {% assign stots = 0 %}
+  {% assign stota = 0 %}
+  {% assign sannn = 0 %}
+  {% assign sannb = 0 %}
+  {% assign sanns = 0 %}
+  {% assign sanna = 0 %}
+  {% assign spatn = 0 %}
+  {% assign spatb = 0 %}
+  {% assign spats = 0 %}
+  {% assign spata = 0 %}
+  {% assign sradn = 0 %}
+  {% assign sradb = 0 %}
+  {% assign srads = 0 %}
+  {% assign srada = 0 %}
   {% assign country-codes = '' | split: '' %}
   {% assign modalities = '' | split: '' %}
   {% assign organs = '' | split: '' %}
+  
+
   {% for d in site.datasets %}
-    {% if d.hidden %}
-      {% continue %}
-    {% endif %}
+    {% if d.hidden %}{% continue  %}{% endif %}
+    {% if d.synthetic %}{% continue  %}{% endif %}
     {% assign kw = d.datacite.keywords | split:", " %}
     {% assign b = d.other.bytes | default: 0 %}
     {% assign s = d.other.numberOfScans | default: 0 %}
@@ -57,6 +74,43 @@ description: "<a href='/'>AIDA Data Hub</a> sharing in numbers."
     {% assign o = d.other.organ | map: "name" %}
     {% assign organs = organs | concat: o %}
   {% endfor %}
+  {% for d in site.datasets %}
+    {% if d.hidden %}{% continue  %}{% endif %}
+    {% if d.synthetic %}
+    {% assign skw = d.datacite.keywords | split:", " %}
+    {% assign sb = d.other.bytes | default: 0 %}
+    {% assign ss = d.other.numberOfScans | default: 0 %}
+    {% assign sa = d.other.numberOfAnnotations | default: 0 %}
+    {% assign stotn = stotn | plus: 1 %}
+    {% assign stotb = stotb | plus: sb %}
+    {% assign stots = stots | plus: ss %}
+    {% assign stota = stota | plus: sa %}
+
+
+    {% if skw contains 'Synthetic' and skw contains 'Annotated' %}
+      {% assign sannn = sannn | plus: 1 %}
+      {% assign sannb = sannb | plus: sb %}
+      {% assign sanns = sanns | plus: ss %}
+      {% assign sanna = sanna | plus: sa %}
+    {% endif %}
+    {% if skw contains 'Synthetic' and skw contains 'Pathology' %}
+      {% assign sradn = sradn | plus: 1 %}
+      {% assign sradb = sradb | plus: sb %}
+      {% assign srads = srads | plus: ss %}
+      {% assign srada = srada | plus: sa %}
+    {% endif %}
+    {% if skw contains 'Synthetic' and skw contains 'Radiology' %}
+      {% assign sradn = sradn | plus: 1 %}
+      {% assign sradb = sradb | plus: sb %}
+      {% assign srads = srads | plus: ss %}
+      {% assign srada = srada | plus: sa %}
+    {% endif %}
+    {% assign country-codes = country-codes | concat: d.other.countries-shared %}
+    {% assign modalities = modalities | concat: d.other.modality %}
+    {% assign o = d.other.organ | map: "name" %}
+    {% assign organs = organs | concat: o %}
+    {% endif %}
+  {% endfor %}
   {% assign modalities = modalities | uniq | sort %}
   {% assign organs = organs | uniq | sort %}
   {% assign countries = '' | split: '' %}
@@ -70,6 +124,7 @@ AIDA Data Hub has facilitated [legal and ethical data sharing](../sharing/overvi
 {{ countries | array_to_sentence_string: "and" }}.
 
 ## Datasets
+### Clinical Datasets
 <table class="info-box">
   <tr><th></th><th>Datasets</th><th>Scans</th><th>Annotations</th><th>Size</th></tr>
   <tr>
@@ -99,6 +154,42 @@ AIDA Data Hub has facilitated [legal and ethical data sharing](../sharing/overvi
     <td>{{ rads }}</td>
     <td>{{ rada }}</td>
     <td>{% include human_friendly_filesize bytes=radb %}</td>
+  </tr>
+</table>
+
+### Synthetic Datasets
+<p><b>  
+These datasets contain synthetic data created by a generative AI model.
+</b></p>
+<table class="info-box">
+  <tr><th></th><th>Datasets</th><th>Scans</th><th>Annotations</th><th>Size</th></tr>
+  <tr>
+    <th>Total</th>
+    <td>{{ stotn }}</td>
+    <td>{{ stots }}</td>
+    <td>{{ stota }}</td>
+    <td>{% include human_friendly_filesize bytes=stotb %}</td>
+  </tr>
+  <tr>
+    <td><a href="/search/?q=Annotated">Annotated</a></td>
+    <td>{{ sannn }}</td>
+    <td>{{ sanns }}</td>
+    <td>{{ sanna }}</td>
+    <td>{% include human_friendly_filesize bytes=sannb %}</td>
+  </tr>
+  <tr>
+    <td><a href="/search/?q=Subject:Pathology">Pathology</a></td>
+    <td>{{ spatn }}</td>
+    <td>{{ spats }}</td>
+    <td>{{ spata }}</td>
+    <td>{% include human_friendly_filesize bytes=spatb %}</td>
+  </tr>
+  <tr>
+    <td><a href="/search/?q=Subject:Radiology">Radiology</a></td>
+    <td>{{ sradn }}</td>
+    <td>{{ srads }}</td>
+    <td>{{ srada }}</td>
+    <td>{% include human_friendly_filesize bytes=sradb %}</td>
   </tr>
 </table>
 

@@ -58,6 +58,7 @@ datacite:
   #  name: |
 other:
   shortName: "BRMBR"
+  origin: "Clinical"
   status: "Ongoing"
   annotation: |
     No in-image annotations available.

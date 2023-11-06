@@ -36,6 +36,7 @@ or learn more about [FAIR and DOI](/about#what-are-dois-and-dataset-registers).
   <table>
     {% for d in site.datasets %}
       {% if d.hidden %}{% continue  %}{% endif %}
+      {% if d.synthetic %}{% continue  %}{% endif %}
       <tr>
         <td><a href="{{ d.url }}"><img src="{{ d.other.image | default: d.other.exampleImage[0].thumbnail-url | default: d.other.exampleImage[0].url }}"></a></td>
         <td>
@@ -45,6 +46,27 @@ or learn more about [FAIR and DOI](/about#what-are-dois-and-dataset-registers).
         </td>
         <td>{{ d.datacite.datePublished | date: "%Y" }}</td>
       </tr>
+    {% endfor %}
+  </table>
+</div>
+
+## Synthetic Datasets shared on the AIDA Data Hub
+
+<div class="dataset-table">
+  <table>
+    {% for d in site.datasets %}
+      {% if d.synthetic %}
+       {% if d.hidden %}{% continue  %}{% endif %}
+      <tr>
+        <td><a href="{{ d.url }}"><img src="{{ d.other.image | default: d.other.exampleImage[0].thumbnail-url | default: d.other.exampleImage[0].url }}"></a></td>
+        <td>
+          <a href="{{ d.url }}">{{ d.datacite.name }}</a><br/>
+          <span class="keywords">Keywords: {{ d.datacite.keywords }}.</span><br/>
+          <a href="{{ d.datacite["@id"] }}" class="doi">doi:{{ d.datacite["@id"] | remove: "https://doi.org/" }}</a>
+        </td>
+        <td>{{ d.datacite.datePublished | date: "%Y" }}</td>
+      </tr>
+      {% endif %}
     {% endfor %}
   </table>
 </div>
