@@ -74,7 +74,7 @@ datacite:
     #  name: "Title of paper goes here"
 other:
   shortName: "CTPA"
-  origin: "Clinic"
+  origin: "Clinical"
   status: "Ongoing"
   annotation: |
     All pulmonary emboli have been delineated by an experienced radiologist - in

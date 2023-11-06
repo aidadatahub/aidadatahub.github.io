@@ -74,7 +74,7 @@ datacite:
     #  name: "Title of paper goes here"
 other:
   shortName: "LNCO"
-  origin: "Clinic"
+  origin: "Clinical"
   status: "Completed"
   annotation: |
     ROI boxes around lymph nodes (positive, negative or unasssed) and detailed tumor polygons

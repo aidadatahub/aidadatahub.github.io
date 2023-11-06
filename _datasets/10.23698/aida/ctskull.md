@@ -59,7 +59,7 @@ datacite:
   citation:
 other:
   shortName: "CTSKULL"
-  origin: "Clinic"
+  origin: "Clinical"
   status: "Completed"
   annotation: |
     There are no annotations performed on the data set as segmentation of the

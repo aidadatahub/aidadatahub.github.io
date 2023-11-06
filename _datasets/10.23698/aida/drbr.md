@@ -76,7 +76,7 @@ datacite:
       J Digit Imaging (2020). https://doi.org/10.1007/s10278-020-00384-4
 other:
   shortName: "DRBR"
-  origin: "Clinic"
+  origin: "Clinical"
   status: "Completed"
   annotation: |
     The breast tumours were classified with four SNOMED-CT categories based on

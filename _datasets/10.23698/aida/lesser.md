@@ -71,7 +71,7 @@ datacite:
       Samuel Fransson, David Tilly, and Robin Strand (2023) Deep learning segmentation of low-resolution images for prostate magnetic resonance-guided radiotherapy, DOI: 10.48550/arXiv.2310.11358
 other:
   shortName: "LESSER"
-  origin: "Clinic"
+  origin: "Clinical"
   status: "Completed"
   annotation: |
     All initial T2-weighted scans along with the high resolution images in each paired low and high resolution group are segmented by a single observer in Monaco 5.40.01 and containing delineations of prostate (CTV), bladder and rectum.

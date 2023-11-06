@@ -78,7 +78,7 @@ datacite:
       radiotherapy. Med. Phys., 44: 5563-5574. doi:10.1002/mp.12516
 other:
   shortName: "MEGRE"
-  origin: "Clinic"
+  origin: "Clinical"
   status: "Completed"
   annotation: |
     For 100 out of the 326 patients in the train/validation dataset the MEGRE

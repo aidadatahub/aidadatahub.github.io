@@ -72,7 +72,7 @@ datacite:
       name: "Yacob, F., Siarov, J., Villiamsson, K. et al. Weakly supervised detection and classification of basal cell carcinoma using graph-transformer on whole slide images. Sci Rep 13, 7555 (2023). https://doi.org/10.1038/s41598-023-33863-z"
 other:
   shortName: "BCCC"
-  origin: "Clinic"
+  origin: "Clinical"
   status: "Completed"
   annotation: |
     The data is annotated on a slide level into four aggressivity tumour subtypes: low aggressive Ia (nodular) and Ib (superficial) and more aggressive subtypes II (medium aggressive) and III (high aggressive). Of these, types Ia and Ib represent low risk and II and III high risk tumors according to WHO classilification of skin tumors (4th Edition 2018).

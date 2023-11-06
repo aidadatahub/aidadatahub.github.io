@@ -124,6 +124,7 @@ AIDA Data Hub has facilitated [legal and ethical data sharing](../sharing/overvi
 {{ countries | array_to_sentence_string: "and" }}.
 
 ## Datasets
+### Clinical Datasets
 <table class="info-box">
   <tr><th></th><th>Datasets</th><th>Scans</th><th>Annotations</th><th>Size</th></tr>
   <tr>
