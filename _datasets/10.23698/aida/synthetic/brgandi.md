@@ -94,7 +94,7 @@ other:
     sctid: 12738006
   age-span: "" 
   bytes: 71924000000 
-  numberOfScans: 100,000 4-channel MR images per generative model
+  numberOfScans: 100000
   numberOfAnnotations: 1000000
   resolution: 1 x 1 x 1 mm
   modality:
