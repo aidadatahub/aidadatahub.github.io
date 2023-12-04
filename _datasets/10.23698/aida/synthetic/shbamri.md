@@ -1,5 +1,5 @@
 ---
-hidden: yes
+hidden:
 synthetic: yes
 datacite:
   "@context": "http://schema.org"
@@ -67,7 +67,7 @@ datacite:
   keywords: "Radiology, Annotated, Brain, MRI, Synthetic, Brain aging, Synthetic brain aging, Medical image generation"
   version: "1.0.0"
   description: |
-    This dataset is a collection that includes the 6448 synthetic aging brain T1 MRI scans derived from two data sets by our proposed methodology (the following paper [1]). We augmented the HEALTHY longitudinal brain MRI data with corresponding segmentations to simulate the access of a scan per subject every 6 months in these cohorts.
+    This dataset is a collection that includes the 6448 synthetic aging brain T1 MRI scans derived from two data sets by our proposed methodology (the following paper [[1]](https://datahub.aida.scilifelab.se/10.23698/aida/synthetic/shbamri#references)). We augmented the HEALTHY longitudinal brain MRI data with corresponding segmentations to simulate the access of a scan per subject every 6 months in these cohorts.
   license:
   - name: "Controlled access"
     id: "https://datahub.aida.scilifelab.se/10.23698/aida/synthetic/shbamri#controlled-access"
@@ -75,7 +75,7 @@ datacite:
     abstract: |
       Free for use in legal and ethical medical diagnostics research and education.
   - name: "AIDA BY license"
-    id: "https://datahub.aida.scilifelab.se/10.23698/aida/synthetic/shbamri#aida-license"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/synthetic/shbamri#aida-by-license"
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution."
   citation:
@@ -96,7 +96,7 @@ other:
   origin: "Synthetic"
   status: "Completed"
   annotation: |
-    All original segmentations were collected by using FreeSurfer (aparc+aseg.mgz). Synthetic images are segmented based on ground truth segmentations using registration, more information can be found in [1].
+    All original segmentations were collected by using FreeSurfer (aparc+aseg.mgz). Synthetic images are segmented based on ground truth segmentations using registration, more information can be found in [[1]](https://datahub.aida.scilifelab.se/10.23698/aida/synthetic/shbamri#references).
   countries-shared:
   - "SE"
   organ:
@@ -114,10 +114,10 @@ other:
   phase:
   image:
   exampleImage:
-  - title: "Example image 1"
+  - title: "Sample images and the corresponding segmentation masks."
     url: "/assets/images/10.23698/aida/shbamri/SHBAMRI-1-SampleImagesMasks.png"
     thumbnail-url: "/assets/images/10.23698/aida/shbamri/SHBAMRI-1-SampleImagesMasks-thumbnail.png"
-  - title: "Example image 2"
+  - title: "The sample brain aging MRI images for a healthy subject from age 51.7 to age 63.7. (Figure 10 from [1])"
     url: "/assets/images/10.23698/aida/shbamri/SHBAMRI-2-Img2.jpg"
     thumbnail-url: "/assets/images/10.23698/aida/shbamri/SHBAMRI-2-Img2-thumbnail.jpg"
 ---
