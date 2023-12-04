@@ -67,7 +67,7 @@ datacite:
   keywords: "Radiology, Annotated, Brain, MRI, Synthetic, Brain aging, Synthetic brain aging, Medical image generation"
   version: "1.0.0"
   description: |
-    This dataset is a collection that includes the 6448 synthetic aging brain T1 MRI scans derived from two data sets by our proposed methodology (the following paper [1] (https://datahub.aida.scilifelab.se/10.23698/aida/synthetic/shbamri#references)). We augmented the HEALTHY longitudinal brain MRI data with corresponding segmentations to simulate the access of a scan per subject every 6 months in these cohorts.
+    This dataset is a collection that includes the 6448 synthetic aging brain T1 MRI scans derived from two data sets by our proposed methodology (the following paper [[1]](https://datahub.aida.scilifelab.se/10.23698/aida/synthetic/shbamri#references)). We augmented the HEALTHY longitudinal brain MRI data with corresponding segmentations to simulate the access of a scan per subject every 6 months in these cohorts.
   license:
   - name: "Controlled access"
     id: "https://datahub.aida.scilifelab.se/10.23698/aida/synthetic/shbamri#controlled-access"
@@ -96,7 +96,7 @@ other:
   origin: "Synthetic"
   status: "Completed"
   annotation: |
-    All original segmentations were collected by using FreeSurfer (aparc+aseg.mgz). Synthetic images are segmented based on ground truth segmentations using registration, more information can be found in [1] (https://datahub.aida.scilifelab.se/10.23698/aida/synthetic/shbamri#references).
+    All original segmentations were collected by using FreeSurfer (aparc+aseg.mgz). Synthetic images are segmented based on ground truth segmentations using registration, more information can be found in [[1]](https://datahub.aida.scilifelab.se/10.23698/aida/synthetic/shbamri#references).
   countries-shared:
   - "SE"
   organ:
