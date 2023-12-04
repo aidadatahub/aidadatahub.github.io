@@ -1,5 +1,5 @@
 ---
-hidden: yes
+hidden:
 synthetic: yes
 datacite:
   "@context": "http://schema.org"
