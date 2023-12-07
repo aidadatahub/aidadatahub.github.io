@@ -22,12 +22,12 @@ from academia, industry and healthcare. AIDA is coordinated by the
 and is driven by clinical needs.
 
 AIDA Activities include:
-* [Research & innovation projects](https://medtech4health.se/en/aida-en-2/innovation-projects/)
+* [Research & innovation projects](https://medtech4health.se/aida-arena/innovation-projects/)
 * [Clinical evaluations](https://medtech4health.se/en/clinical-evaluations/)
-* [Fellowships](https://medtech4health.se/en/aida-en-2/15836-2/)
+* [Fellowships](https://medtech4health.se/aida-arena/fellowships/)
 * [Data, compute & storage services](/) &larr; This is the [AIDA Data Hub](/)!
-* [AIDA Days](https://medtech4health.se/en/aida-en-2/) ~8 Workshops per year
-* [Training](https://medtech4health.se/en/aida-en-2/)
+* [AIDA Days](https://medtech4health.se/aida-arena/) ~8 Workshops per year
+* [Training](https://medtech4health.se/aida-arena/)
 * [Network partnerships](https://medtech4health.se/aida-en/network-partner/)
 
 AIDA is an initiative within the Strategic innovation program
