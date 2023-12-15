@@ -59,7 +59,7 @@ datacite:
     abstract: |
       Free for use in legal and ethical medical diagnostics research and education.
   - name: "AIDA BY license"
-    id: "https://datahub.aida.scilifelab.se/10.23698/aida/synthetic/brgandi#aida-license"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/synthetic/brgandi#aida-by-license"
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution."
   citation:
@@ -94,7 +94,7 @@ other:
     sctid: 12738006
   age-span: "" 
   bytes: 71924000000 
-  numberOfScans: 100000
+  numberOfScans: 100000 4-channel MR images per generative model
   numberOfAnnotations: 1000000
   resolution: 1 x 1 x 1 mm
   modality:
