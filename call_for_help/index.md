@@ -136,6 +136,7 @@ To get more information about our support service, see our [support page.](https
         const email = document.getElementById("email").value;
         const issue = {
           project_id: ProjectId,
+          status_id: "open",
           tracker_id: TrackerId,
           subject: document.getElementById("title").value,
           description: document.getElementById("description").value,
