@@ -91,7 +91,6 @@ other:
     by an experienced radiologist and verified by a second radiologist. Cancers
     were verified with biopsy.
   countries-shared:
-  - "AU"
   - "AR"
   - "BR"
   - "EG"

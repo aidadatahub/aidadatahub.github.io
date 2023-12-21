@@ -89,7 +89,6 @@ other:
     - "LK"
     - "SE"
     - "US"
-    - "VN"
   organ:
   - name: "Lung"
     sctid: 39607008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
