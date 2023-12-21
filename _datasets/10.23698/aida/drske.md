@@ -81,6 +81,7 @@ other:
     annotations were confirmed by a second radiologist.
   countries-shared:
   - "SE"
+  - "US"
   organ:
   - name: "Skeleton"
     sctid: 113192009

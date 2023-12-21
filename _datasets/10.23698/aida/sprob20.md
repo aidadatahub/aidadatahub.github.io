@@ -80,6 +80,7 @@ other:
     Some cases contain missing data in some of the fields as the data wasn’t available. Some of the biopsies are resliced versions of another biopsy belonging to the same case. 
     Together with the images macro-images of the biopsies exist with localized annotation of gleason grade and cancer detection as provided in the clinical workflow.
   countries-shared: # Fixme: insert link to paper in annotation text above when published.
+  - "DE"
   - "SE"
   organ:
   - name: "Prostate"

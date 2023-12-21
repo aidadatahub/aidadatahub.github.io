@@ -102,11 +102,19 @@ other:
     of cartilage of auditory canal, subcutaneous fatty tissue, subcutaneous
     tissue and surgical margins.
   countries-shared:
+  - "AT"
+  - "CN"
+  - "DE"
+  - "ES"
   - "FI"
+  - "FR"
+  - "GB"
+  - "IT"
   - "NL"
   - "NO"
   - "SE"
-  - "AT"
+  - "US"
+  
   organ:
   - name: "Skin"
     sctid: 39937001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s

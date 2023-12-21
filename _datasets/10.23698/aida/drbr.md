@@ -85,6 +85,9 @@ other:
     different tissue structures connected to ontologies. One physician were
     responsible for the manual annotations controlled by a second pathologist.
   countries-shared:
+  - "AT"
+  - "CN"
+  - "DE"
   - "FI"
   - "GB"
   - "NL"

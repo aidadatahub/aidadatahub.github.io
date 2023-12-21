@@ -98,7 +98,13 @@ other:
     benign structures only the epithelial structures, stroma and support tissue
     were annotated.
   countries-shared:
+    - "AT"
+    - "BD"
+    - "CN"
+    - "DE"
+    - "FR"
     - "SE"
+    - "US"
   organ:
     - name: "Ovary"
       sctid: 15497006 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s

@@ -86,6 +86,7 @@ other:
     5mm was segmented and as assumed metastases (cysts excluded defined by HU).
     317 lesions were annotated.
   countries-shared:
+  - "GB"
   - "SE"
   - "US"
   organ:
