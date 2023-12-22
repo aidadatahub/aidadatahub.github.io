@@ -80,20 +80,26 @@ other:
   countries-shared:
   - "BE"
   - "BR"
+  - "CA"
   - "CH"
   - "CN"
   - "DE"
   - "DK"
+  - "EG"
   - "ES"
   - "FR"
   - "GB"
   - "IN"
+  - "IL"
+  - "IR"
+  - "JP"
   - "KR"
   - "NL"
+  - "PL"
   - "RO"
   - "SE"
   - "US"
-  - "IL"
+  
   organ:
   - name: "Pelvis"
     sctid: 12921003 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s

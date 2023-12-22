@@ -83,9 +83,12 @@ other:
   annotation: |
     No in-image annotations available.
   countries-shared:
+  - "CN"
   - "FI"
+  - "NL"
   - "NO"
   - "SE"
+  - "US"
   organ:
   - name: "Breast"
     sctid: 76752008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s

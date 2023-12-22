@@ -77,7 +77,12 @@ other:
   annotation: |
     The data is annotated on a slide level into four aggressivity tumour subtypes: low aggressive Ia (nodular) and Ib (superficial) and more aggressive subtypes II (medium aggressive) and III (high aggressive). Of these, types Ia and Ib represent low risk and II and III high risk tumors according to WHO classilification of skin tumors (4th Edition 2018).
   countries-shared:
+  - "CN"
+  - "DZ"
+  - "NL"
   - "SE"
+  - "US"
+  
   organ:
   - name: "Skin"
     sctid: 39937001 # SNOMED-CT

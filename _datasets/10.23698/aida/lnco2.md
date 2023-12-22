@@ -78,6 +78,7 @@ other:
     Lymph nodes have been identified by an experienced pathologist and annotated
     using region-of-interest boxes (positive, negative, unassested). A few detailed polygons of tumor exist. See details below.
   countries-shared:
+  - "CN"
   - "FI"
   - "IE"
   - "NO"

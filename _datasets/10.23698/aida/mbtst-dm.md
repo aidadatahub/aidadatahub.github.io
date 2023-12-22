@@ -91,10 +91,11 @@ other:
     by an experienced radiologist and verified by a second radiologist. Cancers
     were verified with biopsy.
   countries-shared:
-  - "SE"
+  - "AR"
   - "BR"
   - "EG"
-  - "AR"
+  - "SE"
+  - "US"
   organ:
   - name: "Breast"
     sctid: 76752008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s

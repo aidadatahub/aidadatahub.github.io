@@ -85,6 +85,7 @@ other:
   annotation: |
     Histology slides coregistered by landmark-based approach with DTI images of meningioma tumor samples.
   countries-shared:
+  - "CZ"
   - "SE"
   organ:
   - name: "Brain"
