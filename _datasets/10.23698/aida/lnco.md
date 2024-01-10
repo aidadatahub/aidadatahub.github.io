@@ -81,6 +81,7 @@ other:
 
     See details below.
   countries-shared:
+  - "CN"
   - "FI"
   - "IE"
   - "NO"

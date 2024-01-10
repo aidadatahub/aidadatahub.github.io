@@ -82,10 +82,12 @@ other:
     Workbench. 1 283 annotations were made, in a total of 38 emboli.
   countries-shared:
     - "BE"
-    - "SE"
+    - "DE"
+    - "IL"
     - "IN"
     - "JO"
     - "LK"
+    - "SE"
     - "US"
   organ:
   - name: "Lung"

@@ -86,6 +86,7 @@ other:
     (AFF) and normal fractures of the femoral shaft (NFF).
   countries-shared:
   - "SE"
+  - "US"
   organ:
   - name: "Femur"
     sctid: 71341001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s

@@ -108,8 +108,12 @@ other:
     colonic subserosa, descending colon, ileum, normal, rectum, sigmoid colon
     and transverse colon.
   countries-shared:
+    - "AT"
     - "CH"
+    - "CN"
+    - "DE"
     - "FI"
+    - "GB"
     - "NO"
     - "SE"
   organ:
