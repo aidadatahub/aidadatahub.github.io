@@ -11,36 +11,16 @@ To get more information about our support service, see our [support page.](https
 <div id="form-div" class="form-wrapper">
     <form id="submissionForm">
       <fieldset>
-        <h3>Describe your data</h3>
-        <div>
-          <input type="checkbox" id="controlledAccess" name="controlledAccess" value="controlledAccess" class="form-check-input" autocomplete="off" >
-          <!-- This box needs to be checked by the user, but the value is not stored in redmine -->
-          <label for="controlledAccess" class="form-check-label">&nbsp;My data requires controlled access *</label>
-        </div>
-        <fieldset class="form-group">
-          <p class="form-label">Type of data: *</p>
-          <div>
-            <input type="checkbox" id="sequence" name="submissionType" value="sequence" class="submissionType form-check-input"/>
-            <label for="sequence">&nbsp;Sequence</label>
-          </div>
-          <div>
-            <input type="checkbox" id="array" name="submissionType" value="array" class="submissionType form-check-input"/>
-            <label for="array">&nbsp;Array</label>
-          </div>
-          <div>
-            <input type="checkbox" id="phenotype" name="submissionType" value="phenotype" class="submissionType form-check-input"/>
-            <label for="phenotype">&nbsp;Phenotype</label>
-          </div>
-        </fieldset>
-        <br>
-        <label for="title" class="form-label">Study title: *</label><br>
+      <fieldset>
+        <h3>Support Query</h3>
+        <label for="title" class="form-label">Project title: *</label><br>
         <input type="text" id="title" name="title" class="form-control" required/><br>    
-        <label for="description" class="form-label">Data description (number of samples, file types, number of files, total file size etc.): *</label><br>
+        <label for="description" class="form-label">Description : *</label><br>
         <textarea id="description" name="description" rows="8" class="form-control" required ></textarea>
       </fieldset>
       <br>
       <fieldset>
-        <h3>Enter your personal details</h3>
+        <h3>Principle investigator</h3>
         <label for="fname" class="form-label">First name: *</label><br>
         <input type="text" id="fname" name="fname" class="form-control" required/><br>
         <label for="lname" class="form-label">Last name: *</label><br>
@@ -48,12 +28,21 @@ To get more information about our support service, see our [support page.](https
         <label for="email" class="form-label">Email: *</label><br>
         <input type="email" id="email" name="email" class="form-control" required/><br>
         <label for="institution" class="form-label">Organization: *</label><br>
-          <select name="institution" id="institution" autocomplete="on" required>
-          </select>
+        <input type="institution" id="institution" name="institution" class="form-control" required/><br>
         <br>
+      </fieldset>
+      <br>
+      <fieldset>
+        <h3>Your contact details</h3>
+        <label for="fname" class="form-label">First name: *</label><br>
+        <input type="text" id="fname" name="fname" class="form-control" required/><br>
+        <label for="lname" class="form-label">Last name: *</label><br>
+        <input type="text" id="lname" name="lname" class="form-control" required/><br>
+        <label for="email" class="form-label">Email: *</label><br>
+        <input type="email" id="email" name="email" class="form-control" required/><br>
         <br>
-      <label>Desired submission completion date:&nbsp;</label><br>
-      <input type="date" id="completionDate" name="completionDate"/><br><br>
+      </fieldset>
+      <br>
       </fieldset>
       <div class="form-group">
       <div class="form-group">
@@ -73,7 +62,7 @@ To get more information about our support service, see our [support page.](https
     </div>  
     <script>
       const ProjectId = "aida-data-hub-support";
-      const TrackerId = 10; // Data Submission Request tracker
+      const TrackerId = 7; // Consultation
       const SKULD = "https://nbis.se";
       // the values below are from the Redmine Organization field
       // see redmine_url/custom_fields.json
