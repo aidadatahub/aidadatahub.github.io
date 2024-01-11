@@ -21,12 +21,10 @@ To get more information about our support service, see our [support page.](https
       <br>
       <fieldset>
         <h3>Principle investigator</h3>
-        <label for="fname" class="form-label">First name: *</label><br>
-        <input type="text" id="fname" name="fname" class="form-control" required/><br>
-        <label for="lname" class="form-label">Last name: *</label><br>
-        <input type="text" id="lname" name="lname" class="form-control" required/><br>
+        <label for="name" class="form-label">First name: *</label><br>
+        <input type="text" id="pi" name="pi" class="form-control" placeholder="Your PI's full name" required/><br>
         <label for="email" class="form-label">Email: *</label><br>
-        <input type="email" id="email" name="email" class="form-control" required/><br>
+        <input type="email" id="pi-email" name="pi-email" class="form-control" placeholder="Your PI's email" required/><br>
         <label for="institution" class="form-label">Organization: *</label><br>
         <input type="institution" id="institution" name="institution" class="form-control" required/><br>
         <br>
@@ -39,7 +37,7 @@ To get more information about our support service, see our [support page.](https
         <label for="lname" class="form-label">Last name: *</label><br>
         <input type="text" id="lname" name="lname" class="form-control" required/><br>
         <label for="email" class="form-label">Email: *</label><br>
-        <input type="email" id="email" name="email" class="form-control" required/><br>
+        <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email address" required/><br>
         <br>
       </fieldset>
       <br>
@@ -87,17 +85,6 @@ To get more information about our support service, see our [support page.](https
         "BILS",
         "Other"
       ];   
-       const institutionList = document.getElementById("institution");
-       organizations.forEach(function(org) {
-            const optionElement = document.createElement("option");
-            optionElement.value = org;
-            optionElement.text = org;
-            institutionList.appendChild(optionElement);
-       });   
-      // make sure the completion date is larger than today
-      const completionDate = document.getElementById("completionDate");
-      const minDate = new Date().toISOString().split('T')[0];
-      completionDate.min = minDate;   
       /** manually trigger form validation (for usage with recaptcha) */
       function validateForm() {
         // mark submission type checkboxes as required when none of them is selected, to
@@ -129,7 +116,6 @@ To get more information about our support service, see our [support page.](https
           tracker_id: TrackerId,
           subject: document.getElementById("title").value,
           description: document.getElementById("description").value,
-          due_date: document.getElementById("completionDate").value,
           // ids from the redmine db
           custom_fields: [
             { id: 13, name: "Name", value: `${fname} ${lname}` },
@@ -142,11 +128,6 @@ To get more information about our support service, see our [support page.](https
               id: 6,
               name: "Organization",
               value: document.getElementById("institution").value,
-            },
-            {
-              id: 25,
-              name: "Type of data",
-              value: document.querySelector(".submissionType:checked").value,
             },
           ],
         };    
