@@ -20,24 +20,15 @@ To get more information about our support service, see our [support page.](https
       </fieldset>
       <br>
       <fieldset>
-        <h3>Principle investigator</h3>
-        <label for="name" class="form-label">First name: *</label><br>
-        <input type="text" id="pi" name="pi" class="form-control" placeholder="Your PI's full name" required/><br>
-        <label for="email" class="form-label">Email: *</label><br>
-        <input type="email" id="pi-email" name="pi-email" class="form-control" placeholder="Your PI's email" required/><br>
-        <label for="institution" class="form-label">Organization: *</label><br>
-        <input type="institution" id="institution" name="institution" class="form-control" required/><br>
-        <br>
-      </fieldset>
-      <br>
-      <fieldset>
         <h3>Your contact details</h3>
-        <label for="fname" class="form-label">First name: *</label><br>
-        <input type="text" id="fname" name="fname" class="form-control" required/><br>
-        <label for="lname" class="form-label">Last name: *</label><br>
-        <input type="text" id="lname" name="lname" class="form-control" required/><br>
-        <label for="email" class="form-label">Email: *</label><br>
-        <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email address" required/><br>
+        <label for="fullname" class="form-label">Your full name: *</label><br>
+        <input type="text" id="fullname" name="fullname" class="form-control" required/><br>
+        <label for="email" class="form-label">Your email: *</label><br>
+        <input type="email" id="email" name="email" class="form-control" required/><br>
+        <label for="piname" class="form-label">PI's name: *</label><br>
+        <input type="text" id="piname" name="piname" class="form-control" required/><br>
+        <label for="piemail" class="form-label">PI's email: *</label><br>
+        <input type="email" id="piemail" name="piemail" class="form-control" required/><br>
         <br>
       </fieldset>
       <br>
@@ -62,40 +53,10 @@ To get more information about our support service, see our [support page.](https
       const ProjectId = "aida-data-hub-support";
       const TrackerId = 7; // Consultation
       const SKULD = "https://nbis.se";
-      // the values below are from the Redmine Organization field
-      // see redmine_url/custom_fields.json
-      const organizations= [
-        "UU",
-        "GU",
-        "HIS",
-        "KI",
-        "KTH",
-        "LiU",
-        "LU",
-        "NRM",
-        "ORU",
-        "SciLifeLab",
-        "SH",
-        "SLU",
-        "SNIC",
-        "SU",
-        "UmU",
-        "LNU",
-        "SH",
-        "BILS",
-        "Other"
-      ];   
       /** manually trigger form validation (for usage with recaptcha) */
       function validateForm() {
         // mark submission type checkboxes as required when none of them is selected, to
         // trigger built-in form validation errors
-        const requiredCheckboxes = document.querySelectorAll('[name="submissionType"]');
-        const checkedCheckboxes = document.querySelectorAll('[name="submissionType"]:checked');
-        if (checkedCheckboxes.length) {
-          requiredCheckboxes.forEach((b) => b.removeAttribute('required'));
-        } else {
-          requiredCheckboxes.forEach((b) => b.setAttribute('required', 'required'));
-        }
         const form = document.getElementById("submissionForm");
         if (!form.checkValidity()) {
           form.reportValidity();
@@ -107,9 +68,9 @@ To get more information about our support service, see our [support page.](https
       };
       /** create readmine issue and send it together with captcha token */
       async function onSubmit() {
-        const fname = document.getElementById("fname").value;
-        const lname = document.getElementById("lname").value;
-        const email = document.getElementById("email").value;
+        const fullname = document.getElementById("fullname").value;
+        const piname = document.getElementById("piname").value;
+        const piemail = document.getElementById("piemail").value;
         const issue = {
           project_id: ProjectId,
           status_id: "open",
@@ -118,16 +79,17 @@ To get more information about our support service, see our [support page.](https
           description: document.getElementById("description").value,
           // ids from the redmine db
           custom_fields: [
-            { id: 13, name: "Name", value: `${fname} ${lname}` },
+            { id: 13, name: "Name", value: `${fullname}` },
+            { id: 5, name: "Principal Investigator", value: `${piname}` },
             {
               id: 18,
-              name: "PI-email",
-              value: email,
+              name: "PI e-mail",
+              value: piemail,
             },
             {
               id: 6,
               name: "Organization",
-              value: document.getElementById("institution").value,
+              value: "Other"
             },
           ],
         };    
