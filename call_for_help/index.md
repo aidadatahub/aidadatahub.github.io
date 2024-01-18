@@ -11,51 +11,53 @@ To get more information about our support service, see our [support page.](https
 <div id="form-div" class="form-wrapper">
     <form id="submissionForm">
       <fieldset>
-      <fieldset>
-        <h3>Support Query</h3>
-        <label for="title" class="form-label">Project title: *</label><br>
-        <input type="text" id="title" name="title" class="form-control" required/><br>    
-        <label for="description" class="form-label">Description : *</label><br>
-        <textarea id="description" name="description" rows="8" class="form-control" required ></textarea>
-      </fieldset>
-      <br>
-      <fieldset>
-        <h3>Your contact details</h3>
-        <label for="fullname" class="form-label">Your full name: *</label><br>
-        <input type="text" id="fullname" name="fullname" class="form-control" required/><br>
-        <label for="email" class="form-label">Your email: *</label><br>
-        <input type="email" id="email" name="email" class="form-control" required/><br>
-        <label for="piname" class="form-label">PI's name: *</label><br>
-        <input type="text" id="piname" name="piname" class="form-control" required/><br>
-        <label for="piemail" class="form-label">PI's email: *</label><br>
-        <input type="email" id="piemail" name="piemail" class="form-control" required/><br>
-        <br>
-      </fieldset>
-      <br>
-      </fieldset>
-      <div class="form-group">
-      <div class="form-group">
-      <br>
-      <input type="button" value="Submit" class="btn btn-primary" onclick="validateForm()" style="color: black; background-color: #1e6bb8;">
-      </div>
-      <dialog id="dialogBox">
-      <form method="dialog">
-        <p>
-          <div id="dialogMsg"></div>
-        </p>
-        <div>
-          <button type="button" id="closeModal">Close</button>
+        <fieldset>
+          <h3>Support Query</h3>
+          <label for="title" class="form-label">Project title: *</label><br>
+          <input type="text" id="title" name="title" class="form-control" required/><br>    
+          <label for="description" class="form-label">Description : *</label><br>
+          <textarea id="description" name="description" rows="8" class="form-control" required ></textarea>
+        </fieldset><br>
+        <fieldset>
+          <h3>Your contact details</h3>
+          <label for="fullname" class="form-label">Your full name: *</label><br>
+          <input type="text" id="fullname" name="fullname" class="form-control" required/><br>
+          <label for="email" class="form-label">Your email: *</label><br>
+          <input type="email" id="email" name="email" class="form-control" required/><br>
+          <label for="piname" class="form-label">PI's name: *</label><br>
+          <input type="text" id="piname" name="piname" class="form-control" required/><br>
+          <label for="piemail" class="form-label">PI's email: *</label><br>
+          <input type="email" id="piemail" name="piemail" class="form-control" required/><br>
+          <br>
+        </fieldset><br>
+        <div class="applicationform_agreement">
+          <input type="checkbox" required/>
+            <span> I agree to NBIS Support's 
+              <a href="https://www.nbis.se/uploads/nbis_support_useragreement_f2c52d955b.pdf">user agreement</a>
+            </span>
         </div>
-      </form>
-    </dialog>
-    </div>  
+      </fieldset>
+    </form>
+      <div class="form-group">
+        <div class="form-group">
+          <br><input type="button" value="Submit" class="btn btn-primary" onclick="validateForm()" style="color: black; background-color: #1e6bb8;">
+        </div>
+        <dialog id="dialogBox">
+          <form method="dialog">
+            <p>
+              <div id="dialogMsg"></div>
+            </p>
+            <div>
+              <button type="button" id="closeModal">Close</button>
+            </div>
+          </form>
+        </dialog>
+      </div>  
     <script>
       const ProjectId = "aida-data-hub-support";
       const TrackerId = 7; // Consultation
       const SKULD = "https://nbis.se";
-      /** manually trigger form validation (for usage with recaptcha) */
       function validateForm() {
-        // mark submission type checkboxes as required when none of them is selected, to
         // trigger built-in form validation errors
         const form = document.getElementById("submissionForm");
         if (!form.checkValidity()) {
@@ -71,6 +73,7 @@ To get more information about our support service, see our [support page.](https
         const fullname = document.getElementById("fullname").value;
         const piname = document.getElementById("piname").value;
         const piemail = document.getElementById("piemail").value;
+        const email = document.getElementById("email").value;
         const issue = {
           project_id: ProjectId,
           status_id: "open",
@@ -121,18 +124,16 @@ To get more information about our support service, see our [support page.](https
       /** send watcher request to redmine. Ignore failures. */
       async function setupWatcher(email, issueId){
           // set up user's email as watcher
-          const watchersURL = `${SKULD}/proxy/watchers.json?issue=${issueId}`;
-          const body = JSON.stringify({ watcher: { mails: email } });
-          const options = {
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: body,
-            method: "POST",
-            credentials: 'include',
-          };
           try {
-            const responseW = await fetch(watchersURL, options);
+            const responseW = await fetch(`${SKULD}/proxy/watchers.json?issue=${issueId}`, {
+              method: "POST",
+              credentials: 'include',
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({ watcher: { mails: email } }),
+          }
+            );
           if (!responseW.ok) {
             console.log('Redmine problem, no watcher added');
           }
