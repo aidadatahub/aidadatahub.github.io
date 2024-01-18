@@ -8,7 +8,7 @@ Jump to:
 {:toc}
 
 ## Apply for support {#apply}
-Apply for support here: [aida-support@nbis.se](mailto:aida-support@nbis.se??subject=[AIDA%20Data%20hub%20support]%20Request%20for%20support)
+Apply for support here: [Call for help form](https://datahub.aida.scilifelab.se/call_for_help/)
 
 The target audience for the AIDA Data Hub Support function is the
 [AIDA](https://medtech4health.se/en/aida-arena) community. Inquiries from non-AIDA organizations are also welcome, and will be entertained
