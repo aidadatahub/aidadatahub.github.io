@@ -19,8 +19,8 @@ datacite:
     name: "AIDA"
   copyrightYear: 2021
   copyrightHolder:
-  - name: "Region Skåne"
-    url: "https://www.skane.se/"
+  - name: "Lund University"
+    url: "https://www.lunduniversity.lu.se/"
     "@type": "Organization"
   - name: "Einar Heiberg"
     "@id": "https://orcid.org/0000-0003-2848-3326"
@@ -95,7 +95,7 @@ Each study is zipped into one file. All files are stored in DICOM format.
 Free for use in research or education.
 Please contact the dataset provider for terms of access.
 
-{% include access-request-blurb.md email_template="access-request-email-research-or-education.md" %}
+{% include access-request-blurb.md email_template="access-request-email-research.md" %}
 
 ### AIDA BY license
 Copyright
