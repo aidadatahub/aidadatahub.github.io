@@ -83,3 +83,9 @@ Training for:
 * AI researchers
 * Medical imaging diagnosticians
 
+
+## General Data Arocessing agreements with Swedish Universities
+As a part of the National Bioinformatics Infrastructure Sweden (NBIS), AIDA Data Hub is covered by existing Data Processing Agreements (DPA) with most of the Swedish universities with life science research. You can find a list of the existing agreements [here](https://nbis.se/about/steering/general-processing-agreements). This means that getting support from AIDA Data Hub when working with sensitive data is simplified for researchers at these universities. To use the sensitive data compute services additional DPA agreements need to be established.
+
+
+
