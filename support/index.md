@@ -8,7 +8,7 @@ Jump to:
 {:toc}
 
 ## Apply for support {#apply}
-Apply for support here: [Call for help form](https://datahub.aida.scilifelab.se/call_for_help/)
+Apply for support here: [Call for help form](https://datahub.aida.scilifelab.se/call-for-help/)
 
 The target audience for the AIDA Data Hub Support function is the
 [AIDA](https://medtech4health.se/en/aida-arena) community. Inquiries from non-AIDA organizations are also welcome, and will be entertained
