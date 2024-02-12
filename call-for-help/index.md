@@ -10,37 +10,33 @@ To get more information about our support service, see our [support page.](https
 
 <div id="form-div" class="form-wrapper">
     <form id="submissionForm">
-      <fieldset>
-        <fieldset>
-          <h3>Support Query</h3>
-          <label for="title" class="form-label">Project title: *</label><br>
-          <input type="text" id="title" name="title" class="form-control" required/><br>    
-          <label for="description" class="form-label">Description : *</label><br>
-          <textarea id="description" name="description" rows="8" class="form-control" required ></textarea>
-        </fieldset><br>
-        <fieldset>
-          <h3>Your contact details</h3>
-          <label for="fullname" class="form-label">Your full name: *</label><br>
-          <input type="text" id="fullname" name="fullname" class="form-control" required/><br>
-          <label for="email" class="form-label">Your email: *</label><br>
-          <input type="email" id="email" name="email" class="form-control" required/><br>
-          <label for="piname" class="form-label">PI's name: *</label><br>
-          <input type="text" id="piname" name="piname" class="form-control" required/><br>
-          <label for="piemail" class="form-label">PI's email: *</label><br>
-          <input type="email" id="piemail" name="piemail" class="form-control" required/><br>
-          <br>
-        </fieldset><br>
-        <div class="applicationform_agreement">
-          <input type="checkbox" required/>
-            <span> I agree to NBIS Support's 
-              <a href="https://www.nbis.se/uploads/nbis_support_useragreement_f2c52d955b.pdf">user agreement</a>
-            </span>
-        </div>
-      </fieldset>
+        <h3>Support Query</h3>
+        <label for="title" class="form-label">Project title: * </label><br>
+        <input type="text" id="title" name="title" class="form-control" style="width: 100%;" required/><br>    
+        <label for="description" class="form-label">Description : *</label><br>
+        <textarea id="description" name="description" rows="8" class="form-control" style="width: 100%;" required ></textarea>
+      <br>
+        <h3>Your contact details</h3>
+        <label for="fullname" class="form-label">Your full name: *</label><br>
+        <input type="text" id="fullname" name="fullname" class="form-control" required/><br>
+        <label for="email" class="form-label">Your email: *</label><br>
+        <input type="email" id="email" name="email" class="form-control" required/><br>
+        <label for="piname" class="form-label">PI's name: *</label><br>
+        <input type="text" id="piname" name="piname" class="form-control" required/><br>
+        <label for="piemail" class="form-label">PI's email: *</label><br>
+        <input type="email" id="piemail" name="piemail" class="form-control" required/><br>
+        <br>
+      <br>
+      <div class="applicationform_agreement">
+        <input type="checkbox" required/>
+          <span> I agree to NBIS Support's 
+            <a href="https://www.nbis.se/uploads/nbis_support_useragreement_f2c52d955b.pdf">user agreement</a>
+          </span>
+      </div>
     </form>
       <div class="form-group">
         <div class="form-group">
-          <br><input type="button" value="Submit" class="btn btn-primary" onclick="validateForm()" style="color: black; background-color: #1e6bb8;">
+          <br><input type="button" value="Submit" class="btn btn-primary" onclick="validateForm()" style="color: white; background-color: #1e6bb8;">
         </div>
         <dialog id="dialogBox">
           <form method="dialog">
