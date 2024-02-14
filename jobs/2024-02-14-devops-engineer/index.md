@@ -70,6 +70,8 @@ The position requires excellent communication abilities, both spoken and
 written, in the English language. Such abilities also in the Swedish language
 are considered a very strong merit.
 
+A security check may be carried out before a decision on employment is made.
+
 ### Research context
 The Center for Medical Image Science and Visualization
 ([CMIV](https://liu.se/cmiv)) is an interdisciplinary research center at LiU
