@@ -2,16 +2,14 @@
 title: "Research engineer in Service development and operations at AIDA Data Hub"
 description: "Job opportunities at the <a href='/'>AIDA Data Hub</a>."
 ---
-{% comment %} ## FIXME: rename file to match closing date {% endcomment %}
-
 <span style="font-size: smaller;">[AIDA Data Hub](/) &nbsp;&raquo;&nbsp; [Jobs](/jobs/)</span>
 
-## Research engineer in Service development and operations at AIDA Data Hub
+## Service development and operations engineer at AIDA Data Hub
 
 {: .tight-table }
 | Position:   | Full time, until further notice. |
-| Apply by:   | YYYY-MM-DD | {% comment %} ## FIXME: insert dates {% endcomment %}
-| Apply here: | [Application form (LiU)](insert link here) | {% comment %} ## FIXME: insert url {% endcomment %}
+| Apply by:   | 2024-03-19 |
+| Apply here: | [Application form (LiU)](https://liu.se/en/work-at-liu/vacancies/23954) |
 | Starting:   | As soon as possible, by agreement. |
 | Contact:    | [Joel Hedlund, Data director CMIV/AIDA](mailto:joel.hedlund@liu.se), [+46 734 607126](tel:+46734607126). |
 
@@ -123,8 +121,8 @@ applicants](https://liu.se/en/work-at-liu/hjalp%20for%20sokande).
 
 ### Application procedure
 Apply for the position by clicking the “Apply” button at the bottom of [this
-page](insert url here). {% comment %} ## FIXME: insert url {% endcomment %}
-Your application must reach Linköping University no later than FULLMONTH DAY, YEAR. {% comment %} ## FIXME: insert dates {% endcomment %}
+page](https://liu.se/en/work-at-liu/vacancies/23954).
+Your application must reach Linköping University no later than March 19, 2024.
 
 Applications and documents received after the date above will not be considered.
 

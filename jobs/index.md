@@ -12,7 +12,7 @@ AIDA Data Hub.
 
 ### Open positions
 
-* YYYY-MM-DD [Research engineer in Service development and operations at AIDA Data Hub](2024-02-14-devops-engineer/) {% comment %} ## FIXME: insert dates ## FIXME: insert dates {% endcomment %} 
+* 2024-03-19 [Research engineer in Service development and operations at AIDA Data Hub](2024-03-19-devops-engineer/)
 
 ### Past recruitments
 
