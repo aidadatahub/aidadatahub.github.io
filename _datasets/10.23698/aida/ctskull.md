@@ -68,6 +68,7 @@ other:
   countries-shared:
   - "CA"
   - "SE"
+  - "IN"
   organ:
   - name: "Skull"
     sctid: 89546000 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s

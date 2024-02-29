@@ -87,6 +87,7 @@ other:
   countries-shared:
   - "CZ"
   - "SE"
+  - "US"
   organ:
   - name: "Brain"
     sctid: 12738006 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
