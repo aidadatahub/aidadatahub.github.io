@@ -64,8 +64,8 @@ datacite:
     "@type": "CreativeWork"
     abstract: |
       Free for use in legal and ethical medical diagnostics research.
-  - name: "AIDA BY CA license"
-    id: "https://datahub.aida.scilifelab.se/10.23698/aida/ctpa#aida-by-ca-license"
+  - name: "AIDA BY license"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/ctpa#aida-by-license"
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution and co-authorship."
   citation:
@@ -129,7 +129,7 @@ Please contact AIDA for terms of access.
   agreement_template_url="https://docs.google.com/document/d/1a020Mukn9cjJF88vEYW9OUUDIc2E3dHbSBQi_jb8Yd0"
   coauthorship="yes" %}
 
-### AIDA BY CA license
+### AIDA BY license
 Copyright
 {{ page.datacite.copyrightYear }}
 {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}
@@ -138,8 +138,7 @@ Permission to use, copy, modify, and/or distribute this data within Analytic
 Imaging Diagnostics Arena ([AIDA](https://medtech4health.se/aida)) for the
 purpose of medical diagnostics research with or without fee is hereby granted,
 provided that the above copyright notice and this permission notice appear in
-all copies, and that publications resulting from the use of this data include
-the authors of this dataset in the author list and cite the following works:
+all copies, and that publications resulting from the use of this data cite the following works:
 
 {{ page.datacite.author | map: "name" | array_to_sentence_string }}
 ({{ page.datacite.datePublished | date: "%Y" }})
@@ -153,3 +152,4 @@ CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA
 OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS
 ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR CHARACTERISTICS OF THIS
 DATA.
+

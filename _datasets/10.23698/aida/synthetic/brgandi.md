@@ -79,8 +79,8 @@ datacite:
     "@id": "https://doi.org/10.7937/K9/TCIA.2017.GJQ7R0EF"
     name: "S. Bakas, H. Akbari, A. Sotiras, M. Bilello, M. Rozycki, J. Kirby, et al., Segmentation Labels and Radiomic Features for the Pre-operative Scans of the TCGA-LGG collection, The Cancer Imaging Archive, 2017. DOI: 10.7937/K9/TCIA.2017.GJQ7R0EF"
   - "@type": "CreativeWork"
-    "@id": "https://doi.org/10.48550/arXiv.2306.02986"
-    name: "Akbar, M. U., Larsson, M., & Eklund, A. (2023). Brain tumor segmentation using synthetic MR images--A comparison of GANs and diffusion models. arXiv:2306.02986."
+    "@id": "https://doi.org/10.1038/s41597-024-03073-x"
+    name: "Usman Akbar, M., Larsson, M., Blystad, I., Eklund, A., Brain tumor segmentation using synthetic MR images - A comparison of GANs and diffusion models. Sci Data 11, 259 (2024)."
 other:
   shortName: "BRGANDI"
   origin: "Synthetic"
