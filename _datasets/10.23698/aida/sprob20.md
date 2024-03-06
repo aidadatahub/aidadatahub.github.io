@@ -82,6 +82,7 @@ other:
   countries-shared: # Fixme: insert link to paper in annotation text above when published.
   - "DE"
   - "SE"
+  - "US"
   organ:
   - name: "Prostate"
     sctid: 41216001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
