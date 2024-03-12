@@ -82,6 +82,7 @@ other:
   - "NL"
   - "SE"
   - "US"
+  - "FR"
   
   organ:
   - name: "Skin"
