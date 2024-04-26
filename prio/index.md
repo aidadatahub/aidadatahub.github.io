@@ -35,4 +35,6 @@ Approved: 2023-11-08
 12. Breast cancer histology data.
 13. Hip femoralis nerve ultrasound data.
 14. Small datasets containing synthesized clinical imaging data.
+15. Pathology and radiology data from glioma, such as GBM and pHGG.
+16. Hyperspectral images of skin tumors.
 
