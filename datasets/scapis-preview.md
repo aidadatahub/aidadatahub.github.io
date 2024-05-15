@@ -2,12 +2,17 @@
 title: "SCAPIS Datasets"
 description: "Information on SCAPIS datasets shared on the <a href='/'>AIDA Data Hub</a>."
 ---
+<p><b>
+  This preview page lists example datasets that have not yet been shared on the data
+  hub. Do not rely on information on this page to be accurate.
+</b></p>
+
 The Swedish CArdioPulmonary bioImage Study – SCAPIS – is a nationwide, open-access, population-based cohort for the study of cardiovascular disease (CVD) and chronic obstructive pulmonary disease (COPD).
 
 The aim is to predict and prevent cardiovascular and pulmonary disease. A total of 30,154 men and women in Sweden, from 50 to 64 years old, have been recruited and investigated with detailed imaging and functional analyses of the cardiovascular and pulmonary systems. The first public release of data was on March 17, 2021. All researchers based in Sweden, or international researchers in collaboration with an applicant based in Sweden, are welcome to apply for data.
 
 This register shows information on datasets that we have helped researchers
-share [with the world](/metrics), to make their high-quality datasets more
+share, to make their high-quality datasets more
 [FAIR](/metrics#fair) and citeable using Digital Object Identifiers
 ([DOI](/about#what-are-dois-and-dataset-registers)).
 {% assign bytes = 0 -%}
