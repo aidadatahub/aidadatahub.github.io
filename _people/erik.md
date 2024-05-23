@@ -1,7 +1,7 @@
 ---
 layout: master
 include: person
-name: Joel Hedlund
+name: erik
 home: <a href="https://www.nsc.liu.se">NSC</a>
 country: SE
 photo: assets/images/people/joel-hedlund.jpg

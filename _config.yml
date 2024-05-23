@@ -5,6 +5,8 @@ theme: "jekyll-theme-cayman"
 url: "https://datahub.aida.scilifelab.se"
 
 collections:
+  people:
+    output: true
   datasets:
     output: true
     layout: "dataset.html"
@@ -16,3 +18,8 @@ defaults:
       type: "datasets"
     values:
       layout: "dataset"
+  - scope:
+      path: ""
+      type: "people"
+    values:
+      layout: "default"
