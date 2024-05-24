@@ -1,0 +1,14 @@
+<div class="dataset-table">
+    <table>
+      {% for d in site.people %}
+        <tr>
+          <td><a href="{{ d.url }}"><img src="{{ d.image | default: d.other.exampleImage[0].thumbnail-url | default: d.other.exampleImage[0].url }}"></a></td>        
+          <td>
+            <a href>{{ d.name }}</a><br/>
+            <a href>{{ d.position }}</a><br/>
+            <a href>{{ d.email }}</a><br/>
+          </td>
+        </tr>
+      {% endfor %}
+    </table>
+  </div>

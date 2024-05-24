@@ -3,8 +3,16 @@ title: "People"
 description: "People at the <a href='/'>AIDA Data Hub</a>."
 ---
 
-## Staff at AIDA Data Hub
+## AIDA Data Hub Team
 
-{% for d in site.people %}
-    {{ d.name}}
-{% endfor %}
+<div class="dataset-table">
+  <table>
+    {% for d in site.people %}
+      <tr>
+        <td><a href="{{ d.url }}">{{ d.name }}</a></td>
+        <td>{{ d.position }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+</div>
+
