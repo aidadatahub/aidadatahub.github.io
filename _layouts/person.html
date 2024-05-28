@@ -31,13 +31,16 @@
     </header>
 
     <main id="content" class="main-content" role="main">
-      
-        <img  src="{{ page.image }}" alt="" style="width: 40%; margin-top: -1ex; padding:20px; cursor: pointer;">
+      <div style="display: flex; justify-content: space-between; ">
+        <div>
+        <img  src="{{ page.image }}" alt="" style=" width: 40%; margin-top: -1ex; padding:20px; cursor: pointer;">
+      </div>
+      <div >
         <h2>{{page.name}}</h2>
         <p>{{page.position}}</p>
         <p><a href="{{ page.mailto }}">{{ page.email }}</a></p>
-
-        
+        </div>
+      </div>
       {% include footer.html %}
 
     </main>
