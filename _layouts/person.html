@@ -1,14 +1,56 @@
-<div class="dataset-table">
-    <table>
-      {% for d in site.people %}
-        <tr>
-          <td><a href="{{ d.url }}"><img src="{{ d.image | default: d.other.exampleImage[0].thumbnail-url | default: d.other.exampleImage[0].url }}"></a></td>        
-          <td>
-            <a href>{{ d.name }}</a><br/>
-            <a href>{{ d.position }}</a><br/>
-            <a href>{{ d.email }}</a><br/>
-          </td>
-        </tr>
-      {% endfor %}
-    </table>
-  </div>
+<!DOCTYPE html>
+{% assign doi = page.datacite["@id"] | remove: "https://doi.org/" %}
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+
+    <!-- SEO -->
+    <title> {% if page.hidden %} Preview: {% endif %} {{ page.name }}| AIDA dataset register</title>
+    <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
+    <meta property="og:title" content="doi:{{ doi }}" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="{{ page.datacite.name }}" />
+    <meta property="og:description" content="{{ page.datacite.name }}" />
+    <link rel="canonical" href="{{ page.url | absolute_url }}" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:image" content="{{ d.other.image | default: d.other.exampleImage[0].thumbnail-url | default: d.other.exampleImage[0].url | absolute_url }}" />
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="{{ page.datacite.datePublished }}" />
+    <script type="application/ld+json">
+      {{ page.datacite | jsonify }}
+    </script>
+    <!-- End SEO -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.2/viewer.min.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="shortcut icon" href="/assets/icons/aida-icon.png">
+  </head>
+  <body>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.datacite.name }}</h1>
+      <h2 class="project-tagline no-anchor">doi:{{ doi }}</h2>
+      <p><a href="/">{{ site.title }}</a> facilitating FAIR data sharing for medical imaging diagnostics AI.</p>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      
+      <p>{{page.name}}</p>
+
+      {{ content }}
+
+      {% include footer.html %}
+    </main>
+    <script src="/assets/js/anchor.min.js"></script>
+    <script>
+      anchors.add('h2:not(.no-anchor), h3, h4, h5, h6, th');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.2/viewer.min.js"></script>
+    <script>
+      const gallery = new Viewer(document.getElementById('dataset-example-images'), { url: "data-original" });
+    </script>
+    </body>
+</html>
