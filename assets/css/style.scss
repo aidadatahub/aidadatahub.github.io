@@ -327,3 +327,12 @@ table.aida-data-sharing-overview td:first-child::before {
   } 
   
 }
+
+.personContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.personSub{
+  padding: 25px;
+}
