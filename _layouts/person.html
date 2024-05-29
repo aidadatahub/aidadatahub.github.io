@@ -31,11 +31,11 @@
     </header>
 
     <main id="content" class="main-content" role="main">
-      <div style="display: flex; justify-content: space-between; ">
-        <div>
-        <img  src="{{ page.image }}" alt="" style=" width: 40%; margin-top: -1ex; padding:20px; cursor: pointer;">
+      <div style="display: flex; flex-direction: row;">
+        <div style="padding: 25px;">
+        <img  src="{{ page.image }}" alt="" style="width: 200px; cursor: pointer;">
       </div>
-      <div >
+      <div style="padding: 25px;" >
         <h2>{{page.name}}</h2>
         <p>{{page.position}}</p>
         <p><a href="{{ page.mailto }}">{{ page.email }}</a></p>
