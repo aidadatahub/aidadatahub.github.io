@@ -1,5 +1,5 @@
 ---
-name: Minh Ha Le
+name: Minh-Ha Le
 position: Systems Developer
 photo: assets/images/people/minh-ha-le.jpg
 email: minh.ha.le@liu.se

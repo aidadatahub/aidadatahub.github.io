@@ -1,6 +1,6 @@
 ---
 name: Betul Eren
-position: System Administrator
+position: Data Sharing Lead
 photo: assets/images/people/betul-eren.jpg
 email: betul.eren@liu.se
 url: "https://datahub.aida.scilifelab.se/people/betul-eren"
