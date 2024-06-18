@@ -1,0 +1,16 @@
+<!-- bibtex_citation.html -->
+<div class="citation">
+  <h2>Citation</h2>
+  <p>If you use data from this dataset in your scholarly work, please cite it using the following BibTeX entry:</p>
+  <pre><code class="bibtex">
+@misc{ {{ page.datacite.author.first.name | split: " " | last | downcase }}_{{ page.datacite.datePublished | date: "%Y" }}_{{ page.other.shortName | downcase }},
+  author       = { {{ page.datacite.author | map: 'name' | join: ' and ' }} },
+  title        = { {{ page.datacite.name }} },
+  year         = {{ page.datacite.datePublished | date: "%Y" }},
+  publisher    = { {{ page.datacite.publisher.name }} },
+  doi          = { {{ page.datacite['@id'] | remove: 'https://doi.org/' }} },
+  howpublished = { Available: AIDA Data Hub },
+  url          = { {{ page.datacite.url }} }
+}
+  </code></pre>
+</div>
