@@ -1,8 +1,9 @@
 <div class="citation">
   <h2>Citation</h2>
   <p>If you use data from this dataset in your scholarly work, please cite it using the following BibTeX entry:</p>
-  <button onclick="copyBibTex()">Copy BibTeX</button>
-  <pre><code class="bibtex" id="bibtexCode">
+  <pre>
+    <button style="float: right;" onclick="copyBibTex()">Copy BibTeX</button>
+    <code style="text-wrap: wrap;" class="bibtex" id="bibtexCode">
 @misc{ {{ page.datacite.author.first.name | split: " " | last | downcase }}_{{ page.datacite.datePublished | date: "%Y" }}_{{ page.other.shortName | downcase }},
   author       = { {{ page.datacite.author | map: 'name' | join: ' and ' }} },
   title        = { {{ page.datacite.name }} },
@@ -13,7 +14,7 @@
   url          = { {{ page.datacite.url }} }
 }
   </code></pre>
-</div>
+</div>  
 
 <script>
 function copyBibTex() {
