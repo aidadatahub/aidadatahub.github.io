@@ -12,8 +12,9 @@ AIDA Data Hub.
 
 ### Open positions
 
-* 2024-03-19 [Research engineer in Service development and operations at AIDA Data Hub](2024-03-19-devops-engineer/)
+No currently open positions.
 
 ### Past recruitments
 
+* 2024-03-19 [Research engineer in Service development and operations at AIDA Data Hub](2024-03-19-devops-engineer/)
 * 2023-01-09 [Application expert in Medical imaging diagnostics AI at the AIDA Data Hub](2023-01-09-application-expert/)
