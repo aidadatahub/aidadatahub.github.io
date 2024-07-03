@@ -1,6 +1,6 @@
 ---
 title: Data Science Platform
-description: A home for your research in data driven precision health.
+description: A home for your data driven precision health research.
 layout: overhaul
 ---
 Our data science platform offers a home for your research. Our customers include researchers, innovators, caregivers and user communitites of national significance.
@@ -15,7 +15,7 @@ Our data science platform offers a home for your research. Our customers include
 
 * **Customizable security**: The "closed by default and openable as needed" service model lets customers choose a security level appropriate for their processing, to adequately protect the data subjects, while allowing the flexibility necessary for effectively carrying out the planned activities, without affecting other users.
 
-An annual [membership fee](../services#access) provides [base service](#base-service) and [optional services](#optional-services), and ability to procure additional [add-on services](#add-on-services).
+An annual [membership fee](../services#access) provides [base service](#base-service) and [optional services](#optional-services), and ability to procure [add-on services](#add-on-services).
 
 <a class="button" href="../services#access">Get Access &raquo;</a>
 
@@ -129,15 +129,5 @@ Web-based interactive computing platform. Combines live code, equations, narrati
 
 Open-source web platform for collaborative analysis of very large pathology images and image collections together with machine learning algorithms.
 
-## Compute and storage resources {#resources}
-Our compute and storage resources are offered in collaboration with national partners.
-
-Insight, hosting SDS 2.0:
-* [NAISS](https://naiss.se)
-* [NSC](https://nsc.liu.se)
-
-AIDA Data Hub DGX-2 service:
-* [RÖ](https://regionostergotland.se)
-
-AIDA Nextcloud:
-* [SciLifeLab DC](https://scilifelab.se/data)
+## See also
+* [About compute and storage hosting](../about/hosting)
