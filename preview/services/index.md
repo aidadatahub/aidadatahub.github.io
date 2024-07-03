@@ -1,8 +1,7 @@
 ---
 title: AIDA Data Hub Services
+layout: overhaul
 ---
-**This is a preview page for content that has not yet been finalized. Do not rely on information on this webpage to be accurate.**
-
 We provide services for research and clinical innovation in data driven precision health, with a base in multi-modal diagnostics and medical imaging AI.
 
 Services:
@@ -16,10 +15,9 @@ See also:
 ## Access
 Our services are provided based on user fees. Our customers are user communitites,
 researchers, innovators, and caregivers of national significance.
-
 Please contact your [community](#community) for terms, or refer to our [prices](#prices) below.
 
-Please contact the following for access:
+Please contact the following for enquiries and access:
 * Data sharing: [aida-data@nbis.se](mailto:aida-data@nbis.se)
 * Support: [aida-support@nbis.se](mailto:aida-support@nbis.se)
 * Services: [aida-data-director@nbis.se](mailto:aida-data-director@nbis.se)
@@ -30,6 +28,8 @@ Please contact the following for access:
 * [ASHA](https://www.vinnova.se/p/anvanda-standardiserade-halsodata-som-accelerator-for-att-starka-innovation-och-framtidens-halso--och-sjukvard/)
 * [EUCAIM](https://cancerimage.eu/)
 
+Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400kSEK, deadline Sep 15 2024).
+
 ### Prices
 Our prices are under development.
 
@@ -39,7 +39,7 @@ waivers offered to co-funding communities and data sharing parties, to
 incentivize building the data commons and increasing data availability for
 research.
 
-Swedish small and medium size companies may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400kSEK, application deadline Sep 15 2024).
+Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400kSEK, deadline Sep 15 2024).
 
 <style>
 .main-content table th, thead, .main-content table th, .main-content table td {
@@ -63,6 +63,7 @@ Swedish small and medium size companies may apply for [SISP innovation checks](h
 | Support, other              | Full cost coverage |
 
 
-Issues:
+<!--FIXME:
 * "/CPU" may not be the best unit?
 * Maybe we should rephrase (GPU/CPU) in terms of flavors?
+-->

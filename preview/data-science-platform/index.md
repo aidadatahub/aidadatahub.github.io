@@ -1,13 +1,11 @@
 ---
 title: Data Science Platform
+description: A home for your research in data driven precision health.
+layout: overhaul
 ---
-**This is a preview page for content that has not yet been finalized. Do not rely on information on this webpage to be accurate.**
-
 Our data science platform offers a home for your research. Our customers include researchers, innovators, caregivers and user communitites of national significance.
 
-An annual [membership fee](../services#access) provides [base service](#base-service) and [optional services](#optional-services), and ability to procure additional [add-on services](#add-on-services).
-
-### Features
+## Features
 
 * **Data Science Platform**: Computable long term primary storage, supporting advanced usage patterns including data collection, collaboration, visualization, enrichment, annotation, AI training, and federated analysis.
 
@@ -16,6 +14,10 @@ An annual [membership fee](../services#access) provides [base service](#base-ser
 * **Sensitive Data Services**: Suitable for research on large amounts of data of extreme confidentiality including biomedical personal data.
 
 * **Customizable security**: The "closed by default and openable as needed" service model lets customers choose a security level appropriate for their processing, to adequately protect the data subjects, while allowing the flexibility necessary for effectively carrying out the planned activities, without affecting other users.
+
+An annual [membership fee](../services#access) provides [base service](#base-service) and [optional services](#optional-services), and ability to procure additional [add-on services](#add-on-services).
+
+<a class="button" href="../services#access">Get Access &raquo;</a>
 
 ## Base service
 Includes:
@@ -50,7 +52,7 @@ Receive DICOM images via telerad from specified scanners.
 {:class="tight-table"}
 | Audience: | Customers receiving scans from medical imaging modalities. |  
 | Cost:     | Included in base service |  
-| Status:   | Planned.                  |
+| Status:   | Planned.                 |
 
 Receive DICOM images via telerad from specified scanners.
 
@@ -69,7 +71,7 @@ Receive openEHR data from specified sources.
 
 {:class="tight-table"}
 | Audience: | Large scale data users. |  
-| Cost:     | cf [Prices](#prices) |  
+| Cost:     | cf [Prices](#prices)  |  
 | Status:   | Planned.              |
 
 Larger storage (no backup) than what is included in Basic service.
@@ -80,7 +82,7 @@ Larger storage (no backup) than what is included in Basic service.
 
 {:class="tight-table"}
 | Audience: | Customers using AIDA Data Hub for primary storage of data. |  
-| Cost:     | cf [Prices](#prices) |  
+| Cost:     | cf [Prices](#prices)  |  
 | Status:   | Planned.              |
 
 Storage with backups, guarding against disaster and (some) user error.
@@ -92,7 +94,7 @@ Storage with backups, guarding against disaster and (some) user error.
 {:class="tight-table"}
 | Audience: | AI- and data scientists, and systems development experts. |  
 | Cost:     | Depends on flavor, cf [Prices](#prices) |  
-| Status:   | Planned.              |
+| Status:   | Planned.                                |
 
 Multi-factor authenticated SSH connection to private self-managed virtual machines.
 
@@ -107,14 +109,14 @@ Variants:
 {:class="tight-table"}
 | Audience: | AI- and data scientists, and systems development experts. |  
 | Cost:     | Depends on flavor, cf [Prices](#prices) |  
-| Status:   | Planned.              |
+| Status:   | Planned.                                |
 
 Secure access to popular web service tools for data analysis.
 
 #### SD Jupyter notebook
 
 {:class="tight-table"}
-| Audience: | Researchers. |  
+| Audience: | Researchers.          |  
 | Status:   | Planned.              |
 
 Web-based interactive computing platform. Combines live code, equations, narrative text, visualizations, interactive dashboards and other media.
@@ -123,6 +125,19 @@ Web-based interactive computing platform. Combines live code, equations, narrati
 
 {:class="tight-table"}
 | Audience: | Pathologists and researchers. |  
-| Status:   | Planned.              |
+| Status:   | Planned.                      |
 
 Open-source web platform for collaborative analysis of very large pathology images and image collections together with machine learning algorithms.
+
+## Compute and storage resources {#resources}
+Our compute and storage resources are offered in collaboration with national partners.
+
+Insight, hosting SDS 2.0:
+* [NAISS](https://naiss.se)
+* [NSC](https://nsc.liu.se)
+
+AIDA Data Hub DGX-2 service:
+* [RÖ](https://regionostergotland.se)
+
+AIDA Nextcloud:
+* [SciLifeLab DC](https://scilifelab.se/data)
