@@ -14,6 +14,34 @@ extracting and enriching prioritized data for research.
 * [Search](/search)
 * [API](/api)
 
+## Contact
+Our [data sharing team](../people#data-sharing):
+{% include people-table.md topic='data-sharing' %}
+
+Please contact our us for support or more information!
+
+## Access
+Each dataset landing page contains instructions for access (cf examples [here](../datasets)).
+
+We help researchers share their datasets with the world, on their terms.
+Datasets are well-defined sets of data, with associated terms of use. The
+landing page for each dataset describe the data and terms of use.
+
+When researchers host datasets for sharing at AIDA Data Hub, we help the
+researchers process the access requests, for final decision by the researcher.
+
+If approved, the recipient signs a Data Sharing Agreement ([DSA](/sharing/templates))
+with the researcher if needed, and AIDA Data Hub helps effect the data transfer.
+
+Researchers can also delegate the decision making and DSA process (if any)
+to AIDA Data Hub, using a Data Transfer Agreement ([DTA](/sharing/templates)).
+
+Please refer to each dataset landing page for terms of use and instructions
+for access.
+
+### SCAPIS data access
+Access procedures for SCAPIS datasets are described here: [SCAPIS data access](../datasets/scapis#access).
+
 ## See also
 
 * [Support](../support)

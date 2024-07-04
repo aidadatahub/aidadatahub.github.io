@@ -8,7 +8,7 @@ collections:
   people:
     output: true
     layout: "person.html"
-    permalink: ":path"
+    permalink: "/preview/people/:path"
   datasets:
     output: true
     layout: "dataset.html"
@@ -24,4 +24,5 @@ defaults:
       path: ""
       type: "people"
     values:
-      layout: "person"
+      layout: "overhaul"
+      description: "The people of AIDA Data Hub"

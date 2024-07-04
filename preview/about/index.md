@@ -27,3 +27,6 @@ Linköpings Universitet
 Universitetssjukhuset  
 581 85 Linköping  
 Sweden  
+
+### Teams
+Please visit the [People](../people) page for contact information to the teams.

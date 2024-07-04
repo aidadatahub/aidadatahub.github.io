@@ -31,12 +31,12 @@ Please contact the following for enquiries and access:
 Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400kSEK, deadline Sep 15 2024).
 
 ### Prices
-Our prices are under development.
+Our service portfolio and pricing is under development.
 
-Our service portfolio is priced to allow sustainable operations and development,
-with discounts offered when possible to maximize high-impact research, and fee
-waivers offered to co-funding communities and data sharing parties, to
-incentivize building the data commons and increasing data availability for
+Our pricing strategy is to set prices that enable sustainable operations and
+development and do not disrupt the market, but to offer discounts whenever
+possible, in order to maximize high-impact research and to incentivize data
+sharing that helps build the data commons and increases data availability for
 research.
 
 Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400kSEK, deadline Sep 15 2024).
@@ -53,8 +53,8 @@ Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovati
 | Data Science Platform       | 50kSEK/yr          |
 | + Large volume storage      | +1.5 kSEK/TB/yr    |
 | + Backed up primary storage | +2.5 kSEK/TB/yr    |
-| + Large scale CPU compute   | +24 kSEK/CPU/yr    |
-| + GPU compute               | +80 kSEK/GPU/yr    |
+| + GPU compute               | +80 kSEK/GPU/yr    | <!--FIXME: Maybe we should rephrase (GPU/CPU) in terms of flavors?-->
+| + Large scale CPU compute   | +24 kSEK/CPU/yr    | <!--FIXME: "/CPU" may not be the best unit? -->
 | + Sectra PACS               | TBD                |
 | Share prioritized data      | *discount*         |
 | Support consultation        | Free               |
@@ -62,8 +62,8 @@ Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovati
 | Support, academic           | 800 SEK/hr         | [NBIS User fee track](https://nbis.se/services/bioinformatics) |
 | Support, other              | Full cost coverage |
 
+### Contact
+Our [economy team](../people#economy):
+{% include people-table.md topic='economy' %}
 
-<!--FIXME:
-* "/CPU" may not be the best unit?
-* Maybe we should rephrase (GPU/CPU) in terms of flavors?
--->
+Please contact our us for support or more information!

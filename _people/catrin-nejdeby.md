@@ -1,15 +1,12 @@
 ---
-name: Pontus Freyhult
-position: IT Architect
-email: pontus.freyhult@liu.se
-url: "https://datahub.aida.scilifelab.se/people/pontus-freyhult"
-image: "/assets/images/people/pontus-freyhult.jpg"
+name: Catrin Nejdeby
+position: Controller
+email: catrin.nejdeby@liu.se
+url: "https://datahub.aida.scilifelab.se/people/catrin-nejdeby"
+image: "/assets/images/people/catrin-nejdeby.jpg"
 topics:
   aida-data-hub:
-  systems-design-support: 1
-  policy-support:
-  management:
-  systems-development:
+  economy: 1
 ---
 <div class="personContainer">
   <div class="personSub">

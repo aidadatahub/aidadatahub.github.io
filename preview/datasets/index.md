@@ -7,6 +7,8 @@ We help researchers share their data with the world, making high-quality
 datasets more [FAIR](/metrics#fair) and citeable using digital object identifiers
 ([DOI](../about/fair)).
 
+<!--FIXME make scapis page-->
+
 * [Datasets](#datasets)
 * [SCAPIS datasets](scapis)
 * [Synthetic datasets](#synthetic)

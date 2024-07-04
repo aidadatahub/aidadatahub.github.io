@@ -15,9 +15,15 @@ Our data science platform offers a home for your research. Our customers include
 
 * **Customizable security**: The "closed by default and openable as needed" service model lets customers choose a security level appropriate for their processing, to adequately protect the data subjects, while allowing the flexibility necessary for effectively carrying out the planned activities, without affecting other users.
 
-An annual [membership fee](../services#access) provides [base service](#base-service) and [optional services](#optional-services), and ability to procure [add-on services](#add-on-services).
+An annual [membership fee](../services#access) provides [base service](#base-service) and [optional services](#optional-services), and ability to procure [add-on services](#add-on-services). The services are described below.
 
 <a class="button" href="../services#access">Get Access &raquo;</a>
+
+## Contact
+Our [systems design team](../people#economy):
+{% include people-table.md topic='systems-design-support' %}
+
+Please contact our us for support or more information!
 
 ## Base service
 Includes:
