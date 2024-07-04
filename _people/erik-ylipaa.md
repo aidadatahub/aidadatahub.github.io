@@ -6,7 +6,7 @@ url: "https://datahub.aida.scilifelab.se/people/erik-ylipaa"
 image: "/assets/images/people/erik-ylipaa.jpg"
 topics:
   aida-data-hub:
-  ai-support: 1
+  research-support: 1
   management:
 ---
 <div class="personContainer">

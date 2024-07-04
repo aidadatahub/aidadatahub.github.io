@@ -7,7 +7,7 @@ image:
 topics:
   aida-data-hub:
   systems-development:
-  ai-support:
+  research-support:
 ---
 <div class="personContainer">
   <div class="personSub">

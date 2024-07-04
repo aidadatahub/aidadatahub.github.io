@@ -7,8 +7,8 @@ image: "/assets/images/people/joel-hedlund.jpg"
 topics:
   aida-data-hub: 1
   management: 1
-  policy-support:
-  systems-design-support:
+  policy-support: 1
+  system-design-support:
   data-sharing:
   economy:
 ---

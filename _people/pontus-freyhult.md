@@ -6,8 +6,8 @@ url: "https://datahub.aida.scilifelab.se/people/pontus-freyhult"
 image: "/assets/images/people/pontus-freyhult.jpg"
 topics:
   aida-data-hub:
-  systems-design-support: 1
-  policy-support:
+  system-design-support: 1
+  policy-support: 1
   management:
   systems-development:
 ---

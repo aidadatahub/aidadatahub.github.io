@@ -7,7 +7,7 @@ image: "/assets/images/people/emre-balsever.jpg"
 topics:
   aida-data-hub:
   systems-development:
-  ai-support:
+  research-support:
 ---
 <div class="personContainer">
   <div class="personSub">

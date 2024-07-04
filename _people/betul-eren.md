@@ -7,7 +7,7 @@ image: "/assets/images/people/betul-eren.jpg"
 topics:
   aida-data-hub:
   data-sharing:
-  policy-support:
+  policy-support: 2
   management: 4
   systems-development:
 ---

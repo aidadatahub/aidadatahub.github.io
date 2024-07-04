@@ -7,8 +7,8 @@ topics:
   - management
   - economy
   - data-sharing
-  - ai-support
-  - systems-design-support
+  - research-support
+  - system-design-support
   - policy-support
   - systems-development
 ---
@@ -18,7 +18,7 @@ Meet the teams contributing to AIDA Data Hub:
 {:toc}
 
 {% for topic in page.topics %}
-## {{ topic | replace: '-', ' ' | capitalize | replace: "Ai ", "AI " | replace: "Aida data hub", "AIDA Data Hub"}}
+## {{ topic | replace: '-', ' ' | capitalize | replace: "Aida data hub", "AIDA Data Hub"}}
 {% include people-table.md topic=topic %}
 
 {% endfor %}

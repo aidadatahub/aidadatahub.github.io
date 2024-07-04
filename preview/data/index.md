@@ -31,10 +31,10 @@ When researchers host datasets for sharing at AIDA Data Hub, we help the
 researchers process the access requests, for final decision by the researcher.
 
 If approved, the recipient signs a Data Sharing Agreement ([DSA](/sharing/templates))
-with the researcher if needed, and AIDA Data Hub helps effect the data transfer.
+with the researcher (if needed), and AIDA Data Hub helps effect the data transfer.
 
 Researchers can also delegate the decision making and DSA process (if any)
-to AIDA Data Hub, using a Data Transfer Agreement ([DTA](/sharing/templates)).
+to AIDA Data Hub under a Data Transfer Agreement ([DTA](/sharing/templates)).
 
 Please refer to each dataset landing page for terms of use and instructions
 for access.
