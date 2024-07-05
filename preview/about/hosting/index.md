@@ -1,7 +1,6 @@
 ---
 title: Compute and storage hosting
 description: The data centers hosting AIDA Data Hub systems.
-layout: overhaul
 ---
 Our compute and storage resources are offered in collaboration with national partners.
 

@@ -1,6 +1,5 @@
 ---
 title: AIDA Data Hub website
-layout: overhaul
 ---
 This site uses the following free and open services and technologies:
 

@@ -1,5 +1,4 @@
 ---
-layout: overhaul
 description: Data and services for innovation in data driven precision health
 ---
 We are a national e-infrastructure for research and clinical innovation in data

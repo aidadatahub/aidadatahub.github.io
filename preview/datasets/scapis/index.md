@@ -1,7 +1,6 @@
 ---
 title: "SCAPIS datasets"
 description: "Information on SCAPIS imaging datasets shared through the AIDA Data Hub."
-layout: overhaul
 ---
 We help the [SCAPIS](scapis.org) project share their high-quality imaging
 datasets with the world, making them more [FAIR](/metrics#fair) and citeable

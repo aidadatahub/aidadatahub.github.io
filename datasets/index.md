@@ -11,26 +11,26 @@ This register shows information on datasets that we have helped researchers
 share [with the world](/metrics), to make their high-quality datasets more
 [FAIR](/metrics#fair) and citeable using Digital Object Identifiers
 ([DOI](/about#what-are-dois-and-dataset-registers)).
+
+You can also [Search](/search), see [Metrics](/metrics), use the [API](/api),
+or learn more about [FAIR and DOI](/about#what-are-dois-and-dataset-registers).
+
+## Datasets shared on the AIDA Data Hub
 {% assign bytes = 0 -%}
 {% assign scans = 0 -%}
 {% assign annotations = 0 -%}
 {% assign datasets = 0 -%}
 {% for d in site.datasets -%}
   {% if d.hidden %}{% continue  %}{% endif -%}
+  {% if d.synthetic %}{% continue  %}{% endif -%}
   {% assign bytes = d.other.bytes | default: 0 | plus: bytes -%}
   {% assign scans = d.other.numberOfScans | default: 0 | plus: scans -%}
   {% assign annotations = d.other.numberOfAnnotations | default: 0 | plus: annotations -%}
   {% assign datasets = datasets | plus: 1 %}
 {% endfor -%}
-So far <b>{% include human_friendly_filesize bytes=bytes %} </b> data
-have been shared, in {{ scans }} scans with {{ annotations }} annotations in {{ datasets }} datasets,
-according to clinical [data acquisition priorities](/prio)
-
-You can also [Search](/search), see [Metrics](/metrics), use the [API](/api),
-or learn more about [FAIR and DOI](/about#what-are-dois-and-dataset-registers).
-
-
-## Datasets shared on the AIDA Data Hub
+<b>{% include human_friendly_filesize bytes=bytes %} </b> data shared, in
+{{ scans }} scans with {{ annotations }} annotations in {{ datasets }} datasets,
+according to clinical [data acquisition priorities](/prio).
 
 <div class="dataset-table">
   <table>
@@ -51,6 +51,21 @@ or learn more about [FAIR and DOI](/about#what-are-dois-and-dataset-registers).
 </div>
 
 ## Synthetic Datasets shared on the AIDA Data Hub
+{% assign bytes = 0 -%}
+{% assign scans = 0 -%}
+{% assign annotations = 0 -%}
+{% assign datasets = 0 -%}
+{% for d in site.datasets -%}
+  {% if d.hidden %}{% continue  %}{% endif -%}
+  {% unless d.synthetic %}{% continue  %}{% endunless -%}
+  {% assign bytes = d.other.bytes | default: 0 | plus: bytes -%}
+  {% assign scans = d.other.numberOfScans | default: 0 | plus: scans -%}
+  {% assign annotations = d.other.numberOfAnnotations | default: 0 | plus: annotations -%}
+  {% assign datasets = datasets | plus: 1 %}
+{% endfor -%}
+<b>{% include human_friendly_filesize bytes=bytes %} </b> data shared, in {{ scans }}
+scans with {{ annotations }} annotations in {{ datasets }} datasets,
+according to clinical [data acquisition priorities](/prio).
 
 <div class="dataset-table">
   <table>

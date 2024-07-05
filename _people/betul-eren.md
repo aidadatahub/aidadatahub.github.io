@@ -1,6 +1,6 @@
 ---
 name: Betul Eren
-position: Data Sharing Lead
+role: Data Sharing Lead
 email: betul.eren@liu.se
 url: "https://datahub.aida.scilifelab.se/people/betul-eren"
 image: "/assets/images/people/betul-eren.jpg"
@@ -9,7 +9,7 @@ topics:
   data-sharing:
   policy-support: 2
   management: 4
-  systems-development:
+  system-development:
 ---
 <div class="personContainer">
   <div class="personSub">
@@ -17,7 +17,7 @@ topics:
 </div>
 <div class="personSub">
   <h2>{{page.name}}</h2>
-  <p>{{page.position}}</p>
+  <p>{{ page.role }}</p>
   <p><a href="{{ page.mailto }}">{{ page.email }}</a></p>
   </div>
 </div>

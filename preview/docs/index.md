@@ -1,7 +1,6 @@
 ---
 title: "Documentation"
 description: "How to get better use out of the AIDA Data Hub."
-layout: overhaul
 ---
 This page contains links to documentation that can help you get better use out
 of the AIDA Data Hub.

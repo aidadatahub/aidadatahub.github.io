@@ -1,7 +1,6 @@
 ---
 title: AIDA Data Hub Policy
 description: How AIDA Data Hub does business.
-layout: overhaul
 ---
 This page collects policy documents that describe how the AIDA Data Hub works,
 relating its procedures to common practice in data driven precision health activities.

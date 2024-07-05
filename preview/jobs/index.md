@@ -1,7 +1,6 @@
 ---
 title: "Jobs"
 description: "Build the future you want to see at the AIDA Data Hub."
-layout: overhaul
 ---
 
 ## Job opportunities

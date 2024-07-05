@@ -1,7 +1,6 @@
 ---
 title: Extract and enrich
-description: AIDA Data Hub increasing access to prioritized data for research
-layout: overhaul
+description: Increasing access to prioritized data for research
 ---
 We engage with data providers to collect training data for those data driven
 tools for precision health that will best meet the needs of current and future

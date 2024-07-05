@@ -1,7 +1,6 @@
 ---
 title: AIDA Data Hub Strategy
 description: AIDA Data Hub strategy for 2025-2030.
-layout: overhaul
 ---
 ## AIDA Data Hub strategy 2025-2030
 

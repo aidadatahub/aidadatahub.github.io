@@ -1,7 +1,6 @@
 ---
 title: FAIR and DOI
 description: What is FAIR data and Digital Object Identifiers?
-layout: overhaul
 ---
 ## What are DOIs and dataset registers?<span id="doi"/>
 The AIDA Data Hub facilitates sharing datasets for machine learning in medical

@@ -1,7 +1,6 @@
 ---
 title: "About AIDA"
 description: "The <a href='https://medtech4health.se/aida'>Analytic Imaging Diagnostics Arena</a>"
-layout: overhaul
 ---
 Analytic Imaging Diagnostics Arena ([AIDA](https://medtech4health.se/aida)) is a
 Swedish publicly funded arena for research and innovation on artificial

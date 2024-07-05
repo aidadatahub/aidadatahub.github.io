@@ -1,7 +1,6 @@
 ---
 title: "AIDA Data Hub Support"
-description: "Support function at the AIDA Data Hub."
-layout: overhaul
+description: "AI development, sensitive data and policy, and system design."
 ---
 
 Jump to:
@@ -64,6 +63,7 @@ Capabilities:
 * Reduce startup latencies
 * Facilitate knowledge transfer
 
+{:.no_toc}
 #### Research support team
 {% include people-table.md topic='research-support' %}
 
@@ -78,6 +78,7 @@ Topics:
 * [AIDA DGX-2 Service](/sharing/#dgx-2).
 * [AIDA Nextcloud](/services/#nextcloud).
 
+{:.no_toc}
 #### Policy support team
 {% include people-table.md topic='policy-support' %}
 
@@ -86,6 +87,7 @@ Please contact our us for support or more information!
 ### System design {#system-design}
 Consultation in system design for sensitive data, such as the [AIDA DGX-2 Service](/sharing/#dgx-2).
 
+{:.no_toc}
 #### System design support team
 {% include people-table.md topic='system-design-support' %}
 

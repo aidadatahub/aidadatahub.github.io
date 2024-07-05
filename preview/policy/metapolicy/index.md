@@ -1,7 +1,6 @@
 ---
 title: AIDA Data Hub Metapolicy
 description: How AIDA Data Hub policies are set.
-layout: overhaul
 ---
 ## AIDA Data Hub Metapolicy {#metapolicy}
 AIDA Data Hub policy is continuously set by AIDA Data Hub management, which reports to the AIDA Steering group and the SciLifeLab board.

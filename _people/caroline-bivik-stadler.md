@@ -1,6 +1,6 @@
 ---
 name: Caroline Bivik Stadler
-position: AIDA Project Lead
+role: AIDA Project Lead
 email: caroline.bivik.stadler@liu.se
 url: "https://datahub.aida.scilifelab.se/people/caroline-bivik-stadler"
 image:
@@ -14,7 +14,7 @@ topics:
 </div>
 <div class="personSub">
   <h2>{{page.name}}</h2>
-  <p>{{page.position}}</p>
+  <p>{{ page.role }}</p>
   <p><a href="{{ page.mailto }}">{{ page.email }}</a></p>
   </div>
 </div>

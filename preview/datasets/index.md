@@ -1,7 +1,6 @@
 ---
 title: "Datasets"
 description: "Information on datasets shared through the AIDA Data Hub."
-layout: overhaul
 ---
 We help researchers share their data with the world, making high-quality
 datasets more [FAIR](/metrics#fair) and citeable using digital object identifiers

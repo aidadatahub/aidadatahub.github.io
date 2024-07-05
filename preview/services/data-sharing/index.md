@@ -1,7 +1,6 @@
 ---
 title: Data Sharing
 description: Share your datasets with the world.
-layout: overhaul
 ---
 We help researchers share their data with the world, making high-quality
 datasets more [FAIR](/metrics#fair) and citeable using digital object identifiers

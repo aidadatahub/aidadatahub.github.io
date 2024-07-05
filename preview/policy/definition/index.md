@@ -1,6 +1,5 @@
 ---
 title: AIDA Data Hub Definition
-layout: overhaul
 ---
 ## AIDA Data Hub Definition {#definition}
 

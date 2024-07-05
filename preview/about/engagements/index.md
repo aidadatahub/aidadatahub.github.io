@@ -1,7 +1,6 @@
 ---
-title: AIDA Data Hub Engagements
-description: <a href="/preview">AIDA Data Hub</a> collaborations and engagements.
-layout: overhaul
+title: Engagements
+description: Our collaborations and project engagements.
 ---
 This page describes our project engagements and other collaborative activities.
 

@@ -1,7 +1,6 @@
 ---
 title: "Metrics"
-description: "AIDA Data Hub sharing in numbers."
-layout: overhaul
+description: "AIDA Data Hub in numbers."
 ---
 {% capture ignored %}
   {% assign totn = 0 %}

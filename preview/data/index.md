@@ -1,7 +1,6 @@
 ---
 title: Data Access
 description: AIDA Data Hub increasing availability of data for research.
-layout: overhaul
 ---
 We help researchers share their data with the world, making high-quality
 datasets more [FAIR](/metrics#fair) and citeable using digital object identifiers

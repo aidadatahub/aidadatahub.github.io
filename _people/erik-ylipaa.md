@@ -1,6 +1,6 @@
 ---
 name: Erik Ylipää
-position: AI Research Support Expert
+role: AI Research Support Expert
 email: erik.ylipaa@liu.se
 url: "https://datahub.aida.scilifelab.se/people/erik-ylipaa"
 image: "/assets/images/people/erik-ylipaa.jpg"
@@ -15,7 +15,7 @@ topics:
 </div>
 <div class="personSub">
   <h2>{{page.name}}</h2>
-  <p>{{page.position}}</p>
+  <p>{{ page.role }}</p>
   <p><a href="{{ page.mailto }}">{{ page.email }}</a></p>
   </div>
 </div>

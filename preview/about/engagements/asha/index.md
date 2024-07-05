@@ -1,7 +1,6 @@
 ---
 title: ASHA
 description: AIDA Data Hub contribution to ASHA.
-layout: overhaul
 ---
 This page describes our contribution to the ASHA project.
 

@@ -1,7 +1,5 @@
 ---
 title: "People"
-description: "The people of AIDA Data Hub."
-layout: overhaul
 topics:
   - aida-data-hub
   - management
@@ -10,7 +8,7 @@ topics:
   - research-support
   - system-design-support
   - policy-support
-  - systems-development
+  - system-development
 ---
 
 Meet the teams contributing to AIDA Data Hub:

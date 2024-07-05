@@ -1,6 +1,5 @@
 ---
 title: AIDA Data Hub Services
-layout: overhaul
 ---
 We provide services for research and clinical innovation in data driven precision health, with a base in multi-modal diagnostics and medical imaging AI.
 
@@ -15,7 +14,7 @@ See also:
 ## Access
 Our services are provided based on user fees. Our customers are user communitites,
 researchers, innovators, and caregivers of national significance.
-Please contact your [community](#community) for terms, or refer to our [prices](#prices) below.
+Please contact your [community](#communities) for terms, or refer to our [prices](#prices) below.
 
 Please contact the following for enquiries and access:
 * Data sharing: [aida-data@nbis.se](mailto:aida-data@nbis.se)

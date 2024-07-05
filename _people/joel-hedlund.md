@@ -1,6 +1,6 @@
 ---
 name: Joel Hedlund
-position: Head of Unit
+role: Head of AIDA Data Hub
 email: joel.hedlund@liu.se
 url: "https://datahub.aida.scilifelab.se/people/joel-hedlund"
 image: "/assets/images/people/joel-hedlund.jpg"
@@ -17,8 +17,10 @@ topics:
   <img  src="{{ page.image }}" alt="" style="width: 200px; cursor: pointer;">
 </div>
 <div class="personSub">
-  <h2>{{page.name}}</h2>
-  <p>{{page.position}}</p>
+  <h2>{{ page.name }}</h2>
+  <p>{{ page.role }}</p>
   <p><a href="{{ page.mailto }}">{{ page.email }}</a></p>
   </div>
 </div>
+
+Add more content here

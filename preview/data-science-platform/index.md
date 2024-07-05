@@ -1,9 +1,10 @@
 ---
 title: Data Science Platform
-description: A home for your data driven precision health research.
-layout: overhaul
+description: A home for your research.
 ---
 Our data science platform offers a home for your research. Our customers include researchers, innovators, caregivers and user communitites of national significance.
+
+<!--FIXME maybe all these services should be broken out to separate pages? -->
 
 ## Features
 
@@ -20,12 +21,18 @@ An annual [membership fee](../services#access) provides [base service](#base-ser
 <a class="button" href="../services#access">Get Access &raquo;</a>
 
 ## Contact
-Our [systems design team](../people#economy):
-{% include people-table.md topic='systems-design-support' %}
+Our [system design team](../people#economy):
+{% include people-table.md topic='system-design-support' %}
 
 Please contact our us for support or more information!
 
 ## Base service
+
+{:class="tight-table"}
+| Audience: | Everyone             |  
+| Cost:     | Please visit [Prices](#prices) |  
+| Status:   | Planned.             |
+
 Includes:
 * Up to 2 TB private storage quota (no backup) accessible through e.g. Windows file sharing.
 * Multifactor login using Life Science Login and your home organization account.
@@ -77,18 +84,18 @@ Receive openEHR data from specified sources.
 
 {:class="tight-table"}
 | Audience: | Large scale data users. |  
-| Cost:     | cf [Prices](#prices)  |  
+| Cost:     | Please visit [Prices](#prices)  |  
 | Status:   | Planned.              |
 
 Larger storage (no backup) than what is included in Basic service.
 
-(Description of storage goes here, if any).
+<!--FIXME Description of storage goes here, if any -->
 
 ### SD Primary storage
 
 {:class="tight-table"}
 | Audience: | Customers using AIDA Data Hub for primary storage of data. |  
-| Cost:     | cf [Prices](#prices)  |  
+| Cost:     | Please visit [Prices](#prices)  |  
 | Status:   | Planned.              |
 
 Storage with backups, guarding against disaster and (some) user error.
@@ -99,7 +106,7 @@ Storage with backups, guarding against disaster and (some) user error.
 
 {:class="tight-table"}
 | Audience: | AI- and data scientists, and systems development experts. |  
-| Cost:     | Depends on flavor, cf [Prices](#prices) |  
+| Cost:     | Depends on flavor, please visit [Prices](#prices) |  
 | Status:   | Planned.                                |
 
 Multi-factor authenticated SSH connection to private self-managed virtual machines.
@@ -114,7 +121,7 @@ Variants:
 
 {:class="tight-table"}
 | Audience: | AI- and data scientists, and systems development experts. |  
-| Cost:     | Depends on flavor, cf [Prices](#prices) |  
+| Cost:     | Depends on flavor, please visit [Prices](#prices) |  
 | Status:   | Planned.                                |
 
 Secure access to popular web service tools for data analysis.

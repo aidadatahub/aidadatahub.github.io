@@ -1,6 +1,5 @@
 ---
 title: "Search"
-layout: overhaul
 description: "Find datasets of interest on the AIDA Data Hub."
 ---
 

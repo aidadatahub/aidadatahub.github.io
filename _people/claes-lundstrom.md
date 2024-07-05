@@ -1,6 +1,6 @@
 ---
 name: Claes Lundström
-position: Platform Scientific Director
+role: Platform Scientific Director
 email: claes.lundstrom@liu.se
 url: "https://datahub.aida.scilifelab.se/people/claes-lundstrom"
 image: "/assets/images/people/claes-lundstrom.jpg"
@@ -14,7 +14,7 @@ topics:
 </div>
 <div class="personSub">
   <h2>{{page.name}}</h2>
-  <p>{{page.position}}</p>
+  <p>{{ page.role }}</p>
   <p><a href="{{ page.mailto }}">{{ page.email }}</a></p>
   </div>
 </div>
