@@ -4,15 +4,21 @@ description: "Data and services for AI innovation in medical imaging diagnostics
 theme: "jekyll-theme-cayman"
 url: "https://datahub.aida.scilifelab.se"
 
+future: true
+
 collections:
-  people:
-    output: true
-    layout: "person.html"
-    permalink: ":path"
   datasets:
     output: true
-    layout: "dataset.html"
     permalink: ":path"
+  events:
+    output: true
+    permalink: "/preview/events/:path"
+  news:
+    output: true
+    permalink: "/preview/news/:path"
+  people:
+    output: true
+    permalink: "/preview/people/:path"
 
 defaults:
   - scope:
@@ -22,6 +28,22 @@ defaults:
       layout: "dataset"
   - scope:
       path: ""
+      type: "events"
+    values:
+      layout: "overhaul"
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: "overhaul"
+  - scope:
+      path: ""
       type: "people"
     values:
-      layout: "person"
+      layout: "overhaul"
+      title: People
+  - scope:
+      path: "preview"
+      type: "pages"
+    values:
+      layout: "overhaul"

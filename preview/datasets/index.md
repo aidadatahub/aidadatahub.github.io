@@ -1,21 +1,24 @@
 ---
-title: "AIDA Dataset Register"
-description: "Information on datasets shared on the <a href='/'>AIDA Data Hub</a>."
+title: "Datasets"
+description: "Information on datasets shared through the AIDA Data Hub."
 ---
-The most important factor for building world-class AI is access to massive
-amounts of high-quality training data. We help researchers collaboratively
-gather, annotate, share and enrich large volumes of research data for machine
-learning in medical imaging diagnostics.
+We help researchers share their data with the world, making high-quality
+datasets more [FAIR](/metrics#fair) and citeable using digital object identifiers
+([DOI](../about/fair)).
 
-This register shows information on datasets that we have helped researchers
-share [with the world](/metrics), to make their high-quality datasets more
-[FAIR](/metrics#fair) and citeable using Digital Object Identifiers
-([DOI](/about#what-are-dois-and-dataset-registers)).
+<!--FIXME make scapis page-->
 
-You can also [Search](/search), see [Metrics](/metrics), use the [API](/api),
-or learn more about [FAIR and DOI](/about#what-are-dois-and-dataset-registers).
+* [Datasets](#datasets)
+* [SCAPIS datasets](scapis)
+* [Synthetic datasets](#synthetic)
 
-## Datasets shared on the AIDA Data Hub
+See also:
+* [Search](search)
+* [Getting access](../data)
+* [About FAIR and DOI](../about/fair)
+* [API](/api)
+
+## Datasets
 {% assign bytes = 0 -%}
 {% assign scans = 0 -%}
 {% assign annotations = 0 -%}
@@ -28,9 +31,8 @@ or learn more about [FAIR and DOI](/about#what-are-dois-and-dataset-registers).
   {% assign annotations = d.other.numberOfAnnotations | default: 0 | plus: annotations -%}
   {% assign datasets = datasets | plus: 1 %}
 {% endfor -%}
-<b>{% include human_friendly_filesize bytes=bytes %} </b> data shared, in
-{{ scans }} scans with {{ annotations }} annotations in {{ datasets }} datasets,
-according to clinical [data acquisition priorities](/prio).
+{{ datasets }} datasets: {% include human_friendly_filesize bytes=bytes %},
+{{ scans }} scans, {{ annotations }} annotations. [More metrics...](../metrics)
 
 <div class="dataset-table">
   <table>
@@ -50,7 +52,7 @@ according to clinical [data acquisition priorities](/prio).
   </table>
 </div>
 
-## Synthetic Datasets shared on the AIDA Data Hub
+## Synthetic datasets {#synthetic}
 {% assign bytes = 0 -%}
 {% assign scans = 0 -%}
 {% assign annotations = 0 -%}
@@ -63,9 +65,8 @@ according to clinical [data acquisition priorities](/prio).
   {% assign annotations = d.other.numberOfAnnotations | default: 0 | plus: annotations -%}
   {% assign datasets = datasets | plus: 1 %}
 {% endfor -%}
-<b>{% include human_friendly_filesize bytes=bytes %} </b> data shared, in {{ scans }}
-scans with {{ annotations }} annotations in {{ datasets }} datasets,
-according to clinical [data acquisition priorities](/prio).
+{{ datasets }} datasets: {% include human_friendly_filesize bytes=bytes %},
+{{ scans }} scans, {{ annotations }} annotations. [More metrics...](../metrics)
 
 <div class="dataset-table">
   <table>

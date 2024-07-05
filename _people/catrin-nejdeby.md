@@ -1,12 +1,12 @@
 ---
-name: Varshith Konda
-role: Systems Developer
-email: varshith.konda@liu.se
-url: "https://datahub.aida.scilifelab.se/people/varshith-konda"
-image:
+name: Catrin Nejdeby
+role: Controller
+email: catrin.nejdeby@liu.se
+url: "https://datahub.aida.scilifelab.se/people/catrin-nejdeby"
+image: "/assets/images/people/catrin-nejdeby.jpg"
 topics:
   aida-data-hub:
-  system-development:
+  economy: 1
 ---
 <div class="personContainer">
   <div class="personSub">
