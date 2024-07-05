@@ -4,6 +4,7 @@ description: "Data and services for AI innovation in medical imaging diagnostics
 theme: "jekyll-theme-cayman"
 url: "https://datahub.aida.scilifelab.se"
 
+timezone: Europe/Stockholm
 future: true
 
 collections:

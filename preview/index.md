@@ -20,12 +20,16 @@ Learn more: [About AIDA Data Hub](policy/definition)
 <div class = "column text-right" ><a href="https://scilifelab.se/"><img alt="SciLifeLab logo" id="scilife_logo" src="/assets/images/scilifelab-logo.png" /></a> </div>
 </div>
 
+## News
+
+{% include news-list.html limit=5 %}
+
+[More news...](news)
+
 ## Events
+{% include event-list.html id="upcoming" events=site.events %}
 
-* 2024-08-15 [An upcoming event](example.com) Description here.
-* 2024-08-17 [Another upcoming event](example.com) Description here.
-
-More events: [Events](events)
+[More events...](events)
 
 ## Data
 We help researchers share their data with the world, making high-quality
