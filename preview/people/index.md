@@ -17,6 +17,6 @@ Meet the teams contributing to AIDA Data Hub:
 
 {% for topic in page.topics %}
 ## {{ topic | replace: '-', ' ' | capitalize | replace: "Aida data hub", "AIDA Data Hub"}}
-{% include people-table.md topic=topic %}
+{% include people-topic-table.md topic=topic %}
 
 {% endfor %}

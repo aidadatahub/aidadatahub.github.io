@@ -1,7 +1,7 @@
 ---
 title: "Events"
 ---
-### Current
+### Current events {#current}
 
 {% include event-list.html id="upcoming" events=site.events %}
 

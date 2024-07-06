@@ -54,7 +54,7 @@ learning more about the general process. You can also contact
 
 ### Contact
 Our [data sharing team](../people#data-sharing):
-{% include people-table.md topic='data-sharing' %}
+{% include people-topic-table.md topic='data-sharing' %}
 
 Please contact our us for support or more information!
 

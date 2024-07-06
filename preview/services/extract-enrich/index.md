@@ -39,7 +39,7 @@ Approved: 2024-04-24
 
 ## Contact
 Our [data sharing team](../people#data-sharing):
-{% include people-table.md topic='data-sharing' %}
+{% include people-topic-table.md topic='data-sharing' %}
 
 Please contact our us for support or more information!
 

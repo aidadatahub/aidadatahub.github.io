@@ -14,7 +14,7 @@ datasets more [FAIR](/metrics#fair) and citeable using digital object identifier
 
 See also:
 * [Search](search)
-* [Getting access](../data)
+* [Getting access](../data#access)
 * [About FAIR and DOI](../about/fair)
 * [API](/api)
 
