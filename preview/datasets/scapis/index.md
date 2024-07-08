@@ -2,9 +2,9 @@
 title: "SCAPIS datasets"
 description: "Information on SCAPIS imaging datasets shared through the AIDA Data Hub."
 ---
-We help the [SCAPIS](scapis.org) project share their high-quality imaging
-datasets with the world, making them more [FAIR](/metrics#fair) and citeable
-using digital object identifiers ([DOI](../about/fair)).
+We help the [SCAPIS](scapis.org) project share high-quality imaging datasets
+with the world, making them more [FAIR](/metrics#fair) and citeable using
+digital object identifiers ([DOI](../about/fair)).
 
 See also:
 * [All Datasets](..)
@@ -24,6 +24,11 @@ See also:
 5. Following account creation, download approved data.
 6. Optional: Get a [Data Science Platform](../../data-science-platform) at AIDA Data Hub to process images on-platform.
 
+### Contact
+Our [data sharing team](../people#data-sharing):
+{% include people-topic-table.md topic='data-sharing' %}
+
+Please contact our us for support or more information!
 
 ## SCAPIS Datasets
 {% assign bytes = 0 -%}
@@ -41,6 +46,8 @@ See also:
 {% endfor -%}
 {{ datasets }} datasets: {% include human_friendly_filesize bytes=bytes %},
 {{ scans }} scans, {{ annotations }} annotations. [More metrics...](../../metrics)
+
+The full SCAPIS data is being transfered and is expected to become available for sharing in August.
 
 <div class="dataset-table">
   <table>

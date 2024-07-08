@@ -65,7 +65,7 @@ Capabilities:
 
 {:.no_toc}
 #### Research support team
-{% include people-table.md topic='research-support' %}
+{% include people-topic-table.md topic='research-support' %}
 
 Please contact our us for support or more information!
 
@@ -80,7 +80,7 @@ Topics:
 
 {:.no_toc}
 #### Policy support team
-{% include people-table.md topic='policy-support' %}
+{% include people-topic-table.md topic='policy-support' %}
 
 Please contact our us for support or more information!
 
@@ -89,7 +89,7 @@ Consultation in system design for sensitive data, such as the [AIDA DGX-2 Servic
 
 {:.no_toc}
 #### System design support team
-{% include people-table.md topic='system-design-support' %}
+{% include people-topic-table.md topic='system-design-support' %}
 
 Please contact our us for support or more information!
 

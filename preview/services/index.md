@@ -63,6 +63,6 @@ Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovati
 
 ### Contact
 Our [economy team](../people#economy):
-{% include people-table.md topic='economy' %}
+{% include people-topic-table.md topic='economy' %}
 
 Please contact our us for support or more information!

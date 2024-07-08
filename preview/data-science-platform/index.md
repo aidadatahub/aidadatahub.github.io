@@ -22,7 +22,7 @@ An annual [membership fee](../services#access) provides [base service](#base-ser
 
 ## Contact
 Our [system design team](../people#economy):
-{% include people-table.md topic='system-design-support' %}
+{% include people-topic-table.md topic='system-design-support' %}
 
 Please contact our us for support or more information!
 
