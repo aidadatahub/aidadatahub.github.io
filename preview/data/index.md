@@ -44,7 +44,7 @@ Please contact our us for support or more information!
 ## See also
 
 * [Support](../support)
-* [Share](../share)
+* [Share](../services/data-sharing)
 * [Extract and enrich](../services/extract-enrich)
 * [Policy and guidance](../policy)
 * [Metrics](/metrics)
