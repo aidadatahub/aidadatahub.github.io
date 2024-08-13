@@ -1,6 +1,13 @@
 ---
-title: Arrhenius procurement
+title: Arrhenius
 description: AIDA Data Hub contribution to Arrhenius procurement.
+role: Sensitive data capacity procurement parameters.
+ongoing: true
+start: 2024-02-01
+end:
+website: https://liu.se/en/news-item/europeisk-superdator-hamnar-pa-liu
+logo: /assets/images/logos/naiss-logo.png
+prio: 4
 ---
 ![NAISS logo](/assets/images/logos/naiss-logo.png){: .right width="40%"}
 [Arrhenius](https://liu.se/en/news-item/europeisk-superdator-hamnar-pa-liu) is

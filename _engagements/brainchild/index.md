@@ -1,6 +1,13 @@
 ---
 title: BrainChild
 description: AIDA Data Hub contribution to BrainChild.
+role: Platform design and support to driver use cases.
+ongoing: true
+start: 2023-08-01
+end:
+website: https://barncancerfonden.se/brainchild/
+logo: /assets/images/logos/brainchild-logo.png
+prio:
 ---
 ![BrainChild logo](/assets/images/logos/brainchild-logo.png){: .right width="35%"}
 [BrainChild](https://barncancerfonden.se/brainchild/) is a project initiated by

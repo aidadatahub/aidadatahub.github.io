@@ -14,17 +14,51 @@ and [SciLifeLab](https://scilifelab.se) Board.
 
 Learn more: [About AIDA Data Hub](policy/definition)
 
+<!--
 <div class = "scilife_nbis_div  columns">
 <div class = "column text-left" ><a href="https://nbis.se/"><img alt="Nbis_logo" id="nbis_logo" src="/assets/images/nbislogo-green-aqua.svg"/></a></div>
 <div class = "column text-center" ><a href ="https://datahub.aida.scilifelab.se/"><img alt="aida_logo" id = "aida_logo" src="/assets/icons/aida-icon.png" /></a> </div>
 <div class = "column text-right" ><a href="https://scilifelab.se/"><img alt="SciLifeLab logo" id="scilife_logo" src="/assets/images/scilifelab-logo.png" /></a> </div>
 </div>
+-->
+
+<style>
+.engagement-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 1rem
+}
+.engagement-cards li {
+  text-align: center;
+  display: inline;
+}
+.engagement-cards li {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+}
+.engagement-cards li img {
+  width: 60%;
+  height: 7em;
+  object-fit: contain
+}
+</style>
+<ul class="engagement-cards">
+{% assign engagements = site.engagements | sort: "prio" %}
+{% for e in engagements %}
+{% unless e.prio %}{% continue %}{% endunless %}
+<li><a href="{{ e.url }}"><img src="{{ e.logo }}"><br/>{{ e.title }}</a></li>
+{% endfor %}
+</ul>
+
+[More engagements...](about/engagements)
+
 
 ## News
 
 {% include news-list.html limit=5 %}
 
-[More news...](news)
 
 ## Events
 {% include event-list.html id="upcoming" events=site.events %}

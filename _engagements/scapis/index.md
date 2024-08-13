@@ -1,6 +1,13 @@
 ---
 title: SCAPIS
 description: AIDA Data Hub contribution to SCAPIS.
+role: Data collaboration platform for imaging sharing service.
+ongoing: true
+start:
+end: 
+website: https://scapis.org/
+logo: /assets/images/logos/scapis-logo.png
+prio: 3
 ---
 ![SCAPIS logo](/assets/images/logos/scapis-logo.png){: .right width="35%"}
 The Swedish Cardiopulmonary Bioimage Study ([SCAPIS](scapis.org)) is a nationwide,

@@ -5,13 +5,13 @@ description: Our collaborations and project engagements.
 This page describes our project engagements and other collaborative activities.
 
 Current:
-* [AIDA](../aida)
-* [ASHA](asha)
-* [Arrhenius procurement](arrhenius)
-* [Bigpicture](bigpicture)
-* [BrainChild](brainchild)
-* [EUCAIM](eucaim)
-* [MT4H Fokusområde](mt4h-focus-area)
-* [SCAPIS](scapis)
+{% for e in site.engagements -%}
+{% unless e.ongoing %}{% continue %}{% endunless -%}
+* [{{ e.title }}]({{ e.url }})
+{% endfor %}
 
 Past:
+{% for e in site.engagements -%}
+{% if e.ongoing %}{% continue %}{% endif -%}
+* [{{ e.title }}]({{ e.url }})
+{% endfor %}

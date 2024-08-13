@@ -11,6 +11,9 @@ collections:
   datasets:
     output: true
     permalink: ":path"
+  engagements:
+    output: true
+    permalink: "/preview/about/engagements/:path"
   events:
     output: true
     permalink: "/preview/events/:path"
@@ -30,6 +33,11 @@ defaults:
       type: "datasets"
     values:
       layout: "dataset"
+  - scope:
+      path: ""
+      type: "engagements"
+    values:
+      layout: "overhaul"
   - scope:
       path: ""
       type: "events"
