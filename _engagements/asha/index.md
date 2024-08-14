@@ -9,6 +9,7 @@ website: https://www.vinnova.se/p/anvanda-standardiserade-halsodata-som-accelera
 logo: /assets/images/logos/asha.png
 prio: 4
 ---
+![ASHA logo](/assets/images/logos/asha.png){: .right width="22%"}
 *ASHA is a backronym for "Använda Standardiserade Hälsodata som Accelerator", which also happens to mean "Health" in Swahili.*
 
 [ASHA](https://www.vinnova.se/p/anvanda-standardiserade-halsodata-som-accelerator-for-att-starka-innovation-och-framtidens-halso--och-sjukvard/)
