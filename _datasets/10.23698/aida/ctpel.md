@@ -78,6 +78,7 @@ other:
     segmentation mask and annotated anatomical landmarks were created by a
     trained radiologist.
   countries-shared:
+  - "AU"
   - "BE"
   - "BR"
   - "CA"
