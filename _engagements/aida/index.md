@@ -22,7 +22,7 @@ AIDA Data Hub is the data infrastructure supporting AIDA.
 <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.2/viewer.min.js"></script>
 <script>const viewer = new Viewer(document.getElementById('aida-map'));</script>
 
-AIDA is [organized](https://medtech4health.se/en/aida-en-2/aida-organization/)
+AIDA is [organized](https://medtech4health.se/aida-arena/organization/)
 as a collaboration arena, currently engaging
 [~50 partners](https://medtech4health.se/en/aida-arena/organization/),
 from academia, industry and healthcare. AIDA is coordinated by the
