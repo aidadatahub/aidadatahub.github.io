@@ -13,7 +13,7 @@ See also:
 
 ## Access
 Our services are provided based on user fees. Our customers are user communitites,
-researchers, innovators, and caregivers of national significance.
+researchers, industry, and caregivers of national significance.
 Please contact your [community](#communities) for terms, or refer to our [prices](#prices) below.
 
 Please contact the following for enquiries and access:
