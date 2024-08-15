@@ -1,6 +1,13 @@
 ---
 title: EUCAIM
 description: AIDA Data Hub contribution to EUCAIM.
+role: Data collaboration platform for EUCAIM use cases.
+ongoing: true
+start: 2023-01-01
+end: 2026-12-31
+website: https://cancerimage.eu/
+logo: /assets/images/logos/eucaim-logo.png
+prio: 4
 ---
 ![EUCAIM logo](/assets/images/logos/eucaim-logo.png){: .right width="25%"}
 Cancer Image Europe ([EUCAIM](https://cancerimage.eu/)) is pioneering a

@@ -1,6 +1,13 @@
 ---
 title: Bigpicture
 description: AIDA Data Hub contribution to Bigpicture.
+role: Repository infrastructure development lead.
+ongoing: true
+start: 2021-02-01
+end: 2027-01-31
+website: https://bigpicture.eu/
+logo: /assets/images/logos/bigpicture.png
+prio: 3
 ---
 ![Bigpicture logo](/assets/images/logos/bigpicture-logo.png){: .right width="30%"}
 [Bigpicture](https://bigpicture.eu/) is building a central repository of digital

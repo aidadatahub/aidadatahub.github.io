@@ -1,7 +1,15 @@
 ---
 title: ASHA
 description: AIDA Data Hub contribution to ASHA.
+role: Platform hosting data spaces for secondary use of health data.
+ongoing: true
+start: 2023-12-01
+end: 2027-09-30
+website: https://www.vinnova.se/p/anvanda-standardiserade-halsodata-som-accelerator-for-att-starka-innovation-och-framtidens-halso--och-sjukvard/
+logo: /assets/images/logos/asha.png
+prio: 4
 ---
+![ASHA logo](/assets/images/logos/asha.png){: .right width="22%"}
 *ASHA is a backronym for "Använda Standardiserade Hälsodata som Accelerator", which also happens to mean "Health" in Swahili.*
 
 [ASHA](https://www.vinnova.se/p/anvanda-standardiserade-halsodata-som-accelerator-for-att-starka-innovation-och-framtidens-halso--och-sjukvard/)
