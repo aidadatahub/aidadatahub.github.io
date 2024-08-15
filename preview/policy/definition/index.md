@@ -11,7 +11,7 @@ AIDA Data Hub is...
 
 **We do:** providing secure compute and storage resources, data and sharing services, and advanced support and training in legal and ethical policy, AI development, and system design
 
-**Our customer model:** to researchers, innovators, and caregivers of national significance
+**Our customer model:** to researchers, industry, and caregivers of national significance
 
 **Our development model:** in collaboration with national and international communities in areas of common interest
 
