@@ -40,7 +40,7 @@ Learn more: [About AIDA Data Hub](policy/definition)
 {% assign engagements = site.engagements | sort: "prio" %}
 {% for e in engagements %}
 {% unless e.prio %}{% continue %}{% endunless %}
-<li><a href="{{ e.url }}"><img src="{{ e.logo }}"><br/>{{ e.title }}</a></li>
+<li><a href="{{ e.url | replace: "/index", "/" }}"><img src="{{ e.logo }}"><br/>{{ e.title }}</a></li>
 {% endfor %}
 </ul>
 
