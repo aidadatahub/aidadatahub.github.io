@@ -6,7 +6,7 @@ title: About AIDA Data Hub
 We are a national e-infrastructure for research and clinical innovation in data
 driven precision health, with a base in multi-modal diagnostics and medical
 imaging AI. We offer data, services, compute and storage resources, and advanced
-support to researchers, innovators, and caregivers of national significance.
+support to researchers, industry, and caregivers of national significance.
 
 Hosted by the [Linköping University](https://liu.se)
 Center for Medical Image Science and Visualization ([CMIV](https://liu.se/cmiv)).

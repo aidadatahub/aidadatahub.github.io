@@ -44,7 +44,7 @@ Strengthen prospects for sustainable services through active stakeholder dialogu
 Accelerate creation of clinical and patient value through development and provisioning of cost-effective, best-in-class e-infrastructure services beyond stakeholder capabilities.
 
 ### Values (Guiding our work) {#values}
-Motivated by providing added value to researchers, innovators, clinics, and patients, and engaging actively with our stakeholders. Open, reliable service provider and business partner, and continuously striving to improve in our work.
+Motivated by providing added value to researchers, industry, clinics, and patients, and engaging actively with our stakeholders. Open, reliable service provider and business partner, and continuously striving to improve in our work.
 
 See also:
 * [AIDA Data Hub Definition](../definition)

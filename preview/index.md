@@ -4,7 +4,7 @@ description: Data and services for innovation in data driven precision health
 We are a national e-infrastructure for research and clinical innovation in data
 driven precision health, with a base in multi-modal diagnostics and medical
 imaging AI. We offer data, services, compute and storage resources, and advanced
-support to researchers, innovators, and caregivers of national significance.
+support to researchers, industry, and caregivers of national significance.
 
 Hosted by the [Linköping University](https://liu.se)
 Center for Medical Image Science and Visualization ([CMIV](https://liu.se/cmiv)).
@@ -13,14 +13,6 @@ Reporting to the Analytic Imaging Diagnostics Arena ([AIDA](/about/aida)) Steeri
 and [SciLifeLab](https://scilifelab.se) Board.
 
 Learn more: [About AIDA Data Hub](policy/definition)
-
-<!--
-<div class = "scilife_nbis_div  columns">
-<div class = "column text-left" ><a href="https://nbis.se/"><img alt="Nbis_logo" id="nbis_logo" src="/assets/images/nbislogo-green-aqua.svg"/></a></div>
-<div class = "column text-center" ><a href ="https://datahub.aida.scilifelab.se/"><img alt="aida_logo" id = "aida_logo" src="/assets/icons/aida-icon.png" /></a> </div>
-<div class = "column text-right" ><a href="https://scilifelab.se/"><img alt="SciLifeLab logo" id="scilife_logo" src="/assets/images/scilifelab-logo.png" /></a> </div>
-</div>
--->
 
 <style>
 .engagement-cards {
