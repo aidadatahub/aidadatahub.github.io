@@ -44,7 +44,6 @@ Includes:
   * SD Desktop (optional)
   * SD Inbox
   * SD Outbox
-  * SD Download - sda download?
   * SD Apply - REMS
   * SD Telerad (optional)
   * SD openEHR (optional)
