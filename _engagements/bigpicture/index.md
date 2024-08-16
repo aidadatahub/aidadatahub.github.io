@@ -15,7 +15,7 @@ pathology slides to boost the development of artificial intelligence
 
 The AIDA Data Hub leads development of the central repository, which is carried
 out together with system development teams at the ELIXIR nodes in Finland
-([CSC](https:/csc.fi)) and Sweden ([NBIS](https://nbis.se)).
+([CSC](https://csc.fi)) and Sweden ([NBIS](https://nbis.se)).
 
 AIDA Data Hub is also setting up a Bigpicture Federated node on its
 [data science platform](../../../data-science-platform), close to national and
