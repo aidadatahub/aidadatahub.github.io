@@ -87,6 +87,7 @@ other:
   - "NO"
   - "SE"
   - "US"
+  - "SG"
   organ:
   - name: "Colon"
     sctid: 71854001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
