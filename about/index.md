@@ -28,7 +28,7 @@ Learn more: [AIDA Data Hub Definition](../policy/definition)
 ## Contact
 ### Visiting address
 
-Call ahead to be let in, do not go beyond the lobby if you do not have MRI safety training.
+Call ahead to be let in. Do not go beyond the lobby if you have not received MRI safety training.
 
 Universitetssjukhuset i Linköping, Main block:  
 From Entrance 1 (southern entrance, [map](https://maps.app.goo.gl/cYF2CwUdWxxjXBKMA)): Elevator A, floor 11  
@@ -49,7 +49,8 @@ Please report any errors on this website to our GitHub Pages
 [issue tracker](https://github.com/aidadatahub/aidadatahub.github.io/issues),
 or submit a [pull request](https://github.com/aidadatahub/aidadatahub.github.io/pulls).
 
-For questions regarding data or the AIDA Data Hub please contact the
-[AIDA data director](mailto:aida-data-director@medtech4health.se).
+For enquiries regarding our activities please feel free to contact the relevant
+listed representatives from our [teams](../people) or [engagements](engagements).
 
-For all other inquiries please contact [AIDA](mailto:aida@nbis.se).
+For business enquiries please contact the
+[AIDA data director](mailto:aida-data-director@nbis.se) or [AIDA](mailto:aida@nbis.se).
