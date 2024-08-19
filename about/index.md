@@ -1,8 +1,7 @@
 ---
 title: About AIDA Data Hub
 ---
-
-## AIDA Data Hub
+![AIDA Data Hub logo](/assets/icons/aida-icon.png){: .right width="20%"}
 We are a national e-infrastructure for research and clinical innovation in data
 driven precision health, with a base in multi-modal diagnostics and medical
 imaging AI. We offer data, services, compute and storage resources, and advanced
