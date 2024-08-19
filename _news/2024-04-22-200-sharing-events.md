@@ -1,11 +1,12 @@
 ---
-title: 200 data sharing events facilitated
+title: 200+ data sharing events facilitated
 highlight: yes
 blurb: >
-  We are pleased to announce that 200 external data sharing events have been
+  We are pleased to announce that more than 200 external data sharing events have been
   successfully facilitated with numerous countries worldwide.
 ---
 ## {{ page.title }}
+![World map](/assets/images/world-map-colored.svg){: .right width="45%"}
 <span class="small">{{ page.date | date: "%Y-%m-%d"}}</span>
 
 <b>{{ page.blurb }}</b>
