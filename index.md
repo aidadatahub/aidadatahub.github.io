@@ -25,12 +25,12 @@ Learn more: [About AIDA Data Hub](policy/definition)
   text-align: center;
   flex: 0 0 50%;
 }
-@media (min-width: 700px) {
+@media (min-width: 400px) {
   .engagement-cards li {
     flex: 0 0 33.33%;
   }
 }
-@media (min-width: 1100px) {
+@media (min-width: 600px) {
   .engagement-cards li {
     flex: 0 0 25%;
   }
