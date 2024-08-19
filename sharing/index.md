@@ -17,7 +17,7 @@ This policy has been drawn up by [AIDA](https://medtech4health.se/aida/) in orde
 Summaries:
 
 * **[Practical guide](overview/)** &raquo; An overview of AIDA data sharing.
-* **[Common practice](context/#common-practice-in-the-use-of-clinical-imaging-data-for-research)** &raquo; Ethics and law in clinical data sharing for research.
+* **[Common practice](context/#common-practice)** &raquo; Ethics and law in clinical data sharing for research.
 
 AIDA policies are set continuously by [AIDA management](https://medtech4health.se/aida/organisation/), who reports to the AIDA steering group. Please contact the [AIDA data director](mailto:aida-data-director@medtech4health.se) for comments and feedback.
 

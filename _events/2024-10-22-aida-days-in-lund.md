@@ -1,6 +1,7 @@
 ---
 title: AIDA days in Lund
 end: 2024-10-23
+highlight: yes
 reporting:
   type:         # "course", or "workshop" (aka: Conferences, symposia, seminars and workshops)
   unit: AIDA Data Hub # 1. Name of reporting unit* (choose from drop-down menu)

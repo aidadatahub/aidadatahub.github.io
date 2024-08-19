@@ -1,22 +1,87 @@
 ---
-title: "AIDA Data Hub Services"
-description: "Services provided by the <a href='/'>AIDA Data Hub</a>."
+title: AIDA Data Hub Services
 ---
-We offer leading edge services to researchers in Swedish medical imaging AI, in
-collaboration with the Analytic Imaging Diagnostics Arena ([AIDA](/about/aida)),
-the Center for Medical Image Science and Visualization
-([CMIV](https://liu.se/cmiv)), and the [SciLifeLab](https://scilifelab.se)
-Bioinformatics Platform ([NBIS](https://nbis.se)) and
-[Data Center](https://scilifelab.se/data):
+We provide services for research and clinical innovation in data driven precision health, with a base in multi-modal diagnostics and medical imaging AI.
 
-* TOC
-{:toc}
+Services:
+* [Data Science Platform](../data-science-platform)
+* [Data sharing](data-sharing)
+* [Extract and enrich](extract-enrich)
 
+AIDA Services:
+* [AIDA DGX-2 Service](#dgx-2)
+* [AIDA Nextcloud](#nextcloud)
+* [AIDA PACS](#pacs)
+* [AIDA Wiki](#wiki)
+* [AIDA GitHub](#github)
+* [AIDA Slack](#slack)
+
+See also:
+* [Support](../support)
+
+## Access
+Our services are provided based on user fees. Our customers are user communitites,
+researchers, industry, and caregivers of national significance.
+Please contact your [community](#communities) for terms, or refer to our [prices](#prices) below.
+
+Please contact the following for enquiries and access:
+* Data sharing: [aida-data@nbis.se](mailto:aida-data@nbis.se)
+* Support: [aida-support@nbis.se](mailto:aida-support@nbis.se)
+* Services: [aida-data-director@nbis.se](mailto:aida-data-director@nbis.se)
+
+### Communities
+
+* [AIDA](https://medtech4health.se/aida-en)
+* [ASHA](https://www.vinnova.se/p/anvanda-standardiserade-halsodata-som-accelerator-for-att-starka-innovation-och-framtidens-halso--och-sjukvard/)
+* [EUCAIM](https://cancerimage.eu/)
+
+Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400kSEK, deadline Sep 15 2024).
+
+### Prices
+Our service portfolio and pricing is under development.
+
+Our pricing strategy is to set prices that enable sustainable operations and
+development and do not disrupt the market, but to offer discounts whenever
+possible, in order to maximize high-impact research and to incentivize data
+sharing that helps build the data commons and increases data availability for
+research.
+
+Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400kSEK, deadline Sep 15 2024).
+
+<style>
+.main-content table th, thead, .main-content table th, .main-content table td {
+   border: none;
+   text-align: left;
+}
+</style>
+
+| Service                     | Tentative Price    |
+|-----------------------------|--------------------|
+| Data Science Platform       | 50kSEK/yr          |
+| + Large volume storage      | +1.5 kSEK/TB/yr    |
+| + Backed up primary storage | +2.5 kSEK/TB/yr    |
+| + GPU compute               | +80 kSEK/GPU/yr    | <!--FIXME: Maybe we should rephrase (GPU/CPU) in terms of flavors?-->
+| + Large scale CPU compute   | +24 kSEK/CPU/yr    | <!--FIXME: "/CPU" may not be the best unit? -->
+| + Sectra PACS               | TBD                |
+| Share prioritized data      | *discount*         |
+| Support consultation        | Free               |
+| Support, data sharing       | Free               |
+| Support, academic           | 800 SEK/hr         | [NBIS User fee track](https://nbis.se/services/bioinformatics) |
+| Support, other              | Full cost coverage |
+
+### Contact
+Our [economy team](../people#economy):
+{% include people-topic-table.md topic='economy' %}
+
+Please contact our us for support or more information!
+
+
+## AIDA Services
 These services are offered to AIDA partners. All Swedish organizations active in
-medical imaging diagnostics or AI are invited to [become a member of AIDA](/about/aida#join).
+medical imaging diagnostics or AI are invited to [become a member of AIDA](/about/engagements/aida#join).
 
-## AIDA DGX-2 Service {#dgx-2}
-Compute resource for AI and training on sensitive personal data for research.
+### AIDA DGX-2 Service {#dgx-2}
+Compute resource for AI training using sensitive personal data for research.
 
 AIDA Data Hub is collaborating with [Nvidia](https://nvidia.com) to operate a
 [DGX-2 machine learning system](https://www.nvidia.com/en-us/data-center/dgx-2/)
@@ -58,7 +123,7 @@ NVMe raid.
 More information on the [AIDA internal wiki](#wiki)
 [DGX-2 page](https://scilifelab.atlassian.net/wiki/spaces/aida/pages/1235189793/AIDA+DGX-2+Service).
 
-## AIDA Nextcloud {#nextcloud}
+### AIDA Nextcloud {#nextcloud}
 <img alt="AIDA nextcloud" src="/assets/icons/aida-icon.png" width="20%" class="right" style="margin-top: -2ex;"/>
 
 AIDA Data hub uses [nextcloud.aida.scilifelab.se](https://nextcloud.aida.scilifelab.se)
@@ -71,7 +136,7 @@ For sharing non-anonymous data, please see the [AIDA DGX-2 Service](#dgx-2) abov
 More information on the [AIDA internal wiki](#wiki)
 [Nexcloud page](https://scilifelab.atlassian.net/wiki/spaces/aida/pages/1239678997/Nextcloud).
 
-### Sharing large amounts of data
+#### Sharing large amounts of data
 We recommend using the nextcloud client, or [rclone.org](https://rclone.org) with the WebDAV interface.
 Always use the latest version. Both nextcloud and rclone develop fast.
 
@@ -89,7 +154,7 @@ The `USERNAME` is then the last part of the link, i.e:
 
 [Example using rclone](/about/help/#example)
 
-## AIDA PACS {#pacs}
+### AIDA PACS {#pacs}
 <img alt="Picture Archive and Communication System" src="/assets/images/pacs.png" width="30%" class="right" style="margin-top: -2ex; transform: scaleX(-1);"/>
 
 AIDA offers access to a cloud-based production grade
@@ -99,7 +164,7 @@ integration opportunities, annotate data and perform reader studies. Please reac
 out to [AIDA](mailto:aida@nbis.se) for access and further information.
 Provided by AIDA.
 
-## AIDA Wiki {#wiki}
+### AIDA Wiki {#wiki}
 AIDA uses an [AIDA Confluence space](https://scilifelab.atlassian.net/wiki/spaces/aida)
 as an internal wiki, for documentation and internal materials. Offered in
 collaboration with [SciLifeLab](https://scilifelab.se).
@@ -109,7 +174,7 @@ AIDA partners get accounts
 Click the link, or remember to provide name, affiliation and email address
 in your request!
 
-## AIDA GitHub {#github}
+### AIDA GitHub {#github}
 AIDA uses an [AIDA Team](https://github.com/orgs/NBISweden/teams/aida/) in the
 [SciLifeLab](https://scilifelab.se) [Bioinformatics Platform](https://nbis.se)
 (NBIS) GitHub account to facilitate code sharing and co-development in AIDA.
@@ -126,7 +191,7 @@ instead.
 More information on the [AIDA internal wiki](#wiki)
 [Nexcloud page](https://scilifelab.atlassian.net/wiki/spaces/aida/pages/1239678997/Nextcloud).
 
-## AIDA Slack {#slack}
+### AIDA Slack {#slack}
 The primary channel to all-to-all support and discussion in AIDA.
 AIDA uses [SciLifeLab](https://scilifelab.se) [Bioinformatics Platform](https://nbis.se)
 (NBIS) Slack:

@@ -1,6 +1,7 @@
 <ul style="padding-left: 0px;">
 {% assign news = site.news | reverse %}
 {% for post in news limit: include.limit %}
- <li style="display: block; padding-bottom: 1ex;"><span class="small">{{ post.date | date: "%Y-%m-%d" }}</span> <br/> <strong><a href="{{ post.url }}">{{ post.title }}</a></strong> <br/> {{ post.blurb | markdownify | replace: '<p>', '' | replace: '</p>', ''}}</li>
+  {% if include.highlights %}{% unless post.highlight %}{% continue %}{% endunless %}{% endif %}
+  <li style="display: block; padding-bottom: 1ex;"><span class="small">{{ post.date | date: "%Y-%m-%d" }}</span> <br/> <strong><a href="{{ post.url }}">{{ post.title }}</a></strong> <br/> {{ post.blurb | markdownify | replace: '<p>', '' | replace: '</p>', ''}}</li>
 {% endfor %}
 </ul>

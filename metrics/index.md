@@ -1,6 +1,6 @@
 ---
 title: "Metrics"
-description: "<a href='/'>AIDA Data Hub</a> sharing in numbers."
+description: "AIDA Data Hub in numbers."
 ---
 {% capture ignored %}
   {% assign totn = 0 %}
@@ -38,7 +38,7 @@ description: "<a href='/'>AIDA Data Hub</a> sharing in numbers."
   {% assign country-codes = '' | split: '' %}
   {% assign modalities = '' | split: '' %}
   {% assign organs = '' | split: '' %}
-  
+
 
   {% for d in site.datasets %}
     {% if d.hidden %}{% continue  %}{% endif %}

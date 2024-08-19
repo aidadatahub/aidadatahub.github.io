@@ -60,3 +60,6 @@ AIDA by other means such as [sharing data through the AIDA Data Hub](/datasets),
 thereby demonstrating that a meaningful commitment has been made.
 
 Please [contact AIDA](mailto:aida@nbis.se) to discuss ways forward!
+
+### Contacts
+{% include people-table.md people='joel-hedlund,claes-lundstrom,caroline-bivik-stadler' %}

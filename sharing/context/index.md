@@ -12,8 +12,7 @@ Contents:
 * TOC
 {:toc}
 
-<a name="common-practice"></a>
-## Common practice in the use of clinical imaging data for research
+## Common practice in the use of clinical imaging data for research {#common-practice}
 
 Keywords below link to relevant sections in the [Legal discussion](../legal/) with reference to official sources:
 

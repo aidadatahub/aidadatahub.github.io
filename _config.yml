@@ -13,19 +13,19 @@ collections:
     permalink: ":path"
   engagements:
     output: true
-    permalink: "/preview/about/engagements/:path"
+    permalink: "/about/engagements/:path/"
   events:
     output: true
-    permalink: "/preview/events/:path"
+    permalink: "/events/:path/"
   news:
     output: true
-    permalink: "/preview/news/:path"
+    permalink: "/news/:path/"
   people:
     output: true
-    permalink: "/preview/people/:path"
+    permalink: "/people/:path/"
   support-projects:
     output: true
-    permalink: "/preview/support/projects/:path"
+    permalink: "/support/projects/:path/"
 
 defaults:
   - scope:
@@ -37,30 +37,30 @@ defaults:
       path: ""
       type: "engagements"
     values:
-      layout: "overhaul"
+      layout: "default"
   - scope:
       path: ""
       type: "events"
     values:
-      layout: "overhaul"
+      layout: "default"
   - scope:
       path: ""
       type: "news"
     values:
-      layout: "overhaul"
+      layout: "default"
   - scope:
       path: ""
       type: "people"
     values:
-      layout: "overhaul"
+      layout: "default"
       title: People
   - scope:
       path: ""
       type: "support-projects"
     values:
-      layout: "overhaul"
+      layout: "default"
   - scope:
       path: "preview"
       type: "pages"
     values:
-      layout: "overhaul"
+      layout: "default"

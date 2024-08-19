@@ -1,5 +1,5 @@
 ---
-title: Arrhenius
+title: NAISS Arrhenius
 description: AIDA Data Hub contribution to Arrhenius procurement.
 role: Sensitive data capacity procurement parameters.
 ongoing: true

@@ -7,7 +7,7 @@ start:
 end:
 website: https://scapis.org/
 logo: /assets/images/logos/scapis-logo.png
-prio: 3
+prio:
 ---
 ![SCAPIS logo](/assets/images/logos/scapis-logo.png){: .right width="35%"}
 The Swedish Cardiopulmonary Bioimage Study ([SCAPIS](https://scapis.org)) is a nationwide,

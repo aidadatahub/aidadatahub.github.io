@@ -1,6 +1,6 @@
 ---
 title: "Jobs"
-description: "Build the future you want to see at the <a href='/'>AIDA Data Hub</a>."
+description: "Build the future you want to see at the AIDA Data Hub."
 ---
 
 ## Job opportunities
