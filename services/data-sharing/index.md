@@ -5,6 +5,7 @@ description: Share your datasets with the world.
 We help researchers share their data with the world, making high-quality
 datasets more [FAIR](/metrics#fair) and citeable using digital object identifiers
 ([DOI](/about/fair#what-are-dois-and-dataset-registers)). Benefits include:
+![World map](/assets/images/world-map-colored.svg){: .right width="50%"}
 * More research collaborations
 * More citations
 * Higher impact
