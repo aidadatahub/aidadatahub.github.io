@@ -4,7 +4,7 @@ description: "Information on SCAPIS imaging datasets shared through the AIDA Dat
 ---
 We help the [SCAPIS](scapis.org) project share high-quality imaging datasets
 with the world, making them more [FAIR](/metrics#fair) and citeable using
-digital object identifiers ([DOI](../about/fair)).
+digital object identifiers ([DOI](../../about/fair)).
 
 See also:
 * [All Datasets](..)
