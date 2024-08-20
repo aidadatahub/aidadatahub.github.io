@@ -7,7 +7,7 @@ start: 2023-08-01
 end:
 website: https://barncancerfonden.se/brainchild/
 logo: /assets/images/logos/brainchild-logo.png
-prio:
+prio: 
 ---
 ![BrainChild logo](/assets/images/logos/brainchild-logo.png){: .right width="35%"}
 [BrainChild](https://barncancerfonden.se/brainchild/) is a project initiated by

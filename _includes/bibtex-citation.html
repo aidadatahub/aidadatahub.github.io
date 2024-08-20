@@ -1,0 +1,33 @@
+<span class="small">[<a id="bibtex-toggle">BibTeX format</a>]</span><br/>
+<div id="bibtex-block" class="hidden revealable small">
+  <pre class="small"><button style="float: right;" onclick="copyBibTex()">Copy</button><code style="text-wrap: wrap; font-size: 8pt;" class="bibtex" id="bibtexCode">@misc{ {{ page.datacite.author.first.name | split: " " | last | downcase }}_{{ page.datacite.datePublished | date: "%Y" }}_{{ page.other.shortName | downcase }},
+  author       = { {{ page.datacite.author | map: 'name' | join: ' and ' }} },
+  title        = { {{ page.datacite.name }} },
+  year         = {{ page.datacite.datePublished | date: "%Y" }},
+  publisher    = { {{ page.datacite.publisher.name }} },
+  doi          = { {{ page.datacite['@id'] | remove: 'https://doi.org/' }} },
+  howpublished = { Available: AIDA Data Hub },
+  url          = { {{ page.datacite.url }} }
+}</code></pre>
+</div>
+<script>
+document.querySelector("#bibtex-toggle").addEventListener('click', (e) => {
+document.querySelector("#bibtex-block").classList.toggle('hidden')
+})
+
+function copyBibTex() {
+  var copyText = document.getElementById("bibtexCode");
+  var range = document.createRange();
+  range.selectNode(copyText);
+  window.getSelection().removeAllRanges();
+  window.getSelection().addRange(range);
+  try {
+    var successful = document.execCommand('copy');
+    var msg = successful ? 'successful' : 'unsuccessful';
+    console.log('Copy BibTeX command was ' + msg);
+  } catch (err) {
+    console.log('Oops, unable to copy');
+  }
+  window.getSelection().removeAllRanges(); // Remove the selection after copying
+}
+</script>

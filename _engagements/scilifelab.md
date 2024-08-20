@@ -9,6 +9,10 @@ website: https://scilifelab.se/
 logo: /assets/images/scilifelab-logo.png
 prio: 1
 ---
-SciLifeLab, is an institution for the advancement of molecular biosciences in Sweden, funded as a national research infrastructure by the Swedish government.
+![SciLifeLab logo](/assets/images/scilifelab-logo.png){: .right width="35%"}
+SciLifeLab is an institution for the advancement of molecular biosciences in Sweden, funded as a national research infrastructure by the Swedish government.
 
 AIDA Data Hub is a SciLifeLab unit, part of the Bioinformatics platform ([NBIS](https://nbis.se)).
+
+### Contacts
+{% include people-table.md people='joel-hedlund,claes-lundstrom,betul-eren' %}

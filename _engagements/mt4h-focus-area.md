@@ -6,7 +6,7 @@ ongoing: true
 start: 2023-12-01
 end:
 website:
-logo:
+logo: /assets/images/logos/brainchild-logo.png
 prio:
 ---
 In our contribution to the Medtech4Health Focus area Datadriven Hälsa, Vård och

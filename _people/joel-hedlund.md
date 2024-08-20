@@ -23,4 +23,15 @@ topics:
   </div>
 </div>
 
-Add more content here
+## Engagements
+* [AIDA Data Hub](/) - Lead
+* [AIDA](/about/engagements/aida/) - Data director
+* [NBIS](https://nbis.se/) - Management member
+* [Bigpictrue](/about/engagements/bigpicture/) - Infrastructure development lead
+* [Data Driven Life Science](https://scilifelab.se/data-driven) - Linköping university data contact
+* [SciLifeLab Linköping](https://liu.se/forskning/scilifelab) - Infrastructure group member
+
+### Past
+* [NeIC](https://neic.no) - Executive officer and senior advisor
+* [Tryggve](https://neic.no/tryggve) - Project owner
+* [NSC](https://nsc.liu.se) - Bioinformatics application expert

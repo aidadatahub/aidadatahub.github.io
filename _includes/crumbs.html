@@ -1,3 +1,3 @@
-{% assign dirs = page.url | split: '/' | reverse | slice: 1, 100 | reverse %}
+{% assign dirs = page.url | replace: '-', ' ' | split: '/' | reverse | slice: 0, 100 | reverse %}
 {% assign path = '' %}
 <nav><p class="small"><a href="/">AIDA Data Hub</a> &raquo; {% for dir in dirs offset:1 %}{% assign path = path | append: '/' | append: dir %}<a href="{{ path }}">{{ dir | capitalize }}</a> &raquo; {% endfor %}</p></nav>

@@ -79,7 +79,8 @@
               {{ page.datacite.author | map: "name" | array_to_sentence_string }}
               ({{ page.datacite.datePublished | date: "%Y" }})
               {{ page.datacite.name}}
-              <a href="{{ page.datacite["@id"] }}">doi:{{ doi }}</a>
+              <a href="{{ page.datacite["@id"] }}">doi:{{ doi }}</a><br/>
+              {% include bibtex-citation.html %}
             </td>
           </tr>
           <tr>
@@ -203,7 +204,7 @@
       {{ page.other.annotation | markdownify }}
 
       {{ content }}
-      {% include bibtex_citation.html %}
+
       {% include footer.html %}
     </main>
     <script src="/assets/js/anchor.min.js"></script>

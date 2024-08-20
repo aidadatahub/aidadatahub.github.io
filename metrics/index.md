@@ -1,6 +1,6 @@
 ---
 title: "Metrics"
-description: "<a href='/'>AIDA Data Hub</a> sharing in numbers."
+description: "AIDA Data Hub in numbers."
 ---
 {% capture ignored %}
   {% assign totn = 0 %}
@@ -38,7 +38,7 @@ description: "<a href='/'>AIDA Data Hub</a> sharing in numbers."
   {% assign country-codes = '' | split: '' %}
   {% assign modalities = '' | split: '' %}
   {% assign organs = '' | split: '' %}
-  
+
 
   {% for d in site.datasets %}
     {% if d.hidden %}{% continue  %}{% endif %}
@@ -135,21 +135,21 @@ AIDA Data Hub has facilitated [legal and ethical data sharing](../sharing/overvi
     <td>{% include human_friendly_filesize bytes=totb %}</td>
   </tr>
   <tr>
-    <td><a href="/search/?q=Annotated">Annotated</a></td>
+    <td><a href="/datasets/search/?q=Annotated">Annotated</a></td>
     <td>{{ annn }}</td>
     <td>{{ anns }}</td>
     <td>{{ anna }}</td>
     <td>{% include human_friendly_filesize bytes=annb %}</td>
   </tr>
   <tr>
-    <td><a href="/search/?q=Subject:Pathology">Pathology</a></td>
+    <td><a href="/datasets/search/?q=Subject:Pathology">Pathology</a></td>
     <td>{{ patn }}</td>
     <td>{{ pats }}</td>
     <td>{{ pata }}</td>
     <td>{% include human_friendly_filesize bytes=patb %}</td>
   </tr>
   <tr>
-    <td><a href="/search/?q=Subject:Radiology">Radiology</a></td>
+    <td><a href="/datasets/search/?q=Subject:Radiology">Radiology</a></td>
     <td>{{ radn }}</td>
     <td>{{ rads }}</td>
     <td>{{ rada }}</td>
@@ -171,21 +171,21 @@ These datasets contain synthetic data created by a generative AI model.
     <td>{% include human_friendly_filesize bytes=stotb %}</td>
   </tr>
   <tr>
-    <td><a href="/search/?q=Annotated">Annotated</a></td>
+    <td><a href="/datasets/search/?q=Annotated">Annotated</a></td>
     <td>{{ sannn }}</td>
     <td>{{ sanns }}</td>
     <td>{{ sanna }}</td>
     <td>{% include human_friendly_filesize bytes=sannb %}</td>
   </tr>
   <tr>
-    <td><a href="/search/?q=Subject:Pathology">Pathology</a></td>
+    <td><a href="/datasets/search/?q=Subject:Pathology">Pathology</a></td>
     <td>{{ spatn }}</td>
     <td>{{ spats }}</td>
     <td>{{ spata }}</td>
     <td>{% include human_friendly_filesize bytes=spatb %}</td>
   </tr>
   <tr>
-    <td><a href="/search/?q=Subject:Radiology">Radiology</a></td>
+    <td><a href="/datasets/search/?q=Subject:Radiology">Radiology</a></td>
     <td>{{ sradn }}</td>
     <td>{{ srads }}</td>
     <td>{{ srada }}</td>
@@ -200,7 +200,7 @@ Please click the names below to do a simple text search for matching datasets:
 
 <ul>
 {% for m in modalities %}
-  <li><a href="/search/?q=Modality:{{ m }}">{{ m }}: {{ site.data.modalitynames[m] }}</a></li>
+  <li><a href="/datasets/search/?q=Modality:{{ m }}">{{ m }}: {{ site.data.modalitynames[m] }}</a></li>
 {% endfor %}
 </ul>
 
@@ -211,7 +211,7 @@ Please click the names below to do a simple text search for matching datasets:
 
 <ul>
 {% for o in organs %}
-  <li><a href="/search/?q=Organ:{{ o }}">{{ o }}</a></li>
+  <li><a href="/datasets/search/?q=Organ:{{ o }}">{{ o }}</a></li>
 {% endfor %}
 </ul>
 
