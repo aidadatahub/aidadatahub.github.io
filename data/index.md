@@ -10,7 +10,7 @@ extracting and enriching prioritized data for research.
 ## Datasets
 
 * [Browse](../datasets)
-* [Search](/search)
+* [Search](/datasets/search)
 * [API](/api)
 
 ## Access

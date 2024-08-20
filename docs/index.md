@@ -14,8 +14,8 @@ Digital Imaging and Communications in Medicine
 ([DICOM](https://www.dicomstandard.org/))
 is the international standard to transmit, store, retrieve, print, process, and
 display medical imaging information. It is prevalent in
-[radiology](/search/?q=Subject:Radiology) and is gaining traction also in
-[pathology](/search/?q=Subject:Pathology).
+[radiology](/datasets/search/?q=Subject:Radiology) and is gaining traction also in
+[pathology](/datasets/search/?q=Subject:Pathology).
 
 Some [datasets](/datasets) on the [AIDA Data Hub](/) are provided in DICOM format.
 In DICOM, data is provided in nested and interlinking structures, which can be

@@ -19,17 +19,17 @@ description: "Find datasets of interest on the AIDA Data Hub."
    {% assign organs = d.other.organ | map: "name" |join: ',' %}
    <tr>
      <td><a href="{{ d.url }}">{{ d.other.shortName }}</a></td>
-     <td>{% if kw contains 'Pathology' %}<a href="/search/?q=Subject:Pathology">Pathology</a>{% endif %}{% if kw contains 'Radiology' %}<a href="/search/?q=Subject:Radiology">Radiology</a>{% endif %}</td>
-     <td>{% if kw contains 'Synthetic' %}<a href="/search/?q=Origin:Synthetic">Synthetic</a>{% else %}<a href="/search/?q=Origin:Clinical">Clinical</a>{% endif %}</td>
+     <td>{% if kw contains 'Pathology' %}<a href="/datasets/search/?q=Subject:Pathology">Pathology</a>{% endif %}{% if kw contains 'Radiology' %}<a href="/datasets/search/?q=Subject:Radiology">Radiology</a>{% endif %}</td>
+     <td>{% if kw contains 'Synthetic' %}<a href="/datasets/search/?q=Origin:Synthetic">Synthetic</a>{% else %}<a href="/datasets/search/?q=Origin:Clinical">Clinical</a>{% endif %}</td>
      <td>
        {% for m in d.other.modality %}
-         <a href="/search/?q=Modality:{{ m }}">{% include modality-title.html modality=m %}</a><br/>
+         <a href="/datasets/search/?q=Modality:{{ m }}">{% include modality-title.html modality=m %}</a><br/>
        {% endfor %}
      </td>
      <td>{{ d.datacite.datePublished }}</td>
      <td>{% include human_friendly_filesize bytes=d.other.bytes %}</td>
-     <td>{% for o in organs %}<a href="/search/?q=Organ:{{ o }}">{{ o }}</a> {% endfor %}</td>
-     <td><b><a href="{{ d.url }}">{{ d.datacite.name }}</a></b><br/><span style="font-size: small;">{% for k in kw %}<a href="/search/?q={{ k }}">{{ k }}</a>{% unless forloop.last %},{% endunless %} {% endfor %}</span></td>
+     <td>{% for o in organs %}<a href="/datasets/search/?q=Organ:{{ o }}">{{ o }}</a> {% endfor %}</td>
+     <td><b><a href="{{ d.url }}">{{ d.datacite.name }}</a></b><br/><span style="font-size: small;">{% for k in kw %}<a href="/datasets/search/?q={{ k }}">{{ k }}</a>{% unless forloop.last %},{% endunless %} {% endfor %}</span></td>
    </tr>
  {% endfor %}
  </tbody>
