@@ -14,6 +14,19 @@
   </head>
   <body>
     <style>
+    
+    /* Hamburger button styling */
+    .hamburger {
+      display: none;
+      cursor: pointer;
+      padding: 10px;
+      background-color: #1e6bb8;
+      border: none;
+      color: white;
+      font-size: 24px;
+      border-radius: 5px;
+    }
+  
     .page-header {
       background-image: url(/assets/images/aida-banner-narrow-half.jpg);
       background-size: cover;
@@ -72,6 +85,42 @@
       display: block;
     }
 
+    /* Media queries for responsiveness */
+    @media (min-width: 768px) {
+      .hamburger {
+        display: none;
+      }
+      #main-menu {
+        display: block;
+        flex-direction: row;
+        align-items: center;
+      }
+      #main-menu ul {
+        flex-direction: row;
+        align-items: center;
+      }
+      #main-menu ul li {
+        display: inline;
+      }
+    }
+    @media (max-width: 767px) {
+      .hamburger {
+        display: block;
+      }
+      #main-menu {
+        display: none;
+        flex-direction: row;
+        align-items: center;
+      }
+      #main-menu ul {
+        flex-direction: row;
+        align-items: center;
+      }
+      #main-menu ul li {
+        display: inline;
+      }
+    }
+
     a.button {
       transition-duration: 0.2s;
       color: white;
@@ -89,6 +138,8 @@
     }
     </style>
     <header class="page-header" role="banner">
+      <!-- Hamburger button for mobile -->
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
       <div id="main-menu">
         <ul>
         <li class="icon">
@@ -127,6 +178,14 @@
     <script src="/assets/js/anchor.min.js"></script>
     <script>
         anchors.add("h2:not(.no-anchor), h3, h4, h5, h6");
+        function toggleMenu() {
+          const menu = document.getElementById('main-menu');
+          if (menu.style.display === 'flex') {
+            menu.style.display = 'none';
+          } else {
+            menu.style.display = 'flex';
+          }
+        }
     </script>
   </body>
 </html>
