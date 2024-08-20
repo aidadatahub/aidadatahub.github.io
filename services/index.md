@@ -20,7 +20,7 @@ See also:
 * [Support](../support)
 
 ## Access
-Our services are provided based on user fees. Our customers are user communitites,
+Our services are provided based on user fees. Our customers are user communities,
 researchers, industry, and caregivers of national significance.
 Please contact your [community](#communities) for terms, or refer to our [prices](#prices) below.
 

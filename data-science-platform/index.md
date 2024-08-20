@@ -2,7 +2,7 @@
 title: Data Science Platform
 description: A home for your research.
 ---
-Our data science platform offers a home for your research. Our customers include researchers, industry, caregivers and user communitites of national significance.
+Our data science platform offers a home for your research. Our customers include researchers, industry, caregivers and user communities of national significance.
 
 <!--FIXME maybe all these services should be broken out to separate pages? -->
 
