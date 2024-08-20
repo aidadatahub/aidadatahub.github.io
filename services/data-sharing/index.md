@@ -9,7 +9,7 @@ datasets more [FAIR](/metrics#fair) and citeable using digital object identifier
 * More research collaborations
 * More citations
 * Higher impact
-* More data availabile for research
+* More data available for research
 * Discounts
 * Perks
 * And more, read on below
