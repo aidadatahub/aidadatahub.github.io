@@ -24,7 +24,7 @@ AIDA Data Hub is the data infrastructure supporting AIDA.
 
 AIDA is [organized](https://medtech4health.se/aida-arena/organization/)
 as a collaboration arena, currently engaging
-[~50 partners](https://medtech4health.se/en/aida-arena/organization/),
+[~50 partners](https://medtech4health.se/aida-arena/organization/),
 from academia, industry and healthcare. AIDA is coordinated by the
 [Linköping University](https://liu.se)
 [Center for Medical Image Science and Visualization](https://liu.se/cmiv) (CMIV)
@@ -37,7 +37,7 @@ AIDA Activities include:
 * [Data, compute & storage services](/) &larr; This is the [AIDA Data Hub](/)!
 * [AIDA Days](https://medtech4health.se/aida-arena/) ~8 Workshops per year
 * [Training](https://medtech4health.se/aida-arena/)
-* [Network partnerships](https://medtech4health.se/aida-en/network-partner/)
+* [Network partnerships](https://medtech4health.se/aida-arena/network-partner/)
 
 AIDA is an initiative within the Strategic innovation program
 [Medtech4Health](https://medtech4health.se), jointly supported by
