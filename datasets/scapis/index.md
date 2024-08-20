@@ -28,7 +28,7 @@ See also:
 Our [data sharing team](../people#data-sharing):
 {% include people-topic-table.md topic='data-sharing' %}
 
-Please contact our us for support or more information!
+Please contact us for support or more information!
 
 ## SCAPIS Datasets
 {% assign bytes = 0 -%}

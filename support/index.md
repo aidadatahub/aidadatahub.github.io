@@ -68,7 +68,7 @@ Capabilities:
 #### Research support team
 {% include people-topic-table.md topic='research-support' %}
 
-Please contact our us for support or more information!
+Please contact us for support or more information!
 
 ### Data sharing and policy {#data-sharing-policy}
 Support in sharing medical imaging data, and policy support in sensitive data
@@ -83,7 +83,7 @@ Topics:
 #### Policy support team
 {% include people-topic-table.md topic='policy-support' %}
 
-Please contact our us for support or more information!
+Please contact us for support or more information!
 
 ### System design {#system-design}
 Consultation in system design for sensitive data, such as the [AIDA DGX-2 Service](/sharing/#dgx-2).
@@ -92,7 +92,7 @@ Consultation in system design for sensitive data, such as the [AIDA DGX-2 Servic
 #### System design support team
 {% include people-topic-table.md topic='system-design-support' %}
 
-Please contact our us for support or more information!
+Please contact us for support or more information!
 
 ### Training
 Training for:

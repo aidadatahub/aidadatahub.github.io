@@ -38,7 +38,7 @@ Please contact the following for enquiries and access:
 Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400kSEK, deadline Sep 15 2024).
 
 ### Prices
-Our service portfolio and pricing is under development.
+Our service portfolio and pricing are under development.
 
 Our pricing strategy is to set prices that enable sustainable operations and
 development and do not disrupt the market, but to offer discounts whenever
@@ -73,7 +73,7 @@ Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovati
 Our [economy team](../people#economy):
 {% include people-topic-table.md topic='economy' %}
 
-Please contact our us for support or more information!
+Please contact us for support or more information!
 
 
 ## AIDA Services

@@ -39,7 +39,7 @@ Access procedures for SCAPIS datasets are described here: [SCAPIS data access](.
 Our [data sharing team](../people#data-sharing):
 {% include people-topic-table.md topic='data-sharing' %}
 
-Please contact our us for support or more information!
+Please contact us for support or more information!
 
 ## See also
 
