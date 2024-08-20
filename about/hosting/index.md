@@ -4,8 +4,6 @@ description: The data centers hosting AIDA Data Hub systems.
 ---
 Our compute and storage resources are offered in collaboration with national partners.
 
-AIDA Data Hub DGX-2 service:
-* [RÖ](https://regionostergotland.se)
+[AIDA DGX-2 Service](/services#dgx-2) is hosted by [RÖ](https://regionostergotland.se).
 
-AIDA Nextcloud:
-* [SciLifeLab DC](https://scilifelab.se/data)
+[AIDA Nextcloud](/services#nextcloud) is hosted by [SciLifeLab DC](https://scilifelab.se/data).
