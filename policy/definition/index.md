@@ -1,6 +1,8 @@
 ---
 title: AIDA Data Hub Definition
 ---
+This page describes the unit definition from the proposed AIDA Data Hub strategy 2025-2030 by AIDA Data Hub management for AIDA steering group approval.
+
 ## AIDA Data Hub is... {#definition}
 
 **We are:** an e-infrastructure

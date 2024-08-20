@@ -1,6 +1,6 @@
 ---
 title: AcroSpeech first AIDA Data Hub support project in speech recognition
-highlight: 
+highlight: yes
 blurb: >
   AIDA Data Hub is engaging with researchers at Umeå University to develop
   AI tools for diagnosing acromegaly based on data from speech. This engagement
@@ -24,9 +24,11 @@ sequelae which may be permanent. Early diagnosis - and treatment - may therefore
 be life changing for the patients.
 
 The AIDA Data Hub support function has hitherto been targeted mainly to the AIDA
-community in medical imaging diagnostics AI, but is now being opened up to a
-greater audience within precision health. If you are interested in receiving
-support for your project you can apply below.
+community in medical imaging diagnostics AI, but is now opening up provide user
+fee based support to a greater audience within precision health, and this is the
+both first support project outside of medical imaging and the first support
+project paid for by user fees. If you are interested in receiving support for
+your project you can apply below.
 
 <br/>
 
