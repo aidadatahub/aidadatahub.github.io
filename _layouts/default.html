@@ -13,101 +13,8 @@
     <link rel="shortcut icon" href="/assets/icons/aida-icon.png">
   </head>
   <body>
-    <style>
-    .page-header {
-      background-image: url(/assets/images/aida-banner-narrow-half.jpg);
-      background-size: cover;
-      background-position-y: center;
-      background-position-x: right;
-      padding: 0px;
-      text-align: left;
-    }
-    .project-tagline {
-      opacity: 1.0;
-    }
-    .page-header .headings {
-      padding: 1rem 0rem 5rem;
-      text-align: center;
-    }
-    #main-menu .icon {
-      padding-left: 5px;
-    }
-    #main-menu .icon img {
-      height: 75px;
-    }
-    #main-menu ul {
-      padding-inline-start: 0px;
-      margin-block-start: 0px;
-      margin-block-end: 0px;
-      list-style: none;
-    }
-    #main-menu ul li {
-      display: inline;
-      vertical-align: middle;
-      padding-left: 1em;
-    }
-    #main-menu ul ul a {
-      white-space:nowrap;
-      font-weight: normal;
-    }
-    #main-menu ul ul {
-      display: none;
-      border-radius: 5px;
-    }
-    #main-menu li:hover {
-      position:relative;
-    }
-    #main-menu ul li:hover>ul{
-      display:block;
-    }
-    #main-menu ul ul {
-      position: absolute;
-      left: -2px;
-      top: 98%;
-      padding: 5px;
-      background: #11113377;
-      backdrop-filter: blur(6px);
-    }
-    #main-menu ul ul li {
-      display: block;
-    }
-
-    a.button {
-      transition-duration: 0.2s;
-      color: white;
-      background-color: #1e6bb8;
-      border: 2px solid #1e6bb8;
-      border-radius: 5px;
-      padding: 6px 18px;
-      text-decoration: none;
-    }
-    a.button:hover, a.button:active {
-        background-color: white;
-        color: #1e6bb8;
-        //background-color: #2277cb;
-        //background-color: #257ed7;
-    }
-    </style>
     <header class="page-header" role="banner">
-      <div id="main-menu">
-        <ul>
-        <li class="icon">
-          <a href="/" title="AIDA Data Hub"><img src="/assets/icons/aida-icon.png"></a>
-        </li>
-        {% for item in site.data.nav.main %}
-          {% if item.section %}
-            <li><a>{{ item.section }}</a>
-              <ul>
-                {% for i in item.links %}
-                  <li><a href="{{ i.url }}" title="{{ i.title }}">{{ i.text }}</a>
-                {% endfor %}
-              </ul>
-            </li>
-          {% else %}
-            <li><a href="{{ item.url }}" title="{{ item.title }}">{{ item.text }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </div>
+      {% include main-menu.html %}
       <div class="headings">
         <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
         <h2 class="project-tagline no-anchor">{{ page.description }}</h2>
@@ -122,7 +29,7 @@
       <div style="clear: both;"/>
 
       {% include footer.html %}
-      
+
     </main>
     <script src="/assets/js/anchor.min.js"></script>
     <script>
