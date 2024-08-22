@@ -1,6 +1,6 @@
 ---
 title: 4D Flow sparse sample reconstruction
-ongoing: false
+ongoing: true
 end: 
 type: project          # "consultation", or "project"
 website: 
