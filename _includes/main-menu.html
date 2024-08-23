@@ -1,0 +1,19 @@
+<div id="main-menu">
+  <ul>
+  <li class="icon">
+    <a href="/" title="AIDA Data Hub"><img src="/assets/icons/aida-icon.png"></a>
+  </li>
+  {% for item in site.data.nav.main %}
+    {% if item.section %}
+      <li><a>{{ item.section }}</a>
+        <ul>
+          {% for i in item.links %}
+            <li><a href="{{ i.url }}" title="{{ i.title }}">{{ i.text }}</a>
+          {% endfor %}
+        </ul>
+      </li>
+    {% else %}
+      <li><a href="{{ item.url }}" title="{{ item.title }}">{{ item.text }}</a></li>
+    {% endif %}
+  {% endfor %}
+</div>
