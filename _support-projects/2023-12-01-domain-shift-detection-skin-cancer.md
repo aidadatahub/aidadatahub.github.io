@@ -8,8 +8,8 @@ user-fees: no # yes or no
 topics: ai       # "policy", "system-design", "ai".
 customer:
   organization: Linköping University
-  website:
-  name: Caroline Bivik Stadler
+  website: https://liu.se/
+  name:
   email:
 blurb: >
   Support on data selection and AI model development for longitudinal domain shift detection for deep learning in digital pathology
