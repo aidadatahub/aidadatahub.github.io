@@ -3,22 +3,6 @@ title: AIDA Data Hub Services
 ---
 We provide services for research and clinical innovation in data driven precision health, with a base in multi-modal diagnostics and medical imaging AI.
 
-Services:
-* [Data Science Platform](../data-science-platform)
-* [Data sharing](data-sharing)
-* [Extract and enrich](extract-enrich)
-
-AIDA Services:
-* [AIDA DGX-2 Service](#dgx-2)
-* [AIDA Nextcloud](#nextcloud)
-* [AIDA PACS](#pacs)
-* [AIDA Wiki](#wiki)
-* [AIDA GitHub](#github)
-* [AIDA Slack](#slack)
-
-See also:
-* [Support](../support)
-
 ## Access
 Our services are provided based on user fees. Our customers are user communities,
 researchers, industry, and caregivers of national significance.
@@ -55,26 +39,26 @@ Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovati
 }
 </style>
 
-| Service                     | Tentative Price    |
-|-----------------------------|--------------------|
-| Data Science Platform       | 50kSEK/yr          |
-| + Large volume storage      | +1.5 kSEK/TB/yr    |
-| + Backed up primary storage | +2.5 kSEK/TB/yr    |
-| + GPU compute               | +80 kSEK/GPU/yr    | <!--FIXME: Maybe we should rephrase (GPU/CPU) in terms of flavors?-->
-| + Large scale CPU compute   | +24 kSEK/CPU/yr    | <!--FIXME: "/CPU" may not be the best unit? -->
-| + Sectra PACS               | TBD                |
-| Share prioritized data      | *discount*         |
-| Support consultation        | Free               |
-| Support, data sharing       | Free               |
-| Support, academic           | 800 SEK/hr         | [NBIS User fee track](https://nbis.se/services/bioinformatics) |
-| Support, other              | Full cost coverage |
+| Service                     | Tentative Price       |
+|-----------------------------|-----------------------|
+| [Data Science Platform](../data-science-platform/#base-service)             | 50kSEK/yr          |
+| + [Large volume storage](../data-science-platform/#sd-large-storage)        | +1.5 kSEK/TB/yr    |
+| + [Backed up primary storage](../data-science-platform/#sd-primary-storage) | +2.5 kSEK/TB/yr    |
+| + GPU compute               | +80 kSEK/GPU/yr       | <!--FIXME: Maybe we should rephrase (GPU/CPU) in terms of flavors?-->
+| + Large scale CPU compute   | +24 kSEK/CPU/yr       | <!--FIXME: "/CPU" may not be the best unit? -->
+| + Sectra PACS               | TBD                   |
+| [Share prioritized data](../services/data-sharing/) | *discount*     
+| [Extract and enrich](../services/extract-enrich/)   | *subsidies*  
+| Support consultation        | *Free*                |
+| Support, data sharing       | *Free*                |
+| Support, academic           | 800 SEK/hr            | [NBIS User fee track](https://nbis.se/services/bioinformatics) |
+| Support, other              | Full cost coverage    |
 
 ### Contact
 Our [economy team](../people#economy):
 {% include people-topic-table.md topic='economy' %}
 
 Please contact us for support or more information!
-
 
 ## AIDA Services
 These services are offered to AIDA partners. All Swedish organizations active in
