@@ -19,7 +19,7 @@ Please contact the following for enquiries and access:
 * [ASHA](https://www.vinnova.se/p/anvanda-standardiserade-halsodata-som-accelerator-for-att-starka-innovation-och-framtidens-halso--och-sjukvard/)
 * [EUCAIM](https://cancerimage.eu/)
 
-Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400kSEK, deadline Sep 15 2024).
+Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400kSEK, deadlines may vary).
 
 ### Prices
 Our service portfolio and pricing are under development.
@@ -30,7 +30,7 @@ possible, in order to maximize high-impact research and to incentivize data
 sharing that helps build the data commons and increases data availability for
 research.
 
-Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400kSEK, deadline Sep 15 2024).
+Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400kSEK, deadlines may vary).
 
 <style>
 .main-content table th, thead, .main-content table th, .main-content table td {

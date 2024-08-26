@@ -31,12 +31,17 @@
   </head>
   <body>
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.datacite.name }}</h1>
-      <h2 class="project-tagline no-anchor">doi:{{ doi }}</h2>
-      <p><a href="/">{{ site.title }}</a> facilitating FAIR data sharing for medical imaging diagnostics AI.</p>
+      {% include main-menu.html %}
+      <div class="headings">
+        <h1 class="project-name">{{ page.datacite.name }}</h1>
+        <h2 class="project-tagline no-anchor">doi:{{ doi }}</h2>
+        <p><a href="/">{{ site.title }}</a> facilitating FAIR data sharing for medical imaging diagnostics AI.</p>
+      </div>
     </header>
 
     <main id="content" class="main-content" role="main">
+      <nav><p class="small"><a href="/">AIDA Data Hub</a> » <a href="/datasets">Datasets</a> » <a href="{{ page.datacite["@id"] }}">{{ page.other.shortName }}</a></p></nav>
+
       {% if page.hidden %}
         <p><b>
           This page describes a dataset that has not yet been shared on the data
