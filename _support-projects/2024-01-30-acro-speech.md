@@ -9,8 +9,8 @@ topics: ai       # "policy", "system-design", "ai".
 customer:
   organization: Umeå University
   website: https://umu.se
-  name:
-  email:
+  name: Per Dahlqvist
+  email: per.dahlqvist@umu.se
 blurb: >
   Support to Umeå University to develop AI tools for diagnosing acromegaly based
   on data from speech.
