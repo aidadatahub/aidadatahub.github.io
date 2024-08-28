@@ -2,7 +2,9 @@
 
 <strong>{{ page.blurb }}</strong>
 <table class="tight-table">
+{% if page.website -%}
   <tr><td> Website: </td><td><a href="{{ page.website }}">{{ page.title }}</a></td></tr>
+{% endif -%}  
 {% if page.customer.name -%}
   <tr><td> PI: </td><td><a href="mailto:{{ page.customer.email }}">{{ page.customer.name }}</a></td></tr>
 {% endif -%}
