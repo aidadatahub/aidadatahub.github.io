@@ -1,4 +1,5 @@
-<span class="small">{{ page.date | date: "%Y-%m-%d" }}{% if page.end %} - {{ page.end }}{% endif %}</span>
+<!-- <span class="small">{{ page.date | date: "%Y-%m-%d" }}{% if page.end %} - {{ page.end }}{% endif %}</span> -->
+
 <strong>{{ page.blurb }}</strong>
 <table class="tight-table">
   <tr><td> Website: </td><td><a href="{{ page.website }}">{{ page.title }}</a></td></tr>
