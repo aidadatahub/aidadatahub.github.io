@@ -27,7 +27,7 @@ other [NAISS](https://naiss.se)/[NSC](https://www.nsc.liu.se) systems and
 co-located with a [Bigpicture](../bigpicture) Federated node and a data collaboration
 platform for [EUCAIM](../eucaim).
 
-### Results:
+### Results
 
 * 2024-04-30 [AIDA and AIDA Data Hub input on Arrhenius sensitive data business cases](https://docs.google.com/document/d/1PvU94lrk7yYaOJVxBhS40yISO-wy5Sa2y-Kkh65bG18/edit).
 
