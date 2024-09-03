@@ -5,10 +5,10 @@ scapis: yes
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
-  "@id": "https://doi.org/10.23698/aida/scapis-ct-ki-lung"
+  "@id": "https://doi.org/10.23698/aida/scapis-ct-site-1-lung"
   name: "SCAPIS lung data from Stockholm"
   about: "Radiology"
-  url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-ct-ki-lung"
+  url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-ct-site-1-lung"
   publisher:
     "@type": "Organization"
     name: "AIDA"
@@ -32,7 +32,7 @@ datacite:
 other:
   modality:
   - "CT"
-  shortName: "SCAPIS-CT-KI-LUNG"
+  shortName: "SCAPIS-CT-SITE-1-LUNG"
   origin: "Clinical"
   status: "Ongoing"
   countries-shared:
@@ -41,8 +41,8 @@ other:
   - name: "Lung"
     sctid: 39607008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: 
-  bytes: 
-  numberOfScans:
+  bytes: 3579265290875
+  numberOfScans: 6793762
   image: "/assets/images/10.23698/aida/scapiskilu/scapis-logo.jpg"
 
 
