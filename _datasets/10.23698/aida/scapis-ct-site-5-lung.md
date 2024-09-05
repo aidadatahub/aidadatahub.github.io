@@ -5,10 +5,10 @@ scapis: yes
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
-  "@id": "https://doi.org/10.23698/aida/scapis-ct-site-1-lung"
-  name: "SCAPIS LUNG data from Site-1"
+  "@id": "https://doi.org/10.23698/aida/scapis-ct-site-5-lung"
+  name: "SCAPIS LUNG data from Site-5"
   about: "Radiology"
-  url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-ct-site-1-lung"
+  url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-ct-site-5-lung"
   publisher:
     "@type": "Organization"
     name: "AIDA"
@@ -22,7 +22,7 @@ datacite:
   dateModified: "2024-05-10"
   keywords: "Radiology, Lung"
   description: |
-    Data from LUNG scans carried out in the SCAPIS study cohort in Site-1. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm). This dataset contains data from Stockholm.   
+    Data from LUNG scans carried out in the SCAPIS study cohort in Site-5. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm). This dataset contains data from Stockholm.   
   license:
   - name: "Controlled access"
     id: "https://datahub.aida.scilifelab.se/10.23698/aida/brmbr#controlled-access"
@@ -32,7 +32,7 @@ datacite:
 other:
   modality:
   - "CT"
-  shortName: "SCAPIS-CT-SITE-1-LUNG"
+  shortName: "SCAPIS-CT-SITE-5-LUNG"
   origin: "Clinical"
   status: "Ongoing"
   countries-shared:
@@ -41,8 +41,8 @@ other:
   - name: "LUNG"
     sctid: 39607008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: 
-  bytes: 3579265290875
-  numberOfScans: 6793762
+  bytes: 4012855726344
+  numberOfScans: 7615479
   image: "/assets/images/10.23698/aida/scapiskilu/scapis-logo.jpg"
 
 

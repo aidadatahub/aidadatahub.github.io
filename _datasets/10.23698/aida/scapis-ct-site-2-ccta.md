@@ -5,10 +5,10 @@ scapis: yes
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
-  "@id": "https://doi.org/10.23698/aida/scapis-ct-site-1-lung"
-  name: "SCAPIS LUNG data from Site-1"
+  "@id": "https://doi.org/10.23698/aida/scapis-ct-site-2-ccta"
+  name: "SCAPIS CCTA data from Site-2"
   about: "Radiology"
-  url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-ct-site-1-lung"
+  url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-ct-site-2-ccta"
   publisher:
     "@type": "Organization"
     name: "AIDA"
@@ -20,9 +20,9 @@ datacite:
   dateCreated: "2024-05-10"
   datePublished: "2024-05-10"
   dateModified: "2024-05-10"
-  keywords: "Radiology, Lung"
+  keywords: "Radiology, Ccta"
   description: |
-    Data from LUNG scans carried out in the SCAPIS study cohort in Site-1. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm). This dataset contains data from Stockholm.   
+    Data from CCTA scans carried out in the SCAPIS study cohort in Site-2. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm). This dataset contains data from Stockholm.   
   license:
   - name: "Controlled access"
     id: "https://datahub.aida.scilifelab.se/10.23698/aida/brmbr#controlled-access"
@@ -32,17 +32,17 @@ datacite:
 other:
   modality:
   - "CT"
-  shortName: "SCAPIS-CT-SITE-1-LUNG"
+  shortName: "SCAPIS-CT-SITE-2-CCTA"
   origin: "Clinical"
   status: "Ongoing"
   countries-shared:
   - "SE"
   organ:
-  - name: "LUNG"
+  - name: "CCTA"
     sctid: 39607008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: 
-  bytes: 3579265290875
-  numberOfScans: 6793762
+  bytes: 3246097502852
+  numberOfScans: 6157244
   image: "/assets/images/10.23698/aida/scapiskilu/scapis-logo.jpg"
 
 
