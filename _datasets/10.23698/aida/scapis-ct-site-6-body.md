@@ -6,7 +6,7 @@ datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
   "@id": "https://doi.org/10.23698/aida/scapis-ct-site-6-body"
-  name: "SCAPIS BODY data from Site-6"
+  name: "SCAPIS body data from site 6"
   about: "Radiology"
   url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-ct-site-6-body"
   publisher:
@@ -20,12 +20,12 @@ datacite:
   dateCreated: "2024-05-10"
   datePublished: "2024-05-10"
   dateModified: "2024-05-10"
-  keywords: "Radiology, Body"
+  keywords: "Radiology, Computed tomography, Body, Scapis"
   description: |
-    Data from BODY scans carried out in the SCAPIS study cohort in Site-6. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm). This dataset contains data from Stockholm.   
+    Data from body scans carried out in the SCAPIS study cohort in site 6. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm).  
   license:
   - name: "Controlled access"
-    id: "https://datahub.aida.scilifelab.se/10.23698/aida/brmbr#controlled-access"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-ct-site-6-body#controlled-access"
     "@type": "CreativeWork"
     abstract: |
       Please contact SCAPIS for terms of access.
@@ -38,9 +38,9 @@ other:
   countries-shared:
   - "SE"
   organ:
-  - name: "BODY"
-    sctid: 39607008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
-  age-span: 
+  - name: "Body"
+    sctid: 91722005 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=91722005&edition=uk-edition&release=v20240731&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999000681000001101,999001251000000103
+  age-span: 50-64
   bytes: 35493996203
   numberOfScans: 67382
   image: "/assets/images/10.23698/aida/scapiskilu/scapis-logo.jpg"
@@ -49,4 +49,4 @@ other:
 ---
 ## License
 ### Controlled access
-Please contact [SCAPIS](mailto:example@scapis.se) for terms of access.
+Please contact [SCAPIS](/datasets/scapis/#access) for terms of access.

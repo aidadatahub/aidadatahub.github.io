@@ -34,6 +34,7 @@
       {% include main-menu.html %}
       <div class="headings">
         <h1 class="project-name">{{ page.datacite.name }}</h1>
+        <h2 class="project-tagline no-anchor">doi:{{ doi }}</h2>
         <p><a href="/">{{ site.title }}</a> facilitating FAIR data sharing for medical imaging diagnostics AI.</p>
       </div>
     </header>
@@ -68,6 +69,16 @@
             <td>{{ page.other.origin }}</td>
           </tr>
           <tr>
+            <th>Cite as</th>
+            <td>
+              {{ page.datacite.author | map: "name" | array_to_sentence_string }}
+              ({{ page.datacite.datePublished | date: "%Y" }})
+              {{ page.datacite.name}}
+              <a href="{{ page.datacite["@id"] }}">doi:{{ doi }}</a><br/>
+              {% include bibtex-citation.html %}
+            </td>
+          </tr>
+          <tr>
             <th>Field</th>
             <td>{{ page.datacite.about }}</td>
             <tr>
@@ -91,6 +102,10 @@
           <tr>
             <th>Year</th>
             <td>{{ page.datacite.datePublished | date: "%Y" }}</td>
+          </tr>
+          <tr>
+            <th>DOI</th>
+            <td><a href='{{ page.datacite["@id"] }}'>doi:{{ doi }}</a></td>
           </tr>
           <tr>
             <th>Scans</th>
