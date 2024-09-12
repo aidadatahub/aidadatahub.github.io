@@ -25,7 +25,7 @@ blurb: >
 
 {: .tight-table}
 | **Presentation** | [Reproducible ML](https://docs.google.com/presentation/d/1qlGOkq6K10NC2-6rzIVRmBoJijhg8OVP/edit#slide=id.p1) |
-| **Code** | [Faster data loading with DALI](https://github.com/eryl/aida-dali-workshop) |
+| **Code** | [Reproducible machine learning research](https://github.com/eryl/aida-reporoducible-ai) |
 
 A deep dive into automating experiments to achieve both reproducibility and extendability in machine learning research. This session will explore MLFlow, a powerful library for experiment tracking, and cover techniques for configuring experiments and optimizing hyperparameters. Learn how to create machine learning science that not only delivers deterministic reproducibility but also yields generalizable results.
 
