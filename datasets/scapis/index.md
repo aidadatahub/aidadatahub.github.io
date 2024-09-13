@@ -47,7 +47,6 @@ Please contact us for support or more information!
 {{ datasets }} datasets: {% include human_friendly_filesize bytes=bytes %},
 {{ scans }} scans, {{ annotations }} annotations. [More metrics...](../../metrics)
 
-The full SCAPIS image data is available for sharing at AIDA Data Hub.
 
 <div class="dataset-table">
   <table>
