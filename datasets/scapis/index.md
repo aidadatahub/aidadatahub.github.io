@@ -47,7 +47,6 @@ Please contact us for support or more information!
 {{ datasets }} datasets: {% include human_friendly_filesize bytes=bytes %},
 {{ scans }} scans, {{ annotations }} annotations. [More metrics...](../../metrics)
 
-The full SCAPIS data is being transfered and is expected to become available for sharing in August.
 
 <div class="dataset-table">
   <table>
