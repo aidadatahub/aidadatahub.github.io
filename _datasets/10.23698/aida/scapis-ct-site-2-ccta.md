@@ -1,5 +1,5 @@
 ---
-hidden: yes
+hidden: 
 layout: dataset-scapis
 scapis: yes
 datacite:
