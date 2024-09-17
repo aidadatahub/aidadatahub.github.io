@@ -12,14 +12,14 @@ blurb: >
 
 ![SCAPIS logo](/assets/images/logos/scapis-logo.png){: .right width="35%"}
 <b> The full set of [SCAPIS core CT examinations](/datasets/scapis/#scapis-datasets)
-are now available for sharing through the AIDA Data Hub, and is currently being
+is now available for sharing through the AIDA Data Hub, and is currently being
 downloaded by two different research groups in Sweden. You can now
 [apply for access](/datasets/scapis#access) to SCAPIS imaging data.</b>
 
 A first small dataset was successfully shared
 [already in June](/news/2024-06-04-first-scapis-shared/), as a first live
 verification of technical and procedural readiness. Now, the bulk of
-the data from 30000 individuals has been transfered over, and is available for
+the data from 30000 individuals has been transferred over, and is available for
 sharing through the AIDA Data Hub. The data is structured as
 [24 SCAPIS datasets](/datasets/scapis/#scapis-datasets), corresponding to four
 CT examination types ([body](/datasets/search/?q=scapis%20lung),
