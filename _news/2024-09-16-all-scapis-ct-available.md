@@ -12,7 +12,7 @@ blurb: >
 
 ![SCAPIS logo](/assets/images/logos/scapis-logo.png){: .right width="35%"}
 <b> The full set of [SCAPIS core CT examinations](/datasets/scapis/#scapis-datasets)
-are now available for sharing through the AIDA Data Hub, and is currently being
+is now available for sharing through the AIDA Data Hub, and is currently being
 downloaded by two different research groups in Sweden. You can now
 [apply for access](/datasets/scapis#access) to SCAPIS imaging data.</b>
 
