@@ -7,5 +7,5 @@ title: "AIDA Data Hub Events"
 
 ## Past
 
-{% assign events = site.events | reversed %}
+{% assign events = site.events | reverse %}
 {% include event-list.html past=true id="past-events" events=events %}
