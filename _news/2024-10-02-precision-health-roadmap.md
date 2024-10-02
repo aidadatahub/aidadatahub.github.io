@@ -15,9 +15,9 @@ blurb: >
 ![Region Örebro län logo](/assets/images/logos/rol.jpg){: .right width="15%"}
 <b>
 Seven university hospital regions in Sweden are currently starting up precision
-medicine centra, and are collaborating in a network to draw up a roadmap toward broad
-implementation in clinical routine. Findings from the first working meeting were
-shared in a TT press release today:
+medicine centra, and are collaborating in a [network](/about/engagements/precision-medicine-center-network)
+to draw up a roadmap toward broad implementation in clinical routine. Findings
+from the first working meeting were shared in a TT press release today:
 </b>
 
 **[Precision medicine is the future healthcare](https://via.tt.se/pressmeddelande/3633893/precisionsmedicin-ar-framtidens-sjukvard?publisherId=3235654&lang=sv)** (Swedish)
