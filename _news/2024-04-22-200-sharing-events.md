@@ -1,6 +1,6 @@
 ---
 title: 200+ data sharing events facilitated
-highlight: yes
+highlight: no
 blurb: >
   We are pleased to announce that more than 200 external data sharing events have been
   successfully facilitated with numerous countries worldwide.
