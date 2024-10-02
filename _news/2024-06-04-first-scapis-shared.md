@@ -1,6 +1,6 @@
 ---
 title: First SCAPIS data shared
-highlight: yes
+highlight: no
 blurb: >
   The first [SCAPIS](https://scapis.org) imaging dataset has been successfully
   shared with a researcher through the AIDA Data Hub. You can now
