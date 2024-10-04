@@ -21,7 +21,7 @@ See also:
  * Photo ID
  * Institutional email address and SMS number
  * The public part of a secure password protected SSH keypair
-5. Following account creation, download approved data.
+5. Following account creation, download approved data [following the DGX-2 connection instructions](../../services/dgx-2).
 6. Optional: Get a [Data Science Platform](../../data-science-platform) at AIDA Data Hub to process images on-platform.
 
 ### Contact
