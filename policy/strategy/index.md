@@ -4,7 +4,7 @@ description: AIDA Data Hub strategy for 2025-2030.
 ---
 ## AIDA Data Hub strategy 2025-2030
 
-This page describes the proposed AIDA Data Hub strategy 2025-2030 by AIDA Data Hub management for AIDA steering group approval.
+Approved by AIDA steering group on 2024-09-12.
 
 ### Vision (Where?) {#vision}
 
