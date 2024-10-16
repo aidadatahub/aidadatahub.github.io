@@ -98,6 +98,7 @@ other:
   annotation: |
     All original segmentations were collected by using FreeSurfer (aparc+aseg.mgz). Synthetic images are segmented based on ground truth segmentations using registration, more information can be found in [[1]](https://datahub.aida.scilifelab.se/10.23698/aida/synthetic/shbamri#references).
   countries-shared:
+  - "CN"
   - "SE"
   organ:
   - name: "Brain"

@@ -67,8 +67,9 @@ other:
     project was fully automated.
   countries-shared:
   - "CA"
-  - "SE"
   - "IN"
+  - "SE"
+  - "US"
   organ:
   - name: "Skull"
     sctid: 89546000 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
