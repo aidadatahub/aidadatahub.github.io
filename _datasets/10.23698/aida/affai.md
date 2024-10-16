@@ -85,6 +85,7 @@ other:
     consultant in orthopedics, and categorized into atypical femoral fractures
     (AFF) and normal fractures of the femoral shaft (NFF).
   countries-shared:
+  - "IN"
   - "SE"
   - "US"
   organ:

@@ -96,6 +96,7 @@ other:
   - "JP"
   - "KR"
   - "NL"
+  - "NO"
   - "PL"
   - "RO"
   - "SE"

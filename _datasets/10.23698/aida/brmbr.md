@@ -63,6 +63,7 @@ other:
   annotation: |
     No in-image annotations available.
   countries-shared:
+  - "FR"
   - "NL"
   - "US"
   organ:
