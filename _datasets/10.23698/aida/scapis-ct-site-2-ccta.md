@@ -42,11 +42,14 @@ other:
     sctid: 80891009 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=80891009&edition=uk-edition&release=v20240731&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999000681000001101,999001251000000103
   age-span: 50-64
   bytes: 3246097502852
-  numberOfScans: 6157244
+  numberOfScans: 
   image: "/assets/images/10.23698/aida/scapiskilu/scapis-logo.jpg"
 
 
 ---
+## File formats
+The dataset consists of 7z compressed archives containing a total of 6157244 .dcm files.
+
 ## License
 ### Controlled access
 Please contact [SCAPIS](/datasets/scapis/#access) for terms of access.
