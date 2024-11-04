@@ -42,7 +42,7 @@ other:
     sctid: 91722005 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=91722005&edition=uk-edition&release=v20240731&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999000681000001101,999001251000000103
   age-span: 50-64
   bytes: 72443408882
-  numberOfScans: 
+  numberOfScans: 4862
   image: "/assets/images/10.23698/aida/scapiskilu/scapis-logo.jpg"
 
 
