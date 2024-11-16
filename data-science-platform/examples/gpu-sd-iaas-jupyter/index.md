@@ -72,11 +72,11 @@ environment as if though they were running on your computer.
 
 ### 3. Install software from public repositories that are trusted by the platform.
 
-Connections are blocked by default in DSP secure environments. However, DSP
-provides an inspecting http proxy that allows downloading software and security
-updates from public repositories that are trusted by AIDA Data Hub. DSP data
-science images are preconfigured to make transparent use of this proxy, as
-demonstrated in this next step.
+DSP secure environments block connections by default. However, DSP provides an
+inspecting http proxy that enables downloading software and security updates
+from public repositories that are trusted by AIDA Data Hub. DSP data science
+images are preconfigured to make transparent use of this proxy, as demonstrated
+in this next step.
 
 Here, clone the Jupiter notebook GitHub repo and use apt and pip to install its
 dependencies in a Python virtual environment:
@@ -91,11 +91,12 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-**Note**: The DSP inspecting http proxy configuration is continually updated to
-be more or less restrictive, as public repositiories are updated with features
-that make them more or less appropriate for secure environments. For example,
-publicly accessible granular usage counters are increasingly popular despite
-providing a well known data exfiltration method.
+**Note**:
+The restrictivity of the DSP inspecting http proxy is continually updated, to
+adjust to updates in public repositiories that make them more or less
+appropriate for secure environments. For example, publicly accessible granular
+download counters are increasingly popular despite constituting a trivially
+exploitable data exfiltration method.
 
 ### 4. Upload own data.
 
@@ -132,10 +133,20 @@ jupyter notebook --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.
 ```
 
 Your Jupiter notebook is now ready to use, as long as you have this SSH
-connection (and its port forwards) open.
+connection and its port forwards open.
 
 {:start="2"}
-2. While your SSH connection is open, connect to your Jupyter notebook by pointing your web browser to [http://127.0.0.1:8888](http://127.0.0.1:8888). Your SSH connection allows you to use the SSH port forward that you set up in step 2. Without it, you would not be able to connect.
-3. Chose transformers_for_images.ipynb
-4. Use Shift+Enter to run the cells manually in sequence. Edit if you like. You are now training AI models on GPU enabled Infrastructure as a Service compute resources in a secure environment on the AIDA Data Hub Data Science Platform.
-5. Optional: Notebook step ~23 creates a TensorBoard, which can be used to monitor training progress graphically. It will initially be empty, but as subsequent training progresses, you can use the Refresh icon in TensorBoard to visualize current state graphically. The TensorBoard uses the second SSH port forward that you set up in step 2, or it would not be able to connect.
+2. Using a web browser on your computer, visit
+[http://127.0.0.1:8888](http://127.0.0.1:8888) to connect to your Jupyter
+notebook through the SSH port forward that you set up in step 2. Without it, you
+will not be able to connect.
+3. Choose transformers_for_images.ipynb
+4. Use Shift+Enter to run the cells manually in sequence. Edit if you like. You
+are now training AI models on GPU enabled IaaS compute resources in a secure
+environment on the AIDA Data Hub Data Science Platform.
+5. Optional: Notebook step ~23 creates a TensorBoard interface, which can be
+used to monitor training progress graphically. It will initially be empty, but
+as subsequent training progresses, you can use the Refresh icon in TensorBoard
+interface to read and visualize current state graphically. The TensorBoard
+interface uses the second SSH port forward that you set up in step 2 and cannot
+connect without it.
