@@ -72,14 +72,14 @@ downloading software and security updates from public repositories that are
 trusted by the platform.
 
 1. Connect to your VM using `ssh jupyter-demo`.
-2. Clone the Jupyter notebook repo
+2. Clone the Jupyter notebook GitHub repo
 
 ```bash
 git clone https://github.com/eryl/aida-transformers-workshop-code.git
 ```
 
 {:start="3"}
-3. Install dependencies in a Python virtual environment:
+3. Use apt and pip to install dependencies in a Python virtual environment:
 
 ```bash
 cd aida-transformers-workshop-code
