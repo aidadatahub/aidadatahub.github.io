@@ -66,22 +66,18 @@ below. This makes it so that "it feels like you are working locally".
 
 ### 3. Install software from platform trusted public repositories.
 
-Connections are blocked by default in DSP secure environments, so for these
-software installations we use the DSP inspecting http proxy, which allows
-downloading software and security updates from public repositories that are
-trusted by the platform.
+Connections are blocked by default in DSP secure environments. However, DSP
+provides an inspecting http proxy that allows downloading software and security
+updates from public repositories that are trusted by AIDA Data Hub. DSP data
+science images are preconfigured to make transparent use of this proxy, as
+demonstrated in this next step.
 
-1. Connect to your VM using `ssh jupyter-demo`.
-2. Clone the Jupyter notebook GitHub repo
+Here, clone the Jupiter notebook GitHub repo and use apt and pip to install its
+dependencies in a Python virtual environment:
 
 ```bash
+ssh jupyter-demo
 git clone https://github.com/eryl/aida-transformers-workshop-code.git
-```
-
-{:start="3"}
-3. Use apt and pip to install dependencies in a Python virtual environment:
-
-```bash
 cd aida-transformers-workshop-code
 sudo apt install python3-venv
 python3 -m venv .venv
