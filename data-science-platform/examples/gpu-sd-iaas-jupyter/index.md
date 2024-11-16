@@ -65,10 +65,10 @@ environments.
 ServerAliveInterval makes it easier to maintain a connection, and to detect when
 it has gone stale.  
 
-The LocalForwards define SSH secured forwards. They connect ports on your
-computer with ports on your VM in the secure environment. They allow
-you to work with Jupyter notebooks and TensorBoard on the VM in your secure
-environment, as if though they were running on your computer.
+The LocalForwards define SSH secured port forwards. They connect ports on your
+computer with ports on your VM in the secure environment. They allow you to work
+with Jupyter notebooks and TensorBoard that are running on the VM in your secure
+environment as if though they were running on your computer.
 
 ### 3. Install software from public repositories that are trusted by the platform.
 
