@@ -64,7 +64,7 @@ connect to your Jupyter notebooks and TensorBoard using a web browser on your
 computer, once you get them running in the secure environment in later steps
 below. This makes it so that "it feels like you are working locally".
 
-### 3. Install software for a from platform trusted public repositories.
+### 3. Install software from platform trusted public repositories.
 
 Connections are blocked by default in DSP secure environments, so for these
 software installations we use the DSP inspecting http proxy, which allows
