@@ -106,7 +106,7 @@ scp {annotations,images}.tar.gz jupyter-demo:
 ```
 
 {:start="3"}
-3. Put demo data where our Jupyter notebook wants it
+3. Put demo data where our Jupyter notebook expects it
 
 ```bash
 ssh jupyter-demo
