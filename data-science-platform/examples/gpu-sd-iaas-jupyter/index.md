@@ -6,33 +6,35 @@ description: Getting started with Data Science Platform services
 {:class="tight-table"}
 | **Target Audience**: | Customer leads, AI- and data scientists, and systems development experts. |  
 
-Infrastructure as a Service (IaaS) gives you resources that you manage yourself.
-It is a service for advanced customers that provides a lot of freedom to those with
-the skills and responsibility to handle it.
+Infrastructure as a Service (IaaS) provides resources that you manage yourself.
+It is a service for advanced customers that provides a lot of freedom to those
+with the skills and responsibility to handle it.
 
 {:.no_toc}
 ## Topics
 
-In this example, you as a customer lead will
+In this example you, as a Customer lead, will
 
 {:style="list-style-type: none; padding-inline-start: 0px;"}
 * TOC
 {:toc}
+
+This example assumes experience with linux, and authority to initiate expense. 
 
 {:.no_toc}
 ## Instructions
 
 ### 1. Launch a GPU enabled virtual machine
 
-1. Visit Horizon, the customer self-service portal, at [https://dsp.aida.scilifelab.se/](https://dsp.aida.scilifelab.se/)
+1. Visit the DSP Horizon customer self-service portal at [https://dsp.aida.scilifelab.se/](https://dsp.aida.scilifelab.se/)
 2. Log in using your DSP Horizon credentials.
 3. Pick the correct secure environment from the project selector drop down menu top left.
 4. Add your SSH public key to your project by clicking Project > Compute > Key Pairs, then Import Public Key.
-5. Create a GPU enabled virtual machine by clicking Instances > Launch instance, and then
+5. Create a GPU enabled virtual machine by clicking Instances > Launch instance, and
     1. In Details, Instance name: Put a good name for a compute server, like "Jupyter demo".
     2. In Source, click the up arrow icon next to an image that has Docker, CUDA, Miniforge, Jupyter Lab and RMD.
     3. In Flavor, click the up arrow icon next to a flavor that has GPU. Bigger is more expensive.
-    4. In Security Groups, click the up arrow icon next to allowall.
+    4. If applicable: In Security Groups, click the up arrow icon next to allowall.
     5. In Key Pair, verify that your key is allocated.
     6. Click Launch instance.
 6. Click Associate Floating IP > IP Address > pick one, and remember which you picked. Let's call it YOUR_VM_IP.
@@ -53,18 +55,18 @@ Host jupyter-demo
 ```
 
 This sets up your computer to go through the DSP SSH access gateway when
-connecting to your VM, which is necessary, or you will not be able to connect.
+connecting to your VM. Otherwise, you will not be able to connect.
 
-In the future, we will switch to `ProxyJump your.email@example.com@dsp.aida.scilifelab.se`
-instead, to help ensure that users will only be able to connect to their own
-secure environments.
+**Note**: In the future, we will switch to `ProxyJump your.email@example.com@dsp.aida.scilifelab.se`
+to ensure that users will only be able to connect to their own secure
+environments.
 
-The last two lines are SSH secured port forwards. These will allow you to
-connect to your Jupyter notebooks and TensorBoard using a web browser on your
-computer, once you get them running in the secure environment in later steps
-below. This makes it so that "it feels like you are working locally".
+The last two lines are SSH secured port forwards. These allow you to work with
+Jupyter notebooks and TensorBoard running on the VM in your secure environment,
+from a web browser on your computer. These make it so that "it feels like you
+are working locally".
 
-### 3. Install software from platform trusted public repositories.
+### 3. Install software from public repositories that are trusted by the platform.
 
 Connections are blocked by default in DSP secure environments. However, DSP
 provides an inspecting http proxy that allows downloading software and security
@@ -85,24 +87,24 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+**Note**: The DSP inspecting http proxy configuration is continually updated to
+be more or less restrictive, as public repositiories are updated with features
+that make them more or less appropriate for secure environments. For example,
+publicly accessible granular usage counters are increasingly popular despite
+providing a well known data exfiltration method.
+
 ### 4. Upload own data.
 
-1. Download demo data to your own computer
+1. Download demo data to your own computer, and upload it to your VM:
 
 ```bash
 wget https://www.robots.ox.ac.uk/~vgg/data/pets/data/annotations.tar.gz
 wget https://www.robots.ox.ac.uk/~vgg/data/pets/data/images.tar.gz
-```
-
-{:start="2"}
-2. Upload demo data to your VM
-
-```bash
 scp {annotations,images}.tar.gz jupyter-demo:
 ```
 
-{:start="3"}
-3. Put demo data where our Jupyter notebook expects it
+{:start="2"}
+2. Put demo data where our Jupyter notebook expects it
 
 ```bash
 ssh jupyter-demo
@@ -125,10 +127,11 @@ cd notebooks
 jupyter notebook --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.open_browser=False --NotebookApp.ip='127.0.0.1'
 ```
 
-Your Jupiter notebook is now ready to use for as long as you have this SSH connection open.
+Your Jupiter notebook is now ready to use, as long as you have this SSH
+connection (and its port forwards) open.
 
 {:start="2"}
-2. Connect to your Jupyter notebook, by pointing your web browser on your computer to [http://127.0.0.1:8888](http://127.0.0.1:8888). This way, the connection goes through the SSH port forward that you set up earlier in step 2 (or you would not be able to connect).
+2. While your SSH connection is open, connect to your Jupyter notebook by pointing your web browser to [http://127.0.0.1:8888](http://127.0.0.1:8888). Your SSH connection allows you to use the SSH port forward that you set up in step 2. Without it, you would not be able to connect.
 3. Chose transformers_for_images.ipynb
-4. Use Shift+Enter to run the cells manually in sequence. Edit if you like. You are now training AI on GPU enabled Infrastructure as a Service in a secure environment on the AIDA Data Hub Data Science Platform.
-5. Optional: Notebook step ~23 creates a TensorBoard which is used to monitor training progress. It will initially be empty, but as subsequent training progresses, you can use the Refresh icon in TensorBoard to read in and visualize the current state graphically. The TensorBoard uses the second SSH port forward that you set up earlier in step 2 (or it would not be able to connect).
+4. Use Shift+Enter to run the cells manually in sequence. Edit if you like. You are now training AI models on GPU enabled Infrastructure as a Service compute resources in a secure environment on the AIDA Data Hub Data Science Platform.
+5. Optional: Notebook step ~23 creates a TensorBoard, which can be used to monitor training progress graphically. It will initially be empty, but as subsequent training progresses, you can use the Refresh icon in TensorBoard to visualize current state graphically. The TensorBoard uses the second SSH port forward that you set up in step 2, or it would not be able to connect.
