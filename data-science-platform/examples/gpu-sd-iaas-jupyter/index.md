@@ -19,7 +19,7 @@ In this example you, as a Customer lead, will
 * TOC
 {:toc}
 
-This example assumes experience with linux, and authority to initiate expense. 
+This example assumes experience with linux, and authority to initiate expense.
 
 {:.no_toc}
 ## Instructions
@@ -37,16 +37,16 @@ This example assumes experience with linux, and authority to initiate expense.
     4. If applicable: In Security Groups, click the up arrow icon next to allowall.
     5. In Key Pair, verify that your key is allocated.
     6. Click Launch instance.
-6. Click Associate Floating IP > IP Address > pick one, and remember which you picked. Let's call it YOUR_VM_IP.
+6. Click Associate Floating IP > IP Address > pick one, fill in in next step.
 7. Wait for Power State to become Running.
 
 ### 2. Configure your computer for easy access.
 
-Add to SSH-config (eg `~/.ssh/config`) remembering to change to YOUR_VM_IP:
+Add to SSH-config (eg `~/.ssh/config`):
 
 ```ssh
 Host jupyter-demo
-  HostName YOUR_VM_IP
+  HostName [associated IP in Horizon]
   User ubuntu
   ProxyJump sshuser@dsp.aida.scilifelab.se
   ServerAliveInterval 10
@@ -54,17 +54,21 @@ Host jupyter-demo
   LocalForward 6006 localhost:6006
 ```
 
-This sets up your computer to go through the DSP SSH access gateway when
-connecting to your VM. Otherwise, you will not be able to connect.
+This sets up your computer use the DSP SSH access gateway when making SSH
+connections to your VM. By default, DSP rejects SSH connections that are not
+made through the SSH access gateway.
 
 **Note**: In the future, we will switch to `ProxyJump your.email@example.com@dsp.aida.scilifelab.se`
 to ensure that users will only be able to connect to their own secure
 environments.
 
-The last two lines are SSH secured port forwards. These allow you to work with
-Jupyter notebooks and TensorBoard running on the VM in your secure environment,
-from a web browser on your computer. These make it so that "it feels like you
-are working locally".
+ServerAliveInterval makes it easier to maintain a connection, and to detect when
+it has gone stale.  
+
+The LocalForwards define SSH secured forwards. They connect ports on your
+computer with ports on your VM in the secure environment. They allow
+you to work with Jupyter notebooks and TensorBoard on the VM in your secure
+environment, as if though they were running on your computer.
 
 ### 3. Install software from public repositories that are trusted by the platform.
 
