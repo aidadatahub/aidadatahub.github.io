@@ -129,12 +129,14 @@ sudo chown -R ubuntu:ubuntu ~/.vnc
 vncserver :1
 ```
 
+{:start="2"}
 2. On your computer, point your VNC client of choice to `localhost:5901` to
 connect through the SSH port forward that you set up in step 2. You can for
 example use Remmina, which comes preinstalled on Ubuntu.
 
-**Note**: In the future AIDA Data Hub will provide ways to connect to a remote
-desktop in a secure environment without needing server administrator skills.
+**Note**: In the future, AIDA Data Hub will provide ways to connect to a remote
+desktop in a secure environment which do not require the user to have server
+administrator skills.
 
 ### 6. Use a Jupyter notebook to train an AI model, and monitor progress graphically.
 
