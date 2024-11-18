@@ -52,6 +52,7 @@ Host jupyter-demo
   ServerAliveInterval 10
   LocalForward 8888 localhost:8888
   LocalForward 6006 localhost:6006
+  LocalForward 5901 localhost:5901
 ```
 
 This sets up your computer use the DSP SSH access gateway when making SSH
@@ -67,8 +68,8 @@ it has gone stale.
 
 The LocalForwards define SSH secured port forwards. They connect ports on your
 computer with ports on your VM in the secure environment. They allow you to work
-with Jupyter notebooks and TensorBoard that are running on the VM in your secure
-environment as if though they were running on your computer.
+with Jupyter notebooks, TensorBoard, and VNC remote desktop running on the VM in
+your secure environment as if though they were running on your computer.
 
 ### 3. Install software from public repositories that are trusted by the platform.
 
@@ -79,7 +80,7 @@ images are preconfigured to make transparent use of this proxy, as demonstrated
 in this next step.
 
 Here, clone the Jupiter notebook GitHub repo and use apt and pip to install its
-dependencies in a Python virtual environment:
+dependencies in a Python virtual environment.
 
 ```bash
 ssh jupyter-demo
@@ -89,6 +90,7 @@ sudo apt install python3-venv
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+sudo docker pull alpine # just for show, we don't really need Alpine nor Docker for this :)
 ```
 
 **Note**:
@@ -119,7 +121,25 @@ tar xf ~/annotations.tar.gz
 tar xf ~/images.tar.gz
 ```
 
-### 5. Use a Jupyter notebook to train an AI model, and monitor progress graphically.
+### 5. Inspect data in a remote desktop.
+
+1. Start a VNC server on your VM
+
+```bash
+sudo chown -R ubuntu:ubuntu ~/.vnc
+vncserver :1
+```
+
+{:start="2"}
+2. On your computer, point your VNC client of choice to `localhost:5901` to
+connect through the SSH port forward that you set up in step 2. You can for
+example use Remmina, which comes preinstalled on Ubuntu.
+
+**Note**: In the future, AIDA Data Hub will provide ways to connect to a remote
+desktop in a secure environment which do not require the user to have server
+administrator skills.
+
+### 6. Use a Jupyter notebook to train an AI model, and monitor progress graphically.
 
 1. Connect to your VM and start up the demo Jupyter notebook
 
