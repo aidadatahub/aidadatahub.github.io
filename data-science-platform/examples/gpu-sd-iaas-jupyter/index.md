@@ -80,7 +80,7 @@ images are preconfigured to make transparent use of this proxy, as demonstrated
 in this next step.
 
 Here, clone the Jupiter notebook GitHub repo and use apt and pip to install its
-dependencies in a Python virtual environment:
+dependencies in a Python virtual environment.
 
 ```bash
 ssh jupyter-demo
@@ -90,6 +90,7 @@ sudo apt install python3-venv
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+sudo docker pull alpine # just for show, we don't really need Alpine nor Docker for this :)
 ```
 
 **Note**:
