@@ -68,8 +68,8 @@ with Jupyter notebooks, TensorBoard, and VNC remote desktop running on the VM in
 your secure environment as if though they were running on your computer.
 
 **Note**: SSH access will in the future require multi-factor authentication,
-using Life Science Login for simplicity. To log accesses and match them with
-the correct login account identity (e-mail), we will require that to be specified
+using Life Science Login for simplicity. To log accesses and match them to the
+correct login account identity (e-mail), we will require that to be specified
 when connecting, for example using `ProxyJump your.email@example.com@dsp.aida.scilifelab.se`.
 When we have that separation on the access gateway, we will also restrict it so
 that users can only access resources from secure environments that they are a
