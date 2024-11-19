@@ -59,10 +59,6 @@ This sets up your computer use the DSP SSH access gateway when making SSH
 connections to your VM. By default, DSP rejects SSH connections that are not
 made through the SSH access gateway.
 
-**Note**: In the future, we will switch to `ProxyJump your.email@example.com@dsp.aida.scilifelab.se`
-to ensure that users will only be able to connect to their own secure
-environments.
-
 ServerAliveInterval makes it easier to maintain a connection, and to detect when
 it has gone stale.  
 
@@ -70,6 +66,14 @@ The LocalForwards define SSH secured port forwards. They connect ports on your
 computer with ports on your VM in the secure environment. They allow you to work
 with Jupyter notebooks, TensorBoard, and VNC remote desktop running on the VM in
 your secure environment as if though they were running on your computer.
+
+**Note**: SSH access will in the future require multi-factor authentication,
+using Life Science Login for simplicity. To log accesses and match them with
+the correct login account identity (e-mail), we will require that to be specified
+when connecting, for example using `ProxyJump your.email@example.com@dsp.aida.scilifelab.se`.
+When we have that separation on the access gateway, we will also restrict it so
+that users can only access resources from secure environments that they are a
+member of.
 
 ### 3. Install software from public repositories that are trusted by the platform.
 
