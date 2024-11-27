@@ -90,6 +90,7 @@ dependencies in a Python virtual environment.
 ssh jupyter-demo
 git clone https://github.com/eryl/aida-transformers-workshop-code.git
 cd aida-transformers-workshop-code
+sudo apt update
 sudo apt install python3-venv
 python3 -m venv .venv
 source .venv/bin/activate
@@ -109,6 +110,7 @@ exploitable data exfiltration method.
 1. Download demo data to your own computer, and upload it to your VM:
 
 ```bash
+cd ~/Downloads
 wget https://www.robots.ox.ac.uk/~vgg/data/pets/data/annotations.tar.gz
 wget https://www.robots.ox.ac.uk/~vgg/data/pets/data/images.tar.gz
 scp {annotations,images}.tar.gz jupyter-demo:
