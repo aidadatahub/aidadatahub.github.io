@@ -55,7 +55,7 @@ datacite:
   keywords: "Pathology, Whole slide imaging, Weakly annotated, Basal cell carcinoma, Skin cancer"
   version: "1.0.0"
   description: |
-    Whole slide pathology images from excision specimens of cutaneous basal cell carcinomas (BCC) collected at the Department of Pathology at Sahlgrenska University Hospital, Sweden. The dataset contains 1832 WSIs from 479 excised BCCs and 261 punch biopsies representing BCCs annotated on a slide level. Furthermore the dataset contains 261 tumor-free skin biopsies. The dataset will be completed with a set of 600 BCC WSIs from Mohs micrographic surgery.
+    Whole slide pathology images from excision specimens of cutaneous basal cell carcinomas (BCC) collected at the Department of Pathology at Sahlgrenska University Hospital, Sweden. The dataset contains 1832 WSIs from 479 excised BCCs and 261 punch biopsies representing BCCs annotated on a slide level. Furthermore the dataset contains 253 tumor-free skin biopsies.
 
   license:
   - name: "Controlled access"
