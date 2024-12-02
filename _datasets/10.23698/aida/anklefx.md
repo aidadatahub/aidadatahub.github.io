@@ -3,10 +3,10 @@ hidden: yes
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
-  "@id": "https://doi.org/10.23698/aida/anklefx-aida"
+  "@id": "https://doi.org/10.23698/aida/anklefx"
   name: "Annotated radiographs of ankle fractures for research"
   about: "Radiology"
-  url: "https://datahub.aida.scilifelab.se/10.23698/aida/anklefx-aida"
+  url: "https://datahub.aida.scilifelab.se/10.23698/aida/anklefx"
   author:
   - name: "Jakub Olczak"
     #"@id": "https://orcid.org/0000-0002-8080-5815"
@@ -55,12 +55,12 @@ datacite:
     The Ankle Fracture dataset includes radiological images for diagnosing and evaluating ankle fractures. The dataset focuses on X-ray imaging, providing annotations for fracture identification, classification, and severity grading.
   license:
   - name: "Controlled access"
-    id: "https://datahub.aida.scilifelab.se/10.23698/aida/anklefx-aida#controlled-access"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/anklefx#controlled-access"
     "@type": "CreativeWork"
     abstract: |
       Free for use in legal and ethical medical diagnostics research.
   - name: "AIDA BY license"
-    id: "https://datahub.aida.scilifelab.se/10.23698/aida/anklefx-aida#aida-by-license"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/anklefx#aida-by-license"
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution."
   citation:
@@ -71,7 +71,7 @@ datacite:
     "@id": "https://doi.org/10.1080/17453674.2020.1837420"
     name: "Olczak J, Emilson F, Razavian A, Antonsson T, Stark A, Gordon M. Ankle fracture classification using deep learning: automating detailed AO Foundation/Orthopedic Trauma Association (AO/OTA) 2018 malleolar fracture identification reaches a high degree of correct classification. Acta Orthopaedica. 2021 Jan 2;92(1):102–8."
 other:
-  shortName: "ANKLEFX-AIDA"
+  shortName: "ANKLEFX"
   origin: "Clinical"
   status: "Completed"
   annotation: |
@@ -91,14 +91,14 @@ other:
   scanner:
   stain:
   phase:
-  image: "/assets/images/10.23698/aida/anklefx-aida/img1_thumbnail.png"
+  image: "/assets/images/10.23698/aida/anklefx/img1_thumbnail.png"
   exampleImage:
   - title: ""
-    url: "/assets/images/10.23698/aida/anklefx-aida/img1.png"
-    thumbnail-url: "/assets/images/10.23698/aida/anklefx-aida/img1_thumbnail.png"
+    url: "/assets/images/10.23698/aida/anklefx/img1.png"
+    thumbnail-url: "/assets/images/10.23698/aida/anklefx/img1_thumbnail.png"
   - title: ""
-    url: "/assets/images/10.23698/aida/anklefx-aida/img2.png"
-    thumbnail-url: "/assets/images/10.23698/aida/anklefx-aida/img2_thumbnail.png"
+    url: "/assets/images/10.23698/aida/anklefx/img2.png"
+    thumbnail-url: "/assets/images/10.23698/aida/anklefx/img2_thumbnail.png"
 ---
 ## License
 ### Controlled access
