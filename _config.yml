@@ -26,6 +26,10 @@ collections:
   support-projects:
     output: true
     permalink: "/support/projects/:path/"
+  training-events:
+    output: true
+    permaling: "/training/events/:path/"
+
 
 defaults:
   - scope:
@@ -57,6 +61,11 @@ defaults:
   - scope:
       path: ""
       type: "support-projects"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "training-events"
     values:
       layout: "default"
   - scope:

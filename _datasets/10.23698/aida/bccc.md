@@ -53,9 +53,10 @@ datacite:
   datePublished: "2023-03-17"
   dateModified: "2023-03-17"
   keywords: "Pathology, Whole slide imaging, Weakly annotated, Basal cell carcinoma, Skin cancer"
-  version: "1.0.0"
+  version: "1.0.1"
   description: |
-    Whole slide pathology images from excision specimens of cutaneous basal cell carcinomas (BCC) collected at the Department of Pathology at Sahlgrenska University Hospital, Sweden. The data set contains 1832 WSIs from 479 BCCs annotated on a slide level.
+    Whole slide pathology images from excision specimens of cutaneous basal cell carcinomas (BCC) collected at the Department of Pathology at Sahlgrenska University Hospital, Sweden. The dataset contains 1832 WSIs from 479 excised BCCs and 261 punch biopsies representing BCCs annotated on a slide level. Furthermore the dataset contains 253 tumor-free skin biopsies.
+
   license:
   - name: "Controlled access"
     id: "https://datahub.aida.scilifelab.se/10.23698/aida/bccc#controlled-access"
@@ -77,18 +78,22 @@ other:
   annotation: |
     The data is annotated on a slide level into four aggressivity tumour subtypes: low aggressive Ia (nodular) and Ib (superficial) and more aggressive subtypes II (medium aggressive) and III (high aggressive). Of these, types Ia and Ib represent low risk and II and III high risk tumors according to WHO classilification of skin tumors (4th Edition 2018).
   countries-shared:
+  - "BD"
   - "CN"
   - "DZ"
+  - "FR"
+  - "IR"
+  - "JO"
   - "NL"
+  - "PK"
   - "SE"
   - "US"
-  - "FR"
   
   organ:
   - name: "Skin"
     sctid: 39937001 # SNOMED-CT
   age-span: "-"
-  bytes: 6164491827525 #6.16 TB 
+  bytes: 7781796272453  #6.16 TB, 6164491827525 B before the last upload 
   numberOfScans: 1832
   numberOfAnnotations: 0
   resolution: "x40"

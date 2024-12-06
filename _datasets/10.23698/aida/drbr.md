@@ -89,6 +89,7 @@ other:
   - "CN"
   - "DE"
   - "FI"
+  - "FR"
   - "GB"
   - "NL"
   - "NO"

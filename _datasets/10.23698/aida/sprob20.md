@@ -81,6 +81,7 @@ other:
     Together with the images macro-images of the biopsies exist with localized annotation of gleason grade and cancer detection as provided in the clinical workflow.
   countries-shared: # Fixme: insert link to paper in annotation text above when published.
   - "DE"
+  - "FR"
   - "SE"
   - "US"
   organ:

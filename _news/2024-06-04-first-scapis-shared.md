@@ -1,17 +1,17 @@
 ---
 title: First SCAPIS data shared
-highlight: yes
+highlight: no
 blurb: >
   The first [SCAPIS](https://scapis.org) imaging dataset has been successfully
   shared with a researcher through the AIDA Data Hub. You can now
-  [apply for access](/preview/datasets/scapis) to SCAPIS imaging data.
+  [apply for access](/datasets/scapis#access) to SCAPIS imaging data.
 ---
 ## {{ page.title }}
 <span class="small">{{ page.date | date: "%Y-%m-%d"}}</span>
 
 ![SCAPIS logo](/assets/images/logos/scapis-logo.png){: .right width="35%"}
 <b>Today, the first SCAPIS imaging dataset was shared with a researcher through the
-AIDA Data Hub. You can now [apply for access](/preview/datasets/scapis) to
+AIDA Data Hub. You can now [apply for access](/datasets/scapis#access) to
 SCAPIS imaging data, which is expected to become available for sharing in
 August.</b>
 
