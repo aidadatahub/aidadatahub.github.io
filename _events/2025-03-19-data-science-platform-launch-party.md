@@ -16,13 +16,16 @@ reporting:
   comments:     # 9. Additional comments
 blurb: >
   AIDA Data Hub is proud to announce the launch of our [Data Science Platform](https://datahub.aida.scilifelab.se/data-science-platform/) which offers a home for your research in Data Driven Precision Health co-located with national and European high-performance compute systems for sensitive data. Our customers include researchers, industry, caregivers and user communities of national significance.
-  To celebrate the successful establishment of our Data Science Platform we are arranging a two-day conference on Mar 19-20 2025 at [CMIV](https://liu.se/en/research/center-for-medical-image-science-and-visualization-cmiv) with national and international speakers and a launch celebration dinner.
-  Registation will open in Jan 2025. Please bookmark this page as it will be updated with more information as we draw closer to the event.
 ---
 <span class="small">{{ page.date | date: "%Y-%m-%d" }}{% if page.end %} - {{ page.end }}{% endif %}</span>  
 <strong>{{ page.title }}</strong>  
 {{ page.blurb }}
 
+
+
+To celebrate the successful establishment of our Data Science Platform we are arranging a two-day conference on Mar 19-20 2025 at [CMIV](https://liu.se/en/research/center-for-medical-image-science-and-visualization-cmiv) with national and international speakers and a launch celebration dinner.
+  
+Registation will open in Jan 2025. Please bookmark this page as it will be updated with more information as we draw closer to the event.
 
 ### Date: 
 March 19-20, 2025, Lunch-to-lunch
