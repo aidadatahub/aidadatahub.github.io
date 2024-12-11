@@ -37,6 +37,8 @@ Wrannesalen, CMIV, Linköping University Hospital
 
 ### Day 1:
 
+12:00 - 13:00   Lunch
+
 13:00 - 13:10		Welcome to AIDA Data Hub, Joel Hedlund
 
 13:10 - 13:30		CMIV, Anders Persson
@@ -66,3 +68,5 @@ Wrannesalen, CMIV, Linköping University Hospital
 10:30 - 11:00		User presentation, Maria Lerm
 
 11:00 - 12:00		Infrastructure keynote, Peter Løngreen
+
+12:00 - 13:00   Lunch
