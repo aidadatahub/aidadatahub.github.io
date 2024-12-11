@@ -34,7 +34,7 @@ This example assumes experience with linux, and authority to initiate expense.
     1. In Details, Instance name: Put a good name for a compute server, like "Jupyter demo".
     2. In Source, click the up arrow icon next to an image that has Docker, CUDA, Miniforge, Jupyter Lab and RMD.
     3. In Flavor, click the up arrow icon next to a flavor that has GPU. Bigger is more expensive.
-    4. If applicable: In Security Groups, click the up arrow icon next to allowall.
+    4. If applicable: In Security Groups, click the up arrow icon next to `incoming`.
     5. In Key Pair, verify that your key is allocated.
     6. Click Launch instance.
 6. Click Associate Floating IP > IP Address > pick one, fill in in next step.
@@ -48,7 +48,7 @@ Add to SSH-config (eg `~/.ssh/config`):
 Host jupyter-demo
   HostName [associated IP in Horizon]
   User ubuntu
-  ProxyJump sshuser@dsp.aida.scilifelab.se
+  ProxyJump [Identity in LifeScience Login]@dsp.aida.scilifelab.se
   ServerAliveInterval 10
   LocalForward 8888 localhost:8888
   LocalForward 6006 localhost:6006
@@ -67,13 +67,10 @@ computer with ports on your VM in the secure environment. They allow you to work
 with Jupyter notebooks, TensorBoard, and VNC remote desktop running on the VM in
 your secure environment as if though they were running on your computer.
 
-**Note**: SSH access will in the future require multi-factor authentication,
-using Life Science Login for simplicity. To log accesses and match them to the
-correct login account identity (e-mail), we will require that to be specified
-when connecting, for example using `ProxyJump your.email@example.com@dsp.aida.scilifelab.se`.
-When we have that separation on the access gateway, we will also restrict it so
-that users can only access resources from secure environments that they are a
-member of.
+SSH authentication to the *jump host* is done using Life Science Login. This is the default authentication method for the DSP. 
+To log accesses and match them to the correct 
+login account identity (e-mail), we will require that to be specified
+when connecting, as the example configu above shows. The proxy jump line would look something like `ProxyJump your.email@example.com@dsp.aida.scilifelab.se`. 
 
 ### 3. Install software from public repositories that are trusted by the platform.
 
@@ -84,10 +81,12 @@ images are preconfigured to make transparent use of this proxy, as demonstrated
 in this next step.
 
 Here, clone the Jupiter notebook GitHub repo and use apt and pip to install its
-dependencies in a Python virtual environment.
+dependencies in a Python virtual environment. Before we do that, we start a 
+virtual terminal on the remote computer.
 
 ```bash
 ssh jupyter-demo
+tmux # start a virtual terminal. Useful for keeping your work persistant and not kill processes if you loose connection
 git clone https://github.com/eryl/aida-transformers-workshop-code.git
 cd aida-transformers-workshop-code
 sudo apt update
@@ -113,7 +112,9 @@ exploitable data exfiltration method.
 cd ~/Downloads
 wget https://www.robots.ox.ac.uk/~vgg/data/pets/data/annotations.tar.gz
 wget https://www.robots.ox.ac.uk/~vgg/data/pets/data/images.tar.gz
-scp {annotations,images}.tar.gz jupyter-demo:
+rsync --progress {annotations,images}.tar.gz jupyter-demo:
+# In case you don't have rsync locally, you can use scp:
+# scp {annotations,images}.tar.gz jupyter-demo:
 ```
 
 {:start="2"}
@@ -133,8 +134,10 @@ tar xf ~/images.tar.gz
 
 ```bash
 sudo chown -R ubuntu:ubuntu ~/.vnc
-vncserver :1
+tightvncserver -nolisten tcp -localhost :1
 ```
+
+This starts a TightVNC server on the node. We also tell it to only listen to TCP connections, and only those coming from localhost (this means other computers in the same private network can't connect to the VNC server by default). 
 
 {:start="2"}
 2. On your computer, point your VNC client of choice to `localhost:5901` to
