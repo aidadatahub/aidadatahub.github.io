@@ -61,7 +61,7 @@ Wrannesalen, CMIV, Linköping University Hospital
 
 09:00 - 09:30		SciLifeLab/NBIS, Bengt Persson
 
-09:30 - 10:00		NAISS/NSC, Erik Lindahl
+09:30 - 10:00		NAISS, Erik Lindahl
 
 10:00 - 10:30		Fika
 
