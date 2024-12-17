@@ -12,10 +12,10 @@ We provide multiple systems for working with sensitive data:
 Verdi is a cluster for senstive data aimed at users of a wide range of expertise. It's intended use is as a platform with long term storage attached to high capacity compute both for general data science as well as AI development. 
 It consists of three main parts: storage, CPU compute and GPU compute.
 
-The nodes of the cluster is connected by dual 100 Gigabit Ethernet for all nodes.
+The nodes of the cluster is connected by dual 25 Gigabit Ethernet for all nodes.
 
 
-#### Storage module: {#verdi-storage}
+#### Storage: {#verdi-storage}
 
 - 6 Storage nodes, each with:
     - 24 Hard drives, 22 TB capacity each
@@ -30,7 +30,7 @@ The nodes of the cluster is connected by dual 100 Gigabit Ethernet for all nodes
 #### CPU compute: {#verdi-cpu}
 
 - 40 nodes, each with:
-    - 32 CPU cores
+    - 32 CPU cores (2 Intel® Xeon® Gold 6526Y 2.8G)
     - 1 TB RAM 
     - 6.4 TB SSD 
 - Total
@@ -45,7 +45,7 @@ The nodes of the cluster is connected by dual 100 Gigabit Ethernet for all nodes
     - 4 GPUs per node, either:
         - NVIDIA L4 (24 GB per GPU), or
         - NVIDIA L40s (48 GB per GPU)
-    - 32 CPU cores
+    - 32 CPU cores (2 Intel Xeon Gold 5416S 2G)
     - 512 GB RAM
     - 8 TB SSD
 - Total
