@@ -20,11 +20,7 @@ An annual [membership fee](../services#access) provides [base service](#base-ser
 
 <a class="button" href="../services#access">Get Access &raquo;</a>
 
-## Contact
-Our [system design team](../people#economy):
-{% include people-topic-table.md topic='system-design-support' %}
 
-Please contact us for support or more information!
 
 ## Base service
 
@@ -47,6 +43,8 @@ Includes:
   * SD Apply - REMS
   * SD Telerad (optional)
   * SD openEHR (optional)
+
+Usage example: [Spawning GPU Virtual Machine](examples/gpu-sd-iaas-jupyter)
 
 ### Optional services
 
@@ -143,3 +141,9 @@ Open-source web platform for collaborative analysis of very large pathology imag
 
 ## See also
 * [About compute and storage hosting](../about/hosting)
+
+## Contact
+Our [system design team](../people#economy):
+{% include people-topic-table.md topic='system-design-support' %}
+
+Please contact us for support or more information!
