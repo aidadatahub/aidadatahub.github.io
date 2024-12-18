@@ -9,7 +9,7 @@ We provide multiple systems for working with sensitive data:
 
 ### Verdi {#verdi}
 
-Verdi is a cluster for senstive data aimed at users of a wide range of expertise. It's intended use is as a platform with long term storage attached to high capacity compute both for general data science as well as AI development. 
+Verdi is the current incarnation of our Data Science Platform, supporting use of both sensitive and non-sensitive data aimed at users of a wide range of expertise. It's intended to enable long term data retention - allowing data to be accessed and worked with during periods of lower activity and making it easy to do compute at high end e-infrastructure provided by NAISS.
 It consists of three main parts: storage, CPU compute and GPU compute.
 
 The nodes of the cluster is connected by dual 25 Gigabit Ethernet for all nodes.
