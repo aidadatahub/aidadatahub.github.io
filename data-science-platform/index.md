@@ -141,6 +141,7 @@ Open-source web platform for collaborative analysis of very large pathology imag
 
 ## See also
 * [About compute and storage hosting](../about/hosting)
+* [Hardware information](hardware)
 
 ## Contact
 Our [system design team](../people#economy):
