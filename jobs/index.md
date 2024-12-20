@@ -12,7 +12,8 @@ AIDA Data Hub.
 
 ### Open positions
 
-No currently open positions.
+* 2025-01-27 [Koordinator/account manager till forskningsinfrastruktur för datadriven precisionshälsa](2025-01-27-account-manager/)
+
 
 ### Past recruitments
 
