@@ -1,6 +1,6 @@
 ---
 title: Sharing data with 41 countries
-highlight: yes
+highlight: no
 blurb: >
   The AIDA Data Hub has achieved another milestone. Medical imaging and AI
   researchers across [40+ countries](/metrics#countries) are now utilizing
