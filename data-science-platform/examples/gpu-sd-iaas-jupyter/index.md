@@ -55,7 +55,7 @@ Host jupyter-demo
   LocalForward 5901 localhost:5901
 ```
 
-This sets up your computer use the DSP SSH access gateway when making SSH
+This sets up your computer to use the DSP SSH access gateway when making SSH
 connections to your VM. By default, DSP rejects SSH connections that are not
 made through the SSH access gateway.
 
@@ -67,10 +67,11 @@ computer with ports on your VM in the secure environment. They allow you to work
 with Jupyter notebooks, TensorBoard, and VNC remote desktop running on the VM in
 your secure environment as if though they were running on your computer.
 
-SSH authentication to the *jump host* is done using Life Science Login. This is the default authentication method for the DSP. 
-To log accesses and match them to the correct 
-login account identity (e-mail), we will require that to be specified
-when connecting, as the example configu above shows. The proxy jump line would look something like `ProxyJump your.email@example.com@dsp.aida.scilifelab.se`. 
+SSH authentication to the jump host is done using Life Science Login, which is
+the default authentication method for the DSP. To log accesses and match them to
+the correct login account identity, your e-mail address must be provided when
+connecting. The ProxyJump line should
+look something like `ProxyJump your.email@example.com@dsp.aida.scilifelab.se`.
 
 ### 3. Install software from public repositories that are trusted by the platform.
 
@@ -80,13 +81,14 @@ from public repositories that are trusted by AIDA Data Hub. DSP data science
 images are preconfigured to make transparent use of this proxy, as demonstrated
 in this next step.
 
-Here, clone the Jupiter notebook GitHub repo and use apt and pip to install its
-dependencies in a Python virtual environment. Before we do that, we start a 
-virtual terminal on the remote computer.
+Here, we clone the Jupiter notebook GitHub repo and use apt and pip to install
+its dependencies in a Python virtual environment. We do this inside a tmux
+virtual terminal so that work is kept persistent, so that running processes are
+not killed if connection is lost.
 
 ```bash
 ssh jupyter-demo
-tmux # start a virtual terminal. Useful for keeping your work persistant and not kill processes if you loose connection
+tmux
 git clone https://github.com/eryl/aida-transformers-workshop-code.git
 cd aida-transformers-workshop-code
 sudo apt update
@@ -99,7 +101,7 @@ sudo docker pull alpine # just for show, we don't really need Alpine nor Docker 
 
 **Note**:
 The restrictivity of the DSP inspecting http proxy is continually updated, to
-adjust to updates in public repositiories that make them more or less
+adjust to updates in public repositories that make them more or less
 appropriate for secure environments. For example, publicly accessible granular
 download counters are increasingly popular despite constituting a trivially
 exploitable data exfiltration method.
@@ -137,7 +139,9 @@ sudo chown -R ubuntu:ubuntu ~/.vnc
 tightvncserver -nolisten tcp -localhost :1
 ```
 
-This starts a TightVNC server on the node. We also tell it to only listen to TCP connections, and only those coming from localhost (this means other computers in the same private network can't connect to the VNC server by default). 
+This starts a TightVNC server on the node. We also tell it to only listen to TCP
+connections, and only those coming from localhost (this means other computers in
+the same private network can't connect to the VNC server by default).
 
 {:start="2"}
 2. On your computer, point your VNC client of choice to `localhost:5901` to
