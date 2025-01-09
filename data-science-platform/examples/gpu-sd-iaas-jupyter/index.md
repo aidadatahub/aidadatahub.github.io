@@ -81,15 +81,14 @@ from public repositories that are trusted by AIDA Data Hub. DSP data science
 images are preconfigured to make transparent use of this proxy, as demonstrated
 in this next step.
 
-Here, clone the Jupiter notebook GitHub repo and use apt and pip to install its
-dependencies in a Python virtual environment. Here, we choose to do all this in
-a tmux virtual terminal on the remote computer. This is handy, since it allows
-you to reattach to your terminal session later, if you need to close your
-connection while work is still ongoing.
+Here, we clone the Jupiter notebook GitHub repo and use apt and pip to install
+its dependencies in a Python virtual environment. We do this inside a tmux
+virtual terminal so that work is kept persistent, so that running processes are
+not killed if connection is lost.
 
 ```bash
 ssh jupyter-demo
-tmux # start a virtual terminal. Useful for keeping your work persistant and not kill processes if you loose connection
+tmux
 git clone https://github.com/eryl/aida-transformers-workshop-code.git
 cd aida-transformers-workshop-code
 sudo apt update
@@ -102,7 +101,7 @@ sudo docker pull alpine # just for show, we don't really need Alpine nor Docker 
 
 **Note**:
 The restrictivity of the DSP inspecting http proxy is continually updated, to
-adjust to updates in public repositiories that make them more or less
+adjust to updates in public repositories that make them more or less
 appropriate for secure environments. For example, publicly accessible granular
 download counters are increasingly popular despite constituting a trivially
 exploitable data exfiltration method.
