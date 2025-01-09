@@ -55,7 +55,7 @@ Host jupyter-demo
   LocalForward 5901 localhost:5901
 ```
 
-This sets up your computer use the DSP SSH access gateway when making SSH
+This sets up your computer to use the DSP SSH access gateway when making SSH
 connections to your VM. By default, DSP rejects SSH connections that are not
 made through the SSH access gateway.
 
@@ -67,10 +67,11 @@ computer with ports on your VM in the secure environment. They allow you to work
 with Jupyter notebooks, TensorBoard, and VNC remote desktop running on the VM in
 your secure environment as if though they were running on your computer.
 
-SSH authentication to the *jump host* is done using Life Science Login. This is the default authentication method for the DSP. 
-To log accesses and match them to the correct 
-login account identity (e-mail), we will require that to be specified
-when connecting, as the example configu above shows. The proxy jump line would look something like `ProxyJump your.email@example.com@dsp.aida.scilifelab.se`. 
+SSH authentication to the jump host is done using Life Science Login, which is
+the default authentication method for the DSP. To log accesses and match them to
+the correct login account identity, your e-mail address must be provided when
+connecting. The ProxyJump line should
+look something like `ProxyJump your.email@example.com@dsp.aida.scilifelab.se`.
 
 ### 3. Install software from public repositories that are trusted by the platform.
 
@@ -81,8 +82,10 @@ images are preconfigured to make transparent use of this proxy, as demonstrated
 in this next step.
 
 Here, clone the Jupiter notebook GitHub repo and use apt and pip to install its
-dependencies in a Python virtual environment. Before we do that, we start a 
-virtual terminal on the remote computer.
+dependencies in a Python virtual environment. Here, we choose to do all this in
+a tmux virtual terminal on the remote computer. This is handy, since it allows
+you to reattach to your terminal session later, if you need to close your
+connection while work is still ongoing.
 
 ```bash
 ssh jupyter-demo
@@ -137,7 +140,9 @@ sudo chown -R ubuntu:ubuntu ~/.vnc
 tightvncserver -nolisten tcp -localhost :1
 ```
 
-This starts a TightVNC server on the node. We also tell it to only listen to TCP connections, and only those coming from localhost (this means other computers in the same private network can't connect to the VNC server by default). 
+This starts a TightVNC server on the node. We also tell it to only listen to TCP
+connections, and only those coming from localhost (this means other computers in
+the same private network can't connect to the VNC server by default).
 
 {:start="2"}
 2. On your computer, point your VNC client of choice to `localhost:5901` to
