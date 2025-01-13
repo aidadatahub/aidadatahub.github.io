@@ -69,4 +69,6 @@ Wrannesalen, CMIV, Linköping University Hospital
 
 11:00 - 12:00		Infrastructure keynote, Peter Løngreen
 
-12:00 - 13:00   Lunch
+12:00 - 12:30   EUCAIM, Katrine Riklund
+
+12:30 - 13:30   Lunch
