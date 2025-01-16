@@ -33,6 +33,8 @@ March 19-20, 2025, Lunch-to-lunch
 ### Location:
 Wrannesalen, CMIV, Linköping University Hospital
 
+### [Please register here for online participation.](https://forms.office.com/e/cXmJt5xBb0)
+
 ## Program
 
 ### Day 1:
