@@ -137,6 +137,8 @@ other:
 ---
 ## Kernels
 
+Code examples for how to load and visualize the LUND-PROBE data can be found at [https://github.com/jamtheim/LUND-PROBE](https://github.com/jamtheim/LUND-PROBE). Feel free to modify the examples to suit your specific use case.
+
 ## File formats
 NIfTI
 
