@@ -4,7 +4,7 @@ datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
   "@id": "https://doi.org/10.23698/aida/lund-probe"
-  name: "LUND prostate radiotherapy open benchmarking and evaluation dataset"
+  name: "LUND-PROBE – LUND Prostate Radiotherapy Open Benchmarking and Evaluation dataset"
   about: "Radiology"
   url: "https://datahub.aida.scilifelab.se/10.23698/aida/lund-probe"
   author:
@@ -123,22 +123,22 @@ other:
   - "3T Architect, GE Healthcare"
   stain:
   phase:
-  image: #"/assets/images/10.23698/aida/lund-probe/image3-thumbnail.png"
+  image: "/assets/images/10.23698/aida/lund-probe/MRI+Struct-thumbnail.png"
   exampleImage:
-  - title: #"Pelvic transversal MEGRE image displaying an example of the first echo."
-    url: #"/assets/images/10.23698/aida/lund-probe/image1.jpg"
-    thumbnail-url: #"/assets/images/10.23698/aida/lund-probe/image1-thumbnail.png"
-  - title: #"MEGRE images obtained using eight echo times, from 2.38 to 23.6 ms, for two different patients."
-    url: #"/assets/images/10.23698/aida/lund-probe/image2.png"
-    thumbnail-url: #"/assets/images/10.23698/aida/lund-probe/image2-thumbnail.png"
-  - title: #"The 3D binary mask viewed as an image segmentation overlaid on the MEGRE images, seen in orthogonal views for echo 1."
-    url: #"/assets/images/10.23698/aida/lund-probe/image3.png"
-    thumbnail-url: #"/assets/images/10.23698/aida/lund-probe/image3-thumbnail.png"
+  - title: "MRI volume with radiotherapy structures overlayed."
+    url: "/assets/images/10.23698/aida/lund-probe/MRI+Struct.png"
+    thumbnail-url: "/assets/images/10.23698/aida/lund-probe/MRI+Struct-thumbnail.png"
+  - title: "Synthetic CT (sCT) with radiotherapy structures and planned dose distribution overlayed."
+    url: "/assets/images/10.23698/aida/lund-probe/sCT+struct+Dose+colorwash.png"
+    thumbnail-url: "/assets/images/10.23698/aida/lund-probe/sCT+struct+Dose+colorwash-thumbnail.png"
+  - title: "Left: T2w MRI with prostate delineation. Middle: Four oncologist individual prostate delineations on T2w MRI zoomed in, visualized in separate colors. Right: Deep Learning segmentation uncertainty map visualized in color."
+    url: "/assets/images/10.23698/aida/lund-probe/uncPlot.png"
+    thumbnail-url: "/assets/images/10.23698/aida/lund-probe/uncPlot-thumbnail.png"
 ---
 ## Kernels
 
 ## File formats
-IfTI
+NIfTI
 
 ## License
 ### Controlled access
