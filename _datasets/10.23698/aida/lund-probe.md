@@ -114,11 +114,11 @@ other:
     sctid: 41216001 # SNOMED-CT 
   age-span:
   bytes: 176562700206
-  numberOfScans: "467 Subjects"
+  numberOfScans: 467
   numberOfAnnotations: 8873
   resolution: "0.6x0.7 to 0.8x0.9 mm in plane. 2.5 mm slice thickness."
   modality:
-  - "MR and synthetic CT"
+  - "MR"
   scanner:
   - "3T Architect, GE Healthcare"
   stain:
