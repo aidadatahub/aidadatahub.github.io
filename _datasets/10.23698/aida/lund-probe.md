@@ -5,7 +5,7 @@ datacite:
   "@type": "Dataset"
   "@id": "https://doi.org/10.23698/aida/lund-probe"
   name: "LUND-PROBE – LUND Prostate Radiotherapy Open Benchmarking and Evaluation dataset"
-  about: "Radiology"
+  about: "Radiology/Radiotherapy"
   url: "https://datahub.aida.scilifelab.se/10.23698/aida/lund-probe"
   author:
   - name: "Viktor Rogowski"
@@ -87,7 +87,7 @@ datacite:
   keywords: "MRI, Synthetic CT, OAR, Radiotherapy, Inter-observer, Target, Radiation therapy, MRI only, Delineation uncertainty, Deep learning, Annotated"
   version: "1.0.0"
   description: |
-    Radiotherapy treatment for prostate cancer relies on computed tomography (CT) and magnetic resonance imaging (MRI) for delineation of radiation targets and organs at risk (OARs). Manual delineation of these volumes is regarded as the gold standard for ground truth in machine learning applications but to acquire such data is tedious and time-consuming. A publicly available clinical dataset is introduced comprising MRI images, synthetic CT (sCT) images, target and OARs delineations, and radiotherapy dose distributions for 432 prostate cancer patients treated with an MRI-only radiotherapy workflow. An extended dataset with 35 patients is also included, containing the data mentioned above together with deep learning (DL)-generated delineations, DL uncertainty maps, and DL structures manually edited by four radiation oncologists. The publication of these resources aims to aid research within the fields of automated radiotherapy planning and structure delineation, inter-observer analyses, and DL uncertainty investigation.
+    Radiotherapy treatment for prostate cancer relies on computed tomography (CT) and/or magnetic resonance imaging (MRI) for delineation of radiation targets and organs at risk (OARs). Manual delineation of these volumes is regarded as the gold standard for ground truth in machine learning applications but to acquire such data is tedious and time-consuming. A publicly available clinical dataset is introduced comprising MRI images, synthetic CT (sCT) images, target and OARs delineations, and radiotherapy dose distributions for 432 prostate cancer patients treated with an MRI-only radiotherapy workflow. An extended dataset with 35 patients is also included, containing the data mentioned above together with deep learning (DL)-generated delineations, DL uncertainty maps, and DL structures manually edited by four radiation oncologists. The publication of these resources aims to aid research within the fields of automated radiotherapy planning and structure delineation, inter-observer analyses, and DL uncertainty investigation.
   license:
   - name: "Controlled access"
     id: "https://datahub.aida.scilifelab.se/10.23698/aida/lund-probe#controlled-access"
@@ -106,7 +106,7 @@ other:
   origin: "Clinical"
   status: "Completed"
   annotation: |
-    All structures delineated from clinical radiotherapy of prostate cancer patients.
+    Structures delineated from clinical radiotherapy of prostate cancer patients.
   countries-shared: 
   - "SE"
   organ:
@@ -114,11 +114,11 @@ other:
     sctid: 41216001 # SNOMED-CT 
   age-span:
   bytes: 176562700206
-  numberOfScans: 467
+  numberOfScans: "467 Subjects"
   numberOfAnnotations: 8873
   resolution: "0.6x0.7 to 0.8x0.9 mm in plane. 2.5 mm slice thickness."
   modality:
-  - "MR"
+  - "MR and synthetic CT"
   scanner:
   - "3T Architect, GE Healthcare"
   stain:
