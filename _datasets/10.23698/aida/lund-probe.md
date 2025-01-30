@@ -84,7 +84,7 @@ datacite:
   dateCreated: "2025-01-13"
   datePublished: "2025-01-15"
   dateModified: "2025-01-15"
-  keywords: "MRI, Synthetic CT, OAR, Radiotherapy, Inter-observer, Target, Radiation therapy, MRI only, Delineation uncertainty, Deep learning, Annotated"
+  keywords: "MRI, Synthetic CT, OAR, Radiology, Radiotherapy, Inter-observer, Target, Radiation therapy, MRI only, Delineation uncertainty, Deep learning, Annotated"
   version: "1.0.0"
   description: |
     Radiotherapy treatment for prostate cancer relies on computed tomography (CT) and/or magnetic resonance imaging (MRI) for delineation of radiation targets and organs at risk (OARs). Manual delineation of these volumes is regarded as the gold standard for ground truth in machine learning applications but to acquire such data is tedious and time-consuming. A publicly available clinical dataset is introduced comprising MRI images, synthetic CT (sCT) images, target and OARs delineations, and radiotherapy dose distributions for 432 prostate cancer patients treated with an MRI-only radiotherapy workflow. An extended dataset with 35 patients is also included, containing the data mentioned above together with deep learning (DL)-generated delineations, DL uncertainty maps, and DL structures manually edited by four radiation oncologists. The publication of these resources aims to aid research within the fields of automated radiotherapy planning and structure delineation, inter-observer analyses, and DL uncertainty investigation.
@@ -112,6 +112,15 @@ other:
   organ:
   - name: "Prostate"
     sctid: 41216001 # SNOMED-CT 
+  - name: "Bladder"
+  - name: "Body"
+  - name: "CTV"
+  - name: "PTV"
+  - name: "Femoral Heads"
+  - name: "Genitalia"
+  - name: "Fiducials"
+  - name: "Penile Bulb"
+  - name: "Rectum"
   age-span:
   bytes: 176562700206
   numberOfScans: 467
@@ -119,8 +128,9 @@ other:
   resolution: "0.6x0.7 to 0.8x0.9 mm in plane. 2.5 mm slice thickness."
   modality:
   - "MR"
+  - "Synthetic CT"
   scanner:
-  - "3T Architect, GE Healthcare"
+  - "3T Architect, GE Healthcare, Spectronic"
   stain:
   phase:
   image: "/assets/images/10.23698/aida/lund-probe/MRI+Struct-thumbnail.png"
