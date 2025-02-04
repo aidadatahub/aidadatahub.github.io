@@ -44,7 +44,7 @@ e-mail must be verified which may take some time).
 Once logged in, you would normally be passed back to the service that requested
 authentication. But as the DSP is designed to support working with sensitive
 data, you will also be required to use multi-factor authentication (somewhat
-simpliefied that means just knowing a password should not be enough, typically
+simplified that means just knowing a password should not be enough, typically
 something more such as having a physical object should be required).
 
 With Life Science Login, this means you will be asked to provide a second
@@ -56,8 +56,8 @@ If Life Science Login needs to do multifactor authentication by itself, you will
 be sent to the [Life Science Login MFA site](https://mfa.aai.lifescience-ri.eu/).
 
 For clarity; there's nothing wrong with using a hardware token (e.g. USB key) or
-other solution, but since the TOTP support is the common denominator, that's
-shown here.
+other solution, but since the Time-based One-Time Password (TOTP) support is the
+common denominator, that's shown here.
 
 ![Life Science Login MFA login](ls-login-mfa-login-screen.png).
 
@@ -95,7 +95,7 @@ device).
 
 ![MFA app check](ls-login-mfa-enroll-totp-app.png)
 
-Once you have confirmed you hae an app, it will show you a QR code for easy
+Once you have confirmed you have an app, it will show you a QR code for easy
 addition of the second factor. If you are using a phone, you should be able to
 scan that and hopefully have the account added automatically.
 
