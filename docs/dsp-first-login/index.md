@@ -55,6 +55,10 @@ organisation, but we have not seen this active.
 If Life Science Login needs to do multifactor authentication by itself, you will
 be sent to the [Life Science Login MFA site](https://mfa.aai.lifescience-ri.eu/).
 
+For clarity; there's nothing wrong with using a hardware token (e.g. USB key) or
+other solution, but since the TOTP support is the common denominator, that's
+shown here.
+
 ![Life Science Login MFA login](ls-login-mfa-login-screen.png).
 
 Since Life Science Login tries to be useful, it supports using modern standards
