@@ -19,6 +19,9 @@ AIDA Data Hub Policy documents:
 * [AIDA Data Hub Strategy](../policy/strategy)
 * [AIDA Data Hub Metapolicy](../policy/metapolicy)
 
+Data Science Platform:
+* [AIDA Data Hub Data Science Platform Privacy Policy](dsp-privacy-policy.md)
+
 See also:
 * [Support](../support)
 * [About AIDA](/about/aida)
