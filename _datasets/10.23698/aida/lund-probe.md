@@ -1,5 +1,4 @@
 ---
-hidden: yes
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
@@ -99,7 +98,7 @@ datacite:
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution."
   citation:
-  - "@type": "Article"
+  - "@type": "CreativeWork"
     "@id": "https://arxiv.org/abs/2502.04493v1"
     "name": "Rogowski, V. et al. LUND-PROBE -- LUND Prostate Radiotherapy Open Benchmarking and Evaluation dataset. arXiv:2502.04493v."
 other:
