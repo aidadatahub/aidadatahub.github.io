@@ -55,7 +55,7 @@ Usage example: [Spawning GPU Virtual Machine](examples/gpu-sd-iaas-jupyter)
 | Cost:     | Included in base service. |  
 | Status:   | Planned.                  |
 
-Receive DICOM images via telerad from specified scanners.
+Access to secure remote desktop.
 
 #### SD Telerad
 
