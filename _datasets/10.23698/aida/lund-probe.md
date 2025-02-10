@@ -99,8 +99,9 @@ datacite:
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution."
   citation:
-#  - "@type": "Article"
-#    "@id": "https://doi.org/10.1088/1361-6560/abb0f9"
+  - "@type": "Article"
+    "@id": "https://arxiv.org/abs/2502.04493v1"
+    "name": "Rogowski, V. et al. LUND-PROBE -- LUND Prostate Radiotherapy Open Benchmarking and Evaluation dataset. arXiv:2502.04493v."
 other:
   shortName: "LUND-PROBE"
   origin: "Clinical"
