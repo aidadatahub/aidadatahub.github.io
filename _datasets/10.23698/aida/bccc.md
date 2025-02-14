@@ -83,6 +83,7 @@ other:
   - "DZ"
   - "FR"
   - "IR"
+  - "IN"
   - "JO"
   - "NL"
   - "PK"
