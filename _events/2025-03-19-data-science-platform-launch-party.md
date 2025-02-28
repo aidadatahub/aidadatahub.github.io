@@ -51,7 +51,7 @@ Wrannesalen, CMIV, Linköping University Hospital
 
 15:00 - 16:00		Scientific keynote medical imaging AI, Carolina Wählby
 
-16:00 - 16:30		AIDA, Claes Lundström
+16:00 - 16:30		AIDA, Claes Lundström and Caroline Bivik Stadler
 
 16:30 - 17:00		AIDA Data Hub, Joel Hedlund
 
