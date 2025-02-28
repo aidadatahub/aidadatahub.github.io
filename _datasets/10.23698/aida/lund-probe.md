@@ -3,7 +3,7 @@ datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
   "@id": "https://doi.org/10.23698/aida/lund-probe"
-  name: "LUND-PROBE – LUND Prostate Radiotherapy Open Benchmarking and Evaluation dataset"
+  name: "LUND-PROBE - LUND Prostate Radiotherapy Open Benchmarking and Evaluation dataset"
   about: "Radiology/Radiotherapy"
   url: "https://datahub.aida.scilifelab.se/10.23698/aida/lund-probe"
   author:
