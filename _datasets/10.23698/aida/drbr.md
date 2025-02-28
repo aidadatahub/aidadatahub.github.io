@@ -86,6 +86,7 @@ other:
     responsible for the manual annotations controlled by a second pathologist.
   countries-shared:
   - "AT"
+  - "CA"
   - "CN"
   - "DE"
   - "FI"
