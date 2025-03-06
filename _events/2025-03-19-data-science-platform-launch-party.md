@@ -67,10 +67,10 @@ Wrannesalen, CMIV, Linköping University Hospital
 
 10:00 - 10:30		Fika
 
-10:30 - 11:00		User presentation, Maria Lerm
+10:30 - 10:45   EUCAIM, Katrine Riklund
 
-11:00 - 12:00		Infrastructure keynote, Peter Løngreen
+10:45 - 11:15   User presentation, Maria Lerm
 
-12:00 - 12:30   EUCAIM, Katrine Riklund
+11:15 - 12:15   Infrastructure keynote, CSC, Tommi Nyrönen
 
-12:30 - 13:30   Lunch
+12:15 - 12:30   Conclusions, Joel Hedlund
