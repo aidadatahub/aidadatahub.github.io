@@ -21,56 +21,38 @@ blurb: >
 <strong>{{ page.title }}</strong>  
 {{ page.blurb }}
 
-
-
 To celebrate the successful establishment of our Data Science Platform we are arranging a two-day conference on Mar 19-20 2025 at [CMIV](https://liu.se/en/research/center-for-medical-image-science-and-visualization-cmiv) with national and international speakers and a launch celebration dinner.
-  
-Registation will open in Jan 2025. Please bookmark this page as it will be updated with more information as we draw closer to the event.
 
-### Date: 
-March 19-20, 2025, Lunch-to-lunch
 
-### Location:
-Wrannesalen, CMIV, Linköping University Hospital
-
-### [Please register here for online participation.](https://forms.office.com/e/cXmJt5xBb0)
+{: .tight-table }
+| **Date** | March 19-20, 2025, Lunch-to-lunch. |
+| **Location** | [Wrannesalen, CMIV, Linköping University Hospital](/about/#visiting-address) and online.|
+| **Registration** |[Register here](https://forms.office.com/e/cXmJt5xBb0) for online participation.|
 
 ## Program
 
-### Day 1:
+### Day 1
 
-12:00 - 13:00   Lunch
+{: .program .tight-table }
+|12:00&ndash;13:00| _Lunch at [Östgöta kök](https://linkoping.ostgotakok.se/), [Artillerigatan 15](https://maps.app.goo.gl/jfCXcfPL5YQTngwYA)_|
+|13:00&ndash;13:10|	**Welcome to the Launch of the AIDA Data Hub Data Science Platform** <br/> Joel Hedlund, AIDA Data Hub dir|
+|13:10&ndash;13:30|	**Center for Medical Image Science and Visualization (CMIV)** <br/> Anders Persson, CMIV dir|
+|13:30&ndash;14:00|	**Sharing the Swedish CArdio-pulmonary bioImaging Study Image Data for Research** <br/> Göran Bergström, SCAPIS dir|
+|14:30&ndash;15.00|	_Fika at CMIV_ |
+|15:00&ndash;16:00|	**Medical imaging AI**, Scientific keynote <br/> Carolina Wählby, Uppsala University|
+|16:00&ndash;16:30|	**Analytical Imaging Diagnostic Arena (AIDA) Bringing AI Into the Clinic** <br/> Claes Lundström, AIDA Scientific dir & Caroline Bivik Stadler, AIDA dir |
+|16:30&ndash;17:00|	**A Data Science Platform for Data Driven Precision Health** <br/> Joel Hedlund, AIDA Data Hub dir|
+|17:00&ndash;19:00|	_Break_ |
+|19:00&ndash;22:00| _Dinner at [Stångs Magasin](https://stangsmagasin.se/), [Södra Stånggatan 1](https://maps.app.goo.gl/iLfGBJB6AMdfQsSu7)_ <br/> 25min walk, or slightly shorter [by bus](https://maps.app.goo.gl/ZQossuDLfSAAVSEM7). |
 
-13:00 - 13:10		Welcome to AIDA Data Hub, Joel Hedlund
+### Day 2
 
-13:10 - 13:30		CMIV, Anders Persson
-
-13:30 - 14:00 		Data sharing and storage, SCAPIS, Göran Bergström
-
-14:30 - 15.00		Fika
-
-15:00 - 16:00		Scientific keynote medical imaging AI, Carolina Wählby
-
-16:00 - 16:30		AIDA, Claes Lundström and Caroline Bivik Stadler
-
-16:30 - 17:00		AIDA Data Hub, Joel Hedlund
-
-### Dinner:
-
-19:00 - 22:00  Stångs Magasin, Linköping  
-
-### Day 2:
-
-09:00 - 09:30		SciLifeLab/NBIS, Bengt Persson
-
-09:30 - 10:00		NAISS, Erik Lindahl
-
-10:00 - 10:30		Fika
-
-10:30 - 10:45   EUCAIM, Katrine Riklund
-
-10:45 - 11:15   User presentation, Maria Lerm
-
-11:15 - 12:15   Infrastructure keynote, CSC, Tommi Nyrönen
-
-12:15 - 12:30   Conclusions, Joel Hedlund
+{: .program .tight-table }
+|09:00&ndash;09:30|	**SciLifeLab/NBIS and Services for Sensitive Data** <br/> Bengt Persson, NBIS dir|
+|09:30&ndash;10:00|	**NAISS, Life Science, and AI Factories** <br/> Erik Lindahl, NAISS dir|
+|10:00&ndash;10:30| _Fika at CMIV_ |
+|10:30&ndash;10:45| **European Cancer Image Federation (EUCAIM)** <br/> Katrine Riklund, Umeå University|
+|10:45&ndash;11:15| **PULMO AI-Driven Epigenetic Integrated Diagnostics Support in Long Covid** <br/> Maria Lerm, Linköping University|
+|11:15&ndash;12:15| **Infrastructure Services for a Data Driven Nation**, Infrastructure keynote <br/> Tommi Nyrönen, CSC|
+|12:15&ndash;12:30| **Concluding remarks** <br/> Joel Hedlund, AIDA Data Hub dir|
+|12:30&ndash;13:30| _Lunch at [Östgöta kök](https://linkoping.ostgotakok.se/), [Artillerigatan 15](https://maps.app.goo.gl/jfCXcfPL5YQTngwYA)_|
