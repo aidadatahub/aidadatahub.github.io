@@ -128,7 +128,7 @@ other:
 ---
 ## File formats
 DICOM. Please see our help pages for some examples of
-[working with DICOM](/about/help/#working-with-dicom).
+[working with DICOM](/docs/#working-with-dicom).
 
 ### Importing binary masks to numpy
 The dataset contains a DICOM SEG file, which can be converted to an ITK image file (mha, nifti, etc) by using [dcmqi](https://github.com/QIICR/dcmqi) and the command line tool [segimage2itkimage](https://qiicr.gitbook.io/dcmqi-guide/opening/cmd_tools/seg/segimage2itkimage), which is straightforward to read into a numpy array.

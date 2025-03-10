@@ -113,7 +113,7 @@ other:
 ---
 ## File formats
 DICOM. Please see our help pages for some examples of
-[working with DICOM](/about/help/#working-with-dicom).
+[working with DICOM](/docs/#working-with-dicom).
 
 ## License
 ### Controlled access
