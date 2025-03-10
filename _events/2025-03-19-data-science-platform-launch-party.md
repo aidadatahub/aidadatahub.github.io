@@ -39,7 +39,7 @@ To celebrate the successful establishment of our Data Science Platform we are ar
 |13:10&ndash;13:30|	**Center for Medical Image Science and Visualization (CMIV)** <br/> Anders Persson, CMIV dir|
 |13:30&ndash;14:00|	**Sharing the Swedish CArdio-pulmonary bioImaging Study Image Data for Research** <br/> Göran Bergström, SCAPIS dir|
 |14:30&ndash;15.00|	_Fika at CMIV_ |
-|15:00&ndash;16:00|	**Medical imaging AI**, Scientific keynote <br/> Carolina Wählby, Uppsala University|
+|15:00&ndash;16:00|	**Functional Pathology - Exploring Tissue with Omics and AI** <br/> Carolina Wählby, Uppsala University, Scientific keynote|
 |16:00&ndash;16:30|	**Analytical Imaging Diagnostic Arena (AIDA) Bringing AI Into the Clinic** <br/> Claes Lundström, AIDA Scientific dir & Caroline Bivik Stadler, AIDA dir |
 |16:30&ndash;17:00|	**A Data Science Platform for Data Driven Precision Health** <br/> Joel Hedlund, AIDA Data Hub dir|
 |17:00&ndash;19:00|	_Break_ |
@@ -53,6 +53,6 @@ To celebrate the successful establishment of our Data Science Platform we are ar
 |10:00&ndash;10:30| _Fika at CMIV_ |
 |10:30&ndash;10:45| **European Cancer Image Federation (EUCAIM)** <br/> Katrine Riklund, Umeå University|
 |10:45&ndash;11:15| **PULMO AI-Driven Epigenetic Integrated Diagnostics Support in Long Covid** <br/> Maria Lerm, Linköping University|
-|11:15&ndash;12:15| **Infrastructure Services for a Data Driven Nation**, Infrastructure keynote <br/> Tommi Nyrönen, CSC|
+|11:15&ndash;12:15| **Infrastructure Services for a Data Driven Nation** <br/> Tommi Nyrönen, CSC, Infrastructure keynote |
 |12:15&ndash;12:30| **Concluding remarks** <br/> Joel Hedlund, AIDA Data Hub dir|
 |12:30&ndash;13:30| _Lunch at [Östgöta kök](https://linkoping.ostgotakok.se/), [Artillerigatan 15](https://maps.app.goo.gl/jfCXcfPL5YQTngwYA)_|
