@@ -434,3 +434,16 @@ table.aida-data-sharing-overview td:first-child::before {
 .personSub{
   padding: 25px;
 }
+
+// - Programs -------------------------------------------------------------
+
+.program td {
+  vertical-align: top;
+}
+.program td:first-child {
+  vertical-align: top;
+  white-space: nowrap;
+}
+.program tr td {
+  padding-bottom: 0.7ex;
+}
