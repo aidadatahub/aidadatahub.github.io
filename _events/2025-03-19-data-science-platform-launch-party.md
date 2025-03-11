@@ -52,7 +52,7 @@ To celebrate the successful establishment of our Data Science Platform we are ar
 |09:30&ndash;10:00|	**NAISS, Life Science, and AI Factories** <br/> Erik Lindahl, NAISS dir|
 |10:00&ndash;10:30| _Fika at CMIV_ |
 |10:30&ndash;10:45| **European Cancer Image Federation (EUCAIM)** <br/> Katrine Riklund, Umeå University|
-|10:45&ndash;11:15| **PULMO AI-Driven Epigenetic Integrated Diagnostics Support in Long Covid** <br/> Maria Lerm, Linköping University|
+|10:45&ndash;11:15| **Using real-world clinical data and epigenomics to build XAI-based disease classifiers** <br/> Maria Lerm & Mika Gustafsson, Linköping University|
 |11:15&ndash;12:15| **Infrastructure Services for a Data Driven Nation** <br/> Tommi Nyrönen, CSC, Infrastructure keynote |
 |12:15&ndash;12:30| **Concluding remarks** <br/> Joel Hedlund, AIDA Data Hub dir|
 |12:30&ndash;13:30| _Lunch at [Östgöta kök](https://linkoping.ostgotakok.se/), [Artillerigatan 15](https://maps.app.goo.gl/jfCXcfPL5YQTngwYA)_|
