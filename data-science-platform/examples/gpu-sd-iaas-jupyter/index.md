@@ -95,6 +95,7 @@ sudo apt update
 sudo apt install python3-venv
 python3 -m venv .venv
 source .venv/bin/activate
+export REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt # Trust DSP CA
 pip install -r requirements.txt
 sudo docker pull alpine # just for show, we don't really need Alpine nor Docker for this :)
 ```
