@@ -107,11 +107,11 @@ other:
   status: "Completed"
   annotation: |
     Structures delineated from clinical radiotherapy of prostate cancer patients.
-  countries-shared: 
+  countries-shared:
   - "SE"
   organ:
   - name: "Prostate"
-    sctid: 41216001 # SNOMED-CT 
+    sctid: 41216001 # SNOMED-CT
   - name: "Bladder"
   - name: "Body"
   - name: "CTV"
@@ -157,7 +157,7 @@ NIfTI
 Free for use in legal and ethical medical diagnostics research.
 Please contact the dataset provider for terms of access.
 
-{% include access-request-blurb.md coauthorship="yes" %}
+{% include access-request-blurb.md coauthorship="no" %}
 
 ### AIDA BY license
 Copyright
