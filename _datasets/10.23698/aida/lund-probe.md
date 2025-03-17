@@ -157,7 +157,7 @@ NIfTI
 Free for use in legal and ethical medical diagnostics research.
 Please contact the dataset provider for terms of access.
 
-{% include access-request-blurb.md coauthorship="no" %}
+{% include access-request-blurb.md coauthorship=false %}
 
 ### AIDA BY license
 Copyright
