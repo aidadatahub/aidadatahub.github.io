@@ -49,7 +49,7 @@ To celebrate the successful establishment of our Data Science Platform we are ar
 
 {: .program .tight-table }
 |09:00&ndash;09:30|	**SciLifeLab/NBIS and Services for Sensitive Data** <br/> Bengt Persson, NBIS dir|
-|09:30&ndash;10:00|	**NAISS, Life Science, and AI Factories** <br/> Erik Lindahl, NAISS dir|
+|09:30&ndash;10:00|	**NAISS, Life Science, and AI Factories** <br/> Matts Karlsson, LiU|
 |10:00&ndash;10:30| _Fika at CMIV_ |
 |10:30&ndash;10:45| **European Cancer Image Federation (EUCAIM)** <br/> Katrine Riklund, Umeå University|
 |10:45&ndash;11:15| **Using real-world clinical data and epigenomics to build XAI-based disease classifiers** <br/> Maria Lerm & Mika Gustafsson, Linköping University|
