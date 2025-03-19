@@ -38,7 +38,8 @@ To celebrate the successful establishment of our Data Science Platform we are ar
 |13:00&ndash;13:10|	**Welcome to the Launch of the AIDA Data Hub Data Science Platform** <br/> Joel Hedlund, AIDA Data Hub dir|
 |13:10&ndash;13:30|	**Center for Medical Image Science and Visualization (CMIV)** <br/> Anders Persson, CMIV dir|
 |13:30&ndash;14:00|	**Sharing the Swedish CArdio-pulmonary bioImaging Study Image Data for Research** <br/> Göran Bergström, SCAPIS dir|
-|14:30&ndash;15.00|	_Fika at CMIV_ |
+|14:00&ndash;14:30|	_Round tour at CMIV_ |
+|14:30&ndash;15:00|	_Fika at CMIV_ |
 |15:00&ndash;16:00|	**Functional Pathology - Exploring Tissue with Omics and AI** <br/> Carolina Wählby, Uppsala University, Scientific keynote|
 |16:00&ndash;16:30|	**Analytical Imaging Diagnostic Arena (AIDA) Bringing AI Into the Clinic** <br/> Claes Lundström, AIDA Scientific dir & Caroline Bivik Stadler, AIDA dir |
 |16:30&ndash;17:00|	**A Data Science Platform for Data Driven Precision Health** <br/> Joel Hedlund, AIDA Data Hub dir|
