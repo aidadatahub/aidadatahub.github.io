@@ -22,8 +22,6 @@ Please contact the following for enquiries and access:
 Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400kSEK, deadlines may vary).
 
 ### Prices
-Our service portfolio and pricing are under development.
-
 Our pricing strategy is to set prices that enable sustainable operations and
 development and do not disrupt the market, but to offer discounts whenever
 possible, in order to maximize high-impact research and to incentivize data
@@ -39,13 +37,13 @@ Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovati
 }
 </style>
 
-| Service                     | Tentative Price       |
+| Service                     | Price       |
 |-----------------------------|-----------------------|
 | [Data Science Platform](../data-science-platform/#base-service)             | 50kSEK/yr          |
 | + [Large volume storage](../data-science-platform/#sd-large-storage)        | +1.5 kSEK/TB/yr    |
 | + [Backed up primary storage](../data-science-platform/#sd-primary-storage) | +2.5 kSEK/TB/yr    |
-| + GPU compute               | +80 kSEK/GPU/yr       | <!--FIXME: Maybe we should rephrase (GPU/CPU) in terms of flavors?-->
-| + Large scale CPU compute   | +24 kSEK/CPU/yr       | <!--FIXME: "/CPU" may not be the best unit? -->
+| + GPU compute               | +80 kSEK/GPU/yr       |
+| + Large scale CPU compute   | +24 kSEK/CPU/yr       | 
 | + Sectra PACS               | TBD                   |
 | [Share prioritized data](../services/data-sharing/) | *discount*     
 | [Extract and enrich](../services/extract-enrich/)   | *subsidies*  

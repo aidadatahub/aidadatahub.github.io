@@ -86,8 +86,6 @@ Receive openEHR data from specified sources.
 
 Larger storage (no backup) than what is included in Basic service.
 
-<!--FIXME Description of storage goes here, if any -->
-
 ### SD Primary storage
 
 {:class="tight-table"}
@@ -96,8 +94,6 @@ Larger storage (no backup) than what is included in Basic service.
 | Status:   | Planned.              |
 
 Storage with backups, guarding against disaster and (some) user error.
-
-<!--FIXME Description of backup goes here; what types of failure is guarded against? -->
 
 ### SD Infrastructure as a service
 
