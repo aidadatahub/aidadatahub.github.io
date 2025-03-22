@@ -3,16 +3,16 @@ title: AIDA Data Hub Data Science Platform Launch Party
 end: 2025-03-20
 highlight: yes
 reporting:
-  type:         # "course", or "workshop" (aka: Conferences, symposia, seminars and workshops)
-  unit: AIDA Data Hub # 1. Name of reporting unit* (choose from drop-down menu)
-  email:        # 2. Your e-mail address* 	
-  title:        # 3. Full name of the course/activity*
-  co-organizer: # 4a. Did the reporting unit organize or co-organize the course?* : "The reporting unit was a co-organizer", or "The reporting unit was the main organizer". 	
+  type: "workshop" # "course", or "workshop" (aka: Conferences, symposia, seminars and workshops)
+  unit: "AIDA Data Hub" # 1. Name of reporting unit* (choose from drop-down menu)
+  email: "joel.hedlund@liu.se" # 2. Your e-mail address* 	
+  title: "AIDA Data Hub Data Science Platform Launch Party" # 3. Full name of the course/activity*
+  co-organizer: "The reporting unit was the main organizer" # 4a. Did the reporting unit organize or co-organize the course?* : "The reporting unit was a co-organizer", or "The reporting unit was the main organizer". 	
   with-whom:    # 4b. If co-organized, with whom?
   start-date:   2025-03-19
   end-date:     2025-03-20 	
   location:     CMIV, Linköping
-  participants: # 8. Nr of participants*
+  participants: 80 # 8. Nr of participants*
   comments:     # 9. Additional comments
 blurb: >
   AIDA Data Hub is proud to announce the launch of our [Data Science Platform](https://datahub.aida.scilifelab.se/data-science-platform/) which offers a home for your research in Data Driven Precision Health co-located with national and European high-performance compute systems for sensitive data. Our customers include researchers, industry, caregivers and user communities of national significance.

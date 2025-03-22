@@ -1,5 +1,6 @@
 <ul id="{{ include.id }}" style="padding-left: 0px;">
 {% for event in include.events %}
+ {% if include.highlights %}{% unless event.highlight %}{% continue %}{% endunless %}{% endif %}
  <li style="display: none; padding-bottom: 1ex;" date="{{ event.date }}" end="{{ event.end | default: event.date }}"><span class="small">{{ event.date | date: "%Y-%m-%d" }}{% if event.end %} - {{ event.end }}{% endif %}</span> <br/> <strong><a href="{{ event.url }}">{{ event.title }}</a></strong> <br/> {{ event.blurb | markdownify | replace: '<p>', '' | replace: '</p>', ''}}</li>
 {% endfor %}
 </ul>
