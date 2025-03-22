@@ -30,19 +30,12 @@ An annual [membership fee](../services#access) provides [base service](#base-ser
 | Status:   | Planned.             |
 
 Includes:
-* Up to 2 TB private storage quota (no backup) accessible through e.g. Windows file sharing.
+* Up to 2 TB private storage quota (no backup).
 * Multifactor login using Life Science Login and your home organization account.
 * Access to shared datasets on approval.
 * Customer separation. You cannot see other customers, and they cannot see you.
 * Customizable security, make security decisions appropriate for your project (e.g. allow connecting to home institution secure servers, collaborators, ...).
 * Self-service dashboard and service launcher.
-* Sensitive Data Services:
-  * SD Desktop (optional)
-  * SD Inbox
-  * SD Outbox
-  * SD Apply - REMS
-  * SD Telerad (optional)
-  * SD openEHR (optional)
 
 Usage example: [Spawning GPU Virtual Machine](examples/gpu-sd-iaas-jupyter)
 
