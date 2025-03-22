@@ -13,7 +13,7 @@ prio:
 This project aims to develop a strategy for developing region common management
 of healthcare data, on assignment from the board of the system of healthcare knowledge
 steering (SKS) and the national cooperation group health data (NSG HD). The
-project is coordingated by Sveriges Regioner och Kommuner (SKR).
+project is coordinated by Sveriges Regioner och Kommuner (SKR).
 
 Project website:
 [Strategi för effektivare hantering av vårddata](https://kunskapsstyrningvard.se/kunskapsstyrningvard/programomradenochsamverkansgrupper/nationellasamverkansgrupper/nsghalsodata/strategiforeffektivarehanteringavvarddata.82634.html)
