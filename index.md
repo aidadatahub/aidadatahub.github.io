@@ -63,7 +63,7 @@ Learn more: [About AIDA Data Hub](policy/definition)
 [More news...](news)
 
 ## Events
-{% include event-list.html id="upcoming" events=site.events highlights=yes %}
+{% include event-list.html id="upcoming" events=site.events highlights=true %}
 
 [More events...](events)
 
