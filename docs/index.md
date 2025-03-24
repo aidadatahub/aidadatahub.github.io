@@ -9,6 +9,12 @@ Contents:
 * TOC
 {:toc}
 
+## Data Science Platform
+Links:
+* [First login to Data Science Platform](dsp-first-login/)
+* [Set up and connect to a virtual machine in Data Science Platform](dsp-vm-access/)
+* Example: [GPU Sensitive Data IaaS with Jupyter](/data-science-platform/examples/gpu-sd-iaas-jupyter/)
+
 ## Working with DICOM<span id="dicom"/>
 Digital Imaging and Communications in Medicine
 ([DICOM](https://www.dicomstandard.org/))
