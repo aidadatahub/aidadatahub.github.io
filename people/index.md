@@ -1,5 +1,6 @@
 ---
 title: "People"
+description: Meet the people contributing to AIDA Data Hub.
 topics:
   - aida-data-hub
   - management
@@ -11,12 +12,16 @@ topics:
   - system-development
 ---
 
-Meet the teams contributing to AIDA Data Hub:
 * TOC
 {:toc}
 
 {% for topic in page.topics %}
 ## {{ topic | replace: '-', ' ' | capitalize | replace: "Aida data hub", "AIDA Data Hub"}}
-{% include people-topic-table.md topic=topic %}
+{% include people-topic-table.md active="active" topic=topic %}
 
 {% endfor %}
+
+## Alumni
+People who have helped make AIDA Data Hub what it is today.
+
+{% include people-topic-table.md active="inactive" topic="aida-data-hub" %}

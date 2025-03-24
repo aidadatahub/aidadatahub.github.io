@@ -1,5 +1,6 @@
 ---
 name: Emre Balsever
+active: true
 role: Systems Developer
 email: emre.balsever@liu.se
 url: "https://datahub.aida.scilifelab.se/people/emre-balsever"
@@ -7,7 +8,6 @@ image: "/assets/images/people/emre-balsever.jpg"
 topics:
   aida-data-hub:
   system-development:
-  research-support:
 ---
 <div class="personContainer">
   <div class="personSub">

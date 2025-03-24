@@ -15,4 +15,4 @@ SciLifeLab is an institution for the advancement of molecular biosciences in Swe
 AIDA Data Hub is a SciLifeLab unit, part of the Bioinformatics platform ([NBIS](https://nbis.se)).
 
 ### Contacts
-{% include people-table.md people='joel-hedlund,claes-lundstrom,betul-eren' %}
+{% include people-table.md people='joel-hedlund,claes-lundstrom' %}

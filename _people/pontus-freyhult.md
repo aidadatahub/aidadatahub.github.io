@@ -1,5 +1,6 @@
 ---
 name: Pontus Freyhult
+active: true
 role: IT Architect
 email: pontus.freyhult@liu.se
 url: "https://datahub.aida.scilifelab.se/people/pontus-freyhult"

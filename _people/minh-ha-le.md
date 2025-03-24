@@ -1,6 +1,7 @@
 ---
 name: Minh-Ha Le
-role: Systems Developer
+active: true
+role: AI Research Support Expert 
 email: minh.ha.le@liu.se
 url: "https://datahub.aida.scilifelab.se/people/minh-ha-le"
 image:
