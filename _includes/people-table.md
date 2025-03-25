@@ -4,6 +4,11 @@
     {% for slug in slugs %}
       {% assign url = slug | strip | prepend: "/people/" | append: '/' %}
       {% for p in site.people %}
+        {% if p.active %}
+          {% if include.active  == "inactive" %}{% continue %}{% endif %}
+        {% elsif include.active != "inactive" %}
+          {% continue %}
+        {% endif %}
         {% unless p.url == url | append: '/' %}{% continue %}{% endunless %}
         <tr style="text-align:left">
           <td style="text-align:center;" ><div style="height: 4.5em; height: 4.5em;"><img style="max-height: 4.5em; max-height: 4.5em;" src="{{ p.image | default: '/assets/images/person.png' }}"/></div></td>

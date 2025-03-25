@@ -1,5 +1,6 @@
 ---
 name: Joel Hedlund
+active: true
 role: Head of AIDA Data Hub
 email: joel.hedlund@liu.se
 url: "https://datahub.aida.scilifelab.se/people/joel-hedlund"

@@ -1,5 +1,6 @@
 ---
 name: Claes Lundström
+active: true
 role: Platform Scientific Director
 email: claes.lundstrom@liu.se
 url: "https://datahub.aida.scilifelab.se/people/claes-lundstrom"

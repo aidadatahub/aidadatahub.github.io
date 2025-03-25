@@ -1,6 +1,7 @@
 ---
 name: Caroline Bivik Stadler
-role: AIDA Project Lead
+active: true
+role: AIDA Arena Director
 email: caroline.bivik.stadler@liu.se
 url: "https://datahub.aida.scilifelab.se/people/caroline-bivik-stadler"
 image:

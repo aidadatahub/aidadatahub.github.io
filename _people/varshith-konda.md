@@ -1,5 +1,6 @@
 ---
 name: Varshith Konda
+active: true
 role: Systems Developer
 email: varshith.konda@liu.se
 url: "https://datahub.aida.scilifelab.se/people/varshith-konda"
