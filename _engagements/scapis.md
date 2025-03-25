@@ -24,4 +24,4 @@ dataset has been [successfully shared](../../../news/2024-06-04-first-scapis-sha
 and researchers are welcome to apply for [access](../../../datasets/scapis#access).
 
 ### Contacts
-{% include people-table.md people='joel-hedlund,pontus-freyhult,claes-lundstrom' %}
+{% include people-table.md people='betul-eren,joel-hedlund,pontus-freyhult,claes-lundstrom' %}
