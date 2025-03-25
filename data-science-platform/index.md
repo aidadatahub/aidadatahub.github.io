@@ -6,6 +6,7 @@ Our data science platform offers a home for your research. Our customers include
 
 <!--FIXME maybe all these services should be broken out to separate pages? -->
 
+{:.no_toc}
 ## Features
 
 * **Data Science Platform**: Computable long term primary storage, supporting advanced usage patterns including data collection, collaboration, visualization, enrichment, annotation, AI training, and federated analysis.
@@ -16,11 +17,20 @@ Our data science platform offers a home for your research. Our customers include
 
 * **Customizable security**: The "closed by default and openable as needed" service model lets customers choose a security level appropriate for their processing, to adequately protect the data subjects, while allowing the flexibility necessary for effectively carrying out the planned activities, without affecting other users.
 
-An annual [membership fee](../services#access) provides [base service](#base-service) and [optional services](#optional-services), and ability to procure [add-on services](#add-on-services). The services are described below.
+An annual [membership fee](../services#access) provides [base service](#base-service) and [optional services](#optional-services), and ability to procure [add-on services](#add-on-services). The [services](#services) are described below.
 
 <a class="button" href="../services#access">Get Access &raquo;</a>
 
+{:.no_toc}
+## See also
+* [Hardware information](hardware)
+* [Server hosting](../about/hosting)
+* [Documentation](/docs#data-science-platform)
 
+{:.no_toc}
+## Services
+* toc
+{:toc}
 
 ## Base service
 
@@ -97,12 +107,6 @@ Storage with backups, guarding against disaster and (some) user error.
 
 Multi-factor authenticated SSH connection to private self-managed virtual machines.
 
-Variants:
-* CPU compute
-* GPU compute
-* SLURM Cluster
-* Kubernetes pod
-
 ### SD Software as a service
 
 {:class="tight-table"}
@@ -128,10 +132,7 @@ Web-based interactive computing platform. Combines live code, equations, narrati
 
 Open-source web platform for collaborative analysis of very large pathology images and image collections together with machine learning algorithms.
 
-## See also
-* [About compute and storage hosting](../about/hosting)
-* [Hardware information](hardware)
-
+{:.no_toc}
 ## Contact
 Our [system design team](../people#economy):
 {% include people-topic-table.md topic='system-design-support' %}
