@@ -1,16 +1,12 @@
 ---
 name: Betul Eren
-active: false
-role: Data Sharing Lead
-email: betul.eren@liu.se
+active: true
+role: SciLifeLab Data Steward
+email: betul.eren@scilifelab.se
 url: "https://datahub.aida.scilifelab.se/people/betul-eren"
 image: "/assets/images/people/betul-eren.jpg"
 topics:
-  aida-data-hub:
   data-sharing:
-  policy-support: 2
-  management: 4
-  system-development:
 ---
 <div class="personContainer">
   <div class="personSub">
