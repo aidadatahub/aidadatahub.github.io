@@ -10,7 +10,7 @@ topics:
   management: 1
   policy-support: 1
   system-design-support:
-  data-sharing:
+  data-sharing: 1
   economy:
 ---
 <div class="personContainer">

@@ -36,6 +36,8 @@ for access.
 Access procedures for SCAPIS datasets are described here: [SCAPIS data access](../datasets/scapis#access).
 
 ### Contact
+Our data sharing is done in collaboration with the SciLifeLab [Data Centre](https://www.scilifelab.se/data/).
+
 Our [data sharing team](../people#data-sharing):
 {% include people-topic-table.md topic='data-sharing' %}
 

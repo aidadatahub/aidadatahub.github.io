@@ -26,4 +26,4 @@ investigation of novel uses of photon counting comuted tomography (PCCT) in live
 cancer care, in combination with data from genetics and pathology imaging.
 
 ### Contacts
-{% include people-table.md people='betul-eren,joel-hedlund,pontus-freyhult' %}
+{% include people-table.md people='joel-hedlund,pontus-freyhult' %}
