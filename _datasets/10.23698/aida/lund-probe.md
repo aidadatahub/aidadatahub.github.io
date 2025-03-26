@@ -156,6 +156,7 @@ NIfTI
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research.
 Please contact the dataset provider for terms of access.
+Template agreement here: [Data Sharing Agreement LUND-PROBE template.pdf](/assets/docs/Data Sharing Agreement LUND-PROBE template.pdf)
 
 {% include access-request-blurb.md coauthorship=false %}
 

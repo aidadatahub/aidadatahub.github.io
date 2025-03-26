@@ -1,5 +1,6 @@
 ---
 title: AIDA Data Hub Services
+description: Access and pricing
 ---
 We provide services for research and clinical innovation in data driven precision health, with a base in multi-modal diagnostics and medical imaging AI.
 
@@ -43,7 +44,7 @@ Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovati
 | + [Large volume storage](../data-science-platform/#sd-large-storage)        | +1.5 kSEK/TB/yr    |
 | + [Backed up primary storage](../data-science-platform/#sd-primary-storage) | +2.5 kSEK/TB/yr    |
 | + GPU compute               | +80 kSEK/GPU/yr       |
-| + Large scale CPU compute   | +24 kSEK/CPU/yr       | 
+| + Large scale CPU compute   | +24 kSEK/CPU/yr       |
 | + Sectra PACS               | TBD                   |
 | [Share prioritized data](../services/data-sharing/) | *discount*     
 | [Extract and enrich](../services/extract-enrich/)   | *subsidies*  

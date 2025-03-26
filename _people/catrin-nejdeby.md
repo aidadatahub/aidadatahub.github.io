@@ -1,5 +1,6 @@
 ---
 name: Catrin Nejdeby
+active: true
 role: Controller
 email: catrin.nejdeby@liu.se
 url: "https://datahub.aida.scilifelab.se/people/catrin-nejdeby"
