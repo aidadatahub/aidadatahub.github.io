@@ -15,7 +15,7 @@ reporting:
   participants: 80 # 8. Nr of participants*
   comments:     # 9. Additional comments
 blurb: >
-  AIDA Data Hub is proud to announce the launch of our [Data Science Platform](https://datahub.aida.scilifelab.se/data-science-platform/) which offers a home for your research in Data Driven Precision Health co-located with national and European high-performance compute systems for sensitive data. Our customers include researchers, industry, caregivers and user communities of national significance.
+  AIDA Data Hub is proud to announce the launch of our [Data Science Platform](https://datahub.aida.scilifelab.se/data-science-platform/), which offers a home for your research in Data Driven Precision Health co-located with national and European high-performance compute systems for sensitive data. Our customers include researchers, industry, caregivers and user communities of national significance.
 ---
 <span class="small">{{ page.date | date: "%Y-%m-%d" }}{% if page.end %} - {{ page.end }}{% endif %}</span>  
 <strong>{{ page.title }}</strong>  
@@ -27,7 +27,8 @@ To celebrate the successful establishment of our Data Science Platform we are ar
 {: .tight-table }
 | **Date** | March 19-20, 2025, Lunch-to-lunch. |
 | **Location** | [Wrannesalen, CMIV, Linköping University Hospital](/about/#visiting-address) and online.|
-| **Registration** |[Register here](https://forms.office.com/e/cXmJt5xBb0) for online participation.|
+| **Slides** | Please upload to the [DSP Launch presentations](https://drive.google.com/drive/u/1/folders/1vDurH195njU1xyxnkpIKV3aJNE1R1VhK) folder.|
+| **Registration** | Closed. |
 
 ## Program
 
@@ -35,25 +36,25 @@ To celebrate the successful establishment of our Data Science Platform we are ar
 
 {: .program .tight-table }
 |12:00&ndash;13:00| _Lunch at [Östgöta kök](https://linkoping.ostgotakok.se/), [Artillerigatan 15](https://maps.app.goo.gl/jfCXcfPL5YQTngwYA)_|
-|13:00&ndash;13:10|	**Welcome to the Launch of the AIDA Data Hub Data Science Platform** <br/> Joel Hedlund, AIDA Data Hub dir|
+|13:00&ndash;13:10|	**[Welcome to the Launch of the AIDA Data Hub Data Science Platform](https://docs.google.com/presentation/d/1dt7snlJVk8MTRWYjR5p6CA4VLlsqFWc1/edit)** <br/> Joel Hedlund, AIDA Data Hub dir|
 |13:10&ndash;13:30|	**Center for Medical Image Science and Visualization (CMIV)** <br/> Anders Persson, CMIV dir|
 |13:30&ndash;14:00|	**Sharing the Swedish CArdio-pulmonary bioImaging Study Image Data for Research** <br/> Göran Bergström, SCAPIS dir|
 |14:00&ndash;14:30|	_Round tour at CMIV_ |
 |14:30&ndash;15:00|	_Fika at CMIV_ |
 |15:00&ndash;16:00|	**Functional Pathology - Exploring Tissue with Omics and AI** <br/> Carolina Wählby, Uppsala University, Scientific keynote|
-|16:00&ndash;16:30|	**Analytical Imaging Diagnostic Arena (AIDA) Bringing AI Into the Clinic** <br/> Claes Lundström, AIDA Scientific dir & Caroline Bivik Stadler, AIDA dir |
-|16:30&ndash;17:00|	**A Data Science Platform for Data Driven Precision Health** <br/> Joel Hedlund, AIDA Data Hub dir|
+|16:00&ndash;16:30|	**[Analytical Imaging Diagnostic Arena (AIDA) Bringing AI Into the Clinic](https://docs.google.com/presentation/d/1yE3AmL19-4ZLCUw45NLvREpYP7hO_emC/edit)** <br/> Claes Lundström, AIDA Scientific dir & Caroline Bivik Stadler, AIDA dir |
+|16:30&ndash;17:00|	**[A Data Science Platform for Data Driven Precision Health](https://docs.google.com/presentation/d/1ML-qBzaR_hBPG5bNw5jf_L0Q1u2Eu3n9/edit)** <br/> Joel Hedlund, AIDA Data Hub dir|
 |17:00&ndash;19:00|	_Break_ |
 |19:00&ndash;22:00| _Dinner at [Stångs Magasin](https://stangsmagasin.se/), [Södra Stånggatan 1](https://maps.app.goo.gl/iLfGBJB6AMdfQsSu7)_ <br/> 25min walk, or slightly shorter [by bus](https://maps.app.goo.gl/ZQossuDLfSAAVSEM7). |
 
 ### Day 2
 
 {: .program .tight-table }
-|09:00&ndash;09:30|	**SciLifeLab/NBIS and Services for Sensitive Data** <br/> Bengt Persson, NBIS dir|
+|09:00&ndash;09:30|	**[SciLifeLab/NBIS and Services for Sensitive Data](https://docs.google.com/presentation/d/1UTWiRvXlFjNcBV0uTKYDvtwojwqliYpU/edit)** <br/> Bengt Persson, NBIS dir|
 |09:30&ndash;10:00|	**NAISS, Life Science, and AI Factories** <br/> Matts Karlsson, LiU|
 |10:00&ndash;10:30| _Fika at CMIV_ |
 |10:30&ndash;10:45| **European Cancer Image Federation (EUCAIM)** <br/> Katrine Riklund, Umeå University|
 |10:45&ndash;11:15| **Using real-world clinical data and epigenomics to build XAI-based disease classifiers** <br/> Maria Lerm & Mika Gustafsson, Linköping University|
-|11:15&ndash;12:15| **Infrastructure Services for a Data Driven Nation** <br/> Tommi Nyrönen, CSC, Infrastructure keynote |
-|12:15&ndash;12:30| **Concluding remarks** <br/> Joel Hedlund, AIDA Data Hub dir|
+|11:15&ndash;12:15| **[Infrastructure Services for a Data Driven Society](https://docs.google.com/presentation/d/1ZNGKVQq-lQcdf4IQ86xGmfdTg-qUQYPY/edit)** <br/> Tommi Nyrönen, CSC, Infrastructure keynote |
+|12:15&ndash;12:30| **[Concluding remarks](https://docs.google.com/presentation/d/17EdLHyk_4onXLucMiQTX3r1Ahqkta27N/edit)** <br/> Joel Hedlund, AIDA Data Hub dir|
 |12:30&ndash;13:30| _Lunch at [Östgöta kök](https://linkoping.ostgotakok.se/), [Artillerigatan 15](https://maps.app.goo.gl/jfCXcfPL5YQTngwYA)_|
