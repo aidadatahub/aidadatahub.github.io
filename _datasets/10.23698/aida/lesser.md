@@ -76,6 +76,7 @@ other:
   annotation: |
     All initial T2-weighted scans along with the high resolution images in each paired low and high resolution group are segmented by a single observer in Monaco 5.40.01 and containing delineations of prostate (CTV), bladder and rectum.
   countries-shared:
+  - "CN"
   - "SE"
   organ:
   - name: "Prostate"
