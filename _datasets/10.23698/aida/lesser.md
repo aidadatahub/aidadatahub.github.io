@@ -1,4 +1,4 @@
-g---
+---
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
