@@ -110,6 +110,7 @@ other:
   countries-shared:
   - "CL"
   - "HU"
+  - "MT"
   - "SE"
   organ:
   - name: "Prostate"
