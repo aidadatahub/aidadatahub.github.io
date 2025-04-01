@@ -79,6 +79,7 @@ other:
     The data is annotated on a slide level into four aggressivity tumour subtypes: low aggressive Ia (nodular) and Ib (superficial) and more aggressive subtypes II (medium aggressive) and III (high aggressive). Of these, types Ia and Ib represent low risk and II and III high risk tumors according to WHO classilification of skin tumors (4th Edition 2018).
   countries-shared:
   - "BD"
+  - "CA"
   - "CN"
   - "DZ"
   - "FR"
@@ -89,12 +90,11 @@ other:
   - "PK"
   - "SE"
   - "US"
-  
   organ:
   - name: "Skin"
     sctid: 39937001 # SNOMED-CT
   age-span: "-"
-  bytes: 7781796272453  #6.16 TB, 6164491827525 B before the last upload 
+  bytes: 7781796272453  #6.16 TB, 6164491827525 B before the last upload
   numberOfScans: 1832
   numberOfAnnotations: 0
   resolution: "x40"
@@ -121,7 +121,7 @@ other:
 ---
 ## File formats
 The dataset consists of two types of images:
-Histopathological slides are stored as .ndpi (size per slide 1-5.5GB). 
+Histopathological slides are stored as .ndpi (size per slide 1-5.5GB).
 Annotations are provided as .csv files (one for main data set, one for test set)
 
 ## License
