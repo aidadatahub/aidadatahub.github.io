@@ -88,10 +88,10 @@ penetration testing expertise.
 
 Service is offered to AIDA partners, in compute projects, based on
 [Data Processing Agreements](https://docs.google.com/document/d/1sGc8K7Q3sTTwCIYPhmvA8GHN0gb8cic1km8wwXuvWbI/edit#),
-or [Servcice Agreements](https://drive.google.com/file/d/12AOYf8boZoOu5HUXaXPjQd641tMprzdz/view)
+or [Service Agreements](https://drive.google.com/file/d/12AOYf8boZoOu5HUXaXPjQd641tMprzdz/view)
 for anonymous data. Project members get full access to private project VMs and
 persistent storage through personal VPN accounts, and use secure SSH pubkeys to
-SSH to VMs and SFTP to storage. Outgoing connections are limited and appoved
+SSH to VMs and SFTP to storage. Outgoing connections are limited and approved
 based on feasibility, where IP:PORT is easiest, and distributed services over
 CDN are harder. Storage/VMs are granted based on availability
 (cf [booking sheet](https://docs.google.com/spreadsheets/d/1wA7H3Uh53ADVYptiQWXROnMD67HvPOAwSvW20EnzlFM/edit#gid=254337069)).
