@@ -43,13 +43,21 @@ Sweden
 ### Teams
 Please visit the [People](../people) page for contact information to the teams.
 
+### Support contacts
+
+For general support, including compute systems and AI-related inquiries, contact:  
+📧 [aida-support@nbis.se](mailto:aida-support@nbis.se)
+
+For data-related matters, contact:  
+📧 [aida-data@nbis.se](mailto:aida-data@nbis.se)
+
 ## Feedback
 Please report any errors on this website to our GitHub Pages
 [issue tracker](https://github.com/aidadatahub/aidadatahub.github.io/issues),
 or submit a [pull request](https://github.com/aidadatahub/aidadatahub.github.io/pulls).
 
-For enquiries regarding our activities please feel free to contact the relevant
+For enquiries regarding our activities, please feel free to contact the relevant
 listed representatives from our [teams](../people) or [engagements](engagements).
 
-For business enquiries please contact the
+For business enquiries, please contact the
 [AIDA data director](mailto:aida-data-director@nbis.se) or [AIDA](mailto:aida@nbis.se).
