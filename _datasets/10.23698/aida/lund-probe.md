@@ -108,6 +108,7 @@ other:
   annotation: |
     Structures delineated from clinical radiotherapy of prostate cancer patients.
   countries-shared:
+  - "CH"
   - "CL"
   - "HU"
   - "MT"
