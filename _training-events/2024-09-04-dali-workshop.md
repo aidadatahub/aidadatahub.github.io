@@ -13,8 +13,8 @@ blurb: >
 
 Address the common bottleneck of data loading in neural network training. This workshop focuses on data augmentation challenges in imaging, with a particular emphasis on medical imaging. Discover how to use NVIDIA's DALI framework to offload data augmentation to the GPU, enhancing training efficiency and reducing processing time.
 
- -Practical implementation of NVIDIA DALI for data loading
- -Techniques to optimize GPU usage for faster training
+ - Practical implementation of NVIDIA DALI for data loading
+ - Techniques to optimize GPU usage for faster training
  - Solutions to overcome data augmentation bottlenecks
 
 Who Should Attend: Ideal for attendees with experience in training machine learning models using PyTorch Vision. While DALI can be integrated with other frameworks like TensorFlow or Jax, the focus will be on its application with PyTorch.
