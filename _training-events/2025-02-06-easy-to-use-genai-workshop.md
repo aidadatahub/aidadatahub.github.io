@@ -1,7 +1,7 @@
 ---
 title: Easy to use Generative AI 
 type: workshop          # "workshop", or "presentation"
-code_url: #
+code_url:  https://github.com/NBISweden/aida-genai-workshop#
 subject: ai # ai, policy, clinical
 presentation_url: https://docs.google.com/presentation/d/1cVzi-cDjtH0fdV2dy9rPK976uKoisR_v/edit?usp=drive_link&ouid=100286706807109821169&rtpof=true&sd=true
 video_url:
