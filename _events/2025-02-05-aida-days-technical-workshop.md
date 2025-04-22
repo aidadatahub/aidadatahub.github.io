@@ -38,7 +38,7 @@ Who Should Attend: Attendees should understand machine learning concepts, partic
 
 {: .tight-table}
 | **Presentation** | [Generative AI](https://docs.google.com/presentation/d/1cVzi-cDjtH0fdV2dy9rPK976uKoisR_v/edit?usp=drive_link&ouid=100286706807109821169&rtpof=true&sd=true) |
-| **Code** | Can be found in the presentation |
+| **Code** | [AIDA Generative AI workshop](https://github.com/NBISweden/aida-genai-workshop) |
 
 While Generative AI offers immense utility across various domains, they are often offered as cloud services which renders them unsuitable for handling sensitive medical data. This workshop focuses on empowering users to locally deploy generative AI for both text and image-based tasks. Participants will learn how to set up and use local language models for text understanding, a workflow which can be used on sensitive datasets in secure environments. Additionally, we will explore leveraging existing image generation frameworks with graphical tools like ComfyUI to precisely control synthetic data generation. The workshop will emphasize containerized solutions, providing a practical introduction to using Docker for managing and deploying software applications.
 * Local deployment of generative AI for text and image generation
