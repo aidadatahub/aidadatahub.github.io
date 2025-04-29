@@ -9,7 +9,7 @@ topics: ai       # "policy", "system-design", "ai".
 customer:
   organization: Linköping University
   website: https://liu.se/
-  name: Minh-Ha Le, Claes Lundström, Gabriel Eilertsen
+  name: Claes Lundström
   email:
 blurb: >
   Developing novel data synthesis methods for diagnostic data using state-of-the-art generative models.
