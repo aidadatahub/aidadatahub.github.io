@@ -33,7 +33,9 @@ longitudinal follow-up to estimate (early) treatment efficacy or adverse effects
 
 AIDA Data Hub supports the Swedish contributions to GLIOMATCH by providing data
 collaboration spaces on its [data science platform](../../../data-science-platform)
-to facilitate national data collection and harmonisation.
+to facilitate national data collection and harmonisation, and sharing with the
+AIDA community for clinical AI research and innovation in medical imaging
+diagnostics.
 
 ### Contacts
 {% include people-table.md people='joel-hedlund,pontus-freyhult,claes-lundstrom' %}
