@@ -113,6 +113,7 @@ other:
   - "HU"
   - "MT"
   - "SE"
+  - "US"
   organ:
   - name: "Prostate"
     sctid: 41216001 # SNOMED-CT
