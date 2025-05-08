@@ -110,6 +110,7 @@ other:
   countries-shared:
   - "CH"
   - "CL"
+  - "FR"
   - "HU"
   - "MT"
   - "SE"
