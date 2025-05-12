@@ -111,6 +111,7 @@ other:
   - "CH"
   - "CL"
   - "FR"
+  - "GB"
   - "HU"
   - "MT"
   - "SE"
