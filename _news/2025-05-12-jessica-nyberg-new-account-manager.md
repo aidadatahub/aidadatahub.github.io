@@ -9,7 +9,7 @@ blurb: >
 
 **AIDA Data Hub is pleased to announce the recruitment of Jessica Nyberg as its new Account Manager. Jessica will help drive the continued development of AIDA’s rapidly expanding data research platform for data-driven precision health.**
 
-<div class="right" style="width:30%"><img alt="Jessica presenting in Wranne" src="/assets/images/jessica-wranne.jpg"/><br/><i>Jessica presenting in Wranne.</i></div>
+<div class="right" style="width:50%"><a href="/assets/images/jessica-wranne.jpg"><img alt="Jessica presenting in Wranne" src="/assets/images/jessica-wranne.jpg"/></a><br/><i>Jessica presenting in Wranne.</i></div>
 
 Jessica brings over 20 years of experience in product management, strategic business development, and international collaboration across the technology and industrial sectors. Her career spans roles with both global corporations and innovation-driven environments, where she has consistently worked at the intersection of technology, customer needs, and cross-functional teams.
 
