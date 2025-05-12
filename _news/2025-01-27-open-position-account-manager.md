@@ -1,6 +1,6 @@
 ---
 title: "Open position: AIDA Data Hub Account manager"
-highlight: yes
+highlight: 
 blurb: >
   Do you want to help shape the future of precision diagnostics, using advanced
   AI methods? We are now seeking an Account manager, to take on project

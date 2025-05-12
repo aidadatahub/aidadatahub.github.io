@@ -1,6 +1,6 @@
 ---
 title: PredictMe first data science platform commercial customer
-highlight: yes
+highlight: 
 blurb: >
   The AIDA Data Hub platform welcomes AI startup company PredictMe on board as
   the first commercial customer on our data science platform.
