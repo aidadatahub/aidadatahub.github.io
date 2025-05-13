@@ -27,7 +27,7 @@ Learn more: [AIDA Data Hub Definition](../policy/definition)
 ## Contact
 ### Visiting address
 
-Call ahead to be let in. Do not go beyond the lobby if you have not received MRI safety training.
+Follow signs to CMIV. Call ahead to be let in. Do not go beyond the lobby if you have not received MRI safety training.
 
 Universitetssjukhuset i Linköping, Main block:  
 From Entrance 1 (southern entrance, [map](https://maps.app.goo.gl/cYF2CwUdWxxjXBKMA)): Elevator A, floor 11  
