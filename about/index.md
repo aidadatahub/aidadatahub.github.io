@@ -23,6 +23,7 @@ Learn more: [AIDA Data Hub Definition](../policy/definition)
 * [About FAIR and DOI](fair)
 * [About compute and storage hosting](hosting)
 * [About this website](website)
+* [Presentations](https://drive.google.com/drive/u/1/folders/1vwukyszKvWgipVHhVy7gB26omxMhM9Ra)
 
 ## Contact
 ### Visiting address
