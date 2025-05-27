@@ -16,14 +16,18 @@ Example agreement template: {{ include.agreement_template_url | default:"https:/
 
 Template placeholders:
 
-Name of research PI ("Recipient Scientist"): PI_NAME (cc here)
-Title of research PI: PI_TITLE (ph d or better, in relevant field)
+Research PI ("Recipient Scientist"):
+Name: PI_NAME (cc here)
+Title: PI_TITLE (ph d or better, in relevant field)
 
 Name of institution: INSTITUTION_NAME
 Name of department: DEPARTMENT_NAME
 Institution postal address: POSTAL_ADDRESS
 
-Name of authorized signatory: SIGNATORY_NAME (cc here)
-Title of authorized signatory: SIGNATORY_TITLE
+Authorized signatory (if other than research PI):
+Name: SIGNATORY_NAME (cc here)
+Title: SIGNATORY_TITLE
+
+The Research PI has a PhD degree or better in a relevant field, and their institutional email address is in CC in this email conversation. The Authorized signatory is the person who signs this type of legal agreement on behalf of this institution, and their institutional email address is in CC in this conversation.
 
 /MY_NAME
