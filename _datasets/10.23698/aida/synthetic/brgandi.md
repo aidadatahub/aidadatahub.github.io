@@ -93,6 +93,7 @@ other:
   - "DE"
   - "GB"
   - "IN"
+  - "IT"
   - "NL"
   - "PK"
   - "SE"
