@@ -115,6 +115,7 @@ other:
   - "HU"
   - "MT"
   - "SE"
+  - "TH"
   - "US"
   organ:
   - name: "Prostate"
