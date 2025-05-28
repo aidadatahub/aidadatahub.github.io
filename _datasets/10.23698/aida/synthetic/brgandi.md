@@ -37,10 +37,10 @@ datacite:
     email: "anders.eklund@liu.se"
     "@id": "https://orcid.org/0000-0001-7061-7995"
     "@type": "Person"
-  - name: "Muhammad Usman Akbar"
-    #email: "muhammad.usman@liu.se"
-    "@id": "https://orcid.org/0000-0002-3248-5132"
-    "@type": "Person"
+  # - name: "Muhammad Usman Akbar"
+  #   #email: "muhammad.usman@liu.se"
+  #   "@id": "https://orcid.org/0000-0002-3248-5132"
+  #   "@type": "Person"
   - name: "AIDA Data Hub"
     email: "aida-data@nbis.se"
     "@id": "https://datahub.aida.scilifelab.se"
@@ -57,7 +57,7 @@ datacite:
     id: "https://datahub.aida.scilifelab.se/10.23698/aida/synthetic/brgandi#controlled-access"
     "@type": "CreativeWork"
     abstract: |
-      Free for use in legal and ethical medical diagnostics research and education.
+      Free for use in research or education.
   - name: "AIDA BY license"
     id: "https://datahub.aida.scilifelab.se/10.23698/aida/synthetic/brgandi#aida-by-license"
     "@type": "CreativeWork"
