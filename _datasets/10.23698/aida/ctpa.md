@@ -118,7 +118,7 @@ other:
 ---
 ## File formats
 DICOM. Please see our help pages for some examples of
-[working with DICOM](/docs/#working-with-dicom).
+[working with DICOM](https://docs.datahub.aida.scilifelab.se/data/working-with-dicom/).
 
 ## License
 ### Controlled access
