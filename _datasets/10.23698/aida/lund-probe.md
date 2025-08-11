@@ -108,6 +108,7 @@ other:
   annotation: |
     Structures delineated from clinical radiotherapy of prostate cancer patients.
   countries-shared:
+  - "CA"
   - "CH"
   - "CL"
   - "FR"
@@ -195,3 +196,4 @@ CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA
 OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS
 ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR CHARACTERISTICS OF THIS
 DATA.
+
