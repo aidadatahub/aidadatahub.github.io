@@ -2,6 +2,8 @@
 title: "Open position: AIDA Data Hub Systems developer"
 highlight: yes
 blurb: >
+  Update 2025-08-25: This position is closed for applications.
+
   Are you ready to take responsibility and contribute to life-saving research? At AIDA Data Hub, we work with virtualization, containerization, block and object storage, and much more. You will script, manage infrastructure as code, and troubleshoot source code. If you have a solid foundation in Unix/Linux and are ready to dive into complex technical challenges, then you are the one we are looking for! [Apply by 2025-08-24!](/jobs/2025-08-24-systems developer/)
 ---
 ## {{ page.title }}
