@@ -71,6 +71,9 @@ datacite:
     - "@type": "CreativeWork"
       "@id": "https://doi.org/10.1038/s41598-023-33863-z"
       name: "Yacob, F., Siarov, J., Villiamsson, K. et al. Weakly supervised detection and classification of basal cell carcinoma using graph-transformer on whole slide images. Sci Rep 13, 7555 (2023). https://doi.org/10.1038/s41598-023-33863-z"
+    - "@type": "CreativeWork"
+      "@id": "https://doi.org/10.1186/s12880-025-01710-4"
+      name: "Björkman, J., Lagerroth, S., Siarov, J. et al. Enhancing basal cell carcinoma classification in preoperative biopsies via transfer learning with weakly supervised graph transformers. BMC Med Imaging 25, 166 (2025). https://doi.org/10.1186/s12880-025-01710-4"
 other:
   shortName: "BCCC"
   origin: "Clinical"
