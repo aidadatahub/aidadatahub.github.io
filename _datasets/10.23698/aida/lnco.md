@@ -33,7 +33,7 @@ datacite:
     "@id": "https://orcid.org/0000-0002-9368-0177"
     "@type": "Person"
   - name: "Gordan Maras"
-    email: "gordan.maras@regiongavleborg.se"
+    email: "gordan.maras@akademiska.se"
     "@id": "https://orcid.org/0000-0002-0566-6739"
     "@type": "Person"        
   - name: "AIDA Data Hub"
