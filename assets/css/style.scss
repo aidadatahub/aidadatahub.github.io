@@ -272,6 +272,13 @@ span.clearicon input {
 .info-box ol.references > li {
     list-style: none;
 }
+
+// We add space between the list items, but not below the last one
+.info-box ol.references > li:not(:last-child) {
+  margin-bottom: 1em; 
+}
+
+
 .info-box ol.references > li:before {
     content: "[" counter(list) "] ";
     counter-increment: list;
