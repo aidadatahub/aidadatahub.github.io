@@ -32,15 +32,26 @@ research.
 Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400kSEK, deadlines may vary).
 
 <style>
-.main-content table th, thead, .main-content table th, .main-content table td {
+.main-content table.services-table,
+.main-content table.services-table thead,
+.main-content table.services-table tbody,
+.main-content table.services-table tr,
+.main-content table.services-table th,
+.main-content table.services-table td
+{
    border: none;
    text-align: left;
 }
+.main-content table.services-table {
+  margin-bottom: 2rem; /* or 1.5em, or whatever fits your rhythm */
+}
 </style>
+
+#### Price list - Services
 
 | Service                     | Price       |
 |-----------------------------|-----------------------|
-| [Data Science Platform](../data-science-platform/#base-service)             | 50kSEK/yr          |
+| [Base Service Data Science Platform](../data-science-platform/#base-service)             | 50 kSEK/yr          |
 | + [Large volume storage](../data-science-platform/#sd-large-storage)        | +1.5 kSEK/TB/yr    |
 | + [Backed up primary storage](../data-science-platform/#sd-primary-storage) | +2.5 kSEK/TB/yr    |
 | + GPU compute               | +80 kSEK/GPU/yr       |
@@ -52,6 +63,40 @@ Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovati
 | Support, data sharing       | *Free*                |
 | Support, academic           | 800 SEK/hr            | [NBIS User fee track](https://nbis.se/services/bioinformatics) |
 | Support, other              | Full cost coverage    |
+{: .services-table}
+
+
+#### Price list - Virtual Machine CPU Flavors
+All virtual machines are equipped with Intel® Xeon® Gold 6526Y 2.8 GHz processors.
+
+<!--
+| Product ID / Flavor | Processor                       | vCPU | Cores | RAM GB * | Local disk GB * | Price SEK/h | Price per vCPU SEK/h |
+|---------------------|---------------------------------|------|-------|----------|-----------------|-------------|------------------------|
+| verdi-sixteenthnode | Intel® Xeon® Gold 6526Y 2.8 GHz | 4    | 2     | 64       | 400             | 2,81        | 0,70                   |
+| verdi-eightnode     | Intel® Xeon® Gold 6526Y 2.8 GHz | 8    | 4     | 128      | 800             | 5,63        | 0,70                   |
+| verdi-quarternode   | Intel® Xeon® Gold 6526Y 2.8 GHz | 16   | 8     | 256      | 1 600           | 11,25       | 0,70                   |
+| verdi-halfnode      | Intel® Xeon® Gold 6526Y 2.8 GHz | 32   | 16    | 512      | 3 200           | 22,50       | 0,70                   |
+| verdi-fullnode      | Intel® Xeon® Gold 6526Y 2.8 GHz | 64   | 32    | 1024     | 6 400           | 45,00       | 0,70                   |
+-->
+
+<style>
+.main-content table.vm-flavors-table thead, th
+{
+   border: none;
+   text-align: left;
+}
+</style>
+
+| Product ID / Flavor | vCPU | Cores | RAM GB * | Local disk GB * | Price SEK/h | Price per vCPU SEK/h |
+|---------------------|------|-------|----------|-----------------|-------------|------------------------|
+| verdi-sixteenthnode | 4    | 2     | 64       | 400             | **2,81**        | **0,70**                   |
+| verdi-eightnode     | 8    | 4     | 128      | 800             | **5,63**        | **0,70**                   |
+| verdi-quarternode   | 16   | 8     | 256      | 1 600           | **11,25**       | **0,70**                   |
+| verdi-halfnode      | 32   | 16    | 512      | 3 200           | **22,50**       | **0,70**                   |
+| verdi-fullnode      | 64   | 32    | 1024     | 6 400           | **45,00**       | **0,70**                   |
+{: .vm-flavors-table}
+
+*Please note, a small amount of resources is reseved for hypervisor use.
 
 ### Contact
 Our [economy team](../people#economy):
