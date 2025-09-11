@@ -87,13 +87,13 @@ All virtual machines are equipped with Intel® Xeon® Gold 6526Y 2.8 GHz process
 }
 </style>
 
-| Product ID / Flavor | vCPU | Cores | RAM GB * | Local disk GB * | Price SEK/h | Price per vCPU SEK/h |
-|---------------------|------|-------|----------|-----------------|-------------|------------------------|
-| verdi-sixteenthnode | 4    | 2     | 64       | 400             | **2,81**        | **0,70**                   |
-| verdi-eightnode     | 8    | 4     | 128      | 800             | **5,63**        | **0,70**                   |
-| verdi-quarternode   | 16   | 8     | 256      | 1 600           | **11,25**       | **0,70**                   |
-| verdi-halfnode      | 32   | 16    | 512      | 3 200           | **22,50**       | **0,70**                   |
-| verdi-fullnode      | 64   | 32    | 1024     | 6 400           | **45,00**       | **0,70**                   |
+| Product ID / Flavor | vCPU | Cores | RAM GB * | Local disk GB * | Price per vCPU SEK/h | Price SEK/h |
+|---------------------|------|-------|----------|-----------------|----------------------|-------------|
+| verdi-sixteenthnode | 4    | 2     | 64       | 400             | 0.70                 | **2.81**    |
+| verdi-eightnode     | 8    | 4     | 128      | 800             | 0.70                 | **5.63**    |
+| verdi-quarternode   | 16   | 8     | 256      | 1 600           | 0.70                 | **11.25**   | 
+| verdi-halfnode      | 32   | 16    | 512      | 3 200           | 0.70                 | **22.50**   | 
+| verdi-fullnode      | 64   | 32    | 1024     | 6 400           | 0.70                 | **45.00**   | 
 {: .vm-flavors-table}
 
 *Please note, a small amount of resources is reseved for hypervisor use.
