@@ -32,9 +32,8 @@ AI progress is often driven by massive datasets, but clinical data is tightly re
 ## AIDA Technical workshop September 17 - MAIA: A Collaborative Medical AI Platform for Radiology Research, Clinical Integration and Federated Learning
 
 {: .tight-table}
-| **Code** | [MAIA Toolkit](https://github.com/kthcloud/MAIA) |
+| **Presentation** | [MAIA Workshop Presentation](https://simonebendazzoli93.github.io/MAIA-AIDA-TechDays-Workshop) |
+| **Code** | [Github tutorial code](https://github.com/SimoneBendazzoli93/MAIA-AIDA-TechDays-Workshop) |
 
-<!-- | **Presentation** | [Faster data loading](https://docs.google.com/presentation/d/1LfEJCGOd98Xv6ymymV39ats1zPy0G3XU/edit#slide=id.p1) |
--->
 
 The MAIA platform, developed at KTH’s Division of Biomedical Imaging and validated in collaboration with Karolinska University Hospital, supports integration of AI into clinical radiology workflows. In this workshop we will demonstrate MAIA’s key functionalities: connecting to PACS for DICOM retrieval, preprocessing imaging data, training and monitoring segmentation models, and deploying them for inference. We will also highlight MAIA’s active learning features and its support for federated learning, enabling multi-institutional collaboration while preserving data privacy.
