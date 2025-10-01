@@ -95,6 +95,7 @@ other:
   - "IN"
   - "IT"
   - "NL"
+  - "NO"
   - "PK"
   - "SE"
   - "US"
