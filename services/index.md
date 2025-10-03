@@ -61,7 +61,7 @@ Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovati
 | [Extract and enrich](../services/extract-enrich/)                            | *subsidies*        |
 | Support consultation                                                         | *Free*             |
 | Support, data sharing                                                        | *Free*             |
-| Support, academic                                                            | 800 SEK/hr         | [NBIS User fee track](https://nbis.se/services/bioinformatics)
+| Support, academic (NBIS [User fee track](https://nbis.se/services/bioinformatics)) | 800          | SEK/hr      |  
 | Support, other                                                               | Full cost coverage |
 {: .services-table}
 
