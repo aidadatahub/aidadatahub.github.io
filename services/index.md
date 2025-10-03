@@ -50,12 +50,13 @@ Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovati
 #### Price list - Services
 
 | Service                     | Price       |
-|-----------------------------|-----------------------|
-| [Base Service Data Science Platform](../data-science-platform/#base-service)             | 50 kSEK/yr          |
-| + [Large volume storage](../data-science-platform/#sd-large-storage)        | +1.5 kSEK/TB/yr    |
-| + [Backed up primary storage](../data-science-platform/#sd-primary-storage) | +2.5 kSEK/TB/yr    |
-| + GPU compute               | +80 kSEK/GPU/yr       |
-| + Large scale CPU compute   | +24 kSEK/CPU/yr       |
+|------------------------------------------------------------------------------|------------------|
+| [Base Service Data Science Platform](../data-science-platform/#base-service) | 50 kSEK/yr       |
+| + [Large Storage](../data-science-platform/#sd-large-storage)                | 3 kSEK/TB/yr     |
+| + [Backed up primary storage](../data-science-platform/#sd-primary-storage)  | 7.2 kSEK/TB/yr   |
+| + GPU compute L4                                                             | 25.00 vGPU SEK/h |
+| + GPU compute L40S                                                           | 30.00 vGPU SEK/h |
+| + Large scale CPU compute                                                    | 0.70 vCPU SEK/h  |
 | + Sectra PACS               | TBD                   |
 | [Share prioritized data](../services/data-sharing/) | *discount*     
 | [Extract and enrich](../services/extract-enrich/)   | *subsidies*  
