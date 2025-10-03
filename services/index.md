@@ -70,23 +70,6 @@ Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovati
 #### Price list - Virtual Machine CPU Flavors
 All virtual machines are equipped with Intel® Xeon® Gold 6526Y 2.8 GHz processors.
 
-<!--
-| Product ID / Flavor | Processor                       | vCPU | Cores | RAM GB * | Local disk GB * | Price SEK/h | Price per vCPU SEK/h |
-|---------------------|---------------------------------|------|-------|----------|-----------------|-------------|------------------------|
-| verdi-sixteenthnode | Intel® Xeon® Gold 6526Y 2.8 GHz | 4    | 2     | 64       | 400             | 2,81        | 0,70                   |
-| verdi-eightnode     | Intel® Xeon® Gold 6526Y 2.8 GHz | 8    | 4     | 128      | 800             | 5,63        | 0,70                   |
-| verdi-quarternode   | Intel® Xeon® Gold 6526Y 2.8 GHz | 16   | 8     | 256      | 1 600           | 11,25       | 0,70                   |
-| verdi-halfnode      | Intel® Xeon® Gold 6526Y 2.8 GHz | 32   | 16    | 512      | 3 200           | 22,50       | 0,70                   |
-| verdi-fullnode      | Intel® Xeon® Gold 6526Y 2.8 GHz | 64   | 32    | 1024     | 6 400           | 45,00       | 0,70                   |
--->
-
-<style>
-.main-content table.vm-flavors-table thead, th
-{
-   border: none;
-   text-align: left;
-}
-</style>
 
 | Product ID / Flavor | vCPU | Cores | RAM GB * | Local disk GB * | Price per vCPU SEK/h | Price SEK/h |
 |---------------------|------|-------|----------|-----------------|----------------------|-------------|
@@ -97,7 +80,41 @@ All virtual machines are equipped with Intel® Xeon® Gold 6526Y 2.8 GHz process
 | verdi-fullnode      | 64   | 32    | 1024     | 6 400           | 0.70                 | **45.00**   | 
 {: .vm-flavors-table}
 
-*Please note, a small amount of resources is reseved for hypervisor use.
+*Please note, a small amount of resources is reserved for hypervisor use.
+
+
+#### Price list - Virtual Machine L4 GPU Flavors
+All virtual machines are equipped with NVIDIA L4 GPUs, and Intel® Xeon® Gold 5416S 2.00 GHz processors.
+
+| Product ID / Flavor | vGPU | vCPU | Cores | RAM GB * | Local disk GB * | Price per vGPU SEK/h | Price SEK/h |
+|---------------------|------|------|-------|----------|-----------------|----------------------|-------------|
+| verdi-L4-quarternode| 1    | 8    | 4     | 128      | 2000            | 25.00                | **25.00**   |
+| verdi-L4-halfnode   | 2    | 16   | 8     | 256      | 4000            | 25.00                | **50.00**   |
+| verdi-L4-fullnode   | 4    | 32   | 16    | 512      | 8000            | 25.00                | **100.00**  |
+{: .vm-flavors-table}
+
+*Please note, a small amount of resources is reserved for hypervisor use.
+
+#### Price list - Virtual Machine L40S GPU Flavors
+All virtual machines are equipped with NVIDIA L40S GPUs, and Intel® Xeon® Gold 5416S 2.00 GHz processors.
+
+
+<style>
+.main-content table.vm-flavors-table thead, th
+{
+   border: none;
+   text-align: left;
+}
+</style>
+
+| Product ID / Flavor | vGPU | vCPU | Cores | RAM GB * | Local disk GB * | Price per vGPU SEK/h | Price SEK/h |
+|---------------------|------|------|-------|----------|-----------------|----------------------|-------------|
+| verdi-L40S-quarternode| 1    | 8    | 4     | 128    | 2000            | 30.00                | **30.00**   |
+| verdi-L40S-halfnode   | 2    | 16   | 8     | 256    | 4000            | 30.00                | **60.00**   |
+| verdi-L40S-fullnode   | 4    | 32   | 16    | 512    | 8000            | 30.00                | **120.00**  |
+{: .vm-flavors-table}
+
+*Please note, a small amount of resources is reserved for hypervisor use.
 
 ### Contact
 Our [economy team](../people#economy):
