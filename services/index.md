@@ -20,7 +20,7 @@ Please contact the following for enquiries and access:
 * [ASHA](https://www.vinnova.se/p/anvanda-standardiserade-halsodata-som-accelerator-for-att-starka-innovation-och-framtidens-halso--och-sjukvard/)
 * [EUCAIM](https://cancerimage.eu/)
 
-Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400kSEK, deadlines may vary).
+Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400 000 SEK, deadlines may vary).
 
 ### Prices
 Our pricing strategy is to set prices that enable sustainable operations and
@@ -29,7 +29,7 @@ possible, in order to maximize high-impact research and to incentivize data
 sharing that helps build the data commons and increases data availability for
 research.
 
-Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400kSEK, deadlines may vary).
+Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400 000 SEK, deadlines may vary).
 
 <style>
 .main-content table.services-table,
@@ -49,7 +49,7 @@ Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovati
 
 #### Price list - Services
 
-| Service                                                                      | Price                |
+| Service                                                                      | Price              |             |
 |:-----------------------------------------------------------------------------|-------------------:|:------------|
 | [Base Service Data Science Platform](../data-science-platform/#base-service) | 50 000             | SEK/yr      |
 | + [Large Storage](../data-science-platform/#sd-large-storage)                | 3 000              | SEK/TB/yr   | 
