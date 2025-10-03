@@ -49,21 +49,20 @@ Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovati
 
 #### Price list - Services
 
-| Service                     | Price       |
-|------------------------------------------------------------------------------|------------------|
-| [Base Service Data Science Platform](../data-science-platform/#base-service) | 500000 SEK/yr       |
-| + [Large Storage](../data-science-platform/#sd-large-storage)                | 3000 SEK/TB/yr     |
-| + [Backed up primary storage](../data-science-platform/#sd-primary-storage)  | 7200 SEK/TB/yr   |
-| + GPU compute L4                                                             | 25.00 vGPU SEK/h |
-| + GPU compute L40S                                                           | 30.00 vGPU SEK/h |
-| + Large scale CPU compute                                                    | 0.70 vCPU SEK/h  |
-| + Sectra PACS               | TBD                   |
-| [Share prioritized data](../services/data-sharing/) | *discount*     
-| [Extract and enrich](../services/extract-enrich/)   | *subsidies*  
-| Support consultation        | *Free*                |
-| Support, data sharing       | *Free*                |
-| Support, academic           | 800 SEK/hr            | [NBIS User fee track](https://nbis.se/services/bioinformatics) |
-| Support, other              | Full cost coverage    |
+| Service                                                                      | Price                |
+|:-----------------------------------------------------------------------------|-------------------:|:------------|
+| [Base Service Data Science Platform](../data-science-platform/#base-service) | 50 000             | SEK/yr      |
+| + [Large Storage](../data-science-platform/#sd-large-storage)                | 3 000              | SEK/TB/yr   | 
+| + [Backed up primary storage](../data-science-platform/#sd-primary-storage)  | 7 200              | SEK/TB/yr   |
+| + GPU compute L4                                                             | 25                 | vGPU SEK/hr |
+| + GPU compute L40S                                                           | 30                 | vGPU SEK/hr |
+| + Large scale CPU compute                                                    | 0.70               | vCPU SEK/hr |
+| [Share prioritized data](../services/data-sharing/)                          | *discount*         |
+| [Extract and enrich](../services/extract-enrich/)                            | *subsidies*        |
+| Support consultation                                                         | *Free*             |
+| Support, data sharing                                                        | *Free*             |
+| Support, academic                                                            | 800 SEK/hr         | [NBIS User fee track](https://nbis.se/services/bioinformatics)
+| Support, other                                                               | Full cost coverage |
 {: .services-table}
 
 
@@ -71,13 +70,13 @@ Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovati
 All virtual machines are equipped with Intel® Xeon® Gold 6526Y 2.8 GHz processors.
 
 
-| Product ID / Flavor | vCPU | Cores | RAM GB * | Local disk GB * | Price per vCPU SEK/h | Price SEK/h |
-|---------------------|------|-------|----------|-----------------|----------------------|-------------|
-| verdi-sixteenthnode | 4    | 2     | 64       | 400             | 0.70                 | **2.81**    |
-| verdi-eightnode     | 8    | 4     | 128      | 800             | 0.70                 | **5.63**    |
-| verdi-quarternode   | 16   | 8     | 256      | 1 600           | 0.70                 | **11.25**   | 
-| verdi-halfnode      | 32   | 16    | 512      | 3 200           | 0.70                 | **22.50**   | 
-| verdi-fullnode      | 64   | 32    | 1024     | 6 400           | 0.70                 | **45.00**   | 
+| Product ID / Flavor | vCPU | Cores | RAM GB * | Local disk GB * | Price per vCPU SEK/hr | Price SEK/hr |
+|---------------------|------|-------|----------|-----------------|-----------------------|--------------|
+| verdi-sixteenthnode | 4    | 2     | 64       | 400             | 0.70                  | **2.81**     |
+| verdi-eightnode     | 8    | 4     | 128      | 800             | 0.70                  | **5.63**     |
+| verdi-quarternode   | 16   | 8     | 256      | 1 600           | 0.70                  | **11.25**    | 
+| verdi-halfnode      | 32   | 16    | 512      | 3 200           | 0.70                  | **22.50**    | 
+| verdi-fullnode      | 64   | 32    | 1024     | 6 400           | 0.70                  | **45.00**    | 
 {: .vm-flavors-table}
 
 *Please note, a small amount of resources is reserved for hypervisor use.
@@ -86,11 +85,11 @@ All virtual machines are equipped with Intel® Xeon® Gold 6526Y 2.8 GHz process
 #### Price list - Virtual Machine L4 GPU Flavors
 All virtual machines are equipped with NVIDIA L4 GPUs, and Intel® Xeon® Gold 5416S 2.00 GHz processors.
 
-| Product ID / Flavor | vGPU | vCPU | Cores | RAM GB * | Local disk GB * | Price per vGPU SEK/h | Price SEK/h |
-|---------------------|------|------|-------|----------|-----------------|----------------------|-------------|
-| verdi-L4-quarternode| 1    | 8    | 4     | 128      | 2000            | 25.00                | **25.00**   |
-| verdi-L4-halfnode   | 2    | 16   | 8     | 256      | 4000            | 25.00                | **50.00**   |
-| verdi-L4-fullnode   | 4    | 32   | 16    | 512      | 8000            | 25.00                | **100.00**  |
+| Product ID / Flavor | vGPU | vCPU | Cores | RAM GB * | Local disk GB * | Price per vGPU SEK/hr | Price SEK/hr |
+|---------------------|------|------|-------|----------|-----------------|-----------------------|--------------|
+| verdi-L4-quarternode| 1    | 8    | 4     | 128      | 2000            | 25.00                 | **25.00**    |
+| verdi-L4-halfnode   | 2    | 16   | 8     | 256      | 4000            | 25.00                 | **50.00**    |
+| verdi-L4-fullnode   | 4    | 32   | 16    | 512      | 8000            | 25.00                 | **100.00**   |
 {: .vm-flavors-table}
 
 *Please note, a small amount of resources is reserved for hypervisor use.
@@ -107,11 +106,11 @@ All virtual machines are equipped with NVIDIA L40S GPUs, and Intel® Xeon® Gold
 }
 </style>
 
-| Product ID / Flavor | vGPU | vCPU | Cores | RAM GB * | Local disk GB * | Price per vGPU SEK/h | Price SEK/h |
-|---------------------|------|------|-------|----------|-----------------|----------------------|-------------|
-| verdi-L40S-quarternode| 1    | 8    | 4     | 128    | 2000            | 30.00                | **30.00**   |
-| verdi-L40S-halfnode   | 2    | 16   | 8     | 256    | 4000            | 30.00                | **60.00**   |
-| verdi-L40S-fullnode   | 4    | 32   | 16    | 512    | 8000            | 30.00                | **120.00**  |
+| Product ID / Flavor | vGPU | vCPU | Cores | RAM GB * | Local disk GB * | Price per vGPU SEK/hr | Price SEK/hr |
+|---------------------|------|------|-------|----------|-----------------|-----------------------|--------------|
+| verdi-L40S-quarternode| 1    | 8    | 4     | 128    | 2000            | 30.00                 | **30.00**    |
+| verdi-L40S-halfnode   | 2    | 16   | 8     | 256    | 4000            | 30.00                 | **60.00**    |
+| verdi-L40S-fullnode   | 4    | 32   | 16    | 512    | 8000            | 30.00                 | **120.00**   |
 {: .vm-flavors-table}
 
 *Please note, a small amount of resources is reserved for hypervisor use.
