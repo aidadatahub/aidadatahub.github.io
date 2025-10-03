@@ -1,14 +1,15 @@
 ---
-name: Minh-Ha Le
-active: false
-role: AI/ML Application Expert - NAISS
-email: minh.ha.le@liu.se
-url: "https://datahub.aida.scilifelab.se/people/minh-ha-le"
-image:
+name: Jessica Nyberg
+active: true
+role: Account Manager
+email: jessica.nyberg@liu.se
+url: "https://datahub.aida.scilifelab.se/people/jessica-nyberg"
+image: "/assets/images/people/jessica-nyberg.jpg"
 topics:
-  aida-data-hub:
-  system-development:
-  research-support:
+  data-sharing: 1
+  aida-data-hub: 2
+  management: 2
+  economy: 1
 ---
 <div class="personContainer">
   <div class="personSub">

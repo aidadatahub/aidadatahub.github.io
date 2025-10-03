@@ -1,6 +1,6 @@
 ---
 name: Betul Eren
-active: true
+active: false
 role: SciLifeLab Data Steward
 email: betul.eren@scilifelab.se
 url: "https://datahub.aida.scilifelab.se/people/betul-eren"
