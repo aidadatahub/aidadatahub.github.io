@@ -110,6 +110,7 @@ other:
   countries-shared:
   - "AT"
   - "CA"
+  - "CN"
   - "CH"
   - "CL"
   - "FR"
