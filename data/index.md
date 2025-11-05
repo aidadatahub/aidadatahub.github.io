@@ -14,6 +14,7 @@ extracting and enriching prioritized data for research.
 * [API](/api)
 
 ## Access
+
 Each dataset landing page contains instructions for access (cf examples [here](../datasets)).
 
 We help researchers share their datasets with the world, on their terms.
@@ -31,6 +32,15 @@ to AIDA Data Hub under a Data Transfer Agreement ([DTA](/sharing/templates)).
 
 Please refer to each dataset landing page for terms of use and instructions
 for access.
+
+### Resource Entitlement Management System (REMS)
+
+Many of the datasets are shared using a digital system to manage the application and dataset
+sharing agreements. These will have a direct link to the access form on their landing page
+(click the `Apply for access` button).
+
+You can also log in directly to the system to view your applications and apply for
+access at <https://rems.dsp.aida.scilifelab.se/>.
 
 ### SCAPIS data access
 Access procedures for SCAPIS datasets are described here: [SCAPIS data access](../datasets/scapis#access).
