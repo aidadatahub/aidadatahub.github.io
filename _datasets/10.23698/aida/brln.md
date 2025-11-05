@@ -133,7 +133,7 @@ the image *width*.
 Free for use in legal and ethical medical diagnostics research.
 Please contact the dataset provider for terms of access.
 
-{% include access-request-blurb.md coauthorship="yes" %}
+{% include rems-link.md %}
 
 ### AIDA BY CA license
 Copyright
