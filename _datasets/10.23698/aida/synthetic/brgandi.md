@@ -122,7 +122,7 @@ other:
 
 Free for use in research or education. Please contact AIDA for terms of access.
 
-{% include access-request-blurb.md email_template="access-request-email-research-or-education.md" %}
+{% include rems-link.md %}
 
 ### AIDA BY license
 Copyright

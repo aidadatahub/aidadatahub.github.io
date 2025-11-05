@@ -164,10 +164,8 @@ NIfTI
 ## License
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research.
-Please contact the dataset provider for terms of access.
-Template agreement here: [Data Sharing Agreement LUND-PROBE template](https://docs.google.com/document/d/1It968fvYMqneIUuuLHvWflGCZS71PyQS/edit)
 
-{% include access-request-blurb.md coauthorship=false agreement_template_url="https://docs.google.com/document/d/1It968fvYMqneIUuuLHvWflGCZS71PyQS/edit" %}
+{% include rems-link.md %}
 
 ### AIDA BY license
 Copyright
