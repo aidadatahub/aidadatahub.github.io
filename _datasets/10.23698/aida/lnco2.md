@@ -79,6 +79,7 @@ other:
     using region-of-interest boxes (positive, negative, unassested). A few detailed polygons of tumor exist. See details below.
   countries-shared:
   - "CN"
+  - "DE"
   - "FI"
   - "IE"
   - "KR"
@@ -195,4 +196,5 @@ CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA
 OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS
 ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR CHARACTERISTICS OF THIS
 DATA.
+
 
