@@ -162,7 +162,7 @@ GT2/ XXXXXXXXX_coords.nii.gz
 Free for use in legal and ethical medical diagnostics research.
 Please contact the dataset provider for terms of access.
 
-{% include rems-link.md %}
+{% include access-request-blurb.md coauthorship="yes" %}
 
 ### AIDA BY CA license
 Copyright
