@@ -157,7 +157,8 @@ the image *width*.
 ## License
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research.
-Please contact the dataset provider for terms of access.
+
+{% include data-access-requirements.md %}
 
 {% include rems-link.md %}
 
