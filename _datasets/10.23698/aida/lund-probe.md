@@ -169,6 +169,8 @@ NIfTI
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research.
 
+{% include data-access-requirements.md %}
+
 {% include rems-link.md %}
 
 ### AIDA BY license
