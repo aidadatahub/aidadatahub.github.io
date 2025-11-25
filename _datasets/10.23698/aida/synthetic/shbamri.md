@@ -125,9 +125,8 @@ other:
 ## License
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research and education.
-Please contact the dataset provider for terms of access.
 
-{% include access-request-blurb.md %}
+{% include rems-link.md %}
 
 ### AIDA BY license
 Copyright
