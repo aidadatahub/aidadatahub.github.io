@@ -97,9 +97,14 @@ Each study is zipped into one file. All files are stored in DICOM format.
 ## License
 ### Controlled access
 Free for use in research or education.
-Please contact the dataset provider for terms of access.
 
-{% include access-request-blurb.md email_template="access-request-email-research.md" %}
+To request access to the dataset, use the `Apply for access` button below. 
+Note that the dataset reciever must be a teacher or at least a PhD candidate 
+employed at the applicant institution and that the applicant should be an 
+authorized signatory who can legally enter into data sharing agreements on 
+the behalf of the institution.
+
+{% include rems-link.md %}
 
 ### AIDA BY license
 Copyright
