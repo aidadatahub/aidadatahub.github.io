@@ -12,7 +12,7 @@ Please contact your [community](#communities) for terms, or refer to our [prices
 Please contact the following for enquiries and access:
 * Data sharing: [aida-data@nbis.se](mailto:aida-data@nbis.se)
 * Support: [aida-support@nbis.se](mailto:aida-support@nbis.se)
-* Services: [aida-data-director@nbis.se](mailto:aida-data-director@nbis.se)
+* Services: [aida-services@nbis.se](mailto:aida-services@nbis.se)
 
 ### Communities
 
