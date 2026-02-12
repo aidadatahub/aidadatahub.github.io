@@ -29,8 +29,8 @@ IP addresses (where on the Internet you connect from).
 
 ## Why do we do so?
 
-The datasets we share are copyrighted to the researchers who
-produced it. To share these copyrighted works, a license agreement
+The datasets we share are copyrighted by the researchers who
+produced them. To share these copyrighted works, a license agreement
 (data sharing agreement) is typically established.
 To create the agreement and track its approval we need to keep the
 information about who has entered into the agreement (person and
