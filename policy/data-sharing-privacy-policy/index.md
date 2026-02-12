@@ -8,7 +8,7 @@ description: Privacy policy for data sharing
 ## About the service
 
 AIDA Data Hub facilitates sharing of high quality clinical data.
-The latest revision was 2026-02-12.
+The latest revision of this document ("Privacy policy for data sharing") was 2026-02-12.
 
 ## What this privacy policy describes
 
