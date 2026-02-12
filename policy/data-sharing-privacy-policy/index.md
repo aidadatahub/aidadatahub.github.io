@@ -38,7 +38,8 @@ institution).
 
 In our commitments to the data sharers we also need
 to collect information about the country the request comes from, as
-they might have policies restricting what nations data can be shared with.
+they might have policies restricting what nations data can be shared with. Many of the datasets also require us to provide details about applicants to the data sharers to allow for verifying other policies before sharing as well as follow-up
+of agreements (e.g. correct citations if publications are done using data shared under agreement).
 
 Access logs and other security related information are required for
 fulfilling legal obligations.
