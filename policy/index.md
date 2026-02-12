@@ -19,8 +19,10 @@ AIDA Data Hub Policy documents:
 * [AIDA Data Hub Strategy](../policy/strategy)
 * [AIDA Data Hub Metapolicy](../policy/metapolicy)
 
-Data Science Platform:
+Privacy Policies:
 * [AIDA Data Hub Data Science Platform Privacy Policy](../policy/dsp-privacy-policy)
+* [AIDA Data Hub Data Sharing Privacy Policy](../policy/data-sharing-privacy-policy)
+* AIDA Data Hub Expert Support (offered as part of [NBIS](https://nbis.se/)): [NBIS Privacy policy](https://nbis.se/about/steering/privacy)
 
 See also:
 * [Support](../support)
