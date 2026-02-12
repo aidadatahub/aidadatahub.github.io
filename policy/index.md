@@ -7,23 +7,23 @@ relating its procedures to common practice in data driven precision health activ
 The intention is to provide guidance documents to support your activities, and
 facilitate your communication with stakeholders.
 
-Data sharing policies:
+### Data sharing policies
 * [AIDA Data Sharing Policy](/sharing)
 
-Data sharing routines:
+### Data sharing routines
 * [AIDA Data sharing Routines](https://docs.google.com/document/d/1rj8qfjlqxazo-7Fdr5dhnz0jBqad7LxlwGEgIsGKnEY/edit)
 * [SCAPIS Data sharing Routines](https://docs.google.com/document/d/1rj8qfjlqxazo-7Fdr5dhnz0jBqad7LxlwGEgIsGKnEY/edit#heading=h.lhr4umaozehc)
 
-AIDA Data Hub Policy documents:
+### AIDA Data Hub Policy documents
 * [AIDA Data Hub Definition](../policy/definition)
 * [AIDA Data Hub Strategy](../policy/strategy)
 * [AIDA Data Hub Metapolicy](../policy/metapolicy)
 
-Privacy Policies:
+### Privacy Policies
 * [AIDA Data Hub Data Science Platform Privacy Policy](../policy/dsp-privacy-policy)
 * [AIDA Data Hub Data Sharing Privacy Policy](../policy/data-sharing-privacy-policy)
 * AIDA Data Hub Expert Support (offered as part of [NBIS](https://nbis.se/)): [NBIS Privacy policy](https://nbis.se/about/steering/privacy)
 
-See also:
+### See also
 * [Support](../support)
 * [About AIDA](/about/aida)
