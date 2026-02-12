@@ -12,7 +12,7 @@ The latest revision of this document ("Privacy policy for data sharing") was 202
 
 ## What this privacy policy describes
 
-This documents the processing of your data as a recipient of
+This documents the processing of your data as an applicant and/or recipient of
 clinical datasets. It does not document any usage of the
 received datasets.
 
