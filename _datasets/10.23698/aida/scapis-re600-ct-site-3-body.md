@@ -41,14 +41,14 @@ other:
   - name: "Body"
     sctid:
   age-span: 50-64
-  bytes: 
+  bytes: 54819108
   numberOfScans: 
   image: "/assets/images/10.23698/aida/scapiskilu/scapis-logo.jpg"
 
 
 ---
 ## File formats
-The dataset consists of uncompressed and 7z compressed archives containing a total of  .dcm files
+The dataset consists of uncompressed and 7z compressed archives containing a total of 43085 .dcm files
 
 ## License
 ### Controlled access

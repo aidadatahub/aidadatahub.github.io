@@ -1,5 +1,5 @@
 ---
-hidden: 
+hidden: yes
 layout: dataset-scapis
 scapis: yes
 datacite:
@@ -41,14 +41,14 @@ other:
   - name: "Heart"
     sctid:
   age-span: 50-64
-  bytes: 
+  bytes: 11522096
   numberOfScans: 
   image: "/assets/images/10.23698/aida/scapiskilu/scapis-logo.jpg"
 
 
 ---
 ## File formats
-The dataset consists of uncompressed and 7z compressed archives containing a total of  .dcm files.
+The dataset consists of uncompressed and 7z compressed archives containing a total of 17919 .dcm files.
 
 ## License
 ### Controlled access
