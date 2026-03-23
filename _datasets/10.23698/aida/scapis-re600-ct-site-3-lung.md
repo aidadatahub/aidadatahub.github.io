@@ -41,14 +41,14 @@ other:
   - name: "Lung"
     sctid:
   age-span: 50-64
-  bytes: 
+  bytes: 963092836
   numberOfScans: 
   image: "/assets/images/10.23698/aida/scapiskilu/scapis-logo.jpg"
 
 
 ---
 ## File formats
-The dataset consists of uncompressed and 7z compressed archives containing a total of  .dcm files
+The dataset consists of uncompressed and 7z compressed archives containing a total of 758388  .dcm files
 
 ## License
 ### Controlled access

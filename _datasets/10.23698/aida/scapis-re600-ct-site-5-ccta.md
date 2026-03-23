@@ -41,14 +41,14 @@ other:
   - name: "Heart"
     sctid:
   age-span: 50-64
-  bytes: 
+  bytes: 199334364
   numberOfScans:
   image: "/assets/images/10.23698/aida/scapiskilu/scapis-logo.jpg"
 
 
 ---
 ## File formats
-The dataset consists of uncompressed and 7z compressed archives containing a total of 3004429 .dcm files
+The dataset consists of uncompressed and 7z compressed archives containing a total of 298833 .dcm files
 
 ## License
 ### Controlled access
