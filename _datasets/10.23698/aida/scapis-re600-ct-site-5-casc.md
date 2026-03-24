@@ -5,10 +5,10 @@ scapis: yes
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
-  "@id": "https://doi.org/10.23698/aida/scapis-re600-ct-site-5-casc"
+  "@id": "https://doi.org/10.23698/aida/scapis-re-examination-600-ct-site-5-casc"
   name: "SCAPIS CASC data from Site 5"
   about: "Radiology"
-  url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re600-ct-site-5-casc"
+  url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re-examination-600-ct-site-5-casc"
   publisher:
     "@type": "Organization"
     name: "AIDA"
@@ -25,14 +25,14 @@ datacite:
     Data from CASC scans carried out in the SCAPIS study cohort in site 5. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm).   
   license:
   - name: "Controlled access"
-    id: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re600-ct-site-5-casc#controlled-access"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re-examination-600-ct-site-5-casc#controlled-access"
     "@type": "CreativeWork"
     abstract: |
       Please contact SCAPIS for terms of access.
 other:
   modality:
   - "CT"
-  shortName: "SCAPIS-RE600-CT-SITE-5-CASC"
+  shortName: "SCAPIS-RE-EXAMINATION-60-CT-SITE-5-CASC"
   origin: "Clinical"
   status: "Ongoing"
   countries-shared:

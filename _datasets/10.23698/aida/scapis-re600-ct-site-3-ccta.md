@@ -5,10 +5,10 @@ scapis: yes
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
-  "@id": "https://doi.org/10.23698/aida/scapis-re600-ct-site-3-ccta"
-  name: "SCAPIS RE600 CCTA data from site 3"
+  "@id": "https://doi.org/10.23698/aida/scapis-re-examination-600-ct-site-3-ccta"
+  name: "SCAPIS re-examination-600 CCTA data from site 3"
   about: "Radiology"
-  url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re600-ct-site-3-ccta"
+  url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re-examination-600-ct-site-3-ccta"
   publisher:
     "@type": "Organization"
     name: "AIDA"
@@ -25,14 +25,14 @@ datacite:
     Data from CCTA scans carried out in the SCAPIS study cohort in site 3. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm).   
   license:
   - name: "Controlled access"
-    id: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re600-ct-site-3-ccta#controlled-access"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re-examination-600-ct-site-3-ccta#controlled-access"
     "@type": "CreativeWork"
     abstract: |
       Please contact SCAPIS for terms of access.
 other:
   modality:
   - "CT"
-  shortName: "SCAPIS-RE600-CT-SITE-3-CCTA"
+  shortName: "SCAPIS-RE-EXAMINATION-60-CT-SITE-3-CCTA"
   origin: "Clinical"
   status: "Ongoing"
   countries-shared:
