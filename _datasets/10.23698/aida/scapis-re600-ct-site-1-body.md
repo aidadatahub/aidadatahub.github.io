@@ -5,10 +5,10 @@ scapis: yes
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
-  "@id": "https://doi.org/10.23698/aida/scapis-re600-site-1-body"
+  "@id": "https://doi.org/10.23698/aida/scapis-re-examination-600-site-1-body"
   name: "SCAPIS Body data from site 1"
   about: "Radiology"
-  url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re600-ct-site-1-body"
+  url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re-examination-600-ct-site-1-body"
   publisher:
     "@type": "Organization"
     name: "AIDA"
@@ -25,14 +25,14 @@ datacite:
     Data from body scans carried out in the SCAPIS study cohort in site 1. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm).   
   license:
   - name: "Controlled access"
-    id: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re600-ct-site-1-body#controlled-access"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re-examination-600-ct-site-1-body#controlled-access"
     "@type": "CreativeWork"
     abstract: |
       Please contact SCAPIS for terms of access.
 other:
   modality:
   - "CT"
-  shortName: "SCAPIS-RE600-CT-SITE-1-BODY"
+  shortName: "SCAPIS-RE-EXAMINATION-60-CT-SITE-1-BODY"
   origin: "Clinical"
   status: "Ongoing"
   countries-shared:
