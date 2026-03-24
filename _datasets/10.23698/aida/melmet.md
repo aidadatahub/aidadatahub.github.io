@@ -3,16 +3,16 @@ hidden: yes
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
-  "@id": "https://doi.org/10.23698/aida/mmp"
-  name: "Melanoma metastatic prediction"
+  "@id": "https://doi.org/10.23698/aida/melmet"
+  name: "Melanoma metastatic prediction dataset"
   about: "Pathology"
-  url: "https://datahub.aida.scilifelab.se/10.23698/aida/mmp"
+  url: "https://datahub.aida.scilifelab.se/10.23698/aida/melmet"
   author:
   - name: "Noora Neittaanmäki"
     "@id": "https://orcid.org/0000-0002-8733-5510"
     "@type": "Person"
   - name: "Filip Dahlen"
-    "@id": ""
+    "@id": "https://orcid.org/0009-0000-8849-1550"
     "@type": "Person"
   - name: "Ivan Shjuski"
     "@id": ""
@@ -21,10 +21,10 @@ datacite:
     "@id": "https://orcid.org/0000-0003-3283-5670"
     "@type": "Person"
   - name: "Ida Häggström"
-    "@id": ""
+    "@id": "https://orcid.org/0000-0001-9178-6683"
     "@type": "Person"
   - name: "Ilkka Polonen"
-    "@id": ""
+    "@id": "https://orcid.org/0000-0002-5129-7364"
     "@type": "Person"
   publisher:
     "@type": "Organization"
@@ -33,6 +33,9 @@ datacite:
   copyrightHolder:
   - name: "Sahlgrenska University hospital"
     url: "https://www.sahlgrenska.se//"
+    "@type": "Organization"
+  - name: "University of Gothenburg"
+    url: "https://www.gu.se//"
     "@type": "Organization"
   - name: "Noora Neittaanmäki"
     "@id": "https://orcid.org/0000-0002-8733-5510"
@@ -47,13 +50,12 @@ datacite:
     "@id": "https://datahub.aida.scilifelab.se"
     "@type": "Organization"
   dateCreated: "2025-06-09"
-  datePublished: "2025-06-09"
-  dateModified: "2025-06-09"
-  keywords: "melanoma, cutaneous melanoma, staging, metastatic prediction "
+  datePublished: "2026-03-24"
+  dateModified: "2026-03-24"
+  keywords: "melanoma, cutaneous melanoma, staging, metastatic prediction"
   version: "1.0.0"
   description: |
-    Whole slide pathology images from excision specimens of cutaneous melanoma) collected at the Departments of Pathology in the Region Västra Götaland, Sweden. The dataset contains 435 WSIs representing 435 excised primary cutaneous melanomas. Additional information describing the histological features in form of text embeddings are available as a separate file. described in an additional file.  
-
+    Whole slide pathology images from excision specimens of primary cutaneous melanoma collected at the Departments of Pathology in the Region Västra Götaland, Sweden. The dataset contains 426 WSIs representing 426 excised primary cutaneous melanomas (249 metastatic and 177 non-metastatic). Additional information describing the histological features as text embeddings and information weather the tumor have metastasized is available as separate Excel files.
   license:
   - name: "Controlled access"
     id: "https://datahub.aida.scilifelab.se/10.23698/aida/bccc#controlled-access"
@@ -69,10 +71,13 @@ datacite:
       "@id": ""
       name: ""
 other:
-  shortName: "MMP"
+  shortName: "MelMet"
   origin: "Clinical"
   status: "Completed"
-  annotation: "[INFORMATION NEEDED]"
+  annotation: |
+    The WSIs are weakly annotated on a slide level to metastatic 
+    (1) or non-metastatic (0). The information is available in the 
+    Excel files.
   countries-shared:
     -
   organ:
@@ -80,8 +85,8 @@ other:
     sctid: 39937001 # SNOMED-CT
   age-span: "2016-2024"
   bytes: 0  #6.16 TB, 6164491827525 B before the last upload
-  numberOfScans: 435
-  numberOfAnnotations: 435
+  numberOfScans: 426
+  numberOfAnnotations: 426
   resolution: "x40"
   modality:
   - "SM"
@@ -89,11 +94,11 @@ other:
   - NanoZoomer S360 Hamamatsu
   stain: "H&E (hematoxylin and eosin)"
   phase:
-  image: "/assets/images/10.23698/aida/mmp/sample1-thumbnail.jpeg"
+  image: "/assets/images/10.23698/aida/melmet/sample1-thumbnail.jpeg"
   exampleImage:
   - title: "Sample image 1"
-    url: "/assets/images/10.23698/aida/mmp/sample1.jpeg"
-    thumbnail-url: "/assets/images/10.23698/aida/mmp/sample1-thumbnail.jpeg"
+    url: "/assets/images/10.23698/aida/melmet/sample1.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/melmet/sample1-thumbnail.jpeg"
   # - title: "Sample image 2"
   #   url: "/assets/images/10.23698/aida/bccc/sample2.jpeg"
   #   thumbnail-url: "/assets/images/10.23698/aida/bccc/sample2-thumbnail.jpeg"
@@ -106,8 +111,7 @@ other:
 ---
 
 ## File formats
-Histopathological slides are stored as .ndpi (size per slide 1-5.5GB).
-[INFORMATION NEEDED]
+Histopathological slides are stored as .ndpi (size per slide 1.3-5.5GB).
 
 ## License
 ### Controlled access
