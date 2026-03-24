@@ -17,12 +17,16 @@ See also:
 1. Find datasets of interest, for example by [browsing](#scapis-datasets) below or [searching](../search?q=name:scapis).
 2. [Apply to SCAPIS](https://www.hjart-lungfonden.se/forskning/scapis/scapis-org/data-access/) for access.
 3. SCAPIS head office communicates approval and instructions for access.
-4. Following approval, [contact AIDA Data Hub](mailto:aida-data@nbis.se?subject=Access to SCAPIS data) for account generation, and be ready to provide:
- * Photo ID
- * Institutional email address and SMS number
+4. Following approval from SCAPIS, please [contact AIDA Data Hub](mailto:aida-data@nbis.se?subject=Access to SCAPIS data) for verification of the applicant (PI).
+  This will typically involve a short video call. 
+ * The applicant will need to provide a photo ID
+5. After verification, persons appointed by the applicant can be given accounts
+ for data access. The applicant should [contact AIDA Data Hub](mailto:aida-data@nbis.se?subject=Access to SCAPIS data) with information
+ about who should be given access. For these persons, we’ll need:
+ * Institutional email address and phone number capable of receiving SMS
  * The public part of a secure password protected SSH keypair
-5. Following account creation, download approved data [following the DGX-2 connection instructions](../../services/dgx-2).
-6. Optional: Get a [Data Science Platform](../../data-science-platform) at AIDA Data Hub to process images on-platform.
+6. Following account creation, download approved data [following the DGX-2 connection instructions](../../services/dgx-2).
+7. Optional: Get a [Data Science Platform](../../data-science-platform) at AIDA Data Hub to process images on-platform.
 
 ### Contact
 Our data sharing is done in collaboration with the SciLifeLab [Data Centre](https://www.scilifelab.se/data/).

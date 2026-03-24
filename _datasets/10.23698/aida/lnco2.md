@@ -33,7 +33,7 @@ datacite:
     "@id": "https://orcid.org/0000-0002-9368-0177"
     "@type": "Person"
   - name: "Gordan Maras"
-    email: "gordan.maras@regiongavleborg.se"
+    email: "gordan.maras@akademiska.se"
     "@id": "https://orcid.org/0000-0002-0566-6739"
     "@type": "Person"        
   - name: "AIDA Data Hub"
@@ -79,8 +79,10 @@ other:
     using region-of-interest boxes (positive, negative, unassested). A few detailed polygons of tumor exist. See details below.
   countries-shared:
   - "CN"
+  - "DE"
   - "FI"
   - "IE"
+  - "KR"
   - "NO"
   - "SE"
   - "US"
@@ -166,9 +168,10 @@ LNCO2
 ## License
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research.
-Please contact the dataset provider for terms of access.
 
-{% include access-request-blurb.md %}
+{% include data-access-requirements.md %}
+
+{% include rems-link.md %}
 
 ### AIDA BY license
 Copyright
@@ -194,3 +197,5 @@ CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA
 OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS
 ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR CHARACTERISTICS OF THIS
 DATA.
+
+

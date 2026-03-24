@@ -1,6 +1,6 @@
 ---
 title: A roadmap to precision medicine
-highlight: yes
+highlight: 
 blurb: >
   Seven university hospital regions in Sweden are starting up precision
   medicine centra, and have created a [network](/about/engagements/precision-medicine-center-network)

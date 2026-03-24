@@ -2,7 +2,7 @@
 title: Data Science Platform
 description: A home for your research.
 ---
-Our data science platform offers a home for your research. Our customers include researchers, industry, caregivers and user communities of national significance.
+Our data science platform offers a home for your research. It is a Swedish national, publicly owned and secure cloud service for research and innovation in data driven precision health. Our customers include researchers, industry, caregivers and user communities of national significance.
 
 <!--FIXME maybe all these services should be broken out to separate pages? -->
 
@@ -11,7 +11,7 @@ Our data science platform offers a home for your research. Our customers include
 
 * **Data Science Platform**: Computable long term primary storage, supporting advanced usage patterns including data collection, collaboration, visualization, enrichment, annotation, AI training, and federated analysis.
 
-* **Close to flagship compute**: Easy access from large scale national/European compute resources when extreme needs of computation arise.  
+* **Close to flagship compute**: Easy access from large scale national/European compute resources when extreme needs of computation arise.
 
 * **Sensitive Data Services**: Suitable for research on large amounts of data of extreme confidentiality including biomedical personal data.
 
@@ -26,6 +26,7 @@ An annual [membership fee](../services#access) provides [base service](#base-ser
 * [Hardware information](hardware)
 * [Server hosting](../about/hosting)
 * [Documentation](/docs#data-science-platform)
+* Usage example: [Spawning GPU Virtual Machine](https://docs.datahub.aida.scilifelab.se/dsp/examples/gpu-iaas/)
 
 {:.no_toc}
 ## Services
@@ -39,98 +40,113 @@ An annual [membership fee](../services#access) provides [base service](#base-ser
 | Cost:     | Please visit [Prices](../services#prices) |  
 | Status:   | Planned.             |
 
-Includes:
-* Up to 2 TB private storage quota (no backup).
+Including:
+* One or multiple secure environments for collaboration on sensitive data, for use under the control of one customer activity (ie: one research group, one clinic, etc). 
+* 2 TB private network storage quota (no backup).
+* CPU compute up to the value of the yearly fee, according to the price list.
+  * GPU compute available as an add-on service.
 * Multifactor login using Life Science Login and your home organization account.
 * Access to shared datasets on approval.
-* Customer separation. You cannot see other customers, and they cannot see you.
-* Customizable security, make security decisions appropriate for your project (e.g. allow connecting to home institution secure servers, collaborators, ...).
-* Self-service dashboard and service launcher.
+* Customer separation. You cannot see other secure environments, and they cannot see yours.
+* Customizable security, make security decisions appropriate for your project (e.g. allow connections to home institution servers and collaborators).
+* Self-service dashboard.
+* Onboarding support.
 
-Usage example: [Spawning GPU Virtual Machine](examples/gpu-sd-iaas-jupyter)
+## Add-on Services
 
-### Optional services
-
-#### SD Desktop
-
-{:class="tight-table"}
-| Audience: | Everyone                  |  
-| Cost:     | Included in base service. |  
-| Status:   | Planned.                  |
-
-Access to secure remote desktop.
-
-#### SD Telerad
+### Large Compute
 
 {:class="tight-table"}
-| Audience: | Customers receiving scans from medical imaging modalities. |  
-| Cost:     | Included in base service |  
-| Status:   | Planned.                 |
+| Audience: | Everyone             |  
+| Cost:     | Please visit [Prices](../services#prices) |  
+| Status:   | Available    
 
-Receive DICOM images via telerad from specified scanners.
+More compute resources than what is included in the Base Service. 
 
-#### SD openEHR
-
-{:class="tight-table"}
-| Audience: | Customers receiving openEHR data. |  
-| Cost:     | Included in base service. |  
-| Status:   | Planned.                  |
-
-Receive openEHR data from specified sources.
-
-## Add-on services
-
-### SD Large storage
+### Large Storage
 
 {:class="tight-table"}
-| Audience: | Large scale data users. |  
-| Cost:     | Please visit [Prices](../services#prices)  |  
-| Status:   | Planned.              |
+| Audience: | Everyone             |  
+| Cost:     | Please visit [Prices](../services#prices) |  
+| Status:   | Available   
 
-Larger storage (no backup) than what is included in Basic service.
+Larger storage (no backup) than what is included in the Base Service.
 
-### SD Primary storage
+### Primary Storage
 
 {:class="tight-table"}
-| Audience: | Customers using AIDA Data Hub for primary storage of data. |  
-| Cost:     | Please visit [Prices](../services#prices)  |  
-| Status:   | Planned.              |
+| Audience: | Customers using AIDA Data Hub for primary storage of data |  
+| Cost:     | Please visit [Prices](../services#prices) |  
+| Status:   | Planned
 
 Storage with backups, guarding against disaster and (some) user error.
 
-### SD Infrastructure as a service
+
+## Optional services
+
+### Infrastructure as a Service
 
 {:class="tight-table"}
-| Audience: | AI- and data scientists, and systems development experts. |  
-| Cost:     | Depends on flavor, please visit [Prices](../services#prices) |  
-| Status:   | Planned.                                |
+| Audience: | AI- and data scientists, and systems development experts |  
+| Cost:     | Included in the Base Service |  
+| Status:   | Available
 
 Multi-factor authenticated SSH connection to private self-managed virtual machines.
 
-### SD Software as a service
+### Remote Desktop
 
 {:class="tight-table"}
-| Audience: | AI- and data scientists, and systems development experts. |  
-| Cost:     | Depends on flavor, please visit [Prices](../services#prices) |  
-| Status:   | Planned.                                |
+| Audience: | Everyone |  
+| Cost:     | Included in the Base Service |  
+| Status:   | Planned
 
-Secure access to popular web service tools for data analysis.
+Access through a secure remote desktop.
 
-#### SD Jupyter notebook
-
-{:class="tight-table"}
-| Audience: | Researchers.          |  
-| Status:   | Planned.              |
-
-Web-based interactive computing platform. Combines live code, equations, narrative text, visualizations, interactive dashboards and other media.
-
-#### SD Cytomine server
+### Software as a Service
 
 {:class="tight-table"}
-| Audience: | Pathologists and researchers. |  
-| Status:   | Planned.                      |
+| Audience: | AI- and data scientists, and systems development experts |  
+| Cost:     | Included in Base service |  
+| Status:   | Planned                  |
 
-Open-source web platform for collaborative analysis of very large pathology images and image collections together with machine learning algorithms.
+Secure access to popular web service tools for data analysis. Consider combining with Large Compute if you need more compute resources than what is included in the Base Service. 
+
+- #### Jupyter Notebook
+
+  {:class="tight-table"}
+  | Audience: | Researcher |  
+  | Status: | Planned  |               
+
+  Web-based interactive computing platform. Combines live code, equations, narrative text, visualizations, interactive dashboards and other media.
+
+- #### Cytomine Server
+
+  {:class="tight-table"}
+  | Audience: | Pathologists and researchers |  
+  | Status:   | Planned             |
+
+  Open-source web platform for collaborative analysis of very large pathology images and image collections together with machine learning algorithms.
+
+
+
+### Telerad Import
+
+{:class="tight-table"}
+| Audience: | Customers receiving scans from medical imaging modalities |  
+| Cost:     | Included in Base Service |  
+| Status:   | Planned                 |
+
+Receive DICOM images via telerad from specified scanners.
+
+### openEHR Import
+
+{:class="tight-table"}
+| Audience: | Customers receiving openEHR data |  
+| Cost:     | Included in Base Service |  
+| Status:   | Planned                  |
+
+Receive openEHR data from specified sources.
+
 
 {:.no_toc}
 ## Contact

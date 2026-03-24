@@ -1,6 +1,6 @@
 ---
 title: Full set of SCAPIS CT examinations shared
-highlight: yes
+highlight: 
 blurb: >
   The full set of [SCAPIS core CT examinations](/datasets/scapis/#scapis-datasets)
   is now available for sharing through the AIDA Data Hub, and is currently being

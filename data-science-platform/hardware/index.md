@@ -14,13 +14,13 @@ cluster_partitions:
         cpus: 32 Cores (2 Intel® Xeon® Gold 6526Y 2.8G)
     GPU Compute L4:
         nodes: 6
-        storage-devices: 6.4 TB NVMe SSD
+        storage-devices: 8 TB NVMe SSD
         ram: 512 GB
         cpus: 32 CPU cores (2 Intel Xeon Gold 5416S 2G)
         gpus: 4 NVIDIA L4
     GPU Compute L40s:
         nodes: 2
-        storage-devices: 6.4 TB NVMe SSD
+        storage-devices: 8 TB NVMe SSD
         ram: 512 GB
         cpus: 32 CPU cores (2 Intel Xeon Gold 5416S 2G)
         gpus: 4 NVIDIA L40s

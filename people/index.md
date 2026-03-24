@@ -21,9 +21,7 @@ topics:
 
 {% endfor %}
 
-{% comment %}
 ## Alumni
 People who have helped make AIDA Data Hub what it is today.
 
-{% include people-topic-table.md active="inactive" topic="aida-data-hub" %}
-{% endcomment %}
+{% include people-table-alumni.md %}

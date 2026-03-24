@@ -46,4 +46,4 @@ AIDA can offer some support to non-members in steps 2-5 below <span class="aida-
 </td></tr>
 </table>
 
-Internal supporting processes are described in a separate document [AIDA Data sharing routines](https://docs.google.com/document/d/1FOb9YD_w_8SabCAbfWXHuKwAwhPyFBPKlVWuOTTwBF0/edit#) which is updated continuously.
+Internal supporting processes are described in a separate document [AIDA Data sharing routines](https://docs.google.com/document/d/1rj8qfjlqxazo-7Fdr5dhnz0jBqad7LxlwGEgIsGKnEY/edit?tab=t.0#heading=h.briylhqfp2xw) which is updated continuously.

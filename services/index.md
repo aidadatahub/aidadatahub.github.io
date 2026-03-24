@@ -12,7 +12,7 @@ Please contact your [community](#communities) for terms, or refer to our [prices
 Please contact the following for enquiries and access:
 * Data sharing: [aida-data@nbis.se](mailto:aida-data@nbis.se)
 * Support: [aida-support@nbis.se](mailto:aida-support@nbis.se)
-* Services: [aida-data-director@nbis.se](mailto:aida-data-director@nbis.se)
+* Services: [aida-services@nbis.se](mailto:aida-services@nbis.se)
 
 ### Communities
 
@@ -20,7 +20,7 @@ Please contact the following for enquiries and access:
 * [ASHA](https://www.vinnova.se/p/anvanda-standardiserade-halsodata-som-accelerator-for-att-starka-innovation-och-framtidens-halso--och-sjukvard/)
 * [EUCAIM](https://cancerimage.eu/)
 
-Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400kSEK, deadlines may vary).
+Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400 000 SEK, deadlines may vary).
 
 ### Prices
 Our pricing strategy is to set prices that enable sustainable operations and
@@ -29,29 +29,91 @@ possible, in order to maximize high-impact research and to incentivize data
 sharing that helps build the data commons and increases data availability for
 research.
 
-Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400kSEK, deadlines may vary).
+Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovationscheckar) (up to 400 000 SEK, deadlines may vary).
 
 <style>
-.main-content table th, thead, .main-content table th, .main-content table td {
+.main-content table.services-table,
+.main-content table.services-table thead,
+.main-content table.services-table tbody,
+.main-content table.services-table tr,
+.main-content table.services-table th,
+.main-content table.services-table td
+{
+   border: none;
+   text-align: left;
+}
+.main-content table.services-table {
+  margin-bottom: 2rem; /* or 1.5em, or whatever fits your rhythm */
+}
+</style>
+
+#### Price list - Services
+
+| Service                                                                      | Price              |             |
+|:-----------------------------------------------------------------------------|-------------------:|:------------|
+| [Base Service Data Science Platform](../data-science-platform/#base-service) | 50 000             | SEK/yr      |
+| + [Large Storage](../data-science-platform/#sd-large-storage)                | 3 000              | SEK/TB/yr   | 
+| + [Backed up primary storage](../data-science-platform/#sd-primary-storage)  | 7 200              | SEK/TB/yr   |
+| + GPU compute L4                                                             | 25                 | vGPU SEK/hr |
+| + GPU compute L40S                                                           | 30                 | vGPU SEK/hr |
+| + Large scale CPU compute                                                    | 0.70               | vCPU SEK/hr |
+| [Share prioritized data](../services/data-sharing/)                          | *discount*         |
+| [Extract and enrich](../services/extract-enrich/)                            | *subsidies*        |
+| Support consultation                                                         | *Free*             |
+| Support, data sharing                                                        | *Free*             |
+| Support, academic (NBIS [User fee track](https://nbis.se/services/bioinformatics)) | 800          | SEK/hr      |  
+| Support, other                                                               | Full cost coverage |
+{: .services-table}
+
+
+#### Price list - Virtual Machine CPU Flavors
+All virtual machines are equipped with Intel® Xeon® Gold 6526Y 2.8 GHz processors.
+
+
+| Product ID / Flavor | vCPU | Cores | RAM GB * | Local disk GB * | Price per vCPU SEK/hr | Price SEK/hr |
+|---------------------|------|-------|----------|-----------------|-----------------------|--------------|
+| verdi-sixteenthnode | 4    | 2     | 64       | 400             | 0.70                  | **2.81**     |
+| verdi-eightnode     | 8    | 4     | 128      | 800             | 0.70                  | **5.63**     |
+| verdi-quarternode   | 16   | 8     | 256      | 1 600           | 0.70                  | **11.25**    | 
+| verdi-halfnode      | 32   | 16    | 512      | 3 200           | 0.70                  | **22.50**    | 
+| verdi-fullnode      | 64   | 32    | 1024     | 6 400           | 0.70                  | **45.00**    | 
+{: .vm-flavors-table}
+
+*Please note, a small amount of resources is reserved for hypervisor use.
+
+
+#### Price list - Virtual Machine L4 GPU Flavors
+All virtual machines are equipped with NVIDIA L4 GPUs, and Intel® Xeon® Gold 5416S 2.00 GHz processors.
+
+| Product ID / Flavor | vGPU | vCPU | Cores | RAM GB * | Local disk GB * | Price per vGPU SEK/hr | Price SEK/hr |
+|---------------------|------|------|-------|----------|-----------------|-----------------------|--------------|
+| verdi-L4-quarternode| 1    | 8    | 4     | 128      | 2000            | 25.00                 | **25.00**    |
+| verdi-L4-halfnode   | 2    | 16   | 8     | 256      | 4000            | 25.00                 | **50.00**    |
+| verdi-L4-fullnode   | 4    | 32   | 16    | 512      | 8000            | 25.00                 | **100.00**   |
+{: .vm-flavors-table}
+
+*Please note, a small amount of resources is reserved for hypervisor use.
+
+#### Price list - Virtual Machine L40S GPU Flavors
+All virtual machines are equipped with NVIDIA L40S GPUs, and Intel® Xeon® Gold 5416S 2.00 GHz processors.
+
+
+<style>
+.main-content table.vm-flavors-table thead, th
+{
    border: none;
    text-align: left;
 }
 </style>
 
-| Service                     | Price       |
-|-----------------------------|-----------------------|
-| [Data Science Platform](../data-science-platform/#base-service)             | 50kSEK/yr          |
-| + [Large volume storage](../data-science-platform/#sd-large-storage)        | +1.5 kSEK/TB/yr    |
-| + [Backed up primary storage](../data-science-platform/#sd-primary-storage) | +2.5 kSEK/TB/yr    |
-| + GPU compute               | +80 kSEK/GPU/yr       |
-| + Large scale CPU compute   | +24 kSEK/CPU/yr       |
-| + Sectra PACS               | TBD                   |
-| [Share prioritized data](../services/data-sharing/) | *discount*     
-| [Extract and enrich](../services/extract-enrich/)   | *subsidies*  
-| Support consultation        | *Free*                |
-| Support, data sharing       | *Free*                |
-| Support, academic           | 800 SEK/hr            | [NBIS User fee track](https://nbis.se/services/bioinformatics) |
-| Support, other              | Full cost coverage    |
+| Product ID / Flavor | vGPU | vCPU | Cores | RAM GB * | Local disk GB * | Price per vGPU SEK/hr | Price SEK/hr |
+|---------------------|------|------|-------|----------|-----------------|-----------------------|--------------|
+| verdi-L40S-quarternode| 1    | 8    | 4     | 128    | 2000            | 30.00                 | **30.00**    |
+| verdi-L40S-halfnode   | 2    | 16   | 8     | 256    | 4000            | 30.00                 | **60.00**    |
+| verdi-L40S-fullnode   | 4    | 32   | 16    | 512    | 8000            | 30.00                 | **120.00**   |
+{: .vm-flavors-table}
+
+*Please note, a small amount of resources is reserved for hypervisor use.
 
 ### Contact
 Our [economy team](../people#economy):

@@ -103,9 +103,10 @@ other:
 ## License
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research.
-Please contact AIDA for terms of access.
 
-{% include access-request-blurb.md agreement_template_url= "https://docs.google.com/document/d/1vV3RXEp5qxoPiW6xR_weRcaINZawPpI7vrm5vrvefUM/edit?usp=sharing" %}
+{% include data-access-requirements.md %}
+
+{% include rems-link.md %}
 
 ### AIDA BY license
 Copyright

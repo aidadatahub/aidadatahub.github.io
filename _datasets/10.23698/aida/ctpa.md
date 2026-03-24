@@ -123,11 +123,10 @@ DICOM. Please see our help pages for some examples of
 ## License
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research.
-Please contact AIDA for terms of access.
 
-{% include access-request-blurb.md
-  agreement_template_url="https://docs.google.com/document/d/1a020Mukn9cjJF88vEYW9OUUDIc2E3dHbSBQi_jb8Yd0"
-  coauthorship="yes" %}
+{% include data-access-requirements.md %}
+
+{% include rems-link.md %}
 
 ### AIDA BY license
 Copyright

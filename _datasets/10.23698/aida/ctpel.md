@@ -139,9 +139,8 @@ Landmarks are available in the sr.dcm file and saved using the TID 1500 template
 ## License
 ### Controlled access
 Free for use in research or education.
-Please contact AIDA for terms of access.
 
-{% include access-request-blurb.md email_template="access-request-email-research-or-education.md" %}
+{% include rems-link.md %}
 
 ### AIDA BY license
 #### Segmentation masks and anatomical landmark annotations

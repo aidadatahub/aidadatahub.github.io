@@ -85,6 +85,7 @@ other:
   countries-shared:
   - "CN"
   - "FI"
+  - "KR"
   - "NL"
   - "NO"
   - "SE"
@@ -130,9 +131,10 @@ the image *width*.
 ## License
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research.
-Please contact the dataset provider for terms of access.
 
-{% include access-request-blurb.md coauthorship="yes" %}
+{% include data-access-requirements.md %}
+
+{% include rems-link.md %}
 
 ### AIDA BY CA license
 Copyright
@@ -157,3 +159,4 @@ CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA
 OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS
 ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR CHARACTERISTICS OF THIS
 DATA.
+

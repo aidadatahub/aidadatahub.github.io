@@ -86,6 +86,7 @@ other:
     responsible for the manual annotations controlled by a second pathologist.
   countries-shared:
   - "AT"
+  - "AU"
   - "CA"
   - "CN"
   - "DE"
@@ -135,9 +136,10 @@ the image *width*.
 ## License
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research.
-Please contact the dataset provider for terms of access.
 
-{% include access-request-blurb.md %}
+{% include data-access-requirements.md %}
+
+{% include rems-link.md %}
 
 ### AIDA BY license
 Copyright
