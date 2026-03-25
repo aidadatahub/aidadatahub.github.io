@@ -94,7 +94,7 @@ other:
   - NanoZoomer S360 Hamamatsu
   stain: "H&E (hematoxylin and eosin)"
   phase:
-  image: "/assets/images/10.23698/aida/melmet/sample-figure-1.jpg"
+  image: "/assets/images/10.23698/aida/melmet/data-browser-thumbnail.jpg"
   exampleImage:
   - title: "Sample image 1"
     url: "/assets/images/10.23698/aida/melmet/sample-figure-1.jpg"
