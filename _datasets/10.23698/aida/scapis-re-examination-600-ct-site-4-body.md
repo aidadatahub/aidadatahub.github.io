@@ -14,8 +14,8 @@ datacite:
     name: "AIDA"
   copyrightYear: 2026
   copyrightHolder:
-  - name: "Karolinska Institute"
-    url: "https://ki.se/"
+      - name: ""
+        url: ""
     "@type": "Organization"
   dateCreated: "2026-03-19"
   datePublished: "2026-03-19"
@@ -32,7 +32,7 @@ datacite:
 other:
   modality:
   - "CT"
-  shortName: "SCAPIS-RE-EXAMINATION-60-CT-SITE-4-BODY"
+  shortName: "SCAPIS-RE-EXAMINATION-600-CT-SITE-4-BODY"
   origin: "Clinical"
   status: "Ongoing"
   countries-shared:
@@ -43,7 +43,7 @@ other:
   age-span: 50-64
   bytes: 359064
   numberOfScans: 
-  image: "/assets/images/10.23698/aida/scapiskilu/scapis-logo.jpg"
+  image: "/assets/images/logos/heartlungfoundation-logo.jpg"
 
 
 ---
