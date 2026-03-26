@@ -6,7 +6,7 @@ datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
   "@id": "https://doi.org/10.23698/aida/scapis-re-examination-600-site-1-body"
-  name: "SCAPIS Body data from site 1"
+  name: "SCAPIS RE-EXAMINATION-600 Body data from site 1"
   about: "Radiology"
   url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re-examination-600-ct-site-1-body"
   publisher:
@@ -22,7 +22,7 @@ datacite:
   dateModified: "2026-03-19"
   keywords: "Radiology, Computed tomography, Heart, Scapis"
   description: |
-    Data from body scans carried out in the SCAPIS study cohort in site 1. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm).   
+    Data from body scans carried out in the SCAPIS RE-EXAMINATION-600 study cohort in site 1. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm).   
   license:
   - name: "Controlled access"
     id: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re-examination-600-ct-site-1-body#controlled-access"
@@ -41,7 +41,7 @@ other:
   - name: "Body"
     sctid:
   age-span: 50-64
-  bytes: 5391452
+  bytes: 5520837727
   numberOfScans: 
   image: "/assets/images/logos/heartlungfoundation-logo.jpg"
 
