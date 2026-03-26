@@ -9,6 +9,10 @@ datacite:
   name: "SCAPIS lung data from site 1"
   about: "Radiology"
   url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-ct-site-1-lung"
+  author:
+    - "name": SCAPIS
+      "@id": "https://www.scapis.org/"
+      "@type": "Organization"
   publisher:
     "@type": "Organization"
     name: "AIDA"
@@ -19,7 +23,7 @@ datacite:
     "@type": "Organization"
   dateCreated: "2024-05-10"
   datePublished: "2024-05-10"
-  dateModified: "2024-05-10"
+  dateModified: "2026-03-26"
   keywords: "Radiology, Computed tomography, Lung, Scapis"
   description: |
     Data from lung scans carried out in the SCAPIS study cohort in site 1. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm).  
@@ -43,7 +47,7 @@ other:
   age-span: 50-64
   bytes: 3579265290875
   numberOfScans: 6108
-  image: "/assets/images/10.23698/aida/scapiskilu/scapis-logo.jpg"
+  image: "/assets/images/logos/heartlungfoundation-logo.jpg"
 
 
 ---
