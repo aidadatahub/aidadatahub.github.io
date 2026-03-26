@@ -6,7 +6,7 @@ datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
   "@id": "https://doi.org/10.23698/aida/scapis-re-examination-600-ct-site-5-lung"
-  name: "SCAPIS Lung no contrast data from site 5"
+  name: "SCAPIS RE-EXAMINATION-600 Lung data from site 5"
   about: "Radiology"
   url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re-examination-600-ct-site-5-lung"
   publisher:
@@ -14,15 +14,15 @@ datacite:
     name: "AIDA"
   copyrightYear: 2026
   copyrightHolder:
-      - name: ""
-        url: ""
+  - name: ""
+    url: ""
     "@type": "Organization"
   dateCreated: "2026-03-19"
   datePublished: "2026-03-19"
   dateModified: "2026-03-19"
   keywords: "Radiology, Computed tomography, Lung, Scapis"
   description: |
-    Data from Lung scans carried out in the SCAPIS study cohort in site 5. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm).   
+    Data from Lung scans carried out in the SCAPIS RE-EXAMINATION-600 study cohort in site 5. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm).   
   license:
   - name: "Controlled access"
     id: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re-examination-600-ct-site-5-lung#controlled-access"
@@ -41,7 +41,7 @@ other:
   - name: "Lung"
     sctid:
   age-span: 50-64
-  bytes: 543188592
+  bytes: 556224892868
   numberOfScans: 
   image: "/assets/images/logos/heartlungfoundation-logo.jpg"
 

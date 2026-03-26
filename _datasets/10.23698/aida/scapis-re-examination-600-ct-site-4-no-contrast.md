@@ -5,10 +5,10 @@ scapis: yes
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
-  "@id": "https://doi.org/10.23698/aida/scapis-re-examination-600-ct-site-4-no-contrast"
-  name: "SCAPIS re-examination-600 no contrast data from Site 4"
+  "@id": "https://doi.org/10.23698/aida/scapis-re-examination-600-ct-site-4-heart-no-contrast"
+  name: "SCAPIS RE-EXAMINATION-600 Heart no contrast data from Site 4"
   about: "Radiology"
-  url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re-examination-600-ct-site-4-no-contrast"
+  url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re-examination-600-ct-site-4-heart-no-contrast"
   publisher:
     "@type": "Organization"
     name: "AIDA"
@@ -22,17 +22,17 @@ datacite:
   dateModified: "2026-03-19"
   keywords: "Radiology, Computed tomography, Heart, Scapis"
   description: |
-    Data from CASC scans carried out in the SCAPIS study cohort in site 4. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm).   
+    Data from Heart no contrast scans carried out in the SCAPIS RE-EXAMINATION-600 study cohort in site 4. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm).   
   license:
   - name: "Controlled access"
-    id: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re-examination-600-ct-site-4-no-contrast#controlled-access"
+    id: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re-examination-600-ct-site-4-heart-no-contrast#controlled-access"
     "@type": "CreativeWork"
     abstract: |
       Please contact SCAPIS for terms of access.
 other:
   modality:
   - "CT"
-  shortName: "SCAPIS-RE-EXAMINATION-600-CT-SITE-4-NO-CONTRAST"
+  shortName: "SCAPIS-RE-EXAMINATION-600-CT-SITE-4-HEART-NO-CONTRAST"
   origin: "Clinical"
   status: "Ongoing"
   countries-shared:
@@ -41,7 +41,7 @@ other:
   - name: "Heart"
     sctid:
   age-span: 50-64
-  bytes: 11933784
+  bytes: 12220183099
   numberOfScans: 
   image: "/assets/images/logos/heartlungfoundation-logo.jpg"
 
