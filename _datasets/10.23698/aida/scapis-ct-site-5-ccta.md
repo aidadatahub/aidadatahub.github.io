@@ -9,6 +9,10 @@ datacite:
   name: "SCAPIS CCTA data from site 5"
   about: "Radiology"
   url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-ct-site-5-ccta"
+  author:
+    - "name": SCAPIS
+      "@id": "https://www.scapis.org/"
+      "@type": "Organization"
   publisher:
     "@type": "Organization"
     name: "AIDA"
@@ -43,7 +47,7 @@ other:
   age-span: 50-64
   bytes: 1900712166339
   numberOfScans: 4862
-  image: "/assets/images/10.23698/aida/scapiskilu/scapis-logo.jpg"
+  image: "/assets/images/logos/heartlungfoundation-logo.jpg"
 
 
 ---

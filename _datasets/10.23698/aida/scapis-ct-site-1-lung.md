@@ -9,6 +9,10 @@ datacite:
   name: "SCAPIS lung data from site 1"
   about: "Radiology"
   url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-ct-site-1-lung"
+  author:
+    - "name": SCAPIS
+      "@id": "https://www.scapis.org/"
+      "@type": "Organization"
   publisher:
     "@type": "Organization"
     name: "AIDA"
@@ -43,7 +47,7 @@ other:
   age-span: 50-64
   bytes: 3579265290875
   numberOfScans: 6108
-  image: "/assets/images/10.23698/aida/scapiskilu/scapis-logo.jpg"
+  image: "/assets/images/logos/heartlungfoundation-logo.jpg"
 
 
 ---

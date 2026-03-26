@@ -9,6 +9,10 @@ datacite:
   name: "SCAPIS body data from site 3"
   about: "Radiology"
   url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-ct-site-3-body"
+  author:
+    - "name": SCAPIS
+      "@id": "https://www.scapis.org/"
+      "@type": "Organization"
   publisher:
     "@type": "Organization"
     name: "AIDA"
@@ -43,7 +47,7 @@ other:
   age-span: 50-64
   bytes: 40349211414
   numberOfScans: 4977
-  image: "/assets/images/10.23698/aida/scapiskilu/scapis-logo.jpg"
+  image: "/assets/images/logos/heartlungfoundation-logo.jpg"
 
 
 ---
