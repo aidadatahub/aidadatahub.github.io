@@ -52,7 +52,7 @@ datacite:
   dateCreated: "2025-06-09"
   datePublished: "2026-03-24"
   dateModified: "2026-03-24"
-  keywords: "melanoma, cutaneous melanoma, staging, metastatic prediction, WSI"
+  keywords: "Pathology, Whole slide imaging, Weakly annotated, Skin cancer, Melanoma, Cutaneous melanoma, Staging, Metastatic prediction, WSI"
   version: "1.0.0"
   description: |
     Whole slide pathology images from excision specimens of primary cutaneous melanoma collected at the Departments of Pathology in the Region Västra Götaland, Sweden. The dataset contains 426 WSIs representing 426 excised primary cutaneous melanomas (249 metastatic and 177 non-metastatic). Additional information describing the histological features as text embeddings and information weather the tumor have metastasized is available as separate Excel files.
@@ -79,7 +79,7 @@ other:
     (1) or non-metastatic (0). The information is available in the 
     Excel files.
   countries-shared:
-    - "SE"
+   - 
   organ:
   - name: "Skin"
     sctid: 39937001 # SNOMED-CT
