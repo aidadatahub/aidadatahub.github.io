@@ -23,7 +23,7 @@ datacite:
     "@type": "Organization"
   dateCreated: "2024-05-10"
   datePublished: "2024-05-10"
-  dateModified: "2024-05-10"
+  dateModified: "2026-03-26"
   keywords: "Radiology, Computed tomography, Heart, Scapis"
   description: |
     Data from CASC scans carried out in the SCAPIS study cohort in site 3. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm).  
