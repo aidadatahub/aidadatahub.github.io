@@ -12,7 +12,10 @@ AIDA Data Hub.
 
 ### Open positions
 
-No currently open positions
+* 2026-03-30 [Technical Director – AI Research Infrastructure for Precision Health](https://liu.se/jobba-pa-liu/lediga-jobb/28513)
+
+  Lead one of Sweden's central data-sharing infrastructures for life science AI. As head of AIDA Data Hub, you'll set the technical direction, drive international collaborations, and oversee secure compute and data services for researchers, industry, and healthcare providers nationwide. A strategic role at the intersection of academia, clinical care, and AI — based at CMIV, Linköping University Hospital.
+  [Read the full ad and apply →](https://liu.se/jobba-pa-liu/lediga-jobb/28513)
 
 ### Past recruitments
 
