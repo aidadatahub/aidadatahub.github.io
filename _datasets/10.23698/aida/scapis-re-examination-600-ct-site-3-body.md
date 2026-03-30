@@ -5,7 +5,7 @@ scapis: yes
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
-  "@id": "https://doi.org/10.23698/aida/scapis-re-examination-600-site-3-body"
+  "@id": "https://doi.org/10.23698/aida/scapis-re-examination-600-ct-site-3-body"
   name: "SCAPIS RE-EXAMINATION-600 Body data from site 3"
   about: "Radiology"
   url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re-examination-600-ct-site-3-body"
