@@ -9,6 +9,10 @@ datacite:
   name: "SCAPIS RE-EXAMINATION-600 Body data from site 4"
   about: "Radiology"
   url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re-examination-600-ct-site-4-body"
+  author:
+    - "name": SCAPIS
+      "@id": "https://www.scapis.org/"
+      "@type": "Organization"
   publisher:
     "@type": "Organization"
     name: "AIDA"

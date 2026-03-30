@@ -9,6 +9,10 @@ datacite:
   name: "SCAPIS RE-EXAMINATION-600 Lung data from site 6"
   about: "Radiology"
   url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re-examination-600-ct-site-6-lung"
+  author:
+    - "name": SCAPIS
+      "@id": "https://www.scapis.org/"
+      "@type": "Organization"
   publisher:
     "@type": "Organization"
     name: "AIDA"

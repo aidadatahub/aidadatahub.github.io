@@ -9,6 +9,11 @@ datacite:
   name: "SCAPIS RE-EXAMINATION-600 Heart no contrast data from Site 2"
   about: "Radiology"
   url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-re-examination-600-ct-site-2-heart-no-contrast"
+  author:
+    - "name": SCAPIS
+      "@id": "https://www.scapis.org/"
+      "@type": "Organization"
+
   publisher:
     "@type": "Organization"
     name: "AIDA"
