@@ -5,7 +5,7 @@ description: Access and pricing
 We provide services for research and clinical innovation in data driven precision health, with a base in multi-modal diagnostics and medical imaging AI.
 
 ## Access
-Our services are provided based on user fees. Our customers are user communities,
+Our services are provided based on user fees (see our agreements [here](/agreements)). Our customers are user communities,
 researchers, industry, and caregivers of national significance.
 Please contact your [community](#communities) for terms, or refer to our [prices](#prices) below.
 
