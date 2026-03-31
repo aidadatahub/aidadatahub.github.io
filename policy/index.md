@@ -39,4 +39,6 @@ h2
 ## See also
 
 * [Support](../support)
+* [Agreements](/agreements)
 * [About AIDA](/about/aida)
+

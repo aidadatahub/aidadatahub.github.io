@@ -5,14 +5,25 @@ description: Access and pricing
 We provide services for research and clinical innovation in data driven precision health, with a base in multi-modal diagnostics and medical imaging AI.
 
 ## Access
-Our services are provided based on user fees (see our agreements [here](/agreements)). Our customers are user communities,
+Our services are provided based on user fees. Our customers are user communities,
 researchers, industry, and caregivers of national significance.
 Please contact your [community](#communities) for terms, or refer to our [prices](#prices) below.
+Our services are provided based on [agreements](#agreements)
 
 Please contact the following for enquiries and access:
 * Data sharing: [aida-data@nbis.se](mailto:aida-data@nbis.se)
 * Support: [aida-support@nbis.se](mailto:aida-support@nbis.se)
 * Services: [aida-services@nbis.se](mailto:aida-services@nbis.se)
+
+### Agreements
+
+The Data Science Platform (DSP) is provided under the following agreements:
+
+1. [Service Agreement](https://docs.google.com/document/d/1wtoc8-vYrjhTY8p_1IOVzI2CFSCnW92P/edit?usp=drive_link&ouid=116285713938211495704&rtpof=true&sd=true)  signed with the Customer (company, university, caregiver)
+2. [Terms and Conditions (T&C)](https://docs.google.com/document/d/1ilYKTHgkhNSOj-LCRXYq5iu54T0APqmt/edit?usp=drive_link&ouid=116285713938211495704&rtpof=true&sd=true) for users
+3. Optional: [Data Processing Agreement (DPA)](https://docs.google.com/document/d/1aMtxMh-jAGtcYf1sKTCXPrN4K93X9Gwb/edit?usp=drive_link&ouid=116285713938211495704&rtpof=true&sd=true) for personal data
+
+For more information see our [agreements](/agreements) page.
 
 ### Communities
 

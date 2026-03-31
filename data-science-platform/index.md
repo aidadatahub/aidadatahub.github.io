@@ -23,6 +23,7 @@ An annual [membership fee](../services#access) provides [base service](#base-ser
 
 {:.no_toc}
 ## See also
+* [Agreements](/agreements)
 * [Hardware information](hardware)
 * [Server hosting](../about/hosting)
 * [Documentation](https://docs.datahub.aida.scilifelab.se/)
