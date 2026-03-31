@@ -8,7 +8,7 @@ We provide services for research and clinical innovation in data driven precisio
 Our services are provided based on user fees. Our customers are user communities,
 researchers, industry, and caregivers of national significance.
 Please contact your [community](#communities) for terms, or refer to our [prices](#prices) below.
-Our services are provided based on [agreements](#agreements)
+Our services are provided based on [agreements](#agreements).
 
 Please contact the following for enquiries and access:
 * Data sharing: [aida-data@nbis.se](mailto:aida-data@nbis.se)
