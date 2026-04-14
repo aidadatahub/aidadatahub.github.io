@@ -67,9 +67,9 @@ datacite:
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution and co-authorship."
   citation:
-    # - "@type": "CreativeWork"
-    #   "@id": ""
-    #   name: ""
+     - "@type": "CreativeWork"
+       "@id": "https://doi.org/10.1038/s41598-026-45588-w"
+       name: "Dahlén F, Shujski I, Yacob F, Häggström I, Jovanovic J, Dudina O, Pölönen I, Neittaanmäki N. Early detection of metastatic risk in primary cutaneous melanoma using weakly supervised learning. Sci Rep. 2026 Apr 1;16(1):11234. doi: 10.1038/s41598-026-45588-w. PMID: 41922451; PMCID: PMC13046822."
 other:
   shortName: "MelMet"
   origin: "Clinical"
@@ -79,12 +79,12 @@ other:
     (1) or non-metastatic (0). The information is available in the 
     Excel files.
   countries-shared:
-   - 
+   []
   organ:
   - name: "Skin"
     sctid: 39937001 # SNOMED-CT
   age-span: "2016-2024"
-  bytes: 0  #6.16 TB, 6164491827525 B before the last upload
+  bytes: 1450000000000  #6.16 TB, 6164491827525 B before the last upload
   numberOfScans: 426
   numberOfAnnotations: 426
   resolution: "x40"
