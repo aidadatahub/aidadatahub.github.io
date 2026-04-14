@@ -23,9 +23,10 @@ An annual [membership fee](../services#access) provides [base service](#base-ser
 
 {:.no_toc}
 ## See also
+* [Agreements](/agreements)
 * [Hardware information](hardware)
 * [Server hosting](../about/hosting)
-* [Documentation](/docs#data-science-platform)
+* [Documentation](https://docs.datahub.aida.scilifelab.se/)
 * Usage example: [Spawning GPU Virtual Machine](https://docs.datahub.aida.scilifelab.se/dsp/examples/gpu-iaas/)
 
 {:.no_toc}

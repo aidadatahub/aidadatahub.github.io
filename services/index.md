@@ -8,11 +8,22 @@ We provide services for research and clinical innovation in data driven precisio
 Our services are provided based on user fees. Our customers are user communities,
 researchers, industry, and caregivers of national significance.
 Please contact your [community](#communities) for terms, or refer to our [prices](#prices) below.
+Our services are provided based on [agreements](#agreements).
 
 Please contact the following for enquiries and access:
 * Data sharing: [aida-data@nbis.se](mailto:aida-data@nbis.se)
 * Support: [aida-support@nbis.se](mailto:aida-support@nbis.se)
 * Services: [aida-services@nbis.se](mailto:aida-services@nbis.se)
+
+### Agreements
+
+The Data Science Platform (DSP) is provided under the following agreements:
+
+1. [Service Agreement](https://docs.google.com/document/d/1wtoc8-vYrjhTY8p_1IOVzI2CFSCnW92P/edit?usp=drive_link&ouid=116285713938211495704&rtpof=true&sd=true)  signed with the Customer (company, university, caregiver)
+2. [Terms and Conditions (T&C)](https://docs.google.com/document/d/1ilYKTHgkhNSOj-LCRXYq5iu54T0APqmt/edit?usp=drive_link&ouid=116285713938211495704&rtpof=true&sd=true) for users
+3. Optional: [Data Processing Agreement (DPA)](https://docs.google.com/document/d/1aMtxMh-jAGtcYf1sKTCXPrN4K93X9Gwb/edit?usp=drive_link&ouid=116285713938211495704&rtpof=true&sd=true) for personal data
+
+For more information see our [agreements](/agreements) page.
 
 ### Communities
 
@@ -52,8 +63,8 @@ Swedish SMEs may apply for [SISP innovation checks](https://www.sisp.se/innovati
 | Service                                                                      | Price              |             |
 |:-----------------------------------------------------------------------------|-------------------:|:------------|
 | [Base Service Data Science Platform](../data-science-platform/#base-service) | 50 000             | SEK/yr      |
-| + [Large Storage](../data-science-platform/#sd-large-storage)                | 3 000              | SEK/TB/yr   | 
-| + [Backed up primary storage](../data-science-platform/#sd-primary-storage)  | 7 200              | SEK/TB/yr   |
+| + [Increased storage quota](../data-science-platform/#large-storage)         | 3 000              | SEK/TB/yr   |
+| + [Backed up primary storage](../data-science-platform/#primary-storage)     | 7 200              | SEK/TB/yr   |
 | + GPU compute L4                                                             | 25                 | vGPU SEK/hr |
 | + GPU compute L40S                                                           | 30                 | vGPU SEK/hr |
 | + Large scale CPU compute                                                    | 0.70               | vCPU SEK/hr |

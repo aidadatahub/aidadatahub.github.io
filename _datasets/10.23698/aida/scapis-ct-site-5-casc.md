@@ -9,6 +9,10 @@ datacite:
   name: "SCAPIS CASC data from site 5"
   about: "Radiology"
   url: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-ct-site-5-casc"
+  author:
+    - "name": SCAPIS
+      "@id": "https://www.scapis.org/"
+      "@type": "Organization"
   publisher:
     "@type": "Organization"
     name: "AIDA"
@@ -19,7 +23,7 @@ datacite:
     "@type": "Organization"
   dateCreated: "2024-05-10"
   datePublished: "2024-05-10"
-  dateModified: "2024-05-10"
+  dateModified: "2026-03-26"
   keywords: "Radiology, Computed tomography, Heart, Scapis"
   description: |
     Data from CASC scans carried out in the SCAPIS study cohort in site 5. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm).   
@@ -43,7 +47,7 @@ other:
   age-span: 50-64
   bytes: 249704806854
   numberOfScans: 4862
-  image: "/assets/images/10.23698/aida/scapiskilu/scapis-logo.jpg"
+  image: "/assets/images/logos/heartlungfoundation-logo.jpg"
 
 
 ---
