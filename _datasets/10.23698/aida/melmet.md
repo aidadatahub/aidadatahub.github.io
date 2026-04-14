@@ -1,5 +1,5 @@
 ---
-hidden: yes
+hidden: no
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
@@ -52,7 +52,7 @@ datacite:
   dateCreated: "2025-06-09"
   datePublished: "2026-03-24"
   dateModified: "2026-03-24"
-  keywords: "melanoma, cutaneous melanoma, staging, metastatic prediction, WSI"
+  keywords: "Pathology, Whole slide imaging, Weakly annotated, Skin cancer, Melanoma, Cutaneous melanoma, Staging, Metastatic prediction, WSI"
   version: "1.0.0"
   description: |
     Whole slide pathology images from excision specimens of primary cutaneous melanoma collected at the Departments of Pathology in the Region Västra Götaland, Sweden. The dataset contains 426 WSIs representing 426 excised primary cutaneous melanomas (249 metastatic and 177 non-metastatic). Additional information describing the histological features as text embeddings and information weather the tumor have metastasized is available as separate Excel files.
@@ -67,9 +67,9 @@ datacite:
     "@type": "CreativeWork"
     abstract: "Free for use within AIDA with attribution and co-authorship."
   citation:
-    # - "@type": "CreativeWork"
-    #   "@id": ""
-    #   name: ""
+     - "@type": "CreativeWork"
+       "@id": "https://doi.org/10.1038/s41598-026-45588-w"
+       name: "Dahlén F, Shujski I, Yacob F, Häggström I, Jovanovic J, Dudina O, Pölönen I, Neittaanmäki N. Early detection of metastatic risk in primary cutaneous melanoma using weakly supervised learning. Sci Rep. 2026 Apr 1;16(1):11234. doi: 10.1038/s41598-026-45588-w. PMID: 41922451; PMCID: PMC13046822."
 other:
   shortName: "MelMet"
   origin: "Clinical"
@@ -79,12 +79,12 @@ other:
     (1) or non-metastatic (0). The information is available in the 
     Excel files.
   countries-shared:
-    - "SE"
+   []
   organ:
   - name: "Skin"
     sctid: 39937001 # SNOMED-CT
   age-span: "2016-2024"
-  bytes: 0  #6.16 TB, 6164491827525 B before the last upload
+  bytes: 1450000000000  #6.16 TB, 6164491827525 B before the last upload
   numberOfScans: 426
   numberOfAnnotations: 426
   resolution: "x40"
