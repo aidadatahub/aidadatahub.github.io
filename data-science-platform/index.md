@@ -48,7 +48,7 @@ Including:
   * GPU compute available as an add-on service.
 * Multifactor login using Life Science Login and your home organization account.
 * Access to shared datasets on approval.
-* Customer separation. You cannot see other secure environments, and they cannot see yours.
+* Customer separation. By default you cannot see other secure environments, and they cannot see yours. Collaboration between secure environments can be activated.
 * Customizable security, make security decisions appropriate for your project (e.g. allow connections to home institution servers and collaborators).
 * Self-service dashboard.
 * Onboarding support.
