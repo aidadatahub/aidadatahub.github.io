@@ -24,9 +24,9 @@ datacite:
   dateCreated: "2024-05-10"
   datePublished: "2024-05-10"
   dateModified: "2026-03-26"
-  keywords: "Radiology, Computed tomography, Heart, Scapis"
+  keywords: "Radiology, Computed tomography, Heart, SCAPIS"
   description: |
-    Data from CCTA scans carried out in the SCAPIS study cohort in site 3. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm).  
+    Data from CCTA scans carried out in the SCAPIS study cohort in site 3. SCAPIS has recruited 30000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm). Visit [www.scapis.org](https://www.scapis.org) for more information regarding the study.  
   license:
   - name: "Controlled access"
     id: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-ct-site-3-ccta#controlled-access"
