@@ -56,4 +56,5 @@ The dataset consists of 7z compressed archives containing a total of 67382 .dcm 
 
 ## License
 ### Controlled access
-Please contact [SCAPIS](/datasets/scapis/#access) for terms of access.
+
+Please contact [scapis@scapis.org](mailto:scapis@scapis.org) regarding access or details regarding the data.  AIDA [routines](/datasets/scapis/#access) for accessing SCAPIS. 
