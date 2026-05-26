@@ -24,9 +24,9 @@ datacite:
   dateCreated: "2024-05-10"
   datePublished: "2024-05-10"
   dateModified: "2026-03-26"
-  keywords: "Radiology, Computed tomography, Lung, Scapis"
+  keywords: "Radiology, Computed tomography, Lung, SCAPIS"
   description: |
-    Data from lung scans carried out in the SCAPIS study cohort in site 5. SCAPIS has recruited 25000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm).   
+    Data from lung scans carried out in the SCAPIS study cohort in site 5. SCAPIS has recruited 30000 men and women aged 50 to 64 years during 2013-2018 with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm). Visit [www.scapis.org](https://www.scapis.org) for more information regarding the study.   
   license:
   - name: "Controlled access"
     id: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-ct-site-5-lung#controlled-access"
@@ -56,4 +56,5 @@ The dataset consists of 7z compressed archives containing a total of 7615479 .dc
 
 ## License
 ### Controlled access
-Please contact [SCAPIS](/datasets/scapis/#access) for terms of access.
+
+Please contact [scapis@scapis.org](mailto:scapis@scapis.org) regarding access or details regarding the data.  AIDA [routines](/datasets/scapis/#access) for accessing SCAPIS. 
