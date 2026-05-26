@@ -26,7 +26,7 @@ datacite:
   dateModified: "2026-03-26"
   keywords: "Radiology, Computed tomography, Body, SCAPIS"
   description: |
-    Data from body scans carried out in the SCAPIS study cohort in site 4. SCAPIS has recruited 30000 men and women aged 50 to 64 years with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm). Visit [www.scapis.org](https://www.scapis.org) for more information regarding the study.   
+    Data from body scans carried out in the SCAPIS study cohort in site 4. SCAPIS has recruited 30000 men and women aged 50 to 64 years during 2013-2018 with detailed imaging and functional analyses of cardiovascular and pulmonary systems. The data was collected at six university hospitals in Sweden (Uppsala, Umeå, Linköping, Malmö/Lund, Gothenburg and Stockholm). Visit [www.scapis.org](https://www.scapis.org) for more information regarding the study.   
   license:
   - name: "Controlled access"
     id: "https://datahub.aida.scilifelab.se/10.23698/aida/scapis-ct-site-4-body#controlled-access"
