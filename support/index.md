@@ -11,7 +11,7 @@ Jump to:
 The target audience for the AIDA Data Hub Support function is the
 [AIDA](https://medtech4health.se/en/aida-arena) community. Inquiries from non-AIDA organizations are also welcome, and will be entertained best-effort within available resources (cf [Prioritization](#prioritization)).
 
-<a class="button" href="/call-for-help">Get support &raquo;</a>
+<a class="button" href="mailto:aida-support@nbis.se">Get support</a>
 
 ## Costs
 Support is initially intended to be provided to AIDA researchers free of charge,
