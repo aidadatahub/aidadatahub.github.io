@@ -29,6 +29,9 @@ datacite:
   - name: "Magnus Kjellberg"
     "@id": "https://orcid.org/0000-0002-6921-8257"
     "@type": "Person"
+  - name: "John Paoli"
+    "@id": "https://orcid.org/0000-0003-1326-8535"
+    "@type": "Person"
   publisher:
     "@type": "Organization"
     name: "AIDA"
@@ -53,9 +56,13 @@ datacite:
   datePublished: "2023-03-17"
   dateModified: "2023-03-17"
   keywords: "Pathology, Whole slide imaging, Weakly annotated, Basal cell carcinoma, Skin cancer"
-  version: "1.0.1"
+  version: "1.0.2"
   description: |
-    Whole slide pathology images from excision specimens of cutaneous basal cell carcinomas (BCC) collected at the Department of Pathology at Sahlgrenska University Hospital, Sweden. The dataset contains 1832 WSIs from 479 excised BCCs and 261 punch biopsies representing BCCs annotated on a slide level. Furthermore the dataset contains 253 tumor-free skin biopsies.
+    Whole slide pathology images from cutaneous basal cell carcinomas (BCC) specimens collected at the Department of Pathology at Sahlgrenska University Hospital, Sweden. All whole slide images (WSI) are annotated on a slide level. The dataset contains:
+
+    - 1832 WSIs from 479 excised BCCs.
+    - 261 WSIs from punch biopsies representing BCCs and 253 WSIs from tumor-free skin biopsies.
+    - 995 WSIs from frozen Mohs micrographic surgery.
 
   license:
   - name: "Controlled access"
@@ -74,6 +81,9 @@ datacite:
     - "@type": "CreativeWork"
       "@id": "https://doi.org/10.1186/s12880-025-01710-4"
       name: "Björkman, J., Lagerroth, S., Siarov, J. et al. Enhancing basal cell carcinoma classification in preoperative biopsies via transfer learning with weakly supervised graph transformers. BMC Med Imaging 25, 166 (2025). https://doi.org/10.1186/s12880-025-01710-4"
+    - "@type": "CreativeWork"
+      "@id": "https://doi.org/10.1016/j.jdin.2026.07.004"
+      name: "Kajsa Villiamsson, Ludvig Forndstedt, Geert Litjens, Nelli Sjöblom, Olivia Vesala, Filmon Yacob, John Paoli, Noora Neittaanmäki. Detection of Basal Cell Carcinoma on Whole-slide Images from Mohs Micrographic Surgery Using Weakly Supervised Learning. JAAD International 2026; 28,76-85.  https://doi.org/10.1016/j.jdin.2026.07.004"
 other:
   shortName: "BCCC"
   origin: "Clinical"
@@ -97,8 +107,8 @@ other:
   - name: "Skin"
     sctid: 39937001 # SNOMED-CT
   age-span: "-"
-  bytes: 7781796272453  #6.16 TB, 6164491827525 B before the last upload
-  numberOfScans: 1832
+  bytes: 11218034260000  #7.78 TB, 7781796272453 B before the last upload 
+  numberOfScans: 2827
   numberOfAnnotations: 0
   resolution: "x40"
   modality:
