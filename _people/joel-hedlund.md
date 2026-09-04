@@ -1,17 +1,15 @@
 ---
 name: Joel Hedlund
 active: true
-role: Head of AIDA Data Hub
+role: Data science director
 email: joel.hedlund@liu.se
 url: "https://datahub.aida.scilifelab.se/people/joel-hedlund"
 image: "/assets/images/people/joel-hedlund.jpg"
 topics:
-  aida-data-hub: 1
-  management: 1
-  policy-support: 1
+  aida-data-hub: 
+  management: 
+  policy-support: 
   system-design-support:
-  data-sharing: 1
-  economy:
 ---
 <div class="personContainer">
   <div class="personSub">
@@ -25,8 +23,10 @@ topics:
 </div>
 
 ## Engagements
-* [AIDA Data Hub](/) - Lead
-* [AIDA](/about/engagements/aida/) - Data director
+* [NAISS](https://naiss.se) - Data science director
+* [Sweden AI Factory](https://SwedenAIFactory.se) - Data science director
+* [AIDA Data Hub](/) - Data science director
+* [AIDA](/about/engagements/aida/) - Data science director
 * [NBIS](https://nbis.se/) - Management member
 * [Bigpictrue](/about/engagements/bigpicture/) - Infrastructure development lead
 * [Data Driven Life Science](https://scilifelab.se/data-driven) - Linköping university data contact
