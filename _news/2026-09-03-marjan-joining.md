@@ -9,7 +9,7 @@ blurb: >
 
 **AIDA Data Hub welcomes Dr. Marjan Firouznia to a new AI research support role. Marjan is a Senior Research Engineer at CMIV, Linköping University, where she develops advanced AI methods for medical imaging and precision health.**
 
-<div class="right" style="width:40%;"><a href="/assets/images/people/marjan-firouznia.png"><img alt="Marjan Firouznia" style="border-radius:8px" src="/assets/images/people/marjan-firouznia.png"/></a><br/><i>Marjan Firouzni</i></div>
+<div class="right" style="width:40%;"><a href="/assets/images/people/marjan-firouznia.png"><img alt="Marjan Firouznia" style="border-radius:8px" src="/assets/images/people/marjan-firouznia.png"/></a><br/><i>Marjan Firouznia</i></div>
 
 Her research integrates computer vision, chaos and fractal analysis, AI/ML techniques, and geometrical methods, now applied to cardiac imaging and foundation‑model development.
 
