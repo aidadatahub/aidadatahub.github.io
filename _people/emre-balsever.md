@@ -1,8 +1,8 @@
 ---
 name: Emre Balsever
-active: true
-role: Systems Developer
-email: emre.balsever@liu.se
+active: false
+role: Knowledge engineer at EMBL
+email: 
 url: "https://datahub.aida.scilifelab.se/people/emre-balsever"
 image: "/assets/images/people/emre-balsever.jpg"
 topics:
