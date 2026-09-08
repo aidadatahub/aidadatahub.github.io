@@ -10,7 +10,7 @@ topics:
   system-design-support: 1
   policy-support: 1
   management:
-  system-development:
+  system-development: 1
 ---
 <div class="personContainer">
   <div class="personSub">
