@@ -113,9 +113,10 @@ Histopathological slides are stored as .ndpi (size per slide 1.3-5.5GB).
 ## License
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research.
-Please contact the dataset provider for terms of access.
 
-{% include access-request-blurb.md %}
+{% include data-access-requirements.md %}
+
+{% include rems-link.md %}
 
 ### AIDA BY license
 Copyright
