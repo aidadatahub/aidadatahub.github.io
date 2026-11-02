@@ -98,9 +98,9 @@ All virtual machines are equipped with NVIDIA L4 GPUs, and Intel® Xeon® Gold 5
 
 | Product ID / Flavor | vGPU | vCPU | Cores | RAM GB * | Local disk GB * | Price per vGPU SEK/hr | Price SEK/hr |
 |---------------------|------|------|-------|----------|-----------------|-----------------------|--------------|
-| verdi-L4-quarternode| 1    | 8    | 4     | 128      | 2000            | 25.00                 | **25.00**    |
-| verdi-L4-halfnode   | 2    | 16   | 8     | 256      | 4000            | 25.00                 | **50.00**    |
-| verdi-L4-fullnode   | 4    | 32   | 16    | 512      | 8000            | 25.00                 | **100.00**   |
+| verdi-L4-quarternode| 1    | 16   | 8     | 128      | 2000            | 25.00                 | **25.00**    |
+| verdi-L4-halfnode   | 2    | 32   | 16    | 256      | 4000            | 25.00                 | **50.00**    |
+| verdi-L4-fullnode   | 4    | 64   | 32    | 512      | 8000            | 25.00                 | **100.00**   |
 {: .vm-flavors-table}
 
 *Please note, a small amount of resources is reserved for hypervisor use.
@@ -117,11 +117,11 @@ All virtual machines are equipped with NVIDIA L40S GPUs, and Intel® Xeon® Gold
 }
 </style>
 
-| Product ID / Flavor | vGPU | vCPU | Cores | RAM GB * | Local disk GB * | Price per vGPU SEK/hr | Price SEK/hr |
-|---------------------|------|------|-------|----------|-----------------|-----------------------|--------------|
-| verdi-L40S-quarternode| 1    | 8    | 4     | 128    | 2000            | 30.00                 | **30.00**    |
-| verdi-L40S-halfnode   | 2    | 16   | 8     | 256    | 4000            | 30.00                 | **60.00**    |
-| verdi-L40S-fullnode   | 4    | 32   | 16    | 512    | 8000            | 30.00                 | **120.00**   |
+| Product ID / Flavor   | vGPU | vCPU | Cores | RAM GB * | Local disk GB * | Price per vGPU SEK/hr | Price SEK/hr |
+|-----------------------|------|------|-------|----------|-----------------|-----------------------|--------------|
+| verdi-L40S-quarternode| 1    | 16   | 8     | 128      | 2000            | 30.00                 | **30.00**    |
+| verdi-L40S-halfnode   | 2    | 32   | 16    | 256      | 4000            | 30.00                 | **60.00**    |
+| verdi-L40S-fullnode   | 4    | 64   | 32    | 512      | 8000            | 30.00                 | **120.00**   |
 {: .vm-flavors-table}
 
 *Please note, a small amount of resources is reserved for hypervisor use.
